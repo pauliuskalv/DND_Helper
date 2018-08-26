@@ -17,19 +17,15 @@
 		"size_description": "Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
 		"starting_proficiencies": [
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/20",
 				"name": "Battleaxes"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/24",
 				"name": "Handaxes"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/26",
 				"name": "Light hammers"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/51",
 				"name": "Warhammers"
 			}
 		],
@@ -38,26 +34,21 @@
 			"type": "proficiencies",
 			"from": [
 				{
-					"url": "http://www.dnd5eapi.co/api/proficiencies/71",
 					"name": "Smith's tools"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/proficiencies/59",
 					"name": "Brewer's supplies"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/proficiencies/68",
 					"name": "Mason's tools"
 				}
 			]
 		},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/2",
 				"name": "Dwarvish"
 			}
 		],
@@ -68,28 +59,22 @@
 		"traits": [
 			{
 				"name": "Darkvision (Dwarf)",
-				"url": "http://www.dnd5eapi.co/api/traits/1"
 			},
 			{
 				"name": "Dwarven Resilience",
-				"url": "http://www.dnd5eapi.co/api/traits/2"
 			},
 			{
 				"name": "Stonecunning",
-				"url": "http://www.dnd5eapi.co/api/traits/3"
 			}
 		],
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/1",
 				"name": "Hill Dwarf"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/4",
 				"name": "Mountain Dwarf"
 			}
 		],
-		"url": "http://www.dnd5eapi.co/api/races/1"
 	},
 	{
 		"index": 2,
@@ -109,18 +94,15 @@
 		"size_description": "Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.",
 		"starting_proficiencies": [
 			{
-				"url": "http://www.dnd5eapi.co/api/proficiencies/116",
 				"name": "Skill: Perception"
 			}
 		],
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/3",
 				"name": "Elvish"
 			}
 		],
@@ -131,24 +113,19 @@
 		"traits": [
 			{
 				"name": "Darkvision (Elf)",
-				"url": "http://www.dnd5eapi.co/api/traits/5"
 			},
 			{
 				"name": "Fey Ancestry",
-				"url": "http://www.dnd5eapi.co/api/traits/6"
 			},
 			{
 				"name": "Trance",
-				"url": "http://www.dnd5eapi.co/api/traits/7"
 			}
 		],
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/2",
 				"name": "High Elf"
 			}
 		],
-		"url": "http://www.dnd5eapi.co/api/races/2"
 	},
 	{
 		"index": 3,
@@ -170,11 +147,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/7",
 				"name": "Halfling"
 			}
 		],
@@ -183,24 +158,19 @@
 		"traits": [
 			{
 				"name": "Brave",
-				"url": "http://www.dnd5eapi.co/api/traits/21"
 			},
 			{
 				"name": "Halfling Nimbleness",
-				"url": "http://www.dnd5eapi.co/api/traits/22"
 			},
 			{
 				"name": "Lucky",
-				"url": "http://www.dnd5eapi.co/api/traits/23"
 			}
 		],
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/3",
 				"name": "Lightfoot Halfling"
 			}
 		],
-		"url": "http://www.dnd5eapi.co/api/races/3"
 	},
 	{
 		"index": 4,
@@ -222,7 +192,6 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			}
 		],
@@ -231,63 +200,48 @@
 			"type": "languages",
 			"from": [
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/2",
 					"name": "Dwarvish"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/3",
 					"name": "Elvish"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/4",
 					"name": "Giant"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/5",
 					"name": "Gnomish"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/6",
 					"name": "Goblin"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/7",
 					"name": "Halfling"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/8",
 					"name": "Orc"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/9",
 					"name": "Abyssal"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/10",
 					"name": "Celestial"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/11",
 					"name": "Draconic"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/12",
 					"name": "Deep Speech"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/13",
 					"name": "Infernal"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/14",
 					"name": "Primordial"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/15",
 					"name": "Sylvan"
 				},
 				{
-					"url": "http://www.dnd5eapi.co/api/languages/16",
 					"name": "Undercommon"
 				}
 			]
@@ -295,7 +249,6 @@
 		"language_desc": "You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.",
 		"traits": [],
 		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/4"
 	},
 	{
 		"index": 5,
@@ -317,11 +270,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/11",
 				"name": "Draconic"
 			}
 		],
@@ -332,15 +283,12 @@
 		"traits": [
 			{
 				"name": "Draconic Anscestry",
-				"url": "http://www.dnd5eapi.co/api/traits/24"
 			},
 			{
 				"name": "Breath Weapon",
-				"url": "http://www.dnd5eapi.co/api/traits/25"
 			},
 			{
 				"name": "Damage Resistance (Dragonborn)",
-				"url": "http://www.dnd5eapi.co/api/traits/36"
 			}
 			
 		],
@@ -350,49 +298,38 @@
 				"from": [
 					{
 						"name": "Breath Weapon (Black)",
-						"url": "http://www.dnd5eapi.co/api/traits/26"					
 					},
 					{
 						"name": "Breath Weapon (Blue)",
-						"url": "http://www.dnd5eapi.co/api/traits/27"					
 					},
 					{
 						"name": "Breath Weapon (Brass)",
-						"url": "http://www.dnd5eapi.co/api/traits/28"					
 					},
 					{
 						"name": "Breath Weapon (Bronze)",
-						"url": "http://www.dnd5eapi.co/api/traits/29"					
 					},
 					{
 						"name": "Breath Weapon (Copper)",
-						"url": "http://www.dnd5eapi.co/api/traits/30"					
 					},
 					{
 						"name": "Breath Weapon (Gold)",
-						"url": "http://www.dnd5eapi.co/api/traits/31"					
 					},
 					{
 						"name": "Breath Weapon (Green)",
-						"url": "http://www.dnd5eapi.co/api/traits/32"					
 					},
 					{
 						"name": "Breath Weapon (Red)",
-						"url": "http://www.dnd5eapi.co/api/traits/33"					
 					},
 					{
 						"name": "Breath Weapon (Silver)",
-						"url": "http://www.dnd5eapi.co/api/traits/34"					
 					},
 					{
 						"name": "Breath Weapon (White)",
-						"url": "http://www.dnd5eapi.co/api/traits/35"					
 					}
 				],
 				"type": "trait"
 			},
 		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/5"
 	},
 	{
 		"index": 6,
@@ -414,11 +351,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/5",
 				"name": "Gnomish"
 			}
 		],
@@ -429,26 +364,21 @@
 		"traits": [
 			{
 				"name": "Darkvision (Gnome)",
-				"url": "http://www.dnd5eapi.co/api/traits/42"
 			},
 			{
 				"name": "Gnome Cunning",
-				"url": "http://www.dnd5eapi.co/api/traits/43"
 			}
 			
 		],
 		"trait_options": {},
 		"subraces": [
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/7",
 				"name": "Forest Gnome"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/subraces/8",
 				"name": "Rock Gnome"
 			}
 		],
-		"url": "http://www.dnd5eapi.co/api/races/6"
 	},
 	{
 		"index": 7,
@@ -470,11 +400,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/3",
 				"name": "Elvish"
 			}
 		],
@@ -483,7 +411,6 @@
 			"type": "languages",
 			"from": [
 				{
-					"url": "http://www.dnd5eapi.co/api/languages",
 					"name": "Any"
 				}
 			]
@@ -492,21 +419,17 @@
 		"traits": [
 			{
 				"name": "Darkvision (Half-Elf)",
-				"url": "http://www.dnd5eapi.co/api/traits/48"
 			},
 			{
 				"name": "Fey Ancestry",
-				"url": "http://www.dnd5eapi.co/api/traits/49"
 			},
 			{
 				"name": "Skill Versatility",
-				"url": "http://www.dnd5eapi.co/api/traits/50"
 			}
 			
 		],
 		"trait_options": {},
 		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/7"
 	},
 	{
 		"index": 8,
@@ -527,17 +450,14 @@
 		"starting_proficiencies": [
 			{
 				"name": "Skill: Intimidation",
-				"url": "http://www.dnd5eapi.co/api/proficiencies/112"
 			}
 		],
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/8",
 				"name": "Orcish"
 			}
 		],
@@ -546,21 +466,17 @@
 		"traits": [
 			{
 				"name": "Darkvision (Half-Orc)",
-				"url": "http://www.dnd5eapi.co/api/traits/51"
 			},
 			{
 				"name": "Savage Attacks",
-				"url": "http://www.dnd5eapi.co/api/traits/52"
 			},
 			{
 				"name": "Restless Endurance",
-				"url": "http://www.dnd5eapi.co/api/traits/53"
 			}
 			
 		],
 		"trait_options": {},
 		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/8"
 	},
 	{
 		"index": 9,
@@ -582,11 +498,9 @@
 		"starting_proficiency_options": {},
 		"languages": [
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/1",
 				"name": "Common"
 			},
 			{
-				"url": "http://www.dnd5eapi.co/api/languages/9",
 				"name": "Infernal"
 			}
 		],
@@ -595,19 +509,15 @@
 		"traits": [
 			{
 				"name": "Darkvision (Tiefling)",
-				"url": "http://www.dnd5eapi.co/api/traits/54"
 			},
 			{
 				"name": "Hellish Resistance",
-				"url": "http://www.dnd5eapi.co/api/traits/55"
 			},
 			{
 				"name": "Infernal Legacy",
-				"url": "http://www.dnd5eapi.co/api/traits/56"
 			}
 		],
 		"trait_options": {},
 		"subraces": [],
-		"url": "http://www.dnd5eapi.co/api/races/9"
 	}
 ]

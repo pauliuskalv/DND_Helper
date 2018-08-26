@@ -7,11 +7,9 @@
 		"features": [
 			{
 				"name": "Rage",
-				"url": "http://www.dnd5eapi.co/api/features/1"
 			},
 			{
 				"name": "Unarmored Defense",
-				"url": "http://www.dnd5eapi.co/api/features/2"
 			}
 		],
 		"rage_count": 2,
@@ -20,10 +18,8 @@
 		"index": 1,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/1"
 	},
 	{
 		"level": 2,
@@ -33,11 +29,9 @@
 		"features": [
 			{
 				"name": "Reckless Attack",
-				"url": "http://www.dnd5eapi.co/api/features/3"
 			},
 			{
 				"name": "Danger Sense",
-				"url": "http://www.dnd5eapi.co/api/features/4"
 			}
 		],
 		"rage_count": 2,
@@ -46,10 +40,8 @@
 		"index": 2,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/2"
 	},
 	{
 		"level": 3,
@@ -59,7 +51,6 @@
 		"features": [
 			{
 				"name": "Primal Path",
-				"url": "http://www.dnd5eapi.co/api/features/5"
 			}
 		],
 		"rage_count": 3,
@@ -68,10 +59,8 @@
 		"index": 3,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/3"
 	},
 	{
 		"level": 4,
@@ -81,7 +70,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 1",
-				"url": "http://www.dnd5eapi.co/api/features/7"
 			}
 		],
 		"rage_count": 3,
@@ -90,10 +78,8 @@
 		"index": 4,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/4"
 	},
 	{
 		"level": 5,
@@ -103,11 +89,9 @@
 		"features": [
 			{
 				"name": "Extra Attack",
-				"url": "http://www.dnd5eapi.co/api/features/8"
 			},
 			{
 				"name": "Fast Movement",
-				"url": "http://www.dnd5eapi.co/api/features/9"
 			}
 		],
 		"rage_count": 3,
@@ -116,10 +100,8 @@
 		"index": 5,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/5"
 	},
 	{
 		"level": 6,
@@ -133,10 +115,8 @@
 		"index": 6,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/6"
 	},
 	{
 		"level": 7,
@@ -146,7 +126,6 @@
 		"features": [
 			{
 				"name": "Mindless Rage",
-				"url": "http://www.dnd5eapi.co/api/features/10"
 			}
 		],
 		"rage_count": 4,
@@ -155,10 +134,8 @@
 		"index": 7,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/7"
 	},
 	{
 		"level": 8,
@@ -168,7 +145,6 @@
 		"features": [
 			{
 				"name": "Feral Instinct",
-				"url": "http://www.dnd5eapi.co/api/features/11"
 			}
 		],
 		"rage_count": 4,
@@ -177,10 +153,8 @@
 		"index": 8,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/8"
 	},
 	{
 		"level": 9,
@@ -190,7 +164,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 2",
-				"url": "http://www.dnd5eapi.co/api/features/12"
 			}
 		],
 		"rage_count": 4,
@@ -199,10 +172,8 @@
 		"index": 9,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/9"
 	},
 	{
 		"level": 10,
@@ -216,10 +187,8 @@
 		"index": 10,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/10"
 	},
 	{
 		"level": 11,
@@ -229,7 +198,6 @@
 		"features": [
 			{
 				"name": "Relentless Rage",
-				"url": "http://www.dnd5eapi.co/api/features/15"
 			}
 		],
 		"rage_count": 4,
@@ -238,10 +206,8 @@
 		"index": 11,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/11"
 	},
 	{
 		"level": 12,
@@ -251,7 +217,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 3",
-				"url": "http://www.dnd5eapi.co/api/features/16"
 			}
 		],
 		"rage_count": 5,
@@ -260,10 +225,8 @@
 		"index": 12,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/12"
 	},
 	{
 		"level": 13,
@@ -273,7 +236,6 @@
 		"features": [
 			{
 				"name": "Brutal Critical (2 dice)",
-				"url": "http://www.dnd5eapi.co/api/features/17"
 			}
 		],
 		"rage_count": 5,
@@ -282,10 +244,8 @@
 		"index": 13,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/13"
 	},
 	{
 		"level": 14,
@@ -299,10 +259,8 @@
 		"index": 14,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/14"
 	},
 	{
 		"level": 15,
@@ -312,7 +270,6 @@
 		"features": [
 			{
 				"name": "Persistent Rage",
-				"url": "http://www.dnd5eapi.co/api/features/19"
 			}
 		],
 		"rage_count": 5,
@@ -321,10 +278,8 @@
 		"index": 15,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/15"
 	},
 	{
 		"level": 16,
@@ -334,7 +289,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 4",
-				"url": "http://www.dnd5eapi.co/api/features/20"
 			}
 		],
 		"rage_count": 5,
@@ -343,10 +297,8 @@
 		"index": 16,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/16"
 	},
 	{
 		"level": 17,
@@ -356,7 +308,6 @@
 		"features": [
 			{
 				"name": "Brutal Critical (3 dice)",
-				"url": "http://www.dnd5eapi.co/api/features/21"
 			}
 		],
 		"rage_count": 6,
@@ -365,10 +316,8 @@
 		"index": 17,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/17"
 	},
 	{
 		"level": 18,
@@ -378,7 +327,6 @@
 		"features": [
 			{
 				"name": "Indomitable Might",
-				"url": "http://www.dnd5eapi.co/api/features/22"
 			}
 		],
 		"rage_count": 6,
@@ -387,10 +335,8 @@
 		"index": 18,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/18"
 	},
 	{
 		"level": 19,
@@ -400,7 +346,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 5",
-				"url": "http://www.dnd5eapi.co/api/features/23"
 			}
 		],
 		"rage_count": 6,
@@ -409,10 +354,8 @@
 		"index": 19,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/19"
 	},
 	{
 		"level": 20,
@@ -422,7 +365,6 @@
 		"features": [
 			{
 				"name": "Fast Movement",
-				"url": "http://www.dnd5eapi.co/api/features/24"
 			}
 		],
 		"rage_count": 9999,
@@ -431,10 +373,8 @@
 		"index": 20,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/barbarian/level/20"
 	},
 	{
 		"level": 1,
@@ -444,15 +384,12 @@
 		"features": [
 			{
 				"name": "Spellcasting",
-				"url": "http://www.dnd5eapi.co/api/features/25"
 			},
 			{
 				"name": "Bardic Inspiration (d6)",
-				"url": "http://www.dnd5eapi.co/api/features/26"
 			},
 			{
 				"name": "Superior Inspiration",
-				"url": "http://www.dnd5eapi.co/api/features/70"
 			}
 		],
 		"cantrips_known": 2,
@@ -474,10 +411,8 @@
 		"index": 21,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/1"
 	},
 	{
 		"level": 2,
@@ -487,11 +422,9 @@
 		"features": [
 			{
 				"name": "Jack of All Trades",
-				"url": "http://www.dnd5eapi.co/api/features/27"
 			},
 			{
 				"name": "Song of Rest (d6)",
-				"url": "http://www.dnd5eapi.co/api/features/28"
 			}
 		],
 		"cantrips_known": 2,
@@ -513,10 +446,8 @@
 		"index": 22,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/2"
 	},
 	{
 		"level": 3,
@@ -525,12 +456,10 @@
 		"feature_choices": [
     {
       "name": "Choose: Expertise 1",
-      "url": "http://www.dnd5eapi.co/api/features/32"
     }],
 		"features": [
     {
       "name": "Bard College",
-      "url": "http://www.dnd5eapi.co/api/features/29"
     }],
 		"cantrips_known": 2,
 		"spells_known": 6,
@@ -551,10 +480,8 @@
 		"index": 23,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/3"
 	},
 	{
 		"level": 4,
@@ -564,7 +491,6 @@
 		"features": [
     {
       "name": "Ability Score Improvement 1",
-      "url": "http://www.dnd5eapi.co/api/features/51"
     }],
 		"cantrips_known": 3,
 		"spells_known": 7,
@@ -585,10 +511,8 @@
 		"index": 24,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/4"
 	},
 	{
 		"level": 5,
@@ -598,11 +522,9 @@
 		"features": [
     {
       "name": "Bardic Inspiration (d8)",
-      "url": "http://www.dnd5eapi.co/api/features/52"
     },
     {
       "name": "Font of Inspiration",
-      "url": "http://www.dnd5eapi.co/api/features/53"
     }],
 		"cantrips_known": 3,
 		"spells_known": 8,
@@ -623,10 +545,8 @@
 		"index": 25,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/5"
 	},
 	{
 		"level": 6,
@@ -653,10 +573,8 @@
 		"index": 26,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/6"
 	},
 	{
 		"level": 7,
@@ -666,7 +584,6 @@
 		"features": [
     {
       "name": "Countercharm",
-      "url": "http://www.dnd5eapi.co/api/features/54"
     }],
 		"cantrips_known": 3,
 		"spells_known": 10,
@@ -687,10 +604,8 @@
 		"index": 27,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/7"
 	},
 	{
 		"level": 8,
@@ -699,7 +614,6 @@
 		"feature_choices": [
     {
       "name": "Ability Score Improvement 2",
-      "url": "http://www.dnd5eapi.co/api/features/56"
     }],
 		"features": [],
 		"cantrips_known": 3,
@@ -721,10 +635,8 @@
 		"index": 28,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/8"
 	},
 	{
 		"level": 9,
@@ -734,7 +646,6 @@
 		"features": [
     {
       "name": "Song of Rest (d8)",
-      "url": "http://www.dnd5eapi.co/api/features/57"
     }],
 		"cantrips_known": 3,
 		"spells_known": 12,
@@ -755,10 +666,8 @@
 		"index": 29,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/9"
 	},
 	{
 		"level": 10,
@@ -767,15 +676,12 @@
 		"feature_choices": [],
 		"features": [    {
       "name": "Bardic Inspiration (d10)",
-      "url": "http://www.dnd5eapi.co/api/features/58"
     },
     {
       "name": "Choose: Expertise 2",
-      "url": "http://www.dnd5eapi.co/api/features/59"
     },
     {
       "name": "Magical Secrets 1",
-      "url": "http://www.dnd5eapi.co/api/features/60"
     }],
 		"cantrips_known": 4,
 		"spells_known": 14,
@@ -796,11 +702,9 @@
 		"index": 30,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {
 },
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/10"
 	},
 	{
 		"level": 11,
@@ -827,10 +731,8 @@
 		"index": 31,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/11"
 	},
 	{
 		"level": 12,
@@ -840,7 +742,6 @@
 		"features": [
     {
       "name": "Ability Score Improvement 3",
-      "url": "http://www.dnd5eapi.co/api/features/61"
     }],
 		"cantrips_known": 4,
 		"spells_known": 15,
@@ -861,10 +762,8 @@
 		"index": 32,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/12"
 	},
 	{
 		"level": 13,
@@ -874,7 +773,6 @@
 		"features": [
     {
       "name": "Song of Rest (d10)",
-      "url": "http://www.dnd5eapi.co/api/features/62"
     }],
 		"cantrips_known": 4,
 		"spells_known": 16,
@@ -895,10 +793,8 @@
 		"index": 33,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/13"
 	},
 	{
 		"level": 14,
@@ -908,7 +804,6 @@
 		"features": [
     {
       "name": "Magical Secrets 2",
-      "url": "http://www.dnd5eapi.co/api/features/63"
     }],
 		"cantrips_known": 4,
 		"spells_known": 18,
@@ -929,10 +824,8 @@
 		"index": 34,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/14"
 	},
 	{
 		"level": 15,
@@ -942,7 +835,6 @@
 		"features": [
     {
       "name": "Bardic Inspiration (d12)",
-      "url": "http://www.dnd5eapi.co/api/features/65"
     }],
 		"cantrips_known": 4,
 		"spells_known": 19,
@@ -963,10 +855,8 @@
 		"index": 35,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/15"
 	},
 	{
 		"level": 16,
@@ -976,7 +866,6 @@
 		"features": [
     {
       "name": "Ability Score Improvement 4",
-      "url": "http://www.dnd5eapi.co/api/features/66"
     }],
 		"cantrips_known": 4,
 		"spells_known": 19,
@@ -997,10 +886,8 @@
 		"index": 36,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/16"
 	},
 	{
 		"level": 17,
@@ -1010,7 +897,6 @@
 		"features": [
     {
       "name": "Song of Rest (d12)",
-      "url": "http://www.dnd5eapi.co/api/features/67"
     }],
 		"cantrips_known": 4,
 		"spells_known": 20,
@@ -1031,10 +917,8 @@
 		"index": 37,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/17"
 	},
 	{
 		"level": 18,
@@ -1044,7 +928,6 @@
 		"features": [
     {
       "name": "Magical Secrets 3",
-      "url": "http://www.dnd5eapi.co/api/features/68"
     }],
 		"cantrips_known": 4,
 		"spells_known": 22,
@@ -1065,10 +948,8 @@
 		"index": 38,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/18"
 	},
 	{
 		"level": 19,
@@ -1078,7 +959,6 @@
 		"features": [
     {
       "name": "Ability Score Improvement 5",
-      "url": "http://www.dnd5eapi.co/api/features/69"
     }],
 		"cantrips_known": 4,
 		"spells_known": 22,
@@ -1099,10 +979,8 @@
 		"index": 39,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/19"
 	},
 	{
 		"level": 20,
@@ -1112,7 +990,6 @@
 		"features": [
     {
       "name": "Superior Inspiration",
-      "url": "http://www.dnd5eapi.co/api/features/70"
     }],
 		"cantrips_known": 4,
 		"spells_known": 22,
@@ -1133,10 +1010,8 @@
 		"index": 40,
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/bard/level/20"
 	},
 	{
 		"level": 1,
@@ -1160,10 +1035,8 @@
 		"index": 41,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/1"
 	},
 	{
 		"level": 2,
@@ -1187,10 +1060,8 @@
 		"index": 42,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/2"
 	},
 	{
 		"level": 3,
@@ -1214,10 +1085,8 @@
 		"index": 43,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/3"
 	},
 	{
 		"level": 4,
@@ -1241,10 +1110,8 @@
 		"index": 44,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/4"
 	},
 	{
 		"level": 5,
@@ -1268,10 +1135,8 @@
 		"index": 45,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/5"
 	},
 	{
 		"level": 6,
@@ -1295,10 +1160,8 @@
 		"index": 46,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/6"
 	},
 	{
 		"level": 7,
@@ -1322,10 +1185,8 @@
 		"index": 47,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/7"
 	},
 	{
 		"level": 8,
@@ -1349,10 +1210,8 @@
 		"index": 48,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/8"
 	},
 	{
 		"level": 9,
@@ -1376,10 +1235,8 @@
 		"index": 49,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/9"
 	},
 	{
 		"level": 10,
@@ -1403,10 +1260,8 @@
 		"index": 50,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/10"
 	},
 	{
 		"level": 11,
@@ -1430,10 +1285,8 @@
 		"index": 51,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/11"
 	},
 	{
 		"level": 12,
@@ -1457,10 +1310,8 @@
 		"index": 52,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/12"
 	},
 	{
 		"level": 13,
@@ -1484,10 +1335,8 @@
 		"index": 53,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/13"
 	},
 	{
 		"level": 14,
@@ -1511,10 +1360,8 @@
 		"index": 54,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/14"
 	},
 	{
 		"level": 15,
@@ -1538,10 +1385,8 @@
 		"index": 55,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/15"
 	},
 	{
 		"level": 16,
@@ -1565,10 +1410,8 @@
 		"index": 56,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/16"
 	},
 	{
 		"level": 17,
@@ -1592,10 +1435,8 @@
 		"index": 57,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/17"
 	},
 	{
 		"level": 18,
@@ -1619,10 +1460,8 @@
 		"index": 58,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/18"
 	},
 	{
 		"level": 19,
@@ -1646,10 +1485,8 @@
 		"index": 59,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/19"
 	},
 	{
 		"level": 20,
@@ -1673,10 +1510,8 @@
 		"index": 60,
 		"class": {
 			"name": "Cleric",
-			"url": "http://www.dnd5eapi.co/api/classes/cleric"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/cleric/level/20"
 	},
 	{
 		"level": 1,
@@ -1700,10 +1535,8 @@
 		"index": 61,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/1"
 	},
 	{
 		"level": 2,
@@ -1727,10 +1560,8 @@
 		"index": 62,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/2"
 	},
 	{
 		"level": 3,
@@ -1754,10 +1585,8 @@
 		"index": 63,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/3"
 	},
 	{
 		"level": 4,
@@ -1781,10 +1610,8 @@
 		"index": 64,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/4"
 	},
 	{
 		"level": 5,
@@ -1808,10 +1635,8 @@
 		"index": 65,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/5"
 	},
 	{
 		"level": 6,
@@ -1835,10 +1660,8 @@
 		"index": 66,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/6"
 	},
 	{
 		"level": 7,
@@ -1862,10 +1685,8 @@
 		"index": 67,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/7"
 	},
 	{
 		"level": 8,
@@ -1889,10 +1710,8 @@
 		"index": 68,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/8"
 	},
 	{
 		"level": 9,
@@ -1916,10 +1735,8 @@
 		"index": 69,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/9"
 	},
 	{
 		"level": 10,
@@ -1943,10 +1760,8 @@
 		"index": 70,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/10"
 	},
 	{
 		"level": 11,
@@ -1970,10 +1785,8 @@
 		"index": 71,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/11"
 	},
 	{
 		"level": 12,
@@ -1997,10 +1810,8 @@
 		"index": 72,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/12"
 	},
 	{
 		"level": 13,
@@ -2024,10 +1835,8 @@
 		"index": 73,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/13"
 	},
 	{
 		"level": 14,
@@ -2051,10 +1860,8 @@
 		"index": 74,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/14"
 	},
 	{
 		"level": 15,
@@ -2078,10 +1885,8 @@
 		"index": 75,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/15"
 	},
 	{
 		"level": 16,
@@ -2105,10 +1910,8 @@
 		"index": 76,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/16"
 	},
 	{
 		"level": 17,
@@ -2132,10 +1935,8 @@
 		"index": 77,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/17"
 	},
 	{
 		"level": 18,
@@ -2159,10 +1960,8 @@
 		"index": 78,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/18"
 	},
 	{
 		"level": 19,
@@ -2186,10 +1985,8 @@
 		"index": 79,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/19"
 	},
 	{
 		"level": 20,
@@ -2213,10 +2010,8 @@
 		"index": 80,
 		"class": {
 			"name": "Druid",
-			"url": "http://www.dnd5eapi.co/api/classes/druid"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/druid/level/20"
 	},
 	{
 		"level": 1,
@@ -2230,10 +2025,8 @@
 		"index": 81,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/1"
 	},
 	{
 		"level": 2,
@@ -2247,10 +2040,8 @@
 		"index": 82,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/2"
 	},
 	{
 		"level": 3,
@@ -2264,10 +2055,8 @@
 		"index": 83,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/3"
 	},
 	{
 		"level": 4,
@@ -2281,10 +2070,8 @@
 		"index": 84,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/4"
 	},
 	{
 		"level": 5,
@@ -2298,10 +2085,8 @@
 		"index": 85,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/5"
 	},
 	{
 		"level": 6,
@@ -2315,10 +2100,8 @@
 		"index": 86,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/6"
 	},
 	{
 		"level": 7,
@@ -2332,10 +2115,8 @@
 		"index": 87,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/7"
 	},
 	{
 		"level": 8,
@@ -2349,10 +2130,8 @@
 		"index": 88,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/8"
 	},
 	{
 		"level": 9,
@@ -2366,10 +2145,8 @@
 		"index": 89,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/9"
 	},
 	{
 		"level": 10,
@@ -2383,10 +2160,8 @@
 		"index": 90,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/10"
 	},
 	{
 		"level": 11,
@@ -2400,10 +2175,8 @@
 		"index": 91,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/11"
 	},
 	{
 		"level": 12,
@@ -2417,10 +2190,8 @@
 		"index": 92,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/12"
 	},
 	{
 		"level": 13,
@@ -2434,10 +2205,8 @@
 		"index": 93,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/13"
 	},
 	{
 		"level": 14,
@@ -2451,10 +2220,8 @@
 		"index": 94,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/f/14"
 	},
 	{
 		"level": 15,
@@ -2468,10 +2235,8 @@
 		"index": 95,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/15"
 	},
 	{
 		"level": 16,
@@ -2485,10 +2250,8 @@
 		"index": 96,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/16"
 	},
 	{
 		"level": 17,
@@ -2502,10 +2265,8 @@
 		"index": 97,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/17"
 	},
 	{
 		"level": 18,
@@ -2519,10 +2280,8 @@
 		"index": 98,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/18"
 	},
 	{
 		"level": 19,
@@ -2536,10 +2295,8 @@
 		"index": 99,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/19"
 	},
 	{
 		"level": 20,
@@ -2553,10 +2310,8 @@
 		"index": 100,
 		"class": {
 			"name": "Fighter",
-			"url": "http://www.dnd5eapi.co/api/classes/fighter"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/fighter/level/20"
 	},
 	{
 		"level": 1,
@@ -2573,10 +2328,8 @@
 		"index": 101,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/1"
 	},
 	{
 		"level": 2,
@@ -2593,10 +2346,8 @@
 		"index": 102,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/2"
 	},
 	{
 		"level": 3,
@@ -2613,10 +2364,8 @@
 		"index": 103,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/3"
 	},
 	{
 		"level": 4,
@@ -2633,10 +2382,8 @@
 		"index": 104,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/4"
 	},
 	{
 		"level": 5,
@@ -2653,10 +2400,8 @@
 		"index": 105,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/5"
 	},
 	{
 		"level": 6,
@@ -2673,10 +2418,8 @@
 		"index": 106,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/6"
 	},
 	{
 		"level": 7,
@@ -2693,10 +2436,8 @@
 		"index": 107,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/7"
 	},
 	{
 		"level": 8,
@@ -2713,10 +2454,8 @@
 		"index": 108,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/8"
 	},
 	{
 		"level": 9,
@@ -2733,10 +2472,8 @@
 		"index": 109,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/9"
 	},
 	{
 		"level": 10,
@@ -2753,10 +2490,8 @@
 		"index": 110,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/10"
 	},
 	{
 		"level": 11,
@@ -2773,10 +2508,8 @@
 		"index": 111,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/11"
 	},
 	{
 		"level": 12,
@@ -2793,10 +2526,8 @@
 		"index": 112,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/12"
 	},
 	{
 		"level": 13,
@@ -2813,10 +2544,8 @@
 		"index": 113,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/13"
 	},
 	{
 		"level": 14,
@@ -2833,10 +2562,8 @@
 		"index": 114,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/14"
 	},
 	{
 		"level": 15,
@@ -2853,10 +2580,8 @@
 		"index": 115,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/15"
 	},
 	{
 		"level": 16,
@@ -2873,10 +2598,8 @@
 		"index": 116,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/16"
 	},
 	{
 		"level": 17,
@@ -2893,10 +2616,8 @@
 		"index": 117,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/17"
 	},
 	{
 		"level": 18,
@@ -2913,10 +2634,8 @@
 		"index": 118,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/18"
 	},
 	{
 		"level": 19,
@@ -2933,10 +2652,8 @@
 		"index": 119,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/19"
 	},
 	{
 		"level": 20,
@@ -2953,10 +2670,8 @@
 		"index": 120,
 		"class": {
 			"name": "Monk",
-			"url": "http://www.dnd5eapi.co/api/classes/monk"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/monk/level/20"
 	},
 	{
 		"level": 1,
@@ -2973,10 +2688,8 @@
 		"index": 121,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/1"
 	},
 	{
 		"level": 2,
@@ -2993,10 +2706,8 @@
 		"index": 122,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/2"
 	},
 	{
 		"level": 3,
@@ -3013,10 +2724,8 @@
 		"index": 123,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/3"
 	},
 	{
 		"level": 4,
@@ -3033,10 +2742,8 @@
 		"index": 124,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/4"
 	},
 	{
 		"level": 5,
@@ -3053,10 +2760,8 @@
 		"index": 125,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/5"
 	},
 	{
 		"level": 6,
@@ -3073,10 +2778,8 @@
 		"index": 126,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/6"
 	},
 	{
 		"level": 7,
@@ -3093,10 +2796,8 @@
 		"index": 127,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/7"
 	},
 	{
 		"level": 8,
@@ -3113,10 +2814,8 @@
 		"index": 128,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/8"
 	},
 	{
 		"level": 9,
@@ -3133,10 +2832,8 @@
 		"index": 129,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/9"
 	},
 	{
 		"level": 10,
@@ -3153,10 +2850,8 @@
 		"index": 130,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/10"
 	},
 	{
 		"level": 11,
@@ -3173,10 +2868,8 @@
 		"index": 131,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/11"
 	},
 	{
 		"level": 12,
@@ -3193,10 +2886,8 @@
 		"index": 132,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/12"
 	},
 	{
 		"level": 13,
@@ -3213,10 +2904,8 @@
 		"index": 133,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/13"
 	},
 	{
 		"level": 14,
@@ -3233,10 +2922,8 @@
 		"index": 134,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/14"
 	},
 	{
 		"level": 15,
@@ -3253,10 +2940,8 @@
 		"index": 135,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/15"
 	},
 	{
 		"level": 16,
@@ -3273,10 +2958,8 @@
 		"index": 136,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/16"
 	},
 	{
 		"level": 17,
@@ -3293,10 +2976,8 @@
 		"index": 137,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/17"
 	},
 	{
 		"level": 18,
@@ -3313,10 +2994,8 @@
 		"index": 138,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/18"
 	},
 	{
 		"level": 19,
@@ -3333,10 +3012,8 @@
 		"index": 139,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/19"
 	},
 	{
 		"level": 20,
@@ -3353,10 +3030,8 @@
 		"index": 140,
 		"class": {
 			"name": "Paladin",
-			"url": "http://www.dnd5eapi.co/api/classes/paladin"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/paladin/level/20"
 	},
 	{
 		"level": 1,
@@ -3375,10 +3050,8 @@
 		"index": 141,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/1"
 	},
 	{
 		"level": 2,
@@ -3397,10 +3070,8 @@
 		"index": 142,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/2"
 	},
 	{
 		"level": 3,
@@ -3419,10 +3090,8 @@
 		"index": 143,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/3"
 	},
 	{
 		"level": 4,
@@ -3441,10 +3110,8 @@
 		"index": 144,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/4"
 	},
 	{
 		"level": 5,
@@ -3463,10 +3130,8 @@
 		"index": 145,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/5"
 	},
 	{
 		"level": 6,
@@ -3485,10 +3150,8 @@
 		"index": 146,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/6"
 	},
 	{
 		"level": 7,
@@ -3507,10 +3170,8 @@
 		"index": 147,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/7"
 	},
 	{
 		"level": 8,
@@ -3529,10 +3190,8 @@
 		"index": 148,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/8"
 	},
 	{
 		"level": 9,
@@ -3551,10 +3210,8 @@
 		"index": 149,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/9"
 	},
 	{
 		"level": 10,
@@ -3573,10 +3230,8 @@
 		"index": 150,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/10"
 	},
 	{
 		"level": 11,
@@ -3595,10 +3250,8 @@
 		"index": 151,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/11"
 	},
 	{
 		"level": 12,
@@ -3617,10 +3270,8 @@
 		"index": 152,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/12"
 	},
 	{
 		"level": 13,
@@ -3639,10 +3290,8 @@
 		"index": 153,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/13"
 	},
 	{
 		"level": 14,
@@ -3661,10 +3310,8 @@
 		"index": 154,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/14"
 	},
 	{
 		"level": 15,
@@ -3683,10 +3330,8 @@
 		"index": 155,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/15"
 	},
 	{
 		"level": 16,
@@ -3705,10 +3350,8 @@
 		"index": 156,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/16"
 	},
 	{
 		"level": 17,
@@ -3727,10 +3370,8 @@
 		"index": 157,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/17"
 	},
 	{
 		"level": 18,
@@ -3749,10 +3390,8 @@
 		"index": 158,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/18"
 	},
 	{
 		"level": 19,
@@ -3771,10 +3410,8 @@
 		"index": 159,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/19"
 	},
 	{
 		"level": 20,
@@ -3793,10 +3430,8 @@
 		"index": 160,
 		"class": {
 			"name": "Ranger",
-			"url": "http://www.dnd5eapi.co/api/classes/ranger"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/ranger/level/20"
 	},
 	{
 		"level": 1,
@@ -3805,17 +3440,14 @@
 		"feature_choices": [
 			{
 				"name": "Expertise 1",
-				"url": "http://www.dnd5eapi.co/api/features/260"
 			}
 		],
 		"features": [
 			{
 				"name": "Sneak Attack",
-				"url": "http://www.dnd5eapi.co/api/features/280"
 			},
 			{
 				"name": "Thieves' Cant",
-				"url": "http://www.dnd5eapi.co/api/features/281"
 			}
 		],
 		"sneak_attack": {
@@ -3825,10 +3457,8 @@
 		"index": 161,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/1"
 	},
 	{
 		"level": 2,
@@ -3838,7 +3468,6 @@
 		"features": [
 			{
 				"name": "Cunning Action",
-				"url": "http://www.dnd5eapi.co/api/features/282"
 			}
 		],
 		"sneak_attack": {
@@ -3848,10 +3477,8 @@
 		"index": 162,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/2"
 	},
 	{
 		"level": 3,
@@ -3861,7 +3488,6 @@
 		"features": [
 			{
 				"name": "Roguish Archetype",
-				"url": "http://www.dnd5eapi.co/api/features/283"
 			}
 		],
 		"sneak_attack": {
@@ -3871,10 +3497,8 @@
 		"index": 163,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/3"
 	},
 	{
 		"level": 4,
@@ -3884,7 +3508,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 1",
-				"url": "http://www.dnd5eapi.co/api/features/286"
 			}
 		],
 		"sneak_attack": {
@@ -3894,10 +3517,8 @@
 		"index": 164,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/4"
 	},
 	{
 		"level": 5,
@@ -3907,7 +3528,6 @@
 		"features": [
 			{
 				"name": "Uncanny Dodge",
-				"url": "http://www.dnd5eapi.co/api/features/287"
 			}
 		],
 		"sneak_attack": {
@@ -3917,10 +3537,8 @@
 		"index": 165,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/5"
 	},
 	{
 		"level": 6,
@@ -3929,7 +3547,6 @@
 		"feature_choices": [
 			{
 				"name": "Expertise 2",
-				"url": "http://www.dnd5eapi.co/api/features/288"
 			}
 		],
 		"features": [],
@@ -3940,10 +3557,8 @@
 		"index": 166,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/6"
 	},
 	{
 		"level": 7,
@@ -3953,7 +3568,6 @@
 		"features": [
 			{
 				"name": "Evasion",
-				"url": "http://www.dnd5eapi.co/api/features/289"
 			}
 		],
 		"sneak_attack": {
@@ -3963,10 +3577,8 @@
 		"index": 167,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/7"
 	},
 	{
 		"level": 8,
@@ -3976,7 +3588,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 2",
-				"url": "http://www.dnd5eapi.co/api/features/290"
 			}
 		],
 		"sneak_attack": {
@@ -3986,10 +3597,8 @@
 		"index": 168,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/8"
 	},
 	{
 		"level": 9,
@@ -3999,7 +3608,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 2",
-				"url": "http://www.dnd5eapi.co/api/features/290"
 			}
 		],
 		"sneak_attack": {
@@ -4009,10 +3617,8 @@
 		"index": 169,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/9"
 	},
 	{
 		"level": 10,
@@ -4022,7 +3628,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 3",
-				"url": "http://www.dnd5eapi.co/api/features/292"
 			}
 		],
 		"sneak_attack": {
@@ -4032,10 +3637,8 @@
 		"index": 170,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/10"
 	},
 	{
 		"level": 11,
@@ -4045,7 +3648,6 @@
 		"features": [
 			{
 				"name": "Reliable Talent",
-				"url": "http://www.dnd5eapi.co/api/features/293"
 			}
 		],
 		"sneak_attack": {
@@ -4055,10 +3657,8 @@
 		"index": 171,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/11"
 	},
 	{
 		"level": 12,
@@ -4068,7 +3668,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 4",
-				"url": "http://www.dnd5eapi.co/api/features/294"
 			}
 		],
 		"sneak_attack": {
@@ -4078,10 +3677,8 @@
 		"index": 172,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/12"
 	},
 	{
 		"level": 13,
@@ -4096,10 +3693,8 @@
 		"index": 173,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/13"
 	},
 	{
 		"level": 14,
@@ -4109,7 +3704,6 @@
 		"features": [
 			{
 				"name": "Blindsense",
-				"url": "http://www.dnd5eapi.co/api/features/296"
 			}
 		],
 		"sneak_attack": {
@@ -4119,10 +3713,8 @@
 		"index": 174,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/14"
 	},
 	{
 		"level": 15,
@@ -4132,7 +3724,6 @@
 		"features": [
 			{
 				"name": "Slippery Mind",
-				"url": "http://www.dnd5eapi.co/api/features/297"
 			}
 		],
 		"sneak_attack": {
@@ -4142,10 +3733,8 @@
 		"index": 175,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/15"
 	},
 	{
 		"level": 16,
@@ -4155,7 +3744,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 5",
-				"url": "http://www.dnd5eapi.co/api/features/298"
 			}
 		],
 		"sneak_attack": {
@@ -4165,10 +3753,8 @@
 		"index": 176,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/16"
 	},
 	{
 		"level": 17,
@@ -4183,10 +3769,8 @@
 		"index": 177,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/17"
 	},
 	{
 		"level": 18,
@@ -4196,7 +3780,6 @@
 		"features": [
 			{
 				"name": "Elusive",
-				"url": "http://www.dnd5eapi.co/api/features/300"
 			}
 		],
 		"sneak_attack": {
@@ -4206,10 +3789,8 @@
 		"index": 178,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/18"
 	},
 	{
 		"level": 19,
@@ -4219,7 +3800,6 @@
 		"features": [
 			{
 				"name": "Ability Score Improvement 6",
-				"url": "http://www.dnd5eapi.co/api/features/301"
 			}
 		],
 		"sneak_attack": {
@@ -4229,10 +3809,8 @@
 		"index": 179,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/19"
 	},
 	{
 		"level": 20,
@@ -4242,7 +3820,6 @@
 		"features": [
 			{
 				"name": "Stroke of Luck",
-				"url": "http://www.dnd5eapi.co/api/features/302"
 			}
 		],
 		"sneak_attack": {
@@ -4252,10 +3829,8 @@
 		"index": 180,
 		"class": {
 			"name": "Rogue",
-			"url": "http://www.dnd5eapi.co/api/classes/rogue"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/rogue/level/20"
 	},
 	{
 		"level": 1,
@@ -4280,10 +3855,8 @@
 		"index": 181,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/1"
 	},
 	{
 		"level": 2,
@@ -4329,10 +3902,8 @@
 		"index": 182,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/2"
 	},
 	{
 		"level": 3,
@@ -4378,10 +3949,8 @@
 		"index": 183,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/3"
 	},
 	{
 		"level": 4,
@@ -4427,10 +3996,8 @@
 		"index": 184,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/4"
 	},
 	{
 		"level": 5,
@@ -4476,10 +4043,8 @@
 		"index": 185,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/5"
 	},
 	{
 		"level": 6,
@@ -4525,10 +4090,8 @@
 		"index": 186,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/6"
 	},
 	{
 		"level": 7,
@@ -4574,10 +4137,8 @@
 		"index": 187,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/7"
 	},
 	{
 		"level": 8,
@@ -4623,10 +4184,8 @@
 		"index": 188,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/8"
 	},
 	{
 		"level": 9,
@@ -4672,10 +4231,8 @@
 		"index": 189,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/9"
 	},
 	{
 		"level": 10,
@@ -4721,10 +4278,8 @@
 		"index": 190,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/10"
 	},
 	{
 		"level": 11,
@@ -4770,10 +4325,8 @@
 		"index": 191,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/11"
 	},
 	{
 		"level": 12,
@@ -4819,10 +4372,8 @@
 		"index": 192,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/12"
 	},
 	{
 		"level": 13,
@@ -4868,10 +4419,8 @@
 		"index": 193,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/13"
 	},
 	{
 		"level": 14,
@@ -4917,10 +4466,8 @@
 		"index": 194,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/14"
 	},
 	{
 		"level": 15,
@@ -4966,10 +4513,8 @@
 		"index": 195,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/15"
 	},
 	{
 		"level": 16,
@@ -5015,10 +4560,8 @@
 		"index": 196,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/16"
 	},
 	{
 		"level": 17,
@@ -5064,10 +4607,8 @@
 		"index": 197,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/17"
 	},
 	{
 		"level": 18,
@@ -5113,10 +4654,8 @@
 		"index": 198,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/18"
 	},
 	{
 		"level": 19,
@@ -5162,10 +4701,8 @@
 		"index": 199,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/19"
 	},
 	{
 		"level": 20,
@@ -5211,10 +4748,8 @@
 		"index": 200,
 		"class": {
 			"name": "Sorcerer",
-			"url": "http://www.dnd5eapi.co/api/classes/sorcerer"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/sorcerer/level/20"
 	},
 	{
 		"level": 1,
@@ -5241,10 +4776,8 @@
 		"index": 201,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/1"
 	},
 	{
 		"level": 2,
@@ -5271,10 +4804,8 @@
 		"index": 202,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/2"
 	},
 	{
 		"level": 3,
@@ -5301,10 +4832,8 @@
 		"index": 203,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/3"
 	},
 	{
 		"level": 4,
@@ -5331,10 +4860,8 @@
 		"index": 204,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/4"
 	},
 	{
 		"level": 5,
@@ -5361,10 +4888,8 @@
 		"index": 205,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/5"
 	},
 	{
 		"level": 6,
@@ -5391,10 +4916,8 @@
 		"index": 206,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/6"
 	},
 	{
 		"level": 7,
@@ -5421,10 +4944,8 @@
 		"index": 207,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/7"
 	},
 	{
 		"level": 8,
@@ -5451,10 +4972,8 @@
 		"index": 208,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/8"
 	},
 	{
 		"level": 9,
@@ -5481,10 +5000,8 @@
 		"index": 209,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/9"
 	},
 	{
 		"level": 10,
@@ -5511,10 +5028,8 @@
 		"index": 210,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/10"
 	},
 	{
 		"level": 11,
@@ -5541,10 +5056,8 @@
 		"index": 211,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/11"
 	},
 	{
 		"level": 12,
@@ -5571,10 +5084,8 @@
 		"index": 212,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/12"
 	},
 	{
 		"level": 13,
@@ -5601,10 +5112,8 @@
 		"index": 213,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/13"
 	},
 	{
 		"level": 14,
@@ -5631,10 +5140,8 @@
 		"index": 214,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/14"
 	},
 	{
 		"level": 15,
@@ -5661,10 +5168,8 @@
 		"index": 215,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/15"
 	},
 	{
 		"level": 16,
@@ -5691,10 +5196,8 @@
 		"index": 216,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/16"
 	},
 	{
 		"level": 17,
@@ -5721,10 +5224,8 @@
 		"index": 217,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/17"
 	},
 	{
 		"level": 18,
@@ -5751,10 +5252,8 @@
 		"index": 218,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/18"
 	},
 	{
 		"level": 19,
@@ -5781,10 +5280,8 @@
 		"index": 219,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/19"
 	},
 	{
 		"level": 20,
@@ -5811,10 +5308,8 @@
 		"index": 220,
 		"class": {
 			"name": "Warlock",
-			"url": "http://www.dnd5eapi.co/api/classes/warlock"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/warlock/level/20"
 	},
 	{
 		"level": 1,
@@ -5836,10 +5331,8 @@
 		"index": 221,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/1"
 	},
 	{
 		"level": 2,
@@ -5861,10 +5354,8 @@
 		"index": 222,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/2"
 	},
 	{
 		"level": 3,
@@ -5886,10 +5377,8 @@
 		"index": 223,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/3"
 	},
 	{
 		"level": 4,
@@ -5911,10 +5400,8 @@
 		"index": 224,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/4"
 	},
 	{
 		"level": 5,
@@ -5936,10 +5423,8 @@
 		"index": 225,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/5"
 	},
 	{
 		"level": 6,
@@ -5961,10 +5446,8 @@
 		"index": 226,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/6"
 	},
 	{
 		"level": 7,
@@ -5986,10 +5469,8 @@
 		"index": 227,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/7"
 	},
 	{
 		"level": 8,
@@ -6011,10 +5492,8 @@
 		"index": 228,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/8"
 	},
 	{
 		"level": 9,
@@ -6036,10 +5515,8 @@
 		"index": 229,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/9"
 	},
 	{
 		"level": 10,
@@ -6061,10 +5538,8 @@
 		"index": 230,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/10"
 	},
 	{
 		"level": 11,
@@ -6086,10 +5561,8 @@
 		"index": 231,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/11"
 	},
 	{
 		"level": 12,
@@ -6111,10 +5584,8 @@
 		"index": 232,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/12"
 	},
 	{
 		"level": 13,
@@ -6136,10 +5607,8 @@
 		"index": 233,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/13"
 	},
 	{
 		"level": 14,
@@ -6161,10 +5630,8 @@
 		"index": 234,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/14"
 	},
 	{
 		"level": 15,
@@ -6186,10 +5653,8 @@
 		"index": 235,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/15"
 	},
 	{
 		"level": 16,
@@ -6211,10 +5676,8 @@
 		"index": 236,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/16"
 	},
 	{
 		"level": 17,
@@ -6236,10 +5699,8 @@
 		"index": 237,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/17"
 	},
 	{
 		"level": 18,
@@ -6261,10 +5722,8 @@
 		"index": 238,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/18"
 	},
 	{
 		"level": 19,
@@ -6286,10 +5745,8 @@
 		"index": 239,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/19"
 	},
 	{
 		"level": 20,
@@ -6311,10 +5768,8 @@
 		"index": 240,
 		"class": {
 			"name": "Wizard",
-			"url": "http://www.dnd5eapi.co/api/classes/wizard"
 		},
 		"subclass": {},
-		"url": "http://www.dnd5eapi.co/api/classes/wizard/level/20"
 	},
 	{
 		"level": 3,
@@ -6322,22 +5777,17 @@
 		"features": [
 			{
 				"name": "Primal Path",
-				"url": "http://www.dnd5eapi.co/api/features/5"
 			},
 			{
 				"name": "Frenzy",
-				"url": "http://www.dnd5eapi.co/api/features/6"
 			}
 		],
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {
 			"name": "Berserker",
-			"url": "http://www.dnd5eapi.co/api/subclasses/1"
 		},
-		"url": "http://www.dnd5eapi.co/api/subclasses/berserker/level/3",
 		"index": 241
 	},
 	{
@@ -6346,19 +5796,15 @@
 		"features": [
 			{
 				"name": "Mindless Rage",
-				"url": "http://www.dnd5eapi.co/api/features/10"
 			}
 		],
 		"index": 242,
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {
 			"name": "Berserker",
-			"url": "http://www.dnd5eapi.co/api/subclasses/1"
 		},
-		"url": "http://www.dnd5eapi.co/api/subclasses/berserker/level/6"
 	},
 	{
 		"level": 10,
@@ -6366,18 +5812,14 @@
 		"features": [
 			{
 				"name": "Intimidating Presence",
-				"url": "http://www.dnd5eapi.co/api/features/14"
 			}
 		],
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {
 			"name": "Berserker",
-			"url": "http://www.dnd5eapi.co/api/subclasses/1"
 		},
-		"url": "http://www.dnd5eapi.co/api/subclasses/berserker/level/10",
 		"index": 243
 	},
 	{
@@ -6386,18 +5828,14 @@
 		"features": [
 			{
 				"name": "Retaliation",
-				"url": "http://www.dnd5eapi.co/api/features/18"
 			}
 		],
 		"class": {
 			"name": "Barbarian",
-			"url": "http://www.dnd5eapi.co/api/classes/barbarian"
 		},
 		"subclass": {
 			"name": "Berserker",
-			"url": "http://www.dnd5eapi.co/api/subclasses/1"
 		},
-		"url": "http://www.dnd5eapi.co/api/subclasses/berserker/level/14",
 		"index": 244
 	},
 	{
@@ -6407,22 +5845,17 @@
 		"features": [
 			{
 				"name": "Bonus Proficiencies",
-				"url": "http://www.dnd5eapi.co/api/features/30"
 			},
 			{
 				"name": "Cutting Words",
-				"url": "http://www.dnd5eapi.co/api/features/31"
 			}
 		],
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {
 			"name": "Lore",
-			"url": "http://www.dnd5eapi.co/api/subclasses/lore"
 		},
-		"url": "http://www.dnd5eapi.co/api/subclasses/lore/level/3",
 		"index": 245
 	},
 	{
@@ -6432,18 +5865,14 @@
 		"features": [
 			{
 				"name": "Additional Magical Secrets",
-				"url": "http://www.dnd5eapi.co/api/features/55"
 			}
 		],
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {
 			"name": "Lore",
-			"url": "http://www.dnd5eapi.co/api/subclasses/lore"
 		},
-		"url": "http://www.dnd5eapi.co/api/subclasses/lore/level/6",
 		"index": 246
 	},
 	{
@@ -6453,18 +5882,14 @@
 		"features": [
 			{
 				"name": "Peerless Skill",
-				"url": "http://www.dnd5eapi.co/api/features/64"
 			}
 		],
 		"class": {
 			"name": "Bard",
-			"url": "http://www.dnd5eapi.co/api/classes/bard"
 		},
 		"subclass": {
 			"name": "Lore",
-			"url": "http://www.dnd5eapi.co/api/subclasses/lore"
 		},
-		"url": "http://www.dnd5eapi.co/api/subclasses/lore/level/14",
 		"index": 247
 	}
 ]
