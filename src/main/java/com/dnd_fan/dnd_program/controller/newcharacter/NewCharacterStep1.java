@@ -35,17 +35,17 @@ public class NewCharacterStep1 {
     private ArrayList<SettablePair<Boolean, Integer>> mStatChoices;
     private boolean mSettingSelection;
     @FXML
-    private ChoiceBox<Integer> mStrengthChoiceBox;
+    private Spinner<Integer> mStrengthChoiceBox;
     @FXML
-    private ChoiceBox<Integer> mDexterityChoiceBox;
+    private Spinner<Integer> mDexterityChoiceBox;
     @FXML
-    private ChoiceBox<Integer> mConstitutionChoiceBox;
+    private Spinner<Integer> mConstitutionChoiceBox;
     @FXML
-    private ChoiceBox<Integer> mIntelligenceChoiceBox;
+    private Spinner<Integer> mIntelligenceChoiceBox;
     @FXML
-    private ChoiceBox<Integer> mWisdomChoiceBox;
+    private Spinner<Integer> mWisdomChoiceBox;
     @FXML
-    private ChoiceBox<Integer> mCharismaChoiceBox;
+    private Spinner<Integer> mCharismaChoiceBox;
 
     @FXML
     private ListView<String> mClassList;
@@ -126,8 +126,6 @@ public class NewCharacterStep1 {
                 });
 
                 mSelectStartingInventoryButton.setDisable(true);
-
-                onStatChoiceBoxClicked();
             }
         });
     }
@@ -142,93 +140,6 @@ public class NewCharacterStep1 {
         }
         else
             mSubraceChoiceBox.setDisable(true);
-    }
-
-    @FXML
-    private void onStatChoiceBoxClicked() {
-        if (mSettingSelection)
-            return;
-
-        for (SettablePair<Boolean, Integer> item : mStatChoices)
-            item.setKey(false);
-
-        Integer str = null, dex = null, con = null, intell = null, wis = null, cha = null;
-
-        if (mStrengthChoiceBox.getSelectionModel().getSelectedItem() != null) {
-            disableStatChoice(mStrengthChoiceBox.getValue());
-            str = mStrengthChoiceBox.getSelectionModel().getSelectedItem();
-        }
-        if (mDexterityChoiceBox.getSelectionModel().getSelectedItem() != null) {
-            disableStatChoice(mDexterityChoiceBox.getValue());
-            dex = mDexterityChoiceBox.getSelectionModel().getSelectedItem();
-        }
-        if (mConstitutionChoiceBox.getSelectionModel().getSelectedItem() != null) {
-            disableStatChoice(mConstitutionChoiceBox.getValue());
-            con = mConstitutionChoiceBox.getSelectionModel().getSelectedItem();
-        }
-        if (mIntelligenceChoiceBox.getSelectionModel().getSelectedItem() != null) {
-            disableStatChoice(mIntelligenceChoiceBox.getValue());
-            intell = mIntelligenceChoiceBox.getSelectionModel().getSelectedItem();
-        }
-        if (mWisdomChoiceBox.getSelectionModel().getSelectedItem() != null) {
-            disableStatChoice(mWisdomChoiceBox.getValue());
-            wis = mWisdomChoiceBox.getSelectionModel().getSelectedItem();
-        }
-        if (mCharismaChoiceBox.getSelectionModel().getSelectedItem() != null) {
-            disableStatChoice(mCharismaChoiceBox.getValue());
-            cha = mCharismaChoiceBox.getSelectionModel().getSelectedItem();
-        }
-
-        List<Integer> list = new ArrayList<Integer>();
-        list.add(null);
-
-        for (int i = 0; i < mStatChoices.size(); i ++)
-            if (!mStatChoices.get(i).getKey())
-                list.add(mStatChoices.get(i).getValue());
-
-        mSettingSelection = true;
-
-        mStrengthChoiceBox.setItems(FXCollections.observableArrayList(list));
-        mDexterityChoiceBox.setItems(FXCollections.observableArrayList(list));
-        mConstitutionChoiceBox.setItems(FXCollections.observableArrayList(list));
-        mIntelligenceChoiceBox.setItems(FXCollections.observableArrayList(list));
-        mWisdomChoiceBox.setItems(FXCollections.observableArrayList(list));
-        mCharismaChoiceBox.setItems(FXCollections.observableArrayList(list));
-
-        if (str != null)
-            mStrengthChoiceBox.getItems().add(str);
-        mStrengthChoiceBox.getSelectionModel().select(str);
-
-        if (dex != null)
-            mDexterityChoiceBox.getItems().add(dex);
-        mDexterityChoiceBox.getSelectionModel().select(dex);
-
-        if (con != null)
-            mConstitutionChoiceBox.getItems().add(con);
-        mConstitutionChoiceBox.getSelectionModel().select(con);
-
-        if (intell != null)
-            mIntelligenceChoiceBox.getItems().add(intell);
-        mIntelligenceChoiceBox.getSelectionModel().select(intell);
-
-        if (wis != null)
-            mWisdomChoiceBox.getItems().add(wis);
-        mWisdomChoiceBox.getSelectionModel().select(wis);
-
-        if (cha != null)
-            mCharismaChoiceBox.getItems().add(cha);
-        mCharismaChoiceBox.getSelectionModel().select(cha);
-
-        mSettingSelection = false;
-    }
-
-    private void disableStatChoice(int value) {
-        for (SettablePair<Boolean, Integer> pair : mStatChoices) {
-            if (pair.getValue() == value) {
-                pair.setKey(true);
-                break;
-            }
-        }
     }
 
     private void onClassListItemSelected() {
