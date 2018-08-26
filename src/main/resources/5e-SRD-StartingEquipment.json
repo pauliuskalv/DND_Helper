@@ -1,5 +1,4 @@
 [{
-	"index": 1,
 	"class": {
 		"name": "Barbarian"
 	},
@@ -24,7 +23,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 2,
 	"class": {
 		"name": "Bard"
 	},
@@ -62,7 +60,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 3,
 	"class": {
 		"name": "Cleric"
 	},
@@ -121,7 +118,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 4,
 	"class": {
 		"name": "Druid"
 	},
@@ -151,7 +147,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 5,
 	"class": {
 		"name": "Fighter"
 	},
@@ -199,7 +194,6 @@
 		"from": [{
 	}],
 }, {
-	"index": 6,
 	"class": {
 		"name": "Monk"
 	},
@@ -224,7 +218,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 7,
 	"class": {
 		"name": "Paladin"
 	},
@@ -268,7 +261,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 8,
 	"class": {
 		"name": "Ranger"
 	},
@@ -302,7 +294,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 9,
 	"class": {
 		"name": "Rogue"
 	},
@@ -340,7 +331,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 10,
 	"class": {
 		"name": "Sorcerer"
 	},
@@ -374,7 +364,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 11,
 	"class": {
 		"name": "Warlock"
 	},
@@ -413,7 +402,6 @@
 		"from": [{
 	}]
 }, {
-	"index": 12,
 	"class": {
 		"name": "Wizard"
 	},

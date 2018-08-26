@@ -1,6 +1,5 @@
 [
 	{
-		"index": 1,
 		"name": "STR",
 		"full_name": "Strength",
 		"desc": [
@@ -14,7 +13,6 @@
 		]
 	},
 	{
-		"index": 2,
 		"name": "DEX",
 		"full_name": "Dexterity",
 		"desc": [
@@ -34,7 +32,6 @@
 		]
 	},
 	{
-		"index": 3,
 		"name": "CON",
 		"full_name": "Constitution",
 		"desc": [
@@ -44,7 +41,6 @@
 		"skills": []
 	},
 	{
-		"index": 4,
 		"name": "INT",
 		"full_name": "Intelligence",
 		"desc": [
@@ -70,7 +66,6 @@
 		]
 	},
 	{
-		"index": 5,
 		"name": "WIS",
 		"full_name": "Wisdom",
 		"desc": [
@@ -96,7 +91,6 @@
 		]
 	},
 	{
-		"index": 6,
 		"name": "CHA",
 		"full_name": "Charisma",
 		"desc": [

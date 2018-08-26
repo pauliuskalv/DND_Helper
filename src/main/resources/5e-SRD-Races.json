@@ -1,6 +1,5 @@
 [
 	{
-		"index": 1,
 		"name": "Dwarf",
 		"speed": 30,
 		"ability_bonuses": [0,2,0,0,0],
@@ -70,7 +69,6 @@
 		]
 	},
 	{
-		"index": 2,
 		"name": "Elf",
 		"speed": 30,
 		"ability_bonuses": [2,0,0,0,0],
@@ -116,7 +114,6 @@
 		]
 	},
 	{
-		"index": 3,
 		"name": "Halfling",
 		"speed": 25,
 		"ability_bonuses": [2,0,0,0,0],
@@ -158,7 +155,6 @@
 		]
 	},
 	{
-		"index": 4,
 		"name": "Human",
 		"speed": 30,
 		"ability_bonuses": [1,1,1,1,1,1],
@@ -231,7 +227,6 @@
 		"subraces": []
 	},
 	{
-		"index": 5,
 		"name": "Dragonborn",
 		"speed": 30,
 		"ability_bonuses": [2,0,0,0,0,1],
@@ -305,7 +300,6 @@
 		"subraces": []
 	},
 	{
-		"index": 6,
 		"name": "Gnome",
 		"speed": 25,
 		"ability_bonuses": [0,0,2,0,0],
@@ -350,7 +344,6 @@
 		]
 	},
 	{
-		"index": 7,
 		"name": "Half-Elf",
 		"speed": 30,
 		"ability_bonuses": [0,0,0,0,2],
@@ -397,7 +390,6 @@
 		"subraces": []
 	},
 	{
-		"index": 8,
 		"name": "Half-Orc",
 		"speed": 30,
 		"ability_bonuses": [2,0,1,0,0,0],
@@ -442,7 +434,6 @@
 		"subraces": []
 	},
 	{
-		"index": 9,
 		"name": "Tiefling",
 		"speed": 30,
 		"ability_bonuses": [2,0,1,0,0,0],

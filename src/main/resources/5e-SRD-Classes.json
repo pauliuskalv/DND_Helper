@@ -1,6 +1,5 @@
 [
 	{
-		"index": 1,
 		"name": "Barbarian",
 		"hit_die": 12,
 		"proficiency_choices": [
@@ -70,7 +69,6 @@
 		}
 	},
 	{
-		"index": 2,
 		"name": "Bard",
 		"hit_die": 8,
 		"proficiency_choices": [
@@ -215,7 +213,6 @@
 		}
 	},
 	{
-		"index": 3,
 		"name": "Cleric",
 		"hit_die": 8,
 		"proficiency_choices": [
@@ -279,7 +276,6 @@
 		}
 	},
 	{
-		"index": 4,
 		"name": "Druid",
 		"hit_die": 8,
 		"proficiency_choices": [
@@ -382,7 +378,6 @@
 		}
 	},
 	{
-		"index": 5,
 		"name": "Fighter",
 		"hit_die": 10,
 		"proficiency_choices": [
@@ -455,7 +450,6 @@
 		}
 	},
 	{
-		"index": 6,
 		"name": "Monk",
 		"hit_die": 8,
 		"proficiency_choices": [
@@ -615,7 +609,6 @@
 		}
 	},
 	{
-		"index": 7,
 		"name": "Paladin",
 		"hit_die": 10,
 		"proficiency_choices": [
@@ -682,7 +675,6 @@
 		}
 	},
 	{
-		"index": 8,
 		"name": "Ranger",
 		"hit_die": 10,
 		"proficiency_choices": [
@@ -758,7 +750,6 @@
 		}
 	},
 	{
-		"index": 9,
 		"name": "Rogue",
 		"hit_die": 8,
 		"proficiency_choices": [
@@ -849,7 +840,6 @@
 		}
 	},
 	{
-		"index": 10,
 		"name": "Sorcerer",
 		"hit_die": 6,
 		"proficiency_choices": [
@@ -916,7 +906,6 @@
 		}
 	},
 	{
-		"index": 11,
 		"name": "Warlock",
 		"hit_die": 8,
 		"proficiency_choices": [
@@ -980,7 +969,6 @@
 		}
 	},
 	{
-		"index": 12,
 		"name": "Wizard",
 		"hit_die": 6,
 		"proficiency_choices": [
