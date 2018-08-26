@@ -4,162 +4,162 @@
 		"name": "Weapon",
 		"equipment": [
 			{
-				"name": "Club",
+				"name": "Club"
 			},
 			{
-				"name": "Dagger",
+				"name": "Dagger"
 			},
 			{
-				"name": "Greatclub",
+				"name": "Greatclub"
 			},
 			{
-				"name": "Handaxe",
+				"name": "Handaxe"
 			},
 			{
-				"name": "Javelin",
+				"name": "Javelin"
 			},
 			{
-				"name": "Light hammer",
+				"name": "Light hammer"
 			},
 			{
-				"name": "Mace",
+				"name": "Mace"
 			},
 			{
-				"name": "Quarterstaff",
+				"name": "Quarterstaff"
 			},
 			{
-				"name": "Sickle",
+				"name": "Sickle"
 			},
 			{
-				"name": "Spear",
+				"name": "Spear"
 			},
 			{
-				"name": "Crossbow, light",
+				"name": "Crossbow, light"
 			},
 			{
-				"name": "Dart",
+				"name": "Dart"
 			},
 			{
-				"name": "Shortbow",
+				"name": "Shortbow"
 			},
 			{
-				"name": "Sling",
+				"name": "Sling"
 			},
 			{
-				"name": "Battleaxe",
+				"name": "Battleaxe"
 			},
 			{
-				"name": "Flail",
+				"name": "Flail"
 			},
 			{
-				"name": "Glaive",
+				"name": "Glaive"
 			},
 			{
-				"name": "Greataxe",
+				"name": "Greataxe"
 			},
 			{
-				"name": "Greatsword",
+				"name": "Greatsword"
 			},
 			{
-				"name": "Halberd",
+				"name": "Halberd"
 			},
 			{
-				"name": "Lance",
+				"name": "Lance"
 			},
 			{
-				"name": "Longsword",
+				"name": "Longsword"
 			},
 			{
-				"name": "Maul",
+				"name": "Maul"
 			},
 			{
-				"name": "Morningstar",
+				"name": "Morningstar"
 			},
 			{
-				"name": "Pike",
+				"name": "Pike"
 			},
 			{
-				"name": "Rapier",
+				"name": "Rapier"
 			},
 			{
-				"name": "Scimitar",
+				"name": "Scimitar"
 			},
 			{
-				"name": "Shortsword",
+				"name": "Shortsword"
 			},
 			{
-				"name": "Trident",
+				"name": "Trident"
 			},
 			{
-				"name": "War pick",
+				"name": "War pick"
 			},
 			{
-				"name": "Warhammer",
+				"name": "Warhammer"
 			},
 			{
-				"name": "Whip",
+				"name": "Whip"
 			},
 			{
-				"name": "Blowgun",
+				"name": "Blowgun"
 			},
 			{
-				"name": "Crossbow, hand",
+				"name": "Crossbow, hand"
 			},
 			{
-				"name": "Crossbow, heavy",
+				"name": "Crossbow, heavy"
 			},
 			{
-				"name": "Longbow",
+				"name": "Longbow"
 			},
 			{
-				"name": "Net",
+				"name": "Net"
 			}
-		],
+		]
 	},
 	{
 		"index": 2,
 		"name": "Armor",
 		"equipment": [
 			{
-				"name": "Padded",
+				"name": "Padded"
 			},
 			{
-				"name": "Leather",
+				"name": "Leather"
 			},
 			{
-				"name": "Studded Leather",
+				"name": "Studded Leather"
 			},
 			{
-				"name": "Hide",
+				"name": "Hide"
 			},
 			{
-				"name": "Chain Shirt",
+				"name": "Chain Shirt"
 			},
 			{
-				"name": "Scale Mail",
+				"name": "Scale Mail"
 			},
 			{
-				"name": "Breastplate",
+				"name": "Breastplate"
 			},
 			{
-				"name": "Half Plate",
+				"name": "Half Plate"
 			},
 			{
-				"name": "Ring Mail",
+				"name": "Ring Mail"
 			},
 			{
-				"name": "Chain Mail",
+				"name": "Chain Mail"
 			},
 			{
-				"name": "Splint",
+				"name": "Splint"
 			},
 			{
-				"name": "Plate",
+				"name": "Plate"
 			},
 			{
-				"name": "Shield",
+				"name": "Shield"
 			}
-		],
+		]
 	},
 	{
 		"index": 3,
@@ -507,7 +507,7 @@
 			{
 				"name": "Scholar's Pack"
 			}
-		],
+		]
 	},
 	{
 		"index": 4,
@@ -606,7 +606,7 @@
 			{
 				"name": "Thieves’ tools"
 			}
-		],
+		]
 	},
 	{
 		"index": 5,
@@ -801,7 +801,7 @@
 			{
 				"name": "Warship"
 			}
-		],
+		]
 	},
 	{
 		"index": 6,
@@ -837,7 +837,7 @@
 			{
 				"name": "Spear"
 			}
-		],
+		]
 	},
 	{
 		"index": 7,
@@ -912,7 +912,7 @@
 			{
 				"name": "Net"
 			}
-		],
+		]
 	},
 	{
 		"index": 8,
@@ -948,7 +948,7 @@
 			{
 				"name": "Spear"
 			}
-		],
+		]
 	},
 	{
 		"index": 9,
@@ -966,7 +966,7 @@
 			{
 				"name": "Sling"
 			}
-		],
+		]
 	},
 	{
 		"index": 10,
@@ -1026,7 +1026,7 @@
 			{
 				"name": "Whip"
 			}
-		],
+		]
 	},
 	{
 		"index": 11,
@@ -1047,7 +1047,7 @@
 			{
 				"name": "Net"
 			}
-		],
+		]
 	},
 	{
 		"index": 12,
@@ -1062,7 +1062,7 @@
 			{
 				"name": "Studded Leather"
 			}
-		],
+		]
 	},
 	{
 		"index": 13,
@@ -1083,7 +1083,7 @@
 			{
 				"name": "Half Plate"
 			}
-		],
+		]
 	},
 	{
 		"index": 14,
@@ -1101,7 +1101,7 @@
 			{
 				"name": "Plate"
 			}
-		],
+		]
 	},
 	{
 		"index": 15,
@@ -1110,7 +1110,7 @@
 			{
 				"name": "Shield"
 			}
-		],
+		]
 	},
 	{
 		"index": 16,
@@ -1416,7 +1416,7 @@
 			{
 				"name": "Whetstone"
 			}
-		],
+		]
 	},
 	{
 		"index": 17,
@@ -1443,7 +1443,7 @@
 			{
 				"name": "Poisoner’s Kit"
 			}
-		],
+		]
 	},
 	{
 		"index": 18,
@@ -1470,7 +1470,7 @@
 			{
 				"name": "Scholar's Pack"
 			}
-		],
+		]
 	},
 	{
 		"index": 19,
@@ -1527,7 +1527,7 @@
 			{
 				"name": "Woodcarver’s tools"
 			}
-		],
+		]
 	},
 	{
 		"index": 20,
@@ -1539,7 +1539,7 @@
 			{
 				"name": "Playing card set"
 			}
-		],
+		]
 	},
 	{
 		"index": 21,
@@ -1575,7 +1575,7 @@
 			{
 				"name": "Viol"
 			}
-		],
+		]
 	},
 	{
 		"index": 22,
@@ -1587,7 +1587,7 @@
 			{
 				"name": "Thieves’ tools"
 			}
-		],
+		]
 	},
 	{
 		"index": 23,
@@ -1614,7 +1614,7 @@
 			{
 				"name": "Warhorse"
 			}
-		],
+		]
 	},
 	{
 		"index": 24,
@@ -1695,7 +1695,7 @@
 			{
 				"name": "Wagon"
 			}
-		],
+		]
 	},
 	{
 		"index": 25,
@@ -1719,6 +1719,6 @@
 			{
 				"name": "Warship"
 			}
-		],
+		]
 	}
 ]

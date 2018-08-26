@@ -6,10 +6,10 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Rage",
+				"name": "Rage"
 			},
 			{
-				"name": "Unarmored Defense",
+				"name": "Unarmored Defense"
 			}
 		],
 		"rage_count": 2,
@@ -17,9 +17,11 @@
 		"brutal_critical_dice": 0,
 		"index": 1,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -28,10 +30,10 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Reckless Attack",
+				"name": "Reckless Attack"
 			},
 			{
-				"name": "Danger Sense",
+				"name": "Danger Sense"
 			}
 		],
 		"rage_count": 2,
@@ -39,9 +41,11 @@
 		"brutal_critical_dice": 0,
 		"index": 2,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -50,7 +54,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Primal Path",
+				"name": "Primal Path"
 			}
 		],
 		"rage_count": 3,
@@ -58,9 +62,11 @@
 		"brutal_critical_dice": 0,
 		"index": 3,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -69,7 +75,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 1",
+				"name": "Ability Score Improvement 1"
 			}
 		],
 		"rage_count": 3,
@@ -77,9 +83,11 @@
 		"brutal_critical_dice": 0,
 		"index": 4,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -88,10 +96,10 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Extra Attack",
+				"name": "Extra Attack"
 			},
 			{
-				"name": "Fast Movement",
+				"name": "Fast Movement"
 			}
 		],
 		"rage_count": 3,
@@ -99,9 +107,11 @@
 		"brutal_critical_dice": 0,
 		"index": 5,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -114,9 +124,11 @@
 		"brutal_critical_dice": 0,
 		"index": 6,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -125,7 +137,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Mindless Rage",
+				"name": "Mindless Rage"
 			}
 		],
 		"rage_count": 4,
@@ -133,9 +145,11 @@
 		"brutal_critical_dice": 0,
 		"index": 7,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -144,7 +158,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Feral Instinct",
+				"name": "Feral Instinct"
 			}
 		],
 		"rage_count": 4,
@@ -152,9 +166,11 @@
 		"brutal_critical_dice": 0,
 		"index": 8,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -163,7 +179,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 2",
+				"name": "Ability Score Improvement 2"
 			}
 		],
 		"rage_count": 4,
@@ -171,9 +187,11 @@
 		"brutal_critical_dice": 1,
 		"index": 9,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -186,9 +204,11 @@
 		"brutal_critical_dice": 1,
 		"index": 10,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -197,7 +217,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Relentless Rage",
+				"name": "Relentless Rage"
 			}
 		],
 		"rage_count": 4,
@@ -205,9 +225,11 @@
 		"brutal_critical_dice": 1,
 		"index": 11,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -216,7 +238,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 3",
+				"name": "Ability Score Improvement 3"
 			}
 		],
 		"rage_count": 5,
@@ -224,9 +246,11 @@
 		"brutal_critical_dice": 1,
 		"index": 12,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -235,7 +259,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Brutal Critical (2 dice)",
+				"name": "Brutal Critical (2 dice)"
 			}
 		],
 		"rage_count": 5,
@@ -243,9 +267,11 @@
 		"brutal_critical_dice": 2,
 		"index": 13,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -258,9 +284,11 @@
 		"brutal_critical_dice": 2,
 		"index": 14,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -269,7 +297,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Persistent Rage",
+				"name": "Persistent Rage"
 			}
 		],
 		"rage_count": 5,
@@ -277,9 +305,11 @@
 		"brutal_critical_dice": 2,
 		"index": 15,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -288,7 +318,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 4",
+				"name": "Ability Score Improvement 4"
 			}
 		],
 		"rage_count": 5,
@@ -296,9 +326,11 @@
 		"brutal_critical_dice": 2,
 		"index": 16,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -307,7 +339,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Brutal Critical (3 dice)",
+				"name": "Brutal Critical (3 dice)"
 			}
 		],
 		"rage_count": 6,
@@ -315,9 +347,11 @@
 		"brutal_critical_dice": 3,
 		"index": 17,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -326,7 +360,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Indomitable Might",
+				"name": "Indomitable Might"
 			}
 		],
 		"rage_count": 6,
@@ -334,9 +368,11 @@
 		"brutal_critical_dice": 3,
 		"index": 18,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -345,7 +381,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 5",
+				"name": "Ability Score Improvement 5"
 			}
 		],
 		"rage_count": 6,
@@ -353,9 +389,11 @@
 		"brutal_critical_dice": 3,
 		"index": 19,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -364,7 +402,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Fast Movement",
+				"name": "Fast Movement"
 			}
 		],
 		"rage_count": 9999,
@@ -372,9 +410,11 @@
 		"brutal_critical_dice": 3,
 		"index": 20,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -383,13 +423,13 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Spellcasting",
+				"name": "Spellcasting"
 			},
 			{
-				"name": "Bardic Inspiration (d6)",
+				"name": "Bardic Inspiration (d6)"
 			},
 			{
-				"name": "Superior Inspiration",
+				"name": "Superior Inspiration"
 			}
 		],
 		"cantrips_known": 2,
@@ -410,9 +450,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 21,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -421,10 +463,10 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Jack of All Trades",
+				"name": "Jack of All Trades"
 			},
 			{
-				"name": "Song of Rest (d6)",
+				"name": "Song of Rest (d6)"
 			}
 		],
 		"cantrips_known": 2,
@@ -445,22 +487,26 @@
 		"magical_secrets_max_9": 0,
 		"index": 22,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
 		"ability_score_bonuses": 0,
 		"prof_bonus": 2,
 		"feature_choices": [
-    {
-      "name": "Choose: Expertise 1",
-    }],
+			{
+				"name": "Choose: Expertise 1"
+			}
+		],
 		"features": [
-    {
-      "name": "Bard College",
-    }],
+			{
+				"name": "Bard College"
+			}
+		],
 		"cantrips_known": 2,
 		"spells_known": 6,
 		"spell_slots_level_1": 4,
@@ -479,9 +525,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 23,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -489,9 +537,10 @@
 		"prof_bonus": 2,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Ability Score Improvement 1",
-    }],
+			{
+				"name": "Ability Score Improvement 1"
+			}
+		],
 		"cantrips_known": 3,
 		"spells_known": 7,
 		"spell_slots_level_1": 4,
@@ -510,9 +559,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 24,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -520,12 +571,13 @@
 		"prof_bonus": 3,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Bardic Inspiration (d8)",
-    },
-    {
-      "name": "Font of Inspiration",
-    }],
+			{
+				"name": "Bardic Inspiration (d8)"
+			},
+			{
+				"name": "Font of Inspiration"
+			}
+		],
 		"cantrips_known": 3,
 		"spells_known": 8,
 		"spell_slots_level_1": 4,
@@ -544,9 +596,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 25,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -572,9 +626,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 26,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -582,9 +638,10 @@
 		"prof_bonus": 3,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Countercharm",
-    }],
+			{
+				"name": "Countercharm"
+			}
+		],
 		"cantrips_known": 3,
 		"spells_known": 10,
 		"spell_slots_level_1": 4,
@@ -603,18 +660,21 @@
 		"magical_secrets_max_9": 0,
 		"index": 27,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
 		"ability_score_bonuses": 2,
 		"prof_bonus": 3,
 		"feature_choices": [
-    {
-      "name": "Ability Score Improvement 2",
-    }],
+			{
+				"name": "Ability Score Improvement 2"
+			}
+		],
 		"features": [],
 		"cantrips_known": 3,
 		"spells_known": 11,
@@ -634,9 +694,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 28,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -644,9 +706,10 @@
 		"prof_bonus": 4,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Song of Rest (d8)",
-    }],
+			{
+				"name": "Song of Rest (d8)"
+			}
+		],
 		"cantrips_known": 3,
 		"spells_known": 12,
 		"spell_slots_level_1": 4,
@@ -665,24 +728,28 @@
 		"magical_secrets_max_9": 0,
 		"index": 29,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
 		"ability_score_bonuses": 2,
 		"prof_bonus": 4,
 		"feature_choices": [],
-		"features": [    {
-      "name": "Bardic Inspiration (d10)",
-    },
-    {
-      "name": "Choose: Expertise 2",
-    },
-    {
-      "name": "Magical Secrets 1",
-    }],
+		"features": [
+			{
+				"name": "Bardic Inspiration (d10)"
+			},
+			{
+				"name": "Choose: Expertise 2"
+			},
+			{
+				"name": "Magical Secrets 1"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 14,
 		"spell_slots_level_1": 4,
@@ -701,10 +768,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 30,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
 		"subclass": {
-},
+			
+		}
 	},
 	{
 		"level": 11,
@@ -730,9 +798,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 31,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -740,9 +810,10 @@
 		"prof_bonus": 4,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Ability Score Improvement 3",
-    }],
+			{
+				"name": "Ability Score Improvement 3"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 15,
 		"spell_slots_level_1": 4,
@@ -761,9 +832,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 32,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -771,9 +844,10 @@
 		"prof_bonus": 5,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Song of Rest (d10)",
-    }],
+			{
+				"name": "Song of Rest (d10)"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 16,
 		"spell_slots_level_1": 4,
@@ -792,9 +866,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 33,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -802,9 +878,10 @@
 		"prof_bonus": 5,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Magical Secrets 2",
-    }],
+			{
+				"name": "Magical Secrets 2"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 18,
 		"spell_slots_level_1": 4,
@@ -823,9 +900,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 34,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -833,9 +912,10 @@
 		"prof_bonus": 5,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Bardic Inspiration (d12)",
-    }],
+			{
+				"name": "Bardic Inspiration (d12)"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 19,
 		"spell_slots_level_1": 4,
@@ -854,9 +934,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 35,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -864,9 +946,10 @@
 		"prof_bonus": 5,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Ability Score Improvement 4",
-    }],
+			{
+				"name": "Ability Score Improvement 4"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 19,
 		"spell_slots_level_1": 4,
@@ -885,9 +968,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 36,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -895,9 +980,10 @@
 		"prof_bonus": 6,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Song of Rest (d12)",
-    }],
+			{
+				"name": "Song of Rest (d12)"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 20,
 		"spell_slots_level_1": 4,
@@ -916,9 +1002,11 @@
 		"magical_secrets_max_9": 0,
 		"index": 37,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -926,9 +1014,10 @@
 		"prof_bonus": 6,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Magical Secrets 3",
-    }],
+			{
+				"name": "Magical Secrets 3"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 22,
 		"spell_slots_level_1": 4,
@@ -947,9 +1036,11 @@
 		"magical_secrets_max_9": 2,
 		"index": 38,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -957,9 +1048,10 @@
 		"prof_bonus": 6,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Ability Score Improvement 5",
-    }],
+			{
+				"name": "Ability Score Improvement 5"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 22,
 		"spell_slots_level_1": 4,
@@ -978,9 +1070,11 @@
 		"magical_secrets_max_9": 2,
 		"index": 39,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -988,9 +1082,10 @@
 		"prof_bonus": 6,
 		"feature_choices": [],
 		"features": [
-    {
-      "name": "Superior Inspiration",
-    }],
+			{
+				"name": "Superior Inspiration"
+			}
+		],
 		"cantrips_known": 4,
 		"spells_known": 22,
 		"spell_slots_level_1": 4,
@@ -1009,9 +1104,11 @@
 		"magical_secrets_max_9": 2,
 		"index": 40,
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -1034,9 +1131,11 @@
 		"destroy_undead_cr": 0,
 		"index": 41,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -1059,9 +1158,11 @@
 		"destroy_undead_cr": 0,
 		"index": 42,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -1084,9 +1185,11 @@
 		"destroy_undead_cr": 0,
 		"index": 43,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -1109,9 +1212,11 @@
 		"destroy_undead_cr": 0,
 		"index": 44,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -1134,9 +1239,11 @@
 		"destroy_undead_cr": 0.5,
 		"index": 45,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -1159,9 +1266,11 @@
 		"destroy_undead_cr": 0.5,
 		"index": 46,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -1184,9 +1293,11 @@
 		"destroy_undead_cr": 0.5,
 		"index": 47,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -1209,9 +1320,11 @@
 		"destroy_undead_cr": 1,
 		"index": 48,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -1234,9 +1347,11 @@
 		"destroy_undead_cr": 1,
 		"index": 49,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -1259,9 +1374,11 @@
 		"destroy_undead_cr": 1,
 		"index": 50,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -1284,9 +1401,11 @@
 		"destroy_undead_cr": 2,
 		"index": 51,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -1309,9 +1428,11 @@
 		"destroy_undead_cr": 2,
 		"index": 52,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -1334,9 +1455,11 @@
 		"destroy_undead_cr": 2,
 		"index": 53,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -1359,9 +1482,11 @@
 		"destroy_undead_cr": 3,
 		"index": 54,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -1384,9 +1509,11 @@
 		"destroy_undead_cr": 3,
 		"index": 55,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -1409,9 +1536,11 @@
 		"destroy_undead_cr": 3,
 		"index": 56,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -1434,9 +1563,11 @@
 		"destroy_undead_cr": 4,
 		"index": 57,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -1459,9 +1590,11 @@
 		"destroy_undead_cr": 4,
 		"index": 58,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -1484,9 +1617,11 @@
 		"destroy_undead_cr": 4,
 		"index": 59,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -1509,9 +1644,11 @@
 		"destroy_undead_cr": 4,
 		"index": 60,
 		"class": {
-			"name": "Cleric",
+			"name": "Cleric"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -1534,9 +1671,11 @@
 		"wild_shape_fly": "no",
 		"index": 61,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -1559,9 +1698,11 @@
 		"wild_shape_fly": "no",
 		"index": 62,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -1584,9 +1725,11 @@
 		"wild_shape_fly": "no",
 		"index": 63,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -1609,9 +1752,11 @@
 		"wild_shape_fly": "no",
 		"index": 64,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -1634,9 +1779,11 @@
 		"wild_shape_fly": "no",
 		"index": 65,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -1659,9 +1806,11 @@
 		"wild_shape_fly": "no",
 		"index": 66,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -1684,9 +1833,11 @@
 		"wild_shape_fly": "no",
 		"index": 67,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -1709,9 +1860,11 @@
 		"wild_shape_fly": "yes",
 		"index": 68,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -1734,9 +1887,11 @@
 		"wild_shape_fly": "yes",
 		"index": 69,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -1759,9 +1914,11 @@
 		"wild_shape_fly": "yes",
 		"index": 70,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -1784,9 +1941,11 @@
 		"wild_shape_fly": "yes",
 		"index": 71,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -1809,9 +1968,11 @@
 		"wild_shape_fly": "yes",
 		"index": 72,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -1834,9 +1995,11 @@
 		"wild_shape_fly": "yes",
 		"index": 73,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -1859,9 +2022,11 @@
 		"wild_shape_fly": "yes",
 		"index": 74,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -1884,9 +2049,11 @@
 		"wild_shape_fly": "yes",
 		"index": 75,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -1909,9 +2076,11 @@
 		"wild_shape_fly": "yes",
 		"index": 76,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -1934,9 +2103,11 @@
 		"wild_shape_fly": "yes",
 		"index": 77,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -1959,9 +2130,11 @@
 		"wild_shape_fly": "yes",
 		"index": 78,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -1984,9 +2157,11 @@
 		"wild_shape_fly": "yes",
 		"index": 79,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -2009,9 +2184,11 @@
 		"wild_shape_fly": "yes",
 		"index": 80,
 		"class": {
-			"name": "Druid",
+			"name": "Druid"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -2024,9 +2201,11 @@
 		"extra_attacks": 0,
 		"index": 81,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -2039,9 +2218,11 @@
 		"extra_attacks": 0,
 		"index": 82,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -2054,9 +2235,11 @@
 		"extra_attacks": 0,
 		"index": 83,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -2069,9 +2252,11 @@
 		"extra_attacks": 0,
 		"index": 84,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -2084,9 +2269,11 @@
 		"extra_attacks": 1,
 		"index": 85,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -2099,9 +2286,11 @@
 		"extra_attacks": 1,
 		"index": 86,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -2114,9 +2303,11 @@
 		"extra_attacks": 1,
 		"index": 87,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -2129,9 +2320,11 @@
 		"extra_attacks": 1,
 		"index": 88,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -2144,9 +2337,11 @@
 		"extra_attacks": 1,
 		"index": 89,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -2159,9 +2354,11 @@
 		"extra_attacks": 1,
 		"index": 90,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -2174,9 +2371,11 @@
 		"extra_attacks": 2,
 		"index": 91,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -2189,9 +2388,11 @@
 		"extra_attacks": 2,
 		"index": 92,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -2204,9 +2405,11 @@
 		"extra_attacks": 2,
 		"index": 93,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -2219,9 +2422,11 @@
 		"extra_attacks": 2,
 		"index": 94,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -2234,9 +2439,11 @@
 		"extra_attacks": 2,
 		"index": 95,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -2249,9 +2456,11 @@
 		"extra_attacks": 2,
 		"index": 96,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -2264,9 +2473,11 @@
 		"extra_attacks": 2,
 		"index": 97,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -2279,9 +2490,11 @@
 		"extra_attacks": 2,
 		"index": 98,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -2294,9 +2507,11 @@
 		"extra_attacks": 2,
 		"index": 99,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -2309,9 +2524,11 @@
 		"extra_attacks": 3,
 		"index": 100,
 		"class": {
-			"name": "Fighter",
+			"name": "Fighter"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -2327,9 +2544,11 @@
 		"unarmored_movement": 10,
 		"index": 101,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -2345,9 +2564,11 @@
 		"unarmored_movement": 10,
 		"index": 102,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -2363,9 +2584,11 @@
 		"unarmored_movement": 10,
 		"index": 103,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -2381,9 +2604,11 @@
 		"unarmored_movement": 10,
 		"index": 104,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -2399,9 +2624,11 @@
 		"unarmored_movement": 15,
 		"index": 105,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -2417,9 +2644,11 @@
 		"unarmored_movement": 15,
 		"index": 106,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -2435,9 +2664,11 @@
 		"unarmored_movement": 15,
 		"index": 107,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -2453,9 +2684,11 @@
 		"unarmored_movement": 15,
 		"index": 108,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -2471,9 +2704,11 @@
 		"unarmored_movement": 15,
 		"index": 109,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -2489,9 +2724,11 @@
 		"unarmored_movement": 20,
 		"index": 110,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -2507,9 +2744,11 @@
 		"unarmored_movement": 20,
 		"index": 111,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -2525,9 +2764,11 @@
 		"unarmored_movement": 20,
 		"index": 112,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -2543,9 +2784,11 @@
 		"unarmored_movement": 20,
 		"index": 113,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -2561,9 +2804,11 @@
 		"unarmored_movement": 25,
 		"index": 114,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -2579,9 +2824,11 @@
 		"unarmored_movement": 25,
 		"index": 115,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -2597,9 +2844,11 @@
 		"unarmored_movement": 25,
 		"index": 116,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -2615,9 +2864,11 @@
 		"unarmored_movement": 25,
 		"index": 117,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -2633,9 +2884,11 @@
 		"unarmored_movement": 30,
 		"index": 118,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -2651,9 +2904,11 @@
 		"unarmored_movement": 30,
 		"index": 119,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -2669,9 +2924,11 @@
 		"unarmored_movement": 30,
 		"index": 120,
 		"class": {
-			"name": "Monk",
+			"name": "Monk"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -2687,9 +2944,11 @@
 		"aura_range": 0,
 		"index": 121,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -2705,9 +2964,11 @@
 		"aura_range": 0,
 		"index": 122,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -2723,9 +2984,11 @@
 		"aura_range": 0,
 		"index": 123,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -2741,9 +3004,11 @@
 		"aura_range": 0,
 		"index": 124,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -2759,9 +3024,11 @@
 		"aura_range": 0,
 		"index": 125,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -2777,9 +3044,11 @@
 		"aura_range": 10,
 		"index": 126,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -2795,9 +3064,11 @@
 		"aura_range": 10,
 		"index": 127,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -2813,9 +3084,11 @@
 		"aura_range": 10,
 		"index": 128,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -2831,9 +3104,11 @@
 		"aura_range": 10,
 		"index": 129,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -2849,9 +3124,11 @@
 		"aura_range": 10,
 		"index": 130,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -2867,9 +3144,11 @@
 		"aura_range": 10,
 		"index": 131,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -2885,9 +3164,11 @@
 		"aura_range": 10,
 		"index": 132,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -2903,9 +3184,11 @@
 		"aura_range": 10,
 		"index": 133,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -2921,9 +3204,11 @@
 		"aura_range": 10,
 		"index": 134,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -2939,9 +3224,11 @@
 		"aura_range": 0,
 		"index": 135,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -2957,9 +3244,11 @@
 		"aura_range": 10,
 		"index": 136,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -2975,9 +3264,11 @@
 		"aura_range": 10,
 		"index": 137,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -2993,9 +3284,11 @@
 		"aura_range": 30,
 		"index": 138,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -3011,9 +3304,11 @@
 		"aura_range": 30,
 		"index": 139,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -3029,9 +3324,11 @@
 		"aura_range": 30,
 		"index": 140,
 		"class": {
-			"name": "Paladin",
+			"name": "Paladin"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -3049,9 +3346,11 @@
 		"favored_terrain": 1,
 		"index": 141,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -3069,9 +3368,11 @@
 		"favored_terrain": 1,
 		"index": 142,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -3089,9 +3390,11 @@
 		"favored_terrain": 1,
 		"index": 143,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -3109,9 +3412,11 @@
 		"favored_terrain": 1,
 		"index": 144,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -3129,9 +3434,11 @@
 		"favored_terrain": 1,
 		"index": 145,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -3149,9 +3456,11 @@
 		"favored_terrain": 2,
 		"index": 146,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -3169,9 +3478,11 @@
 		"favored_terrain": 2,
 		"index": 147,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -3189,9 +3500,11 @@
 		"favored_terrain": 2,
 		"index": 148,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -3209,9 +3522,11 @@
 		"favored_terrain": 2,
 		"index": 149,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -3229,9 +3544,11 @@
 		"favored_terrain": 3,
 		"index": 150,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -3249,9 +3566,11 @@
 		"favored_terrain": 3,
 		"index": 151,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -3269,9 +3588,11 @@
 		"favored_terrain": 3,
 		"index": 152,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -3289,9 +3610,11 @@
 		"favored_terrain": 3,
 		"index": 153,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -3309,9 +3632,11 @@
 		"favored_terran": 3,
 		"index": 154,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -3329,9 +3654,11 @@
 		"favored_terran": 3,
 		"index": 155,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -3349,9 +3676,11 @@
 		"favored_terran": 3,
 		"index": 156,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -3369,9 +3698,11 @@
 		"favored_terran": 3,
 		"index": 157,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -3389,9 +3720,11 @@
 		"favored_terran": 3,
 		"index": 158,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -3409,9 +3742,11 @@
 		"favored_terran": 3,
 		"index": 159,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -3429,9 +3764,11 @@
 		"favored_terran": 3,
 		"index": 160,
 		"class": {
-			"name": "Ranger",
+			"name": "Ranger"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -3439,15 +3776,15 @@
 		"prof_bonus": 2,
 		"feature_choices": [
 			{
-				"name": "Expertise 1",
+				"name": "Expertise 1"
 			}
 		],
 		"features": [
 			{
-				"name": "Sneak Attack",
+				"name": "Sneak Attack"
 			},
 			{
-				"name": "Thieves' Cant",
+				"name": "Thieves' Cant"
 			}
 		],
 		"sneak_attack": {
@@ -3456,9 +3793,11 @@
 		},
 		"index": 161,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -3467,7 +3806,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Cunning Action",
+				"name": "Cunning Action"
 			}
 		],
 		"sneak_attack": {
@@ -3476,9 +3815,11 @@
 		},
 		"index": 162,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -3487,7 +3828,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Roguish Archetype",
+				"name": "Roguish Archetype"
 			}
 		],
 		"sneak_attack": {
@@ -3496,9 +3837,11 @@
 		},
 		"index": 163,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -3507,7 +3850,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 1",
+				"name": "Ability Score Improvement 1"
 			}
 		],
 		"sneak_attack": {
@@ -3516,9 +3859,11 @@
 		},
 		"index": 164,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -3527,7 +3872,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Uncanny Dodge",
+				"name": "Uncanny Dodge"
 			}
 		],
 		"sneak_attack": {
@@ -3536,9 +3881,11 @@
 		},
 		"index": 165,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -3546,7 +3893,7 @@
 		"prof_bonus": 3,
 		"feature_choices": [
 			{
-				"name": "Expertise 2",
+				"name": "Expertise 2"
 			}
 		],
 		"features": [],
@@ -3556,9 +3903,11 @@
 		},
 		"index": 166,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -3567,7 +3916,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Evasion",
+				"name": "Evasion"
 			}
 		],
 		"sneak_attack": {
@@ -3576,9 +3925,11 @@
 		},
 		"index": 167,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -3587,7 +3938,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 2",
+				"name": "Ability Score Improvement 2"
 			}
 		],
 		"sneak_attack": {
@@ -3596,9 +3947,11 @@
 		},
 		"index": 168,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -3607,7 +3960,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 2",
+				"name": "Ability Score Improvement 2"
 			}
 		],
 		"sneak_attack": {
@@ -3616,9 +3969,11 @@
 		},
 		"index": 169,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -3627,7 +3982,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 3",
+				"name": "Ability Score Improvement 3"
 			}
 		],
 		"sneak_attack": {
@@ -3636,9 +3991,11 @@
 		},
 		"index": 170,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -3647,7 +4004,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Reliable Talent",
+				"name": "Reliable Talent"
 			}
 		],
 		"sneak_attack": {
@@ -3656,9 +4013,11 @@
 		},
 		"index": 171,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -3667,7 +4026,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 4",
+				"name": "Ability Score Improvement 4"
 			}
 		],
 		"sneak_attack": {
@@ -3676,9 +4035,11 @@
 		},
 		"index": 172,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -3692,9 +4053,11 @@
 		},
 		"index": 173,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -3703,7 +4066,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Blindsense",
+				"name": "Blindsense"
 			}
 		],
 		"sneak_attack": {
@@ -3712,9 +4075,11 @@
 		},
 		"index": 174,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -3723,7 +4088,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Slippery Mind",
+				"name": "Slippery Mind"
 			}
 		],
 		"sneak_attack": {
@@ -3732,9 +4097,11 @@
 		},
 		"index": 175,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -3743,7 +4110,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 5",
+				"name": "Ability Score Improvement 5"
 			}
 		],
 		"sneak_attack": {
@@ -3752,9 +4119,11 @@
 		},
 		"index": 176,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -3768,9 +4137,11 @@
 		},
 		"index": 177,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -3779,7 +4150,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Elusive",
+				"name": "Elusive"
 			}
 		],
 		"sneak_attack": {
@@ -3788,9 +4159,11 @@
 		},
 		"index": 178,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -3799,7 +4172,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Ability Score Improvement 6",
+				"name": "Ability Score Improvement 6"
 			}
 		],
 		"sneak_attack": {
@@ -3808,9 +4181,11 @@
 		},
 		"index": 179,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -3819,7 +4194,7 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Stroke of Luck",
+				"name": "Stroke of Luck"
 			}
 		],
 		"sneak_attack": {
@@ -3828,9 +4203,11 @@
 		},
 		"index": 180,
 		"class": {
-			"name": "Rogue",
+			"name": "Rogue"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -3854,9 +4231,11 @@
 		"creating_spell_slots": [],
 		"index": 181,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -3901,9 +4280,11 @@
 		],
 		"index": 182,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -3948,9 +4329,11 @@
 		],
 		"index": 183,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -3995,9 +4378,11 @@
 		],
 		"index": 184,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -4042,9 +4427,11 @@
 		],
 		"index": 185,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -4089,9 +4476,11 @@
 		],
 		"index": 186,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -4136,9 +4525,11 @@
 		],
 		"index": 187,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -4183,9 +4574,11 @@
 		],
 		"index": 188,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -4230,9 +4623,11 @@
 		],
 		"index": 189,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -4277,9 +4672,11 @@
 		],
 		"index": 190,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -4324,9 +4721,11 @@
 		],
 		"index": 191,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -4371,9 +4770,11 @@
 		],
 		"index": 192,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -4418,9 +4819,11 @@
 		],
 		"index": 193,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -4465,9 +4868,11 @@
 		],
 		"index": 194,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -4512,9 +4917,11 @@
 		],
 		"index": 195,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -4559,9 +4966,11 @@
 		],
 		"index": 196,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -4606,9 +5015,11 @@
 		],
 		"index": 197,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -4653,9 +5064,11 @@
 		],
 		"index": 198,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -4700,9 +5113,11 @@
 		],
 		"index": 199,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -4747,9 +5162,11 @@
 		],
 		"index": 200,
 		"class": {
-			"name": "Sorcerer",
+			"name": "Sorcerer"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -4775,9 +5192,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 201,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -4803,9 +5222,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 202,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -4831,9 +5252,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 203,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -4859,9 +5282,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 204,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -4887,9 +5312,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 205,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -4915,9 +5342,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 206,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -4943,9 +5372,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 207,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -4971,9 +5402,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 208,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -4999,9 +5432,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 209,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -5027,9 +5462,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 210,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -5055,9 +5492,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 211,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -5083,9 +5522,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 212,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -5111,9 +5552,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 213,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -5139,9 +5582,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 214,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -5167,9 +5612,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 215,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -5195,9 +5642,11 @@
 		"mystic_arcanum_level_9": 0,
 		"index": 216,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -5223,9 +5672,11 @@
 		"mystic_arcanum_level_9": 1,
 		"index": 217,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -5251,9 +5702,11 @@
 		"mystic_arcanum_level_9": 1,
 		"index": 218,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -5279,9 +5732,11 @@
 		"mystic_arcanum_level_9": 1,
 		"index": 219,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -5307,9 +5762,11 @@
 		"mystic_arcanum_level_9": 1,
 		"index": 220,
 		"class": {
-			"name": "Warlock",
+			"name": "Warlock"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 1,
@@ -5330,9 +5787,11 @@
 		"arcane_recovery_levels": 1,
 		"index": 221,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 2,
@@ -5353,9 +5812,11 @@
 		"arcane_recovery_levels": 1,
 		"index": 222,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
@@ -5376,9 +5837,11 @@
 		"arcane_recovery_levels": 2,
 		"index": 223,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 4,
@@ -5399,9 +5862,11 @@
 		"arcane_recovery_levels": 2,
 		"index": 224,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 5,
@@ -5422,9 +5887,11 @@
 		"arcane_recovery_levels": 3,
 		"index": 225,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 6,
@@ -5445,9 +5912,11 @@
 		"arcane_recovery_levels": 3,
 		"index": 226,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 7,
@@ -5468,9 +5937,11 @@
 		"arcane_recovery_levels": 4,
 		"index": 227,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 8,
@@ -5491,9 +5962,11 @@
 		"arcane_recovery_levels": 4,
 		"index": 228,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 9,
@@ -5514,9 +5987,11 @@
 		"arcane_recovery_levels": 5,
 		"index": 229,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 10,
@@ -5537,9 +6012,11 @@
 		"arcane_recovery_levels": 5,
 		"index": 230,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 11,
@@ -5560,9 +6037,11 @@
 		"arcane_recovery_levels": 6,
 		"index": 231,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 12,
@@ -5583,9 +6062,11 @@
 		"arcane_recovery_levels": 6,
 		"index": 232,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 13,
@@ -5606,9 +6087,11 @@
 		"arcane_recovery_levels": 7,
 		"index": 233,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 14,
@@ -5629,9 +6112,11 @@
 		"arcane_recovery_levels": 7,
 		"index": 234,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 15,
@@ -5652,9 +6137,11 @@
 		"arcane_recovery_levels": 8,
 		"index": 235,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 16,
@@ -5675,9 +6162,11 @@
 		"arcane_recovery_levels": 8,
 		"index": 236,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 17,
@@ -5698,9 +6187,11 @@
 		"arcane_recovery_levels": 9,
 		"index": 237,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 18,
@@ -5721,9 +6212,11 @@
 		"arcane_recovery_levels": 9,
 		"index": 238,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 19,
@@ -5744,9 +6237,11 @@
 		"arcane_recovery_levels": 10,
 		"index": 239,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 20,
@@ -5767,26 +6262,28 @@
 		"arcane_recovery_levels": 10,
 		"index": 240,
 		"class": {
-			"name": "Wizard",
+			"name": "Wizard"
 		},
-		"subclass": {},
+		"subclass": {
+			
+		}
 	},
 	{
 		"level": 3,
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Primal Path",
+				"name": "Primal Path"
 			},
 			{
-				"name": "Frenzy",
+				"name": "Frenzy"
 			}
 		],
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
 		"subclass": {
-			"name": "Berserker",
+			"name": "Berserker"
 		},
 		"index": 241
 	},
@@ -5795,30 +6292,30 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Mindless Rage",
+				"name": "Mindless Rage"
 			}
 		],
 		"index": 242,
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
 		"subclass": {
-			"name": "Berserker",
-		},
+			"name": "Berserker"
+		}
 	},
 	{
 		"level": 10,
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Intimidating Presence",
+				"name": "Intimidating Presence"
 			}
 		],
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
 		"subclass": {
-			"name": "Berserker",
+			"name": "Berserker"
 		},
 		"index": 243
 	},
@@ -5827,14 +6324,14 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Retaliation",
+				"name": "Retaliation"
 			}
 		],
 		"class": {
-			"name": "Barbarian",
+			"name": "Barbarian"
 		},
 		"subclass": {
-			"name": "Berserker",
+			"name": "Berserker"
 		},
 		"index": 244
 	},
@@ -5844,17 +6341,17 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Bonus Proficiencies",
+				"name": "Bonus Proficiencies"
 			},
 			{
-				"name": "Cutting Words",
+				"name": "Cutting Words"
 			}
 		],
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
 		"subclass": {
-			"name": "Lore",
+			"name": "Lore"
 		},
 		"index": 245
 	},
@@ -5864,14 +6361,14 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Additional Magical Secrets",
+				"name": "Additional Magical Secrets"
 			}
 		],
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
 		"subclass": {
-			"name": "Lore",
+			"name": "Lore"
 		},
 		"index": 246
 	},
@@ -5881,14 +6378,14 @@
 		"feature_choices": [],
 		"features": [
 			{
-				"name": "Peerless Skill",
+				"name": "Peerless Skill"
 			}
 		],
 		"class": {
-			"name": "Bard",
+			"name": "Bard"
 		},
 		"subclass": {
-			"name": "Lore",
+			"name": "Lore"
 		},
 		"index": 247
 	}

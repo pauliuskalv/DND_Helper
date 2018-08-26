@@ -31,27 +31,27 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Light armor",
+				"name": "Light armor"
 			},
 			{
-				"name": "Medium armor",
+				"name": "Medium armor"
 			},
 			{
-				"name": "Shields",
+				"name": "Shields"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			},
 			{
-				"name": "Martial weapons",
+				"name": "Martial weapons"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "STR",
+				"name": "STR"
 			},
 			{
-				"name": "CON",
+				"name": "CON"
 			}
 		],
 		"starting_equipment": {
@@ -67,7 +67,7 @@
 		],
 		"spellcasting": {
 			
-		},
+		}
 	},
 	{
 		"index": 2,
@@ -173,30 +173,30 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Light armor",
+				"name": "Light armor"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			},
 			{
-				"name": "Longswords",
+				"name": "Longswords"
 			},
 			{
-				"name": "Rapiers",
+				"name": "Rapiers"
 			},
 			{
-				"name": "Shortswords",
+				"name": "Shortswords"
 			},
 			{
-				"name": "Crossbows, hand",
+				"name": "Crossbows, hand"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "DEX",
+				"name": "DEX"
 			},
 			{
-				"name": "CHA",
+				"name": "CHA"
 			}
 		],
 		"starting_equipment": {
@@ -212,7 +212,7 @@
 		],
 		"spellcasting": {
 			"class": "Bard"
-		},
+		}
 	},
 	{
 		"index": 3,
@@ -243,24 +243,24 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Light armor",
+				"name": "Light armor"
 			},
 			{
-				"name": "Medium armor",
+				"name": "Medium armor"
 			},
 			{
-				"name": "Shields",
+				"name": "Shields"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "WIS",
+				"name": "WIS"
 			},
 			{
-				"name": "CHA",
+				"name": "CHA"
 			}
 		],
 		"starting_equipment": {
@@ -276,7 +276,7 @@
 		],
 		"spellcasting": {
 			"class": "Cleric"
-		},
+		}
 	},
 	{
 		"index": 4,
@@ -316,54 +316,54 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Light armor",
+				"name": "Light armor"
 			},
 			{
-				"name": "Medium armor",
+				"name": "Medium armor"
 			},
 			{
-				"name": "Shields",
+				"name": "Shields"
 			},
 			{
-				"name": "Clubs",
+				"name": "Clubs"
 			},
 			{
-				"name": "Daggers",
+				"name": "Daggers"
 			},
 			{
-				"name": "Javelins",
+				"name": "Javelins"
 			},
 			{
-				"name": "Maces",
+				"name": "Maces"
 			},
 			{
-				"name": "Quarterstaffs",
+				"name": "Quarterstaffs"
 			},
 			{
-				"name": "Sickles",
+				"name": "Sickles"
 			},
 			{
-				"name": "Spears",
+				"name": "Spears"
 			},
 			{
-				"name": "Darts",
+				"name": "Darts"
 			},
 			{
-				"name": "Slings",
+				"name": "Slings"
 			},
 			{
-				"name": "Scimitars",
+				"name": "Scimitars"
 			},
 			{
-				"name": "Herbalism Kit",
+				"name": "Herbalism Kit"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "INT",
+				"name": "INT"
 			},
 			{
-				"name": "WIS",
+				"name": "WIS"
 			}
 		],
 		"starting_equipment": {
@@ -379,7 +379,7 @@
 		],
 		"spellcasting": {
 			"class": "Druid"
-		},
+		}
 	},
 	{
 		"index": 5,
@@ -419,24 +419,24 @@
 		],
 		"proficiencies": [
 			{
-				"name": "All armor",
+				"name": "All armor"
 			},
 			{
-				"name": "Shields",
+				"name": "Shields"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			},
 			{
-				"name": "Martial weapons",
+				"name": "Martial weapons"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "STR",
+				"name": "STR"
 			},
 			{
-				"name": "CON",
+				"name": "CON"
 			}
 		],
 		"starting_equipment": {
@@ -452,7 +452,7 @@
 		],
 		"spellcasting": {
 			
-		},
+		}
 	},
 	{
 		"index": 6,
@@ -585,18 +585,18 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			},
 			{
-				"name": "Shortswords",
+				"name": "Shortswords"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "STR",
+				"name": "STR"
 			},
 			{
-				"name": "DEX",
+				"name": "DEX"
 			}
 		],
 		"starting_equipment": {
@@ -612,7 +612,7 @@
 		],
 		"spellcasting": {
 			
-		},
+		}
 	},
 	{
 		"index": 7,
@@ -646,24 +646,24 @@
 		],
 		"proficiencies": [
 			{
-				"name": "All armor",
+				"name": "All armor"
 			},
 			{
-				"name": "Shields",
+				"name": "Shields"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			},
 			{
-				"name": "Martial weapons",
+				"name": "Martial weapons"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "WIS",
+				"name": "WIS"
 			},
 			{
-				"name": "CHA",
+				"name": "CHA"
 			}
 		],
 		"starting_equipment": {
@@ -679,7 +679,7 @@
 		],
 		"spellcasting": {
 			"class": "Paladin"
-		},
+		}
 	},
 	{
 		"index": 8,
@@ -719,27 +719,27 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Light armor",
+				"name": "Light armor"
 			},
 			{
-				"name": "Medium armor",
+				"name": "Medium armor"
 			},
 			{
-				"name": "Shields",
+				"name": "Shields"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			},
 			{
-				"name": "Martial weapons",
+				"name": "Martial weapons"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "STR",
+				"name": "STR"
 			},
 			{
-				"name": "DEX",
+				"name": "DEX"
 			}
 		],
 		"starting_equipment": {
@@ -755,7 +755,7 @@
 		],
 		"spellcasting": {
 			"class": "Ranger"
-		},
+		}
 	},
 	{
 		"index": 9,
@@ -804,33 +804,33 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Light armor",
+				"name": "Light armor"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			},
 			{
-				"name": "Longswords",
+				"name": "Longswords"
 			},
 			{
-				"name": "Rapiers",
+				"name": "Rapiers"
 			},
 			{
-				"name": "Shortswords",
+				"name": "Shortswords"
 			},
 			{
-				"name": "Crossbows, hand",
+				"name": "Crossbows, hand"
 			},
 			{
-				"name": "Thieves' Tools",
+				"name": "Thieves' Tools"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "DEX",
+				"name": "DEX"
 			},
 			{
-				"name": "INT",
+				"name": "INT"
 			}
 		],
 		"starting_equipment": {
@@ -846,7 +846,7 @@
 		],
 		"spellcasting": {
 			
-		},
+		}
 	},
 	{
 		"index": 10,
@@ -880,24 +880,24 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Daggers",
+				"name": "Daggers"
 			},
 			{
-				"name": "Quarterstaffs",
+				"name": "Quarterstaffs"
 			},
 			{
-				"name": "Darts",
+				"name": "Darts"
 			},
 			{
-				"name": "Slings",
+				"name": "Slings"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "CON",
+				"name": "CON"
 			},
 			{
-				"name": "CHA",
+				"name": "CHA"
 			}
 		],
 		"starting_equipment": {
@@ -913,7 +913,7 @@
 		],
 		"spellcasting": {
 			"class": "Sorcerer"
-		},
+		}
 	},
 	{
 		"index": 11,
@@ -950,18 +950,18 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Light armor",
+				"name": "Light armor"
 			},
 			{
-				"name": "Simple weapons",
+				"name": "Simple weapons"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "WIS",
+				"name": "WIS"
 			},
 			{
-				"name": "CHA",
+				"name": "CHA"
 			}
 		],
 		"starting_equipment": {
@@ -977,7 +977,7 @@
 		],
 		"spellcasting": {
 			"class": "Warlock"
-		},
+		}
 	},
 	{
 		"index": 12,
@@ -1011,24 +1011,24 @@
 		],
 		"proficiencies": [
 			{
-				"name": "Daggers",
+				"name": "Daggers"
 			},
 			{
-				"name": "Quarterstaffs",
+				"name": "Quarterstaffs"
 			},
 			{
-				"name": "Darts",
+				"name": "Darts"
 			},
 			{
-				"name": "Slings",
+				"name": "Slings"
 			}
 		],
 		"saving_throws": [
 			{
-				"name": "INT",
+				"name": "INT"
 			},
 			{
-				"name": "WIS",
+				"name": "WIS"
 			}
 		],
 		"starting_equipment": {
@@ -1044,6 +1044,6 @@
 		],
 		"spellcasting": {
 			"class": "Wizard"
-		},
+		}
 	}
 ]

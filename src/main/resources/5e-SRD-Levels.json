@@ -6,10 +6,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Rage",
+        "name": "Rage"
       },
       {
-        "name": "Unarmored Defense",
+        "name": "Unarmored Defense"
       }
     ],
     "class_specific": {
@@ -19,9 +19,11 @@
     },
     "index": 1,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -30,10 +32,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Reckless Attack",
+        "name": "Reckless Attack"
       },
       {
-        "name": "Danger Sense",
+        "name": "Danger Sense"
       }
     ],
     "class_specific": {
@@ -43,9 +45,11 @@
     },
     "index": 2,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -54,7 +58,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Primal Path",
+        "name": "Primal Path"
       }
     ],
     "class_specific": {
@@ -64,9 +68,11 @@
     },
     "index": 3,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -75,7 +81,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "class_specific": {
@@ -85,9 +91,11 @@
     },
     "index": 4,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -96,10 +104,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Extra Attack",
+        "name": "Extra Attack"
       },
       {
-        "name": "Fast Movement",
+        "name": "Fast Movement"
       }
     ],
     "class_specific": {
@@ -109,9 +117,11 @@
     },
     "index": 5,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -119,7 +129,9 @@
     "prof_bonus": 3,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "rage_count": 4,
       "rage_damage_bonus": 2,
@@ -127,9 +139,11 @@
     },
     "index": 6,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -138,10 +152,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Mindless Rage",
+        "name": "Mindless Rage"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "rage_count": 4,
       "rage_damage_bonus": 2,
@@ -149,9 +165,11 @@
     },
     "index": 7,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -160,10 +178,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Feral Instinct",
+        "name": "Feral Instinct"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "rage_count": 4,
       "rage_damage_bonus": 2,
@@ -171,9 +191,11 @@
     },
     "index": 8,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -182,10 +204,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "rage_count": 4,
       "rage_damage_bonus": 3,
@@ -193,9 +217,11 @@
     },
     "index": 9,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -203,7 +229,9 @@
     "prof_bonus": 4,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "rage_count": 4,
       "rage_damage_bonus": 3,
@@ -211,9 +239,11 @@
     },
     "index": 10,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -222,10 +252,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Relentless Rage",
+        "name": "Relentless Rage"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "rage_count": 4,
       "rage_damage_bonus": 3,
@@ -233,9 +265,11 @@
     },
     "index": 11,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -244,7 +278,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
     "class_specific": {
@@ -254,9 +288,11 @@
     },
     "index": 12,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -265,7 +301,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Brutal Critical (2 dice)",
+        "name": "Brutal Critical (2 dice)"
       }
     ],
     "class_specific": {
@@ -275,9 +311,11 @@
     },
     "index": 13,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -292,9 +330,11 @@
     },
     "index": 14,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -303,7 +343,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Persistent Rage",
+        "name": "Persistent Rage"
       }
     ],
     "class_specific": {
@@ -313,9 +353,11 @@
     },
     "index": 15,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -324,7 +366,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "class_specific": {
@@ -334,9 +376,11 @@
     },
     "index": 16,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -345,7 +389,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Brutal Critical (3 dice)",
+        "name": "Brutal Critical (3 dice)"
       }
     ],
     "class_specific": {
@@ -355,9 +399,11 @@
     },
     "index": 17,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -366,7 +412,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Indomitable Might",
+        "name": "Indomitable Might"
       }
     ],
     "class_specific": {
@@ -376,9 +422,11 @@
     },
     "index": 18,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -387,7 +435,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "class_specific": {
@@ -397,9 +445,11 @@
     },
     "index": 19,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -408,7 +458,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Fast Movement",
+        "name": "Fast Movement"
       }
     ],
     "class_specific": {
@@ -418,9 +468,11 @@
     },
     "index": 20,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -429,13 +481,13 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Spellcasting",
+        "name": "Spellcasting"
       },
       {
-        "name": "Bardic Inspiration (d6)",
+        "name": "Bardic Inspiration (d6)"
       },
       {
-        "name": "Superior Inspiration",
+        "name": "Superior Inspiration"
       }
     ],
     "spellcasting": {
@@ -460,9 +512,11 @@
     },
     "index": 21,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -471,10 +525,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Jack of All Trades",
+        "name": "Jack of All Trades"
       },
       {
-        "name": "Song of Rest (d6)",
+        "name": "Song of Rest (d6)"
       }
     ],
     "spellcasting": {
@@ -499,9 +553,11 @@
     },
     "index": 22,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -509,12 +565,12 @@
     "prof_bonus": 2,
     "feature_choices": [
       {
-        "name": "Choose: Expertise 1",
+        "name": "Choose: Expertise 1"
       }
     ],
     "features": [
       {
-        "name": "Bard College",
+        "name": "Bard College"
       }
     ],
     "spellcasting": {
@@ -539,9 +595,11 @@
     },
     "index": 23,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -550,7 +608,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -575,9 +633,11 @@
     },
     "index": 24,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -586,10 +646,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Bardic Inspiration (d8)",
+        "name": "Bardic Inspiration (d8)"
       },
       {
-        "name": "Font of Inspiration",
+        "name": "Font of Inspiration"
       }
     ],
     "spellcasting": {
@@ -614,9 +674,11 @@
     },
     "index": 25,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -646,9 +708,11 @@
     },
     "index": 26,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -657,7 +721,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Countercharm",
+        "name": "Countercharm"
       }
     ],
     "spellcasting": {
@@ -682,9 +746,11 @@
     },
     "index": 27,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -692,7 +758,7 @@
     "prof_bonus": 3,
     "feature_choices": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
     "features": [],
@@ -718,9 +784,11 @@
     },
     "index": 28,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -729,7 +797,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Song of Rest (d8)",
+        "name": "Song of Rest (d8)"
       }
     ],
     "spellcasting": {
@@ -754,9 +822,11 @@
     },
     "index": 29,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -764,15 +834,15 @@
     "prof_bonus": 4,
     "feature_choices": [
       {
-        "name": "Choose: Expertise 2",
+        "name": "Choose: Expertise 2"
       }
     ],
     "features": [
       {
-        "name": "Bardic Inspiration (d10)",
+        "name": "Bardic Inspiration (d10)"
       },
       {
-        "name": "Magical Secrets 1",
+        "name": "Magical Secrets 1"
       }
     ],
     "spellcasting": {
@@ -797,9 +867,11 @@
     },
     "index": 30,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -829,9 +901,11 @@
     },
     "index": 31,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -840,7 +914,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
     "spellcasting": {
@@ -865,9 +939,11 @@
     },
     "index": 32,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -876,7 +952,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Song of Rest (d10)",
+        "name": "Song of Rest (d10)"
       }
     ],
     "spellcasting": {
@@ -901,9 +977,11 @@
     },
     "index": 33,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -912,7 +990,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Magical Secrets 2",
+        "name": "Magical Secrets 2"
       }
     ],
     "spellcasting": {
@@ -937,9 +1015,11 @@
     },
     "index": 34,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -948,7 +1028,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Bardic Inspiration (d12)",
+        "name": "Bardic Inspiration (d12)"
       }
     ],
     "spellcasting": {
@@ -973,9 +1053,11 @@
     },
     "index": 35,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -984,7 +1066,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spellcasting": {
@@ -1009,9 +1091,11 @@
     },
     "index": 36,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -1020,7 +1104,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Song of Rest (d12)",
+        "name": "Song of Rest (d12)"
       }
     ],
     "spellcasting": {
@@ -1045,9 +1129,11 @@
     },
     "index": 37,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -1056,7 +1142,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Magical Secrets 3",
+        "name": "Magical Secrets 3"
       }
     ],
     "spellcasting": {
@@ -1081,9 +1167,11 @@
     },
     "index": 38,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -1092,7 +1180,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spellcasting": {
@@ -1117,9 +1205,11 @@
     },
     "index": 39,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -1128,7 +1218,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Superior Inspiration",
+        "name": "Superior Inspiration"
       }
     ],
     "spellcasting": {
@@ -1153,9 +1243,11 @@
     },
     "index": 40,
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -1164,13 +1256,13 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Spellcasting",
+        "name": "Spellcasting"
       },
       {
-        "name": "Divine Domain",
+        "name": "Divine Domain"
       },
       {
-        "name": "Domain Spells 1",
+        "name": "Domain Spells 1"
       }
     ],
     "spellcasting": {
@@ -1192,9 +1284,11 @@
     },
     "index": 41,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -1203,10 +1297,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Channel Divinity (1/rest)",
+        "name": "Channel Divinity (1/rest)"
       },
       {
-        "name": "Channel Divinity: Turn Undead",
+        "name": "Channel Divinity: Turn Undead"
       }
     ],
     "spellcasting": {
@@ -1228,9 +1322,11 @@
     },
     "index": 42,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -1239,7 +1335,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Domain Spells 2",
+        "name": "Domain Spells 2"
       }
     ],
     "spellcasting": {
@@ -1261,9 +1357,11 @@
     },
     "index": 43,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -1272,7 +1370,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -1294,9 +1392,11 @@
     },
     "index": 44,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -1305,10 +1405,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Domain Spells 3",
+        "name": "Domain Spells 3"
       },
       {
-        "name": "Destroy Undead (CR 1/2 or below)",
+        "name": "Destroy Undead (CR 1/2 or below)"
       }
     ],
     "spellcasting": {
@@ -1330,9 +1430,11 @@
     },
     "index": 45,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -1341,7 +1443,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Channel Divinity (2/rest)",
+        "name": "Channel Divinity (2/rest)"
       }
     ],
     "spellcasting": {
@@ -1363,9 +1465,11 @@
     },
     "index": 46,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -1374,7 +1478,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Domain Spells 4",
+        "name": "Domain Spells 4"
       }
     ],
     "spellcasting": {
@@ -1396,9 +1500,11 @@
     },
     "index": 47,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -1407,10 +1513,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       },
       {
-        "name": "Destroy Undead (CR 1 or below)",
+        "name": "Destroy Undead (CR 1 or below)"
       }
     ],
     "spellcasting": {
@@ -1432,9 +1538,11 @@
     },
     "index": 48,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -1443,7 +1551,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Domain Spells 5",
+        "name": "Domain Spells 5"
       }
     ],
     "spellcasting": {
@@ -1465,9 +1573,11 @@
     },
     "index": 49,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -1476,7 +1586,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Divine Intervention",
+        "name": "Divine Intervention"
       }
     ],
     "spellcasting": {
@@ -1498,9 +1608,11 @@
     },
     "index": 50,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -1509,7 +1621,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Destroy Undead (CR 2 or below)",
+        "name": "Destroy Undead (CR 2 or below)"
       }
     ],
     "spellcasting": {
@@ -1531,9 +1643,11 @@
     },
     "index": 51,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -1542,7 +1656,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
     "spellcasting": {
@@ -1564,9 +1678,11 @@
     },
     "index": 52,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -1593,9 +1709,11 @@
     },
     "index": 53,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -1604,7 +1722,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Destroy Undead (CR 3 or below)",
+        "name": "Destroy Undead (CR 3 or below)"
       }
     ],
     "spellcasting": {
@@ -1626,9 +1744,11 @@
     },
     "index": 54,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -1655,9 +1775,11 @@
     },
     "index": 55,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -1666,7 +1788,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spellcasting": {
@@ -1688,9 +1810,11 @@
     },
     "index": 56,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -1699,10 +1823,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Destroy Undead (CR 4 or below)",
+        "name": "Destroy Undead (CR 4 or below)"
       },
       {
-        "name": "Supreme Healing",
+        "name": "Supreme Healing"
       }
     ],
     "spellcasting": {
@@ -1724,9 +1848,11 @@
     },
     "index": 57,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -1735,7 +1861,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Channel Divinity (3/rest)",
+        "name": "Channel Divinity (3/rest)"
       }
     ],
     "spellcasting": {
@@ -1757,9 +1883,11 @@
     },
     "index": 58,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -1768,7 +1896,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spellcasting": {
@@ -1790,9 +1918,11 @@
     },
     "index": 59,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -1801,7 +1931,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Divine Intervention Improvement",
+        "name": "Divine Intervention Improvement"
       }
     ],
     "spellcasting": {
@@ -1823,9 +1953,11 @@
     },
     "index": 60,
     "class": {
-      "name": "Cleric",
+      "name": "Cleric"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -1834,10 +1966,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Spellcasting",
+        "name": "Spellcasting"
       },
       {
-        "name": "Druidic",
+        "name": "Druidic"
       }
     ],
     "spellcasting": {
@@ -1859,9 +1991,11 @@
     },
     "index": 61,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -1870,10 +2004,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Wild Shape (CR 1/4 or below, no flying or swim speed)",
+        "name": "Wild Shape (CR 1/4 or below, no flying or swim speed)"
       },
       {
-        "name": "Druid Circle",
+        "name": "Druid Circle"
       }
     ],
     "spellcasting": {
@@ -1895,9 +2029,11 @@
     },
     "index": 62,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -1924,9 +2060,11 @@
     },
     "index": 63,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -1935,10 +2073,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Wild Shape (CR 1/2 or below, no flying speed)",
+        "name": "Wild Shape (CR 1/2 or below, no flying speed)"
       },
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -1960,9 +2098,11 @@
     },
     "index": 64,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -1989,9 +2129,11 @@
     },
     "index": 65,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -2018,9 +2160,11 @@
     },
     "index": 66,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -2047,9 +2191,11 @@
     },
     "index": 67,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -2058,10 +2204,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Wild Shape (CR 1 or below)",
+        "name": "Wild Shape (CR 1 or below)"
       },
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
     "spellcasting": {
@@ -2083,9 +2229,11 @@
     },
     "index": 68,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -2112,9 +2260,11 @@
     },
     "index": 69,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -2141,9 +2291,11 @@
     },
     "index": 70,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -2170,9 +2322,11 @@
     },
     "index": 71,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -2181,7 +2335,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
     "spellcasting": {
@@ -2203,9 +2357,11 @@
     },
     "index": 72,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -2232,9 +2388,11 @@
     },
     "index": 73,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -2261,9 +2419,11 @@
     },
     "index": 74,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -2290,9 +2450,11 @@
     },
     "index": 75,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -2301,7 +2463,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spellcasting": {
@@ -2323,9 +2485,11 @@
     },
     "index": 76,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -2352,9 +2516,11 @@
     },
     "index": 77,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -2363,10 +2529,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Timeless Body",
+        "name": "Timeless Body"
       },
       {
-        "name": "Beast Spells",
+        "name": "Beast Spells"
       }
     ],
     "spellcasting": {
@@ -2388,9 +2554,11 @@
     },
     "index": 78,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -2399,7 +2567,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spellcasting": {
@@ -2421,9 +2589,11 @@
     },
     "index": 79,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -2432,7 +2602,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Archdruid",
+        "name": "Archdruid"
       }
     ],
     "spellcasting": {
@@ -2454,9 +2624,11 @@
     },
     "index": 80,
     "class": {
-      "name": "Druid",
+      "name": "Druid"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -2464,15 +2636,17 @@
     "prof_bonus": 2,
     "feature_choices": [
       {
-        "name": "Choose: Fighting Style",
+        "name": "Choose: Fighting Style"
       }
     ],
     "features": [
       {
-        "name": "Second Wind",
+        "name": "Second Wind"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 0,
       "indomitable_uses": 0,
@@ -2480,9 +2654,11 @@
     },
     "index": 81,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -2491,13 +2667,15 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Action Surge (1 use)",
+        "name": "Action Surge (1 use)"
       },
       {
-        "name": "Action Surge (2 uses)",
+        "name": "Action Surge (2 uses)"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 0,
@@ -2505,9 +2683,11 @@
     },
     "index": 82,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -2516,10 +2696,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Martial Archetype",
+        "name": "Martial Archetype"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 0,
@@ -2527,9 +2709,11 @@
     },
     "index": 83,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -2538,10 +2722,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 0,
@@ -2549,9 +2735,11 @@
     },
     "index": 84,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -2560,10 +2748,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Extra Attack (1)",
+        "name": "Extra Attack (1)"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 0,
@@ -2571,9 +2761,11 @@
     },
     "index": 85,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -2582,10 +2774,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 0,
@@ -2593,9 +2787,11 @@
     },
     "index": 86,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -2603,7 +2799,9 @@
     "prof_bonus": 3,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 0,
@@ -2611,9 +2809,11 @@
     },
     "index": 87,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -2622,10 +2822,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 0,
@@ -2633,9 +2835,11 @@
     },
     "index": 88,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -2644,10 +2848,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Indomitable (1 use)",
+        "name": "Indomitable (1 use)"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 1,
@@ -2655,9 +2861,11 @@
     },
     "index": 89,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -2665,7 +2873,9 @@
     "prof_bonus": 4,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 1,
@@ -2673,9 +2883,11 @@
     },
     "index": 90,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -2684,10 +2896,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Extra Attack (2)",
+        "name": "Extra Attack (2)"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 1,
@@ -2695,9 +2909,11 @@
     },
     "index": 91,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -2706,10 +2922,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 1,
@@ -2717,9 +2935,11 @@
     },
     "index": 92,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -2728,10 +2948,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Indomitable (2 uses)",
+        "name": "Indomitable (2 uses)"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 2,
@@ -2739,9 +2961,11 @@
     },
     "index": 93,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -2750,10 +2974,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 2,
@@ -2761,9 +2987,11 @@
     },
     "index": 94,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -2771,7 +2999,9 @@
     "prof_bonus": 5,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 2,
@@ -2779,9 +3009,11 @@
     },
     "index": 95,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -2790,10 +3022,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 6",
+        "name": "Ability Score Improvement 6"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 1,
       "indomitable_uses": 2,
@@ -2801,9 +3035,11 @@
     },
     "index": 96,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -2812,10 +3048,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Indomitable (3 uses)",
+        "name": "Indomitable (3 uses)"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 2,
       "indomitable_uses": 3,
@@ -2823,9 +3061,11 @@
     },
     "index": 97,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -2833,7 +3073,9 @@
     "prof_bonus": 6,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 2,
       "indomitable_uses": 3,
@@ -2841,9 +3083,11 @@
     },
     "index": 98,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -2852,10 +3096,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 7",
+        "name": "Ability Score Improvement 7"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 2,
       "indomitable_uses": 3,
@@ -2863,9 +3109,11 @@
     },
     "index": 99,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -2874,10 +3122,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Extra Attack (3)",
+        "name": "Extra Attack (3)"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "action_surges": 2,
       "indomitable_uses": 3,
@@ -2885,9 +3135,11 @@
     },
     "index": 100,
     "class": {
-      "name": "Fighter",
+      "name": "Fighter"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -2896,13 +3148,15 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Unarmored Defense",
+        "name": "Unarmored Defense"
       },
       {
-        "name": "Martial Arts",
+        "name": "Martial Arts"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -2913,9 +3167,11 @@
     },
     "index": 101,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -2924,22 +3180,24 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ki",
+        "name": "Ki"
       },
       {
-        "name": "Flurry of Blows",
+        "name": "Flurry of Blows"
       },
       {
-        "name": "Patient Defense",
+        "name": "Patient Defense"
       },
       {
-        "name": "Step of the Wind",
+        "name": "Step of the Wind"
       },
       {
-        "name": "Unarmored Movement 1",
+        "name": "Unarmored Movement 1"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -2950,9 +3208,11 @@
     },
     "index": 102,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -2961,13 +3221,15 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Monastic Tradition",
+        "name": "Monastic Tradition"
       },
       {
-        "name": "Deflect Missiles",
+        "name": "Deflect Missiles"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -2978,9 +3240,11 @@
     },
     "index": 103,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -2989,13 +3253,15 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       },
       {
-        "name": "Slow Fall",
+        "name": "Slow Fall"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3006,9 +3272,11 @@
     },
     "index": 104,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -3017,13 +3285,15 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Extra Attack",
+        "name": "Extra Attack"
       },
       {
-        "name": "Stunning Strike",
+        "name": "Stunning Strike"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3034,9 +3304,11 @@
     },
     "index": 105,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -3045,10 +3317,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ki Empowered Strikes",
+        "name": "Ki Empowered Strikes"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3059,9 +3333,11 @@
     },
     "index": 106,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -3070,13 +3346,15 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Evasion",
+        "name": "Evasion"
       },
       {
-        "name": "Stillness of Mind",
+        "name": "Stillness of Mind"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3087,9 +3365,11 @@
     },
     "index": 107,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -3098,10 +3378,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3112,9 +3394,11 @@
     },
     "index": 108,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -3123,10 +3407,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Unarmored Movement 2",
+        "name": "Unarmored Movement 2"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3137,9 +3423,11 @@
     },
     "index": 109,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -3148,10 +3436,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Purity of Body",
+        "name": "Purity of Body"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3162,9 +3452,11 @@
     },
     "index": 110,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -3172,7 +3464,9 @@
     "prof_bonus": 4,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3183,9 +3477,11 @@
     },
     "index": 111,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -3194,10 +3490,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3208,9 +3506,11 @@
     },
     "index": 112,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -3219,10 +3519,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Tongue of the Sun and Moon",
+        "name": "Tongue of the Sun and Moon"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3233,9 +3535,11 @@
     },
     "index": 113,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -3244,10 +3548,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Diamond Soul",
+        "name": "Diamond Soul"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3258,9 +3564,11 @@
     },
     "index": 114,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -3269,10 +3577,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Timeless Body",
+        "name": "Timeless Body"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3283,9 +3593,11 @@
     },
     "index": 115,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -3294,10 +3606,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3308,9 +3622,11 @@
     },
     "index": 116,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -3318,7 +3634,9 @@
     "prof_bonus": 6,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3329,9 +3647,11 @@
     },
     "index": 117,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -3340,10 +3660,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Empty Body",
+        "name": "Empty Body"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3354,9 +3676,11 @@
     },
     "index": 118,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -3365,10 +3689,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3379,9 +3705,11 @@
     },
     "index": 119,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -3390,10 +3718,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Perfect Self",
+        "name": "Perfect Self"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "martial_arts": {
         "dice_count": 1,
@@ -3404,9 +3734,11 @@
     },
     "index": 120,
     "class": {
-      "name": "Monk",
+      "name": "Monk"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -3415,10 +3747,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Divine Sense",
+        "name": "Divine Sense"
       },
       {
-        "name": "Lay on Hands",
+        "name": "Lay on Hands"
       }
     ],
     "spellcasting": {
@@ -3433,9 +3765,11 @@
     },
     "index": 121,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -3443,15 +3777,15 @@
     "prof_bonus": 2,
     "feature_choices": [
       {
-        "name": "Choose: Fighting Style",
+        "name": "Choose: Fighting Style"
       }
     ],
     "features": [
       {
-        "name": "Spellcasting",
+        "name": "Spellcasting"
       },
       {
-        "name": "Divine Smite",
+        "name": "Divine Smite"
       }
     ],
     "spellcasting": {
@@ -3466,9 +3800,11 @@
     },
     "index": 122,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -3477,16 +3813,16 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Divine Health",
+        "name": "Divine Health"
       },
       {
-        "name": "Sacred Oath",
+        "name": "Sacred Oath"
       },
       {
-        "name": "Oath Spells",
+        "name": "Oath Spells"
       },
       {
-        "name": "Channel Divinity",
+        "name": "Channel Divinity"
       }
     ],
     "spellcasting": {
@@ -3501,9 +3837,11 @@
     },
     "index": 123,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -3512,7 +3850,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -3527,9 +3865,11 @@
     },
     "index": 124,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -3538,7 +3878,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Extra Attack",
+        "name": "Extra Attack"
       }
     ],
     "spellcasting": {
@@ -3553,9 +3893,11 @@
     },
     "index": 125,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -3564,7 +3906,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Aura of Protection",
+        "name": "Aura of Protection"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3575,9 +3917,11 @@
     "aura_range": 10,
     "index": 126,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -3593,9 +3937,11 @@
     "aura_range": 10,
     "index": 127,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -3604,7 +3950,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3615,9 +3961,11 @@
     "aura_range": 10,
     "index": 128,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -3633,9 +3981,11 @@
     "aura_range": 10,
     "index": 129,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -3644,7 +3994,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Aura of Courage",
+        "name": "Aura of Courage"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3655,9 +4005,11 @@
     "aura_range": 10,
     "index": 130,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -3666,7 +4018,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Improved Divine Smite",
+        "name": "Improved Divine Smite"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3677,9 +4029,11 @@
     "aura_range": 10,
     "index": 131,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -3688,7 +4042,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3699,9 +4053,11 @@
     "aura_range": 10,
     "index": 132,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -3717,9 +4073,11 @@
     "aura_range": 10,
     "index": 133,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -3728,7 +4086,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Cleansing Touch",
+        "name": "Cleansing Touch"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3739,9 +4097,11 @@
     "aura_range": 10,
     "index": 134,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -3761,9 +4121,11 @@
     },
     "index": 135,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -3772,7 +4134,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3783,9 +4145,11 @@
     "aura_range": 10,
     "index": 136,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -3801,9 +4165,11 @@
     "aura_range": 10,
     "index": 137,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -3812,7 +4178,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Aura improvements",
+        "name": "Aura improvements"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3823,9 +4189,11 @@
     "aura_range": 30,
     "index": 138,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -3834,7 +4202,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spell_slots_level_1": 4,
@@ -3845,9 +4213,11 @@
     "aura_range": 30,
     "index": 139,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -3863,9 +4233,11 @@
     "aura_range": 30,
     "index": 140,
     "class": {
-      "name": "Paladin",
+      "name": "Paladin"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -3874,10 +4246,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Favored Enemy (1 type)",
+        "name": "Favored Enemy (1 type)"
       },
       {
-        "name": "Natural Explorer (1 terrain type)",
+        "name": "Natural Explorer (1 terrain type)"
       }
     ],
     "spellcasting": {
@@ -3894,9 +4266,11 @@
     },
     "index": 141,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -3904,12 +4278,12 @@
     "prof_bonus": 2,
     "feature_choices": [
       {
-        "name": "Choose: Fighting Style",
+        "name": "Choose: Fighting Style"
       }
     ],
     "features": [
       {
-        "name": "Spellcasting",
+        "name": "Spellcasting"
       }
     ],
     "spellcasting": {
@@ -3926,9 +4300,11 @@
     },
     "index": 142,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -3937,10 +4313,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ranger Archetype",
+        "name": "Ranger Archetype"
       },
       {
-        "name": "Primeval Awareness",
+        "name": "Primeval Awareness"
       }
     ],
     "spellcasting": {
@@ -3957,9 +4333,11 @@
     },
     "index": 143,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -3968,7 +4346,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -3985,9 +4363,11 @@
     },
     "index": 144,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -3996,7 +4376,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Extra Attack",
+        "name": "Extra Attack"
       }
     ],
     "spellcasting": {
@@ -4013,9 +4393,11 @@
     },
     "index": 145,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -4024,10 +4406,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Favored Enemy (2 types)",
+        "name": "Favored Enemy (2 types)"
       },
       {
-        "name": "Natural Explorer (2 terrain types)",
+        "name": "Natural Explorer (2 terrain types)"
       }
     ],
     "spellcasting": {
@@ -4044,9 +4426,11 @@
     },
     "index": 146,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -4068,9 +4452,11 @@
     },
     "index": 147,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -4079,10 +4465,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       },
       {
-        "name": "Land’s Stride",
+        "name": "Land’s Stride"
       }
     ],
     "spellcasting": {
@@ -4099,9 +4485,11 @@
     },
     "index": 148,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -4123,9 +4511,11 @@
     },
     "index": 149,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -4134,10 +4524,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Natural Explorer (3 terrain types)",
+        "name": "Natural Explorer (3 terrain types)"
       },
       {
-        "name": "Hide in Plain Sight",
+        "name": "Hide in Plain Sight"
       }
     ],
     "spellcasting": {
@@ -4154,9 +4544,11 @@
     },
     "index": 150,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -4178,9 +4570,11 @@
     },
     "index": 151,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -4189,7 +4583,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spellcasting": {
@@ -4206,9 +4600,11 @@
     },
     "index": 152,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -4230,9 +4626,11 @@
     },
     "index": 153,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -4241,10 +4639,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Favored Enemy (3 enemies)",
+        "name": "Favored Enemy (3 enemies)"
       },
       {
-        "name": "Vanish",
+        "name": "Vanish"
       }
     ],
     "spellcasting": {
@@ -4261,9 +4659,11 @@
     },
     "index": 154,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -4285,9 +4685,11 @@
     },
     "index": 155,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -4296,7 +4698,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spellcasting": {
@@ -4313,9 +4715,11 @@
     },
     "index": 156,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -4337,9 +4741,11 @@
     },
     "index": 157,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -4348,7 +4754,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Feral Senses",
+        "name": "Feral Senses"
       }
     ],
     "spellcasting": {
@@ -4365,9 +4771,11 @@
     },
     "index": 158,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -4376,7 +4784,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spellcasting": {
@@ -4393,9 +4801,11 @@
     },
     "index": 159,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -4404,7 +4814,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Foe Slayer",
+        "name": "Foe Slayer"
       }
     ],
     "spellcasting": {
@@ -4421,9 +4831,11 @@
     },
     "index": 160,
     "class": {
-      "name": "Ranger",
+      "name": "Ranger"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -4431,18 +4843,20 @@
     "prof_bonus": 2,
     "feature_choices": [
       {
-        "name": "Expertise 1",
+        "name": "Expertise 1"
       }
     ],
     "features": [
       {
-        "name": "Sneak Attack",
+        "name": "Sneak Attack"
       },
       {
-        "name": "Thieves' Cant",
+        "name": "Thieves' Cant"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 1,
@@ -4451,9 +4865,11 @@
     },
     "index": 161,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -4462,10 +4878,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Cunning Action",
+        "name": "Cunning Action"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 1,
@@ -4474,9 +4892,11 @@
     },
     "index": 162,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -4485,10 +4905,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Roguish Archetype",
+        "name": "Roguish Archetype"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 2,
@@ -4497,9 +4919,11 @@
     },
     "index": 163,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -4508,10 +4932,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 2,
@@ -4520,9 +4946,11 @@
     },
     "index": 164,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -4531,10 +4959,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Uncanny Dodge",
+        "name": "Uncanny Dodge"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 3,
@@ -4543,9 +4973,11 @@
     },
     "index": 165,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -4553,11 +4985,13 @@
     "prof_bonus": 3,
     "feature_choices": [
       {
-        "name": "Expertise 2",
+        "name": "Expertise 2"
       }
     ],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 3,
@@ -4566,9 +5000,11 @@
     },
     "index": 166,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -4577,10 +5013,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Evasion",
+        "name": "Evasion"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 4,
@@ -4589,9 +5027,11 @@
     },
     "index": 167,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -4600,10 +5040,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 4,
@@ -4612,9 +5054,11 @@
     },
     "index": 168,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -4623,10 +5067,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 5,
@@ -4635,9 +5081,11 @@
     },
     "index": 169,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -4646,10 +5094,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 5,
@@ -4658,9 +5108,11 @@
     },
     "index": 170,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -4669,10 +5121,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Reliable Talent",
+        "name": "Reliable Talent"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 6,
@@ -4681,9 +5135,11 @@
     },
     "index": 171,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -4692,10 +5148,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 6,
@@ -4704,9 +5162,11 @@
     },
     "index": 172,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -4714,7 +5174,9 @@
     "prof_bonus": 5,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 7,
@@ -4723,9 +5185,11 @@
     },
     "index": 173,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -4734,10 +5198,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Blindsense",
+        "name": "Blindsense"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 7,
@@ -4746,9 +5212,11 @@
     },
     "index": 174,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -4757,10 +5225,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Slippery Mind",
+        "name": "Slippery Mind"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 8,
@@ -4769,9 +5239,11 @@
     },
     "index": 175,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -4780,10 +5252,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 8,
@@ -4792,9 +5266,11 @@
     },
     "index": 176,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -4802,7 +5278,9 @@
     "prof_bonus": 6,
     "feature_choices": [],
     "features": [],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 9,
@@ -4811,9 +5289,11 @@
     },
     "index": 177,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -4822,10 +5302,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Elusive",
+        "name": "Elusive"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 9,
@@ -4834,9 +5316,11 @@
     },
     "index": 178,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -4845,10 +5329,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 6",
+        "name": "Ability Score Improvement 6"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 10,
@@ -4857,9 +5343,11 @@
     },
     "index": 179,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -4868,10 +5356,12 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Stroke of Luck",
+        "name": "Stroke of Luck"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class_specific": {
       "sneak_attack": {
         "dice_count": 10,
@@ -4880,9 +5370,11 @@
     },
     "index": 180,
     "class": {
-      "name": "Rogue",
+      "name": "Rogue"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -4891,10 +5383,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Spellcasting",
+        "name": "Spellcasting"
       },
       {
-        "name": "Sorcerous Origin",
+        "name": "Sorcerous Origin"
       }
     ],
     "spellcasting": {
@@ -4917,9 +5409,11 @@
     },
     "index": 181,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -4928,13 +5422,13 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Font of Magic",
+        "name": "Font of Magic"
       },
       {
-        "name": "Flexible Casting: Creating Spell Slots",
+        "name": "Flexible Casting: Creating Spell Slots"
       },
       {
-        "name": "Flexible Casting: Converting Spell Slot",
+        "name": "Flexible Casting: Converting Spell Slot"
       }
     ],
     "spellcasting": {
@@ -4978,9 +5472,11 @@
     },
     "index": 182,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -4988,7 +5484,7 @@
     "prof_bonus": 2,
     "feature_choices": [
       {
-        "name": "Choose: Metamagic, First and Second",
+        "name": "Choose: Metamagic, First and Second"
       }
     ],
     "features": [],
@@ -5033,9 +5529,11 @@
     },
     "index": 183,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -5044,7 +5542,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -5088,9 +5586,11 @@
     },
     "index": 184,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -5139,9 +5639,11 @@
     },
     "index": 185,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -5190,9 +5692,11 @@
     },
     "index": 186,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -5241,9 +5745,11 @@
     },
     "index": 187,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -5252,7 +5758,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
     "spellcasting": {
@@ -5296,9 +5802,11 @@
     },
     "index": 188,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -5347,9 +5855,11 @@
     },
     "index": 189,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -5357,7 +5867,7 @@
     "prof_bonus": 4,
     "feature_choices": [
       {
-        "name": "Choose: Metamagic, Third",
+        "name": "Choose: Metamagic, Third"
       }
     ],
     "features": [],
@@ -5402,9 +5912,11 @@
     },
     "index": 190,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -5453,9 +5965,11 @@
     },
     "index": 191,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -5464,7 +5978,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
     "spellcasting": {
@@ -5508,9 +6022,11 @@
     },
     "index": 192,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -5559,9 +6075,11 @@
     },
     "index": 193,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -5610,9 +6128,11 @@
     },
     "index": 194,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -5661,9 +6181,11 @@
     },
     "index": 195,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -5672,7 +6194,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spellcasting": {
@@ -5716,9 +6238,11 @@
     },
     "index": 196,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -5726,7 +6250,7 @@
     "prof_bonus": 6,
     "feature_choices": [
       {
-        "name": "Choose: Metamagic, Fourth",
+        "name": "Choose: Metamagic, Fourth"
       }
     ],
     "features": [],
@@ -5771,9 +6295,11 @@
     },
     "index": 197,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -5822,9 +6348,11 @@
     },
     "index": 198,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -5833,7 +6361,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spellcasting": {
@@ -5877,9 +6405,11 @@
     },
     "index": 199,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -5888,7 +6418,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Sorcerous Restoration",
+        "name": "Sorcerous Restoration"
       }
     ],
     "spellcasting": {
@@ -5932,9 +6462,11 @@
     },
     "index": 200,
     "class": {
-      "name": "Sorcerer",
+      "name": "Sorcerer"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -5943,10 +6475,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Otherworldly Patron",
+        "name": "Otherworldly Patron"
       },
       {
-        "name": "Pact Magic",
+        "name": "Pact Magic"
       }
     ],
     "spellcasting": {
@@ -5971,9 +6503,11 @@
     },
     "index": 201,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -5982,7 +6516,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Choose: Eldritch Invocations",
+        "name": "Choose: Eldritch Invocations"
       }
     ],
     "spellcasting": {
@@ -6007,9 +6541,11 @@
     },
     "index": 202,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -6018,7 +6554,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Choose: Pact Boon",
+        "name": "Choose: Pact Boon"
       }
     ],
     "spellcasting": {
@@ -6043,9 +6579,11 @@
     },
     "index": 203,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -6054,7 +6592,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -6079,9 +6617,11 @@
     },
     "index": 204,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -6090,7 +6630,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Choose: Additional Eldritch Invocation",
+        "name": "Choose: Additional Eldritch Invocation"
       }
     ],
     "spellcasting": {
@@ -6115,9 +6655,11 @@
     },
     "index": 205,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -6147,9 +6689,11 @@
     },
     "index": 206,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -6158,7 +6702,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Choose: Additional Eldritch Invocation",
+        "name": "Choose: Additional Eldritch Invocation"
       }
     ],
     "spellcasting": {
@@ -6183,9 +6727,11 @@
     },
     "index": 207,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -6194,7 +6740,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
     "spellcasting": {
@@ -6219,9 +6765,11 @@
     },
     "index": 208,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -6230,7 +6778,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Choose: Additional Eldritch Invocation",
+        "name": "Choose: Additional Eldritch Invocation"
       }
     ],
     "spellcasting": {
@@ -6255,9 +6803,11 @@
     },
     "index": 209,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -6287,9 +6837,11 @@
     },
     "index": 210,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -6298,7 +6850,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Mystic Arcanum (6th level)",
+        "name": "Mystic Arcanum (6th level)"
       }
     ],
     "spellcasting": {
@@ -6323,9 +6875,11 @@
     },
     "index": 211,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -6334,10 +6888,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       },
       {
-        "name": "Choose: Additional Eldritch Invocation",
+        "name": "Choose: Additional Eldritch Invocation"
       }
     ],
     "spellcasting": {
@@ -6362,9 +6916,11 @@
     },
     "index": 212,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -6373,7 +6929,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Mystic Arcanum (7th level)",
+        "name": "Mystic Arcanum (7th level)"
       }
     ],
     "spellcasting": {
@@ -6398,9 +6954,11 @@
     },
     "index": 213,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -6430,9 +6988,11 @@
     },
     "index": 214,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -6441,10 +7001,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Mystic Arcanum (8th level)",
+        "name": "Mystic Arcanum (8th level)"
       },
       {
-        "name": "Choose: Additional Eldritch Invocation",
+        "name": "Choose: Additional Eldritch Invocation"
       }
     ],
     "spellcasting": {
@@ -6469,9 +7029,11 @@
     },
     "index": 215,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -6480,7 +7042,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spellcasting": {
@@ -6505,9 +7067,11 @@
     },
     "index": 216,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -6516,7 +7080,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Mystic Arcanum (9th level)",
+        "name": "Mystic Arcanum (9th level)"
       }
     ],
     "spellcasting": {
@@ -6541,9 +7105,11 @@
     },
     "index": 217,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -6552,7 +7118,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Choose: Additional Eldritch Invocation",
+        "name": "Choose: Additional Eldritch Invocation"
       }
     ],
     "spellcasting": {
@@ -6577,9 +7143,11 @@
     },
     "index": 218,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -6588,7 +7156,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 6",
+        "name": "Ability Score Improvement 6"
       }
     ],
     "spellcasting": {
@@ -6613,9 +7181,11 @@
     },
     "index": 219,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -6624,10 +7194,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Eldritch Master",
+        "name": "Eldritch Master"
       },
       {
-        "name": "Choose: Additional Eldritch Invocation",
+        "name": "Choose: Additional Eldritch Invocation"
       }
     ],
     "spellcasting": {
@@ -6652,9 +7222,11 @@
     },
     "index": 220,
     "class": {
-      "name": "Warlock",
+      "name": "Warlock"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 1,
@@ -6663,10 +7235,10 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Spellcasting",
+        "name": "Spellcasting"
       },
       {
-        "name": "Arcane Recovery",
+        "name": "Arcane Recovery"
       }
     ],
     "spellcasting": {
@@ -6686,9 +7258,11 @@
     },
     "index": 221,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 2,
@@ -6697,7 +7271,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Arcane Tradition",
+        "name": "Arcane Tradition"
       }
     ],
     "spellcasting": {
@@ -6717,9 +7291,11 @@
     },
     "index": 222,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
@@ -6744,9 +7320,11 @@
     },
     "index": 223,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 4,
@@ -6755,7 +7333,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 1",
+        "name": "Ability Score Improvement 1"
       }
     ],
     "spellcasting": {
@@ -6775,9 +7353,11 @@
     },
     "index": 224,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 5,
@@ -6802,9 +7382,11 @@
     },
     "index": 225,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 6,
@@ -6829,9 +7411,11 @@
     },
     "index": 226,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 7,
@@ -6856,9 +7440,11 @@
     },
     "index": 227,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 8,
@@ -6867,7 +7453,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 2",
+        "name": "Ability Score Improvement 2"
       }
     ],
     "spellcasting": {
@@ -6887,9 +7473,11 @@
     },
     "index": 228,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 9,
@@ -6914,9 +7502,11 @@
     },
     "index": 229,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 10,
@@ -6941,9 +7531,11 @@
     },
     "index": 230,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 11,
@@ -6968,9 +7560,11 @@
     },
     "index": 231,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 12,
@@ -6979,7 +7573,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 3",
+        "name": "Ability Score Improvement 3"
       }
     ],
     "spellcasting": {
@@ -6999,9 +7593,11 @@
     },
     "index": 232,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 13,
@@ -7026,9 +7622,11 @@
     },
     "index": 233,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 14,
@@ -7053,9 +7651,11 @@
     },
     "index": 234,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 15,
@@ -7080,9 +7680,11 @@
     },
     "index": 235,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 16,
@@ -7091,7 +7693,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 4",
+        "name": "Ability Score Improvement 4"
       }
     ],
     "spellcasting": {
@@ -7111,9 +7713,11 @@
     },
     "index": 236,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 17,
@@ -7138,9 +7742,11 @@
     },
     "index": 237,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 18,
@@ -7149,7 +7755,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Spell Mastery",
+        "name": "Spell Mastery"
       }
     ],
     "spellcasting": {
@@ -7169,9 +7775,11 @@
     },
     "index": 238,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 19,
@@ -7180,7 +7788,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Ability Score Improvement 5",
+        "name": "Ability Score Improvement 5"
       }
     ],
     "spellcasting": {
@@ -7200,9 +7808,11 @@
     },
     "index": 239,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 20,
@@ -7211,7 +7821,7 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Signature Spell",
+        "name": "Signature Spell"
       }
     ],
     "spellcasting": {
@@ -7231,27 +7841,31 @@
     },
     "index": 240,
     "class": {
-      "name": "Wizard",
+      "name": "Wizard"
     },
-    "subclass": {},
+    "subclass": {
+      
+    }
   },
   {
     "level": 3,
     "feature_choices": [],
     "features": [
       {
-        "name": "Primal Path",
+        "name": "Primal Path"
       },
       {
-        "name": "Frenzy",
+        "name": "Frenzy"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
     "subclass": {
-      "name": "Berserker",
+      "name": "Berserker"
     },
     "index": 241
   },
@@ -7260,32 +7874,36 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Mindless Rage",
+        "name": "Mindless Rage"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "index": 242,
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
     "subclass": {
-      "name": "Berserker",
-    },
+      "name": "Berserker"
+    }
   },
   {
     "level": 10,
     "feature_choices": [],
     "features": [
       {
-        "name": "Intimidating Presence",
+        "name": "Intimidating Presence"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
     "subclass": {
-      "name": "Berserker",
+      "name": "Berserker"
     },
     "index": 243
   },
@@ -7294,15 +7912,17 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Retaliation",
+        "name": "Retaliation"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "class": {
-      "name": "Barbarian",
+      "name": "Barbarian"
     },
     "subclass": {
-      "name": "Berserker",
+      "name": "Berserker"
     },
     "index": 244
   },
@@ -7311,21 +7931,23 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Bonus Proficiencies",
+        "name": "Bonus Proficiencies"
       },
       {
-        "name": "Cutting Words",
+        "name": "Cutting Words"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "subclass_specific": {
       "additional_magical_secrets_max_lvl": 0
     },
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
     "subclass": {
-      "name": "Lore",
+      "name": "Lore"
     },
     "index": 245
   },
@@ -7334,18 +7956,20 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Additional Magical Secrets",
+        "name": "Additional Magical Secrets"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "subclass_specific": {
       "additional_magical_secrets_max_lvl": 3
     },
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
     "subclass": {
-      "name": "Lore",
+      "name": "Lore"
     },
     "index": 246
   },
@@ -7354,18 +7978,20 @@
     "feature_choices": [],
     "features": [
       {
-        "name": "Peerless Skill",
+        "name": "Peerless Skill"
       }
     ],
-    "spellcasting": {},
+    "spellcasting": {
+      
+    },
     "subclass_specific": {
       "additional_magical_secrets_max_lvl": 3
     },
     "class": {
-      "name": "Bard",
+      "name": "Bard"
     },
     "subclass": {
-      "name": "Lore",
+      "name": "Lore"
     },
     "index": 247
   }
