@@ -7084,6 +7084,34 @@
     "subclass": {
       "name": "Totem Warrior"
     },
+    "name": "Totem Spirit",
+    "level": "3",
+    "desc": [
+      "At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one."
+    ],
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Totem Spirit: Bear"
+        },
+        {
+          "name": "Totem Spirit: Eagle"
+        },
+        {
+          "name": "Totem Spirit: Wolf"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Barbarian"
+    },
+    "subclass": {
+      "name": "Totem Warrior"
+    },
     "name": "Totem Spirit: Bear",
     "level": "3",
     "desc": [
@@ -7123,6 +7151,34 @@
     "subclass": {
       "name": "Totem Warrior"
     },
+    "name": "Aspect of the Beast",
+    "level": "6",
+    "desc": [
+      "At 6th level, you gain a magical benefit based on the totem animal of your choice. You can choose the same animal you selected at 3rd level or a different one."
+    ],
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Aspect of the Beast: Bear"
+        },
+        {
+          "name": "Aspect of the Beast: Eagle"
+        },
+        {
+          "name": "Aspect of the Beast: Wolf"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Barbarian"
+    },
+    "subclass": {
+      "name": "Totem Warrior"
+    },
     "name": "Aspect of the Beast: Bear",
     "level": "6",
     "desc": [
@@ -7154,6 +7210,47 @@
     "desc": [
       "You gain the hunting sensibilities of a wolf. You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace (see chapter 8 for rules on travel pace)."
     ]
+  },
+  {
+    "class": {
+      "name": "Barbarian"
+    },
+    "subclass": {
+      "name": "Totem Warrior"
+    },
+    "name": "Spirit Walker",
+    "level": "10",
+    "desc": [
+      "At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek."
+    ]
+  },
+  {
+    "class": {
+      "name": "Barbarian"
+    },
+    "subclass": {
+      "name": "Totem Warrior"
+    },
+    "name": "Totemic Attunement",
+    "level": "14",
+    "desc": [
+      "At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one."
+    ],
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Totemic Attunement: Bear"
+        },
+        {
+          "name": "Totemic Attunement: Eagle"
+        },
+        {
+          "name": "Totemic Attunement: Wolf"
+        }
+      ]
+    }
   },
   {
     "class": {
