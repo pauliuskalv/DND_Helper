@@ -186,6 +186,47 @@
 		]
 	},
 	{
+                "name": "Animal Friendship",
+                "desc": [
+                        "This spell lets you convince a beast that you mean it no harm. Choose a beast that you can see within range. It must see and hear you. If the beast`s intelligence is 4 or higher, the spell fails. Otherwise, the beast must make succeed on a Wisdom saving throw or be charmed by you for the spell`s duration. If you or one of your companions harms the target, the spell ends"
+		],
+                "higher_level": [
+                        "If you cast this spell using a spell slot of 2nd level or higher, you can affect one additional beast for each slot level above 1st."
+                ],
+                "page": "phb 212",
+                "range": "30 feet",
+                "components": [
+                        "V",
+                        "S",
+                        "M"
+                ],
+                "material": "A morsel of food.",
+                "ritual": "yes",
+                "duration": "24 hours",
+                "concentration": "no",
+                "casting_time": "1 action",
+                "level": 2,
+                "school": {
+                        "name": "Enchantment"
+                },
+                "classes": [
+                        {
+                                "name": "Bard"
+                        },
+                        {
+                                "name": "Druid"
+                        },
+                        {
+                                "name": "Ranger"
+                        }
+                ],
+                "subclasses": [
+                        {
+                                "name": "Lore"
+                        }
+                ]
+        },
+	{
 		"name": "Animal Messenger",
 		"desc": [
 			"By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as â€œa man or woman dressed in the uniform of the town guardâ€� or â€œa red-haired dwarf wearing a pointed hat.â€� You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.",
@@ -473,7 +514,41 @@
 		"subclasses": []
 	},
 	{
-		"name": "Arcane Hand",
+                "name": "Arcane Gate",
+                "desc": [
+                        "You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.",
+			"The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.",
+                        "Any creature or object entering the portal exits from the other portal as iif the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction"
+		],
+                "page": "phb 214",
+                "range": "500 feet",
+                "components": [
+                        "V",
+                        "S"
+                ],
+                "ritual": "no",
+                "duration": "Up to 10 minutes",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 6,
+                "school": {
+                        "name": "Conjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Sorcerer"
+                        },
+                        {
+                                "name": "Wizard"
+                        },
+			{
+				"name": "Warlock"
+			}
+                ],
+                "subclasses": []
+        },
+	{
+		"name": "Bigby`s` Hand",
 		"desc": [
 			"You create a Large hand of shimmering, translucent force in an unoccupied space that you can see within range. The hand lasts for the spell`s duration, and it moves at your command, mimicking the movements of your own hand.",
 			"The hand is an object that has AC 20 and hit points equal to your hit point maximum. If it drops to 0 hit points, the spell ends. It has a Strength of 26 (+8) and a Dexterity of 10 (+0). The hand doesn`t fill its space.",
@@ -547,7 +622,7 @@
 		]
 	},
 	{
-		"name": "Arcane Sword",
+		"name": "Mordenkainen`s Sword",
 		"desc": [
 			"You create a sword-shaped plane of force that hovers within range. It lasts for the duration.",
 			"When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one."
