@@ -654,7 +654,7 @@
 		"subclasses": []
 	},
 	{
-		"name": "Arcanist's Magic Aura",
+		"name": "Nystul's Magic Aura",
 		"desc": [
 			"You place an illusion on a creature or an object you touch so that divination spells reveal false information about it. The target can be a willing creature or an object that isn`t being carried or worn by another creature.",
 			"When you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same creature or object every day for 30 days, placing the same effect on it each time, the illusion lasts until it is dispelled.",
@@ -690,6 +690,67 @@
 			}
 		]
 	},
+	{
+                "name": "Armor of Agathys",
+                "desc": [
+                        "A protective magical force surrounds yout, manifesting as a special frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage."
+                ],
+		"higher_level": [
+                        "When you cast this spell using a spell slot of 2nd or higher, both the temporary hit points and the cold damage increase by 5 for each slot level above 1st."
+                ],
+                "page": "phb 215",
+                "range": "Self",
+                "components": [
+                        "V",
+                        "S",
+                        "M"
+                ],
+                "material": "A cup of water",
+                "ritual": "no",
+                "duration": "1 hour",
+                "concentration": "no",
+                "casting_time": "1 action",
+                "level": 1,
+                "school": {
+                        "name": "Abjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Warlock"
+                        }
+                ]
+                ]
+        },
+	{
+                "name": "Arms of Hadar",
+                "desc": [
+                        "You invoke the power of Hagar, the Dark Hunger. Tendrils of black energy erupt from you and batter all creatures within 10 feet of you.",
+			"Each creature in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage and can`t take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect."
+                ],
+                "higher_level": [
+                        "When you cast this spell using a spell slot of 2nd or higher, the damage increases by 1d6 for each slot level above 1st."
+                ],
+                "page": "phb 215",
+                "range": "Self (10 foot radius)",
+                "components": [
+                        "V",
+                        "S"
+                ],
+                "ritual": "no",
+                "duration": "Instantaneous",
+                "concentration": "no",
+                "casting_time": "1 action",
+                "level": 1,
+                "school": {
+                        "name": "Conjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Warlock"
+                        }
+                ]
+                ]
+        },
 	{
 		"name": "Astral Projection",
 		"desc": [
@@ -768,6 +829,82 @@
 		]
 	},
 	{
+                "name": "Aura of Life",
+                "desc": [
+                        "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you.",
+                        "Each nonhostile creature in the aura (including you) has resistance to to necrotic damage, and it`s hitpoint maximum can`t be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
+                ],
+                "page": "phb 216",
+                "range": "Self (30 foot radius)",
+                "components": [
+                        "V"
+                ],
+                "ritual": "no",
+                "duration": "10 minutes",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 4,
+                "school": {
+                        "name": "Abjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Paladin"
+                        }
+                ]
+        },
+	{
+                "name": "Aura of Purity",
+                "desc": [
+                        "Purifying energy radiates from you in an aura with 30-foot radius. Until the spell ends, the aura moves with you, centered on you.",
+                        "Each nonhostile creature in the aura (including you) can`t become diseased, has resistance to poison damage, and has advantage on saving throws against the effects that cause any of the following conditions: blinded, charmed, deafened, frightened, poisoned, and stunned."
+                ],
+                "page": "phb 216",
+                "range": "Self (30 foot radius)",
+                "components": [
+                        "V"
+                ],
+                "ritual": "no",
+                "duration": "10 minutes",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 4,
+                "school": {
+                        "name": "Abjuration"
+                },              
+                "classes": [    
+                        {       
+                                "name": "Paladin"
+                        }               
+                ] 
+        },
+	{
+                "name": "Aura of Vitality",
+                "desc": [
+                        "Healing energy radiates from you in an aura with 30-foot radius. Until the spell ends, the aura moves with you, centered on you.",
+                        "You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points."
+                ],
+                "page": "phb 216",
+                "range": "Self (30 foot radius)",
+                "components": [
+                        "V"
+                ],
+                "ritual": "no",
+                "duration": "1 minute",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 3,
+                "school": {
+                        "name": "Evocation"
+                },
+                "classes": [
+                        {
+                                "name": "Paladin"
+                        }
+                ]
+               
+        },
+	{
 		"name": "Awaken",
 		"desc": [
 			"After spending the casting time tracing magical pathways within a precious gemstone, you touch a Huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human`s. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.",
@@ -837,6 +974,32 @@
 			}
 		]
 	},
+	{
+                "name": "Banishing Smite",
+                "desc": [
+                        "The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target.",
+                        "Additionally, if this attack reduces the target to 50 hit points or fewer, you banish it. If the target is native to the different plane of existence than the one you`re on, the target disappears, returning to its home plane.",
+			"If the target is native to the plane you`re on, the creature vanishes into harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied."
+                ],
+                "page": "phb 216",
+                "range": "Self",
+                "components": [
+                        "V"
+                ],
+                "ritual": "no",
+                "duration": "1 minute",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 5,
+                "school": {
+                        "name": "Abjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Paladin"
+                        }
+                ]
+        },
 	{
 		"name": "Banishment",
 		"desc": [
@@ -957,6 +1120,34 @@
 		]
 	},
 	{
+                "name": "Beast Sense",
+                "desc": [
+                        "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast`s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.",
+                        "While perceiving through the beast`s senses, you gain the benfits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings."
+                ],
+                "page": "phb 218",
+                "range": "Touch",
+                "components": [
+                        "S"
+                ],
+                "ritual": "yes",
+                "duration": "1 hour",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 2,
+                "school": {
+                        "name": "Divination"
+                },
+                "classes": [
+                        {
+                                "name": "Druid"
+                        },
+			{
+				"name": "Ranger"	
+			}
+                ] 
+        },
+	{
 		"name": "Bestow Curse",
 		"desc": [
 			"You touch a creature, and that creature must succeed on a wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:",
@@ -1001,7 +1192,68 @@
 		]
 	},
 	{
-		"name": "Black Tentacles",
+                "name": "Blade Barrier",
+                "desc": [
+                        "You create a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within the range and lasts for the duration.",
+                        "You can make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides three-quarters cover to creatures behind it, and its space is difficult terrain.",
+			"When a creature enters the wall`s area for the first time on a turn or starts its turn there, the creature must make a Dexterity saving throw. On a failed save, the creature takes 6d10 slashing damage. On a successful save, the creature takes half as much damage."
+                ],
+                "page": "phb 218",
+                "range": "90 feet",
+                "components": [
+			"V",
+                        "S"
+                ],
+                "ritual": "no",
+                "duration": "10 minutes",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 6,
+                "school": {
+                        "name": "Evocation"
+                },
+                "classes": [
+                        {
+                                "name": "Cleric"
+                        }
+                ]
+        },
+	{
+                "name": "Blade Ward",
+                "desc": [
+                        "You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+                ],
+                "page": "phb 218",
+                "range": "Self",
+                "components": [
+			"V",
+                        "S"
+                ],
+                "ritual": "no",
+                "duration": "1 round",
+                "concentration": "no",
+                "casting_time": "1 action",
+                "level": 0,
+                "school": {
+                        "name": "Abjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Wizard"
+                        },
+                        {
+                                "name": "Sorcerer"
+                        },
+			{
+				"name": "Bard"
+			},
+			{
+				"name": "Warlock"
+			}
+                ]
+        },
+	{
+		"name": "Evard`s Black Tentacles",
 		"desc": [
 			"Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain.",
 			"When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage.",
@@ -1142,6 +1394,34 @@
 			}
 		]
 	},
+	{
+                "name": "Blinding Smite",
+                "desc": [
+                        "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast`s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.",
+                        "While perceiving through the beast`s senses, you gain the benfits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings."
+                ],
+                "page": "phb 218",
+                "range": "Touch",
+                "components": [
+                        "S"
+                ],
+                "ritual": "yes",
+                "duration": "1 hour",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 2,
+                "school": {
+                        "name": "Divination"
+                },
+                "classes": [
+                        {
+                                "name": "Druid"
+                        },
+                        {
+                                "name": "Ranger"
+                        }
+                ]
+        },
 	{
 		"name": "Blindness/Deafness",
 		"desc": [
