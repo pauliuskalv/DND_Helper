@@ -4,7 +4,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Rage",
     "level": 1,
@@ -23,7 +23,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Unarmored Defense",
     "level": 1,
@@ -36,7 +36,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Reckless Attack",
     "level": 2,
@@ -49,7 +49,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Danger Sense",
     "level": 2,
@@ -62,7 +62,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Primal Path",
     "level": 3,
@@ -88,7 +88,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -101,7 +101,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Extra Attack",
     "level": 5,
@@ -114,7 +114,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Fast Movement",
     "level": 5,
@@ -140,7 +140,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Feral Instinct",
     "level": 7,
@@ -154,7 +154,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -167,7 +167,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Brutal Critical (1 die)",
     "level": 9,
@@ -194,7 +194,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Relentless Rage",
     "level": 11,
@@ -208,7 +208,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -221,7 +221,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Brutal Critical (2 dice)",
     "level": 13,
@@ -247,7 +247,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Persistent Rage",
     "level": 15,
@@ -260,7 +260,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -273,7 +273,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Brutal Critical (3 dice)",
     "level": 17,
@@ -286,7 +286,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Indomitable Might",
     "level": 18,
@@ -299,7 +299,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -312,7 +312,7 @@
       "name": "Barbarian"
     },
     "subclass": {
-      
+
     },
     "name": "Fast Movement",
     "level": 20,
@@ -325,7 +325,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Spellcasting",
     "level": 1,
@@ -339,7 +339,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Bardic Inspiration (d6)",
     "level": 1,
@@ -354,7 +354,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Jack of All Trades",
     "level": 2,
@@ -367,7 +367,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Song of Rest (d6)",
     "level": 2,
@@ -381,7 +381,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Bard College",
     "level": 3,
@@ -422,7 +422,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Expertise 1",
     "level": 3,
@@ -495,7 +495,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Acrobatics",
     "prerequisites": [
@@ -514,7 +514,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Animal Handling",
     "prerequisites": [
@@ -533,7 +533,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Arcana",
     "prerequisites": [
@@ -552,7 +552,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Athletics",
     "prerequisites": [
@@ -571,7 +571,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Deception",
     "prerequisites": [
@@ -590,7 +590,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: History",
     "prerequisites": [
@@ -609,7 +609,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Insight",
     "prerequisites": [
@@ -628,7 +628,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Intimidation",
     "prerequisites": [
@@ -647,7 +647,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Investigation",
     "prerequisites": [
@@ -666,7 +666,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Medicine",
     "prerequisites": [
@@ -685,7 +685,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Nature",
     "prerequisites": [
@@ -704,7 +704,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Perception",
     "prerequisites": [
@@ -723,7 +723,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Performance",
     "prerequisites": [
@@ -742,7 +742,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Persuasion",
     "prerequisites": [
@@ -761,7 +761,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Religion",
     "prerequisites": [
@@ -780,7 +780,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Sleight of Hand",
     "prerequisites": [
@@ -799,7 +799,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Stealth",
     "prerequisites": [
@@ -818,7 +818,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Survival",
     "prerequisites": [
@@ -837,7 +837,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -850,7 +850,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Bardic Inspiration (d8)",
     "level": 5,
@@ -865,7 +865,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Font of Inspiration",
     "level": 5,
@@ -878,7 +878,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Countercharm",
     "level": 6,
@@ -904,7 +904,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -917,7 +917,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Song of Rest (d8)",
     "level": 9,
@@ -931,7 +931,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Bardic Inspiration (d10)",
     "level": 10,
@@ -946,7 +946,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Expertise 2",
     "level": 10,
@@ -1019,7 +1019,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Magical Secrets 1",
     "level": 10,
@@ -1034,7 +1034,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -1047,7 +1047,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Song of Rest (d10)",
     "level": 13,
@@ -1061,7 +1061,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Magical Secrets 2",
     "level": 14,
@@ -1089,7 +1089,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Bardic Inspiration (d12)",
     "level": 15,
@@ -1104,7 +1104,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -1117,7 +1117,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Song of Rest (d12)",
     "level": 17,
@@ -1131,7 +1131,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Magical Secrets 3",
     "level": 18,
@@ -1146,7 +1146,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -1159,7 +1159,7 @@
       "name": "Bard"
     },
     "subclass": {
-      
+
     },
     "name": "Superior Inspiration",
     "level": 20,
@@ -1172,7 +1172,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Spellcasting",
     "level": 1,
@@ -1186,7 +1186,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Divine Domain",
     "level": 1,
@@ -1200,7 +1200,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Domain Spells 1",
     "level": 1,
@@ -1240,7 +1240,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Channel Divinity (1/rest)",
     "level": 2,
@@ -1256,7 +1256,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Channel Divinity: Turn Undead",
     "level": 2,
@@ -1285,7 +1285,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Domain Spells 2",
     "level": 3,
@@ -1299,7 +1299,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -1312,7 +1312,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Domain Spells 3",
     "level": 5,
@@ -1326,7 +1326,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Destroy Undead (CR 1/2 or below)",
     "level": 5,
@@ -1339,7 +1339,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Channel Divinity (2/rest)",
     "level": 6,
@@ -1365,7 +1365,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Domain Spells 4",
     "level": 7,
@@ -1379,7 +1379,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -1392,7 +1392,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Destroy Undead (CR 1 or below)",
     "level": 8,
@@ -1418,7 +1418,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Domain Spells 5",
     "level": 9,
@@ -1432,7 +1432,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Divine Intervention",
     "level": 10,
@@ -1448,7 +1448,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Destroy Undead (CR 2 or below)",
     "level": 11,
@@ -1461,7 +1461,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -1474,7 +1474,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Destroy Undead (CR 3 or below)",
     "level": 14,
@@ -1487,7 +1487,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -1500,7 +1500,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Destroy Undead (CR 4 or below)",
     "level": 17,
@@ -1513,7 +1513,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+      "name": "Life"
     },
     "name": "Supreme Healing",
     "level": 17,
@@ -1526,7 +1526,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Channel Divinity (3/rest)",
     "level": 18,
@@ -1539,7 +1539,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -1552,7 +1552,7 @@
       "name": "Cleric"
     },
     "subclass": {
-      
+
     },
     "name": "Divine Intervention Improvement",
     "level": 20,
@@ -1565,7 +1565,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Spellcasting",
     "level": 1,
@@ -1579,7 +1579,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Druidic",
     "level": 1,
@@ -1592,7 +1592,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Wild Shape (CR 1/4 or below, no flying or swim speed)",
     "level": 2,
@@ -1613,7 +1613,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Druid Circle",
     "level": 2,
@@ -1806,7 +1806,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Wild Shape (CR 1/2 or below, no flying speed)",
     "level": 4,
@@ -1827,7 +1827,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -1884,7 +1884,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Wild Shape (CR 1 or below)",
     "level": 8,
@@ -1905,7 +1905,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -1946,7 +1946,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -1972,7 +1972,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -1985,7 +1985,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Timeless Body",
     "level": 18,
@@ -1998,7 +1998,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Beast Spells",
     "level": 18,
@@ -2011,7 +2011,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -2024,7 +2024,7 @@
       "name": "Druid"
     },
     "subclass": {
-      
+
     },
     "name": "Archdruid",
     "level": 20,
@@ -2038,7 +2038,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Fighting Style",
     "level": 1,
@@ -2075,7 +2075,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Archery",
     "level": 1,
@@ -2089,7 +2089,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Defense",
     "level": 1,
@@ -2103,7 +2103,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Dueling",
     "level": 1,
@@ -2117,7 +2117,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Great Weapon Fighting",
     "level": 1,
@@ -2131,7 +2131,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Protection",
     "level": 1,
@@ -2145,7 +2145,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Two-Weapon Fighting",
     "level": 1,
@@ -2159,7 +2159,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Second Wind",
     "level": 1,
@@ -2172,7 +2172,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Action Surge (1 use)",
     "level": 2,
@@ -2186,7 +2186,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Martial Archetype",
     "level": 3,
@@ -2212,7 +2212,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -2225,7 +2225,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Extra Attack (1)",
     "level": 5,
@@ -2238,7 +2238,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 6,
@@ -2264,7 +2264,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 8,
@@ -2277,7 +2277,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Indomitable (1 use)",
     "level": 9,
@@ -2327,7 +2327,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Extra Attack (2)",
     "level": 11,
@@ -2340,7 +2340,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 12,
@@ -2353,7 +2353,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Indomitable (2 uses)",
     "level": 13,
@@ -2366,7 +2366,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 14,
@@ -2392,7 +2392,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 6",
     "level": 16,
@@ -2405,7 +2405,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Action Surge (2 uses)",
     "level": 2,
@@ -2419,7 +2419,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Indomitable (3 uses)",
     "level": 17,
@@ -2445,7 +2445,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 7",
     "level": 19,
@@ -2458,7 +2458,7 @@
       "name": "Fighter"
     },
     "subclass": {
-      
+
     },
     "name": "Extra Attack (3)",
     "level": 20,
@@ -2471,7 +2471,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Unarmored Defense",
     "level": 1,
@@ -2484,7 +2484,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Martial Arts",
     "level": 1,
@@ -2502,7 +2502,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Ki",
     "level": 2,
@@ -2519,7 +2519,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Flurry of Blows",
     "level": 2,
@@ -2532,7 +2532,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Patient Defense",
     "level": 2,
@@ -2545,7 +2545,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Step of the Wind",
     "level": 2,
@@ -2558,7 +2558,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Unarmored Movement 1",
     "level": 2,
@@ -2572,7 +2572,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Monastic Tradition",
     "level": 3,
@@ -2585,7 +2585,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Deflect Missiles",
     "level": 3,
@@ -2615,7 +2615,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -2628,7 +2628,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Slow Fall",
     "level": 4,
@@ -2641,7 +2641,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Extra Attack",
     "level": 5,
@@ -2654,7 +2654,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Stunning Strike",
     "level": 5,
@@ -2667,7 +2667,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Ki Empowered Strikes",
     "level": 6,
@@ -2693,7 +2693,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Evasion",
     "level": 7,
@@ -2706,7 +2706,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Stillness of Mind",
     "level": 7,
@@ -2719,7 +2719,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -2732,7 +2732,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Unarmored Movement 2",
     "level": 9,
@@ -2746,7 +2746,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Purity of Body",
     "level": 10,
@@ -2772,7 +2772,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -2785,7 +2785,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Tongue of the Sun and Moon",
     "level": 13,
@@ -2798,7 +2798,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Diamond Soul",
     "level": 14,
@@ -2812,7 +2812,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Timeless Body",
     "level": 15,
@@ -2825,7 +2825,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -2852,7 +2852,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Empty Body",
     "level": 18,
@@ -2866,7 +2866,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -2879,7 +2879,7 @@
       "name": "Monk"
     },
     "subclass": {
-      
+
     },
     "name": "Perfect Self",
     "level": 20,
@@ -2892,7 +2892,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Divine Sense",
     "level": 1,
@@ -2906,7 +2906,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Lay on Hands",
     "level": 1,
@@ -2922,7 +2922,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Fighting Style",
     "level": 2,
@@ -2953,7 +2953,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Defense",
     "level": 2,
@@ -2967,7 +2967,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Dueling",
     "level": 2,
@@ -2981,7 +2981,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Great Weapon Fighting",
     "level": 2,
@@ -2995,7 +2995,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Protection",
     "level": 2,
@@ -3009,7 +3009,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Spellcasting",
     "level": 2,
@@ -3023,7 +3023,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Divine Smite",
     "level": 2,
@@ -3036,7 +3036,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Divine Health",
     "level": 3,
@@ -3049,7 +3049,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Sacred Oath",
     "level": 3,
@@ -3063,7 +3063,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Oath Spells",
     "level": 3,
@@ -3077,7 +3077,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Channel Divinity",
     "level": 3,
@@ -3120,7 +3120,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -3133,7 +3133,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Extra Attack",
     "level": 5,
@@ -3146,7 +3146,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Aura of Protection",
     "level": 6,
@@ -3174,7 +3174,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -3187,7 +3187,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Aura of Courage",
     "level": 10,
@@ -3201,7 +3201,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Improved Divine Smite",
     "level": 11,
@@ -3214,7 +3214,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -3227,7 +3227,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Cleansing Touch",
     "level": 14,
@@ -3254,7 +3254,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -3267,7 +3267,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Aura improvements",
     "level": 18,
@@ -3280,7 +3280,7 @@
       "name": "Paladin"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -3308,7 +3308,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Favored Enemy (1 type)",
     "level": 1,
@@ -3325,7 +3325,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Natural Explorer (1 terrain type)",
     "level": 1,
@@ -3346,7 +3346,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Fighting Style",
     "level": 2,
@@ -3377,7 +3377,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Archery",
     "level": 2,
@@ -3391,7 +3391,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Defense",
     "level": 2,
@@ -3405,7 +3405,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Dueling",
     "level": 2,
@@ -3419,7 +3419,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Fighting Style: Two-Weapon Fighting",
     "level": 2,
@@ -3433,7 +3433,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Spellcasting",
     "level": 2,
@@ -3447,7 +3447,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Ranger Archetype",
     "level": 3,
@@ -3533,7 +3533,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Primeval Awareness",
     "level": 3,
@@ -3546,7 +3546,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -3559,7 +3559,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Extra Attack",
     "level": 5,
@@ -3572,7 +3572,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Favored Enemy (2 types)",
     "level": 6,
@@ -3589,7 +3589,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Natural Explorer (2 terrain types)",
     "level": 6,
@@ -3683,7 +3683,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -3696,7 +3696,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Land’s Stride",
     "level": 8,
@@ -3710,7 +3710,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Natural Explorer (3 terrain types)",
     "level": 10,
@@ -3731,7 +3731,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Hide in Plain Sight",
     "level": 10,
@@ -3800,7 +3800,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 12,
@@ -3813,7 +3813,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Favored Enemy (3 enemies)",
     "level": 14,
@@ -3830,7 +3830,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Vanish",
     "level": 14,
@@ -3916,7 +3916,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -3929,7 +3929,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Feral Senses",
     "level": 18,
@@ -3943,7 +3943,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -3956,7 +3956,7 @@
       "name": "Ranger"
     },
     "subclass": {
-      
+
     },
     "name": "Foe Slayer",
     "level": 20,
@@ -3969,7 +3969,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Expertise 1",
     "level": 1,
@@ -4043,7 +4043,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Acrobatics",
     "prerequisites": [
@@ -4062,7 +4062,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Animal Handling",
     "prerequisites": [
@@ -4081,7 +4081,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Arcana",
     "prerequisites": [
@@ -4100,7 +4100,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Athletics",
     "prerequisites": [
@@ -4119,7 +4119,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Deception",
     "prerequisites": [
@@ -4138,7 +4138,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: History",
     "prerequisites": [
@@ -4157,7 +4157,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Insight",
     "prerequisites": [
@@ -4176,7 +4176,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Intimidation",
     "prerequisites": [
@@ -4195,7 +4195,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Investigation",
     "prerequisites": [
@@ -4214,7 +4214,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Medicine",
     "prerequisites": [
@@ -4233,7 +4233,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Nature",
     "prerequisites": [
@@ -4252,7 +4252,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Perception",
     "prerequisites": [
@@ -4271,7 +4271,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Performance",
     "prerequisites": [
@@ -4290,7 +4290,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Persuasion",
     "prerequisites": [
@@ -4309,7 +4309,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Religion",
     "prerequisites": [
@@ -4328,7 +4328,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Sleight of Hand",
     "prerequisites": [
@@ -4347,7 +4347,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Stealth",
     "prerequisites": [
@@ -4366,7 +4366,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Survival",
     "prerequisites": [
@@ -4385,7 +4385,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Expertise: Thieves' Tools",
     "prerequisites": [
@@ -4404,7 +4404,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Sneak Attack",
     "level": 1,
@@ -4419,7 +4419,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Thieves' Cant",
     "level": 1,
@@ -4433,7 +4433,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Cunning Action",
     "level": 2,
@@ -4446,7 +4446,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Roguish Archetype",
     "level": 3,
@@ -4486,7 +4486,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -4499,7 +4499,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Uncanny Dodge",
     "level": 5,
@@ -4512,7 +4512,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Expertise 2",
     "level": 6,
@@ -4586,7 +4586,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Evasion",
     "level": 7,
@@ -4599,7 +4599,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -4625,7 +4625,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 10,
@@ -4638,7 +4638,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Reliable Talent",
     "level": 11,
@@ -4651,7 +4651,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 12,
@@ -4677,7 +4677,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Blindsense",
     "level": 14,
@@ -4690,7 +4690,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Slippery Mind",
     "level": 15,
@@ -4703,7 +4703,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 16,
@@ -4729,7 +4729,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Elusive",
     "level": 18,
@@ -4742,7 +4742,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 6",
     "level": 19,
@@ -4755,7 +4755,7 @@
       "name": "Rogue"
     },
     "subclass": {
-      
+
     },
     "name": "Stroke of Luck",
     "level": 20,
@@ -4769,7 +4769,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Spellcasting",
     "level": 1,
@@ -4783,7 +4783,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Sorcerous Origin",
     "level": 1,
@@ -5011,7 +5011,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Font of Magic",
     "level": 2,
@@ -5026,7 +5026,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Flexible Casting: Creating Spell Slots",
     "level": 2,
@@ -5040,7 +5040,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Flexible Casting: Converting Spell Slot",
     "level": 2,
@@ -5053,7 +5053,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Metamagic",
     "level": 3,
@@ -5097,7 +5097,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Careful Spell",
     "level": 3,
@@ -5111,7 +5111,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Distant Spell",
     "level": 3,
@@ -5126,7 +5126,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Empowered Spell",
     "level": 3,
@@ -5141,7 +5141,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Extended Spell",
     "level": 3,
@@ -5155,7 +5155,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Heightened Spell",
     "level": 3,
@@ -5169,7 +5169,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Quickened Spell",
     "level": 3,
@@ -5183,7 +5183,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Subtle Spell",
     "level": 3,
@@ -5197,7 +5197,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Metamagic: Twinned Spell",
     "level": 3,
@@ -5211,7 +5211,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -5238,7 +5238,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -5251,7 +5251,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Metamagic",
     "level": 10,
@@ -5295,7 +5295,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -5322,7 +5322,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -5335,7 +5335,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Metamagic",
     "level": 17,
@@ -5392,7 +5392,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -5405,7 +5405,7 @@
       "name": "Sorcerer"
     },
     "subclass": {
-      
+
     },
     "name": "Sorcerous Restoration",
     "level": 20,
@@ -5418,7 +5418,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Otherworldly Patron",
     "level": 1,
@@ -5444,7 +5444,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Pact Magic",
     "level": 1,
@@ -5458,7 +5458,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Eldritch Invocations",
     "level": 2,
@@ -5527,7 +5527,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Agonizing Blast",
     "level": 2,
@@ -5547,7 +5547,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Armor of Shadows",
     "level": 2,
@@ -5562,7 +5562,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Beast Speech",
     "level": 2,
@@ -5577,7 +5577,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Beguiling Influence",
     "level": 2,
@@ -5592,7 +5592,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Book of Ancient Secrets",
     "level": 2,
@@ -5613,7 +5613,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Devil’s Sight",
     "level": 2,
@@ -5628,7 +5628,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Eldritch Sight",
     "level": 2,
@@ -5643,7 +5643,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Eldritch Spear",
     "level": 2,
@@ -5663,7 +5663,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Eyes of the Rune Keeper",
     "level": 2,
@@ -5678,7 +5678,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Fiendish Vigor",
     "level": 2,
@@ -5693,7 +5693,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Gaze of Two Minds",
     "level": 2,
@@ -5708,7 +5708,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Mask of Many Faces",
     "level": 2,
@@ -5723,7 +5723,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Misty Visions",
     "level": 2,
@@ -5738,7 +5738,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Repelling Blast",
     "level": 2,
@@ -5758,7 +5758,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Thief of Five Fates",
     "level": 2,
@@ -5773,7 +5773,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Voice of the Chain Master",
     "level": 2,
@@ -5794,7 +5794,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Mire the Mind",
     "level": 5,
@@ -5814,7 +5814,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: One with Shadows",
     "level": 5,
@@ -5834,7 +5834,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Sign of Ill Omen",
     "level": 5,
@@ -5854,7 +5854,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Thirsting Blade",
     "level": 5,
@@ -5878,7 +5878,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Bewitching Whispers",
     "level": 7,
@@ -5898,7 +5898,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Dreadful Word",
     "level": 7,
@@ -5918,7 +5918,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Sculptor of Flesh",
     "level": 7,
@@ -5938,7 +5938,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Ascendant Step",
     "level": 9,
@@ -5958,7 +5958,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Minions of Chaos",
     "level": 9,
@@ -5978,7 +5978,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Otherworldly Leap",
     "level": 9,
@@ -5998,7 +5998,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Whispers of the Grave",
     "level": 9,
@@ -6018,7 +6018,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Lifedrinker",
     "level": 12,
@@ -6042,7 +6042,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Chains of Carceri",
     "level": 15,
@@ -6066,7 +6066,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Master of Myriad Forms",
     "level": 15,
@@ -6086,7 +6086,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Visions of Distant Realms",
     "level": 15,
@@ -6106,7 +6106,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Invocation: Witch Sight",
     "level": 15,
@@ -6126,7 +6126,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Pact Boon",
     "level": 3,
@@ -6154,7 +6154,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Pact of the Chain",
     "level": 3,
@@ -6171,7 +6171,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Pact of the Blade",
     "level": 3,
@@ -6188,7 +6188,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Pact of the Tome",
     "level": 3,
@@ -6204,7 +6204,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -6217,7 +6217,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Eldritch Invocation",
     "level": 5,
@@ -6300,7 +6300,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Eldritch Invocation",
     "level": 7,
@@ -6369,7 +6369,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -6382,7 +6382,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Eldritch Invocation",
     "level": 9,
@@ -6464,7 +6464,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Mystic Arcanum (6th level)",
     "level": 11,
@@ -6479,7 +6479,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -6492,7 +6492,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Eldritch Invocation",
     "level": 12,
@@ -6561,7 +6561,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Mystic Arcanum (7th level)",
     "level": 13,
@@ -6591,7 +6591,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Mystic Arcanum (8th level)",
     "level": 15,
@@ -6606,7 +6606,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Eldritch Invocation",
     "level": 15,
@@ -6675,7 +6675,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 16,
@@ -6688,7 +6688,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Mystic Arcanum (9th level)",
     "level": 17,
@@ -6703,7 +6703,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Eldritch Invocation",
     "level": 18,
@@ -6772,7 +6772,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 6",
     "level": 19,
@@ -6785,7 +6785,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Eldritch Master",
     "level": 20,
@@ -6799,7 +6799,7 @@
       "name": "Warlock"
     },
     "subclass": {
-      
+
     },
     "name": "Choose: Additional Eldritch Invocation",
     "level": 20,
@@ -6868,7 +6868,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Spellcasting",
     "level": 1,
@@ -6882,7 +6882,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Arcane Recovery",
     "level": 1,
@@ -6896,7 +6896,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Arcane Tradition",
     "level": 2,
@@ -6936,7 +6936,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 1",
     "level": 4,
@@ -6962,7 +6962,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 2",
     "level": 8,
@@ -6988,7 +6988,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 3",
     "level": 12,
@@ -7015,7 +7015,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 4",
     "level": 16,
@@ -7028,7 +7028,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Spell Mastery",
     "level": 18,
@@ -7042,7 +7042,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Ability Score Improvement 5",
     "level": 19,
@@ -7055,7 +7055,7 @@
       "name": "Wizard"
     },
     "subclass": {
-      
+
     },
     "name": "Signature Spell",
     "level": 20,
@@ -7289,6 +7289,653 @@
     "level": "14",
     "desc": [
       "While you’re raging, you can use a bonus action on your turn to knock a Large or smaller creature prone when you hit it with melee weapon attack."
+    ]
+  },
+  {
+    "class": {
+      "name": "Bard"
+    },
+    "subclass": {
+      "name": "Valor"
+    },
+    "name": "Bonus Proficiencies",
+    "level": "3",
+    "desc": [
+      "When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons."
+    ]
+  },
+  {
+    "class": {
+      "name": "Bard"
+    },
+    "subclass": {
+      "name": "Valor"
+    },
+    "name": "Combat Inspiration",
+    "level": "3",
+    "desc": [
+      "You learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses."
+    ]
+  },
+  {
+    "class": {
+      "name": "Bard"
+    },
+    "subclass": {
+      "name": "Valor"
+    },
+    "name": "Extra Attack",
+    "level": "6",
+    "desc": [
+      "Starting at 6th level, you can attack twice, instead of once, when ever you take the Attack action on your turn."
+    ]
+  },
+  {
+    "class": {
+      "name": "Bard"
+    },
+    "subclass": {
+      "name": "Valor"
+    },
+    "name": "Battle Magic",
+    "level": "14",
+    "desc": [
+      "At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Blessings of Knowledge",
+    "level": "1",
+    "desc": [
+      "At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.",
+      "Your proficiency bonus is doubled for any ability check you make that uses either of those skills."
+    ],
+    "choice": {
+      "choose": 2,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Blessings of Knowledge: Arcana"
+        },
+        {
+          "name": "Blessings of Knowledge: History"
+        },
+        {
+          "name": "Blessings of Knowledge: Nature"
+        },
+        {
+          "name": "Blessings of Knowledge: Religion"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Blessings of Knowledge: Arcana",
+    "level": "1",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make that uses Arcana."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Blessings of Knowledge: History",
+    "level": "1",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make that uses History"
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Blessings of Knowledge: Nature",
+    "level": "1",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make that uses Nature"
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Blessings of Knowledge: Religion",
+    "level": "1",
+    "desc": [
+      "Your proficiency bonus is doubled for any ability check you make that uses Religion"
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Channel Divinity: Knowledge of the Ages",
+    "level": "2",
+    "desc": [
+      "Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Channel Divinity: Read Thoughts",
+    "level": "6",
+    "desc": [
+      "At 6th level, you can use your Channel Divinity to read a creature’s thoughts. You can then use your access to the creature’s mind to command it.",
+      "As an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can’t use this feature on it again until you finish a long rest.",
+      "If the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.",
+      "During that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Potent Spellcasting",
+    "level": "8",
+    "desc": [
+      "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Knowledge"
+    },
+    "name": "Visions of the Past",
+    "level": "17",
+    "desc": [
+      "Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.",
+      "Once you use this feature, you can’t use it again until you finish a short or long rest.",
+      "OBJECT READING: Holding an object as you meditate, you can see visions of the object’s previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.",
+      "AREA READING: As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Light"
+    },
+    "name": "Bonus Cantrip",
+    "level": "1",
+    "desc": [
+      "When you choose this domain at 1st level, you gain the light cantrip if you don’t already know it."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Light"
+    },
+    "name": "Warding Flare",
+    "level": "1",
+    "desc": [
+      "Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can’t be blinded is immune to this feature.",
+      "You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Light"
+    },
+    "name": "Channel Divinity: Radiance of the Dawn",
+    "level": "2",
+    "desc": [
+      "Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.",
+      "As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Light"
+    },
+    "name": "Improved Flare",
+    "level": "6",
+    "desc": [
+      "Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Light"
+    },
+    "name": "Potent Spellcasting",
+    "level": "8",
+    "desc": [
+      "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Light"
+    },
+    "name": "Corona of Light",
+    "level": "17",
+    "desc": [
+      "Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Nature"
+    },
+    "name": "Acolyte of Nature",
+    "level": "1",
+    "desc": [
+      "At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Nature"
+    },
+    "name": "Bonus Proficiency",
+    "level": "1",
+    "desc": [
+      "Also at 1st level, you gain proficiency with heavy armor."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Nature"
+    },
+    "name": "Channel Divinity: Charm Animals and Plants",
+    "level": "2",
+    "desc": [
+      "Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.",
+      "As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Nature"
+    },
+    "name": "Dampen Elements",
+    "level": "6",
+    "desc": [
+      "Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Nature"
+    },
+    "name": "Divine Strike",
+    "level": "8",
+    "desc": [
+      "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to 2d8."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Nature"
+    },
+    "name": "Master of Nature",
+    "level": "17",
+    "desc": [
+      "At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Tempest"
+    },
+    "name": "Bonus Proficiencies",
+    "level": "1",
+    "desc": [
+      "At 1st level, you gain proficiency with martial weapons and heavy armor."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Tempest"
+    },
+    "name": "Wrath of the Storm",
+    "level": "1",
+    "desc": [
+      "Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.",
+      "You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Tempest"
+    },
+    "name": "Channel Divinity: Destructive Wrath",
+    "level": "2",
+    "desc": [
+      "Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.",
+      "When you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Tempest"
+    },
+    "name": "Thunderbolt Strike",
+    "level": "6",
+    "desc": [
+      "At 6th level, when you deal lightning dam age to a Large or smaller creature, you can also push it up to 10 feet away from you."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Tempest"
+    },
+    "name": "Divine Strike",
+    "level": "8",
+    "desc": [
+      "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage in creases to 2d8."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Tempest"
+    },
+    "name": "Stormborn",
+    "level": "17",
+    "desc": [
+      "At 17th level, you have a flying speed equal to your current walking speed when ever you are not underground or in doors."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Trickery"
+    },
+    "name": "Blessing of the Trickster",
+    "level": "1",
+    "desc": [
+      "Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Trickery"
+    },
+    "name": "Channel Divinity: Invoke Duplicity",
+    "level": "2",
+    "desc": [
+      "Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.",
+      "As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
+      "For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.",
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Trickery"
+    },
+    "name": "Channel Divinity: Cloak of Shadows",
+    "level": "6",
+    "desc": [
+      "Starting at 6th level, you can use your Channel Divinity to vanish.",
+      "As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Trickery"
+    },
+    "name": "Divine Strike",
+    "level": "8",
+    "desc": [
+      "At 8th level, you gain the ability to infuse your weapon strikes with poison —a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "Trickery"
+    },
+    "name": "Improved Duplicity",
+    "level": "17",
+    "desc": [
+      "At 8th level, you gain the ability to infuse your weapon strikes with poison —a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "War"
+    },
+    "name": "Bonus Proficiencies",
+    "level": "1",
+    "desc": [
+      "At 1st level, you gain proficiency with martial weapons and heavy armor."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "War"
+    },
+    "name": "War Priest",
+    "level": "1",
+    "desc": [
+      "From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.",
+      "You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "War"
+    },
+    "name": "Channel Divinity: Guided Strike",
+    "level": "2",
+    "desc": [
+      "Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses"
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "War"
+    },
+    "name": "Channel Divinity: War God's Blessing",
+    "level": "6",
+    "desc": [
+      "At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "War"
+    },
+    "name": "Divine Strike",
+    "level": "8",
+    "desc": [
+      "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+    ]
+  },
+  {
+    "class": {
+      "name": "Cleric"
+    },
+    "subclass": {
+      "name": "War"
+    },
+    "name": "Avatar of Battle",
+    "level": "17",
+    "desc": [
+      "At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+    ]
+  },
+  {
+    "class": {
+      "name": "Druid"
+    },
+    "subclass": {
+      "name": "Moon"
+    },
+    "name": "Combat Wild Shape",
+    "level": "2",
+    "desc": [
+      "When you choose this circle at 2nd level, you gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.",
+      "Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain 1d8 hit points per level of the spell slot expended."
+    ]
+  },
+  {
+    "class": {
+      "name": "Druid"
+    },
+    "subclass": {
+      "name": "Moon"
+    },
+    "name": "Circle Forms",
+    "level": "2",
+    "desc": [
+      "The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).",
+      "Starting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down."
+    ]
+  },
+  {
+    "class": {
+      "name": "Druid"
+    },
+    "subclass": {
+      "name": "Moon"
+    },
+    "name": "Primal Strike",
+    "level": "6",
+    "desc": [
+      "Starting at 6th level, your attacks in beast form count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+    ]
+  },
+  {
+    "class": {
+      "name": "Druid"
+    },
+    "subclass": {
+      "name": "Moon"
+    },
+    "name": "Elemental Wild Shape",
+    "level": "10",
+    "desc": [
+      "At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental."
+    ]
+  },
+  {
+    "class": {
+      "name": "Druid"
+    },
+    "subclass": {
+      "name": "Moon"
+    },
+    "name": "Thousand Forms",
+    "level": "14",
+    "desc": [
+      "By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will."
     ]
   }
 ]

@@ -13,7 +13,8 @@ public class ClassJSON {
 
         String[] toReturn = new String[array.length()];
 
-        for (int i = 1; i < array.length(); i ++) {
+        for (int i = 0; i < array.length(); i ++) {
+            System.out.println(array.getJSONObject(i).getString("name"));
             toReturn[i] = array.getJSONObject(i).getString("name");
         }
 
@@ -229,6 +230,8 @@ public class ClassJSON {
 
             if (obj.getInt("level") != level)
                 continue;
+
+            System.out.println(obj.toString());
 
             JSONObject spellcastingInfo = obj.getJSONObject("spellcasting");
             if (spellcastingInfo.length() == 0)

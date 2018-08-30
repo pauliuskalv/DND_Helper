@@ -117,7 +117,6 @@ public class NewCharacterStep1 {
                 mStatChoices.add(new SettablePair<Boolean, Integer>(false, 15));
 
                 mClassList.setItems(FXCollections.observableArrayList(ClassJSON.getClasses()));
-                mClassList.getItems().remove(0);
 
                 mClassList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener<String>() {
                     public void changed(ObservableValue<? extends String> observableValue, String s, String t1) {

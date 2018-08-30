@@ -11,18 +11,6 @@
 		"features": [
 			{
 				"name": "Primal Path"
-			},
-			{
-				"name": "Frenzy"
-			},
-			{
-				"name": "Mindless Rage"
-			},
-			{
-				"name": "Intimidating Presence"
-			},
-			{
-				"name": "Retaliation"
 			}
 		]
 	},
@@ -39,21 +27,6 @@
 		"features": [
 			{
 				"name": "Primal Path"
-			},
-			{
-				"name": "Spirit Seeker"
-			},
-			{
-				"name": "Totem Spirit"
-			},
-			{
-				"name": "Aspect of the Beast"
-			},
-			{
-				"name": "Spirit Walker"
-			},
-			{
-				"name": "Totemic Attunement"
 			}
 		]
 	},
@@ -67,7 +40,18 @@
 			"Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king. The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic. The college's members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-important figures of authority."
 		],
 		"features": [
-			
+		]
+	},
+	{
+		"class": {
+			"name": "Bard"
+		},
+		"name": "Valor",
+		"subclass_flavor": "Bard College",
+		"desc": [
+			"Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bon fires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn’t pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old."
+		],
+		"features": [
 		]
 	},
 	{
@@ -79,7 +63,8 @@
 		"desc": [
 			"The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities, sun gods, gods of healing or endurance, and gods of home and community."
 		],
-		"features": [],
+		"features": [
+		],
 		"spells": [
 			{
 				"level_acquired": 1,
@@ -169,6 +154,690 @@
 				"prerequisites": [],
 				"spell": {
 					"name": "Raise Dead"
+				}
+			}
+		]
+	},
+	{
+		"class": {
+			"name": "Cleric"
+		},
+		"name": "Knowledge",
+		"subclass_flavor": "Divine Domain",
+		"desc": [
+			"The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu."
+		],
+		"features": [
+		],
+		"spells": [
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Command"
+				}
+			},
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Identify"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Augury"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Suggestion"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Nondetection"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Speak with Dead"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Arcane Eye"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Confusion"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Legend Lore"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Scrying"
+				}
+			}
+		]
+	},
+	{
+		"class": {
+			"name": "Cleric"
+		},
+		"name": "Light",
+		"subclass_flavor": "Divine Domain",
+		"desc": [
+			"Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's im provement. Clerics of a god of light are enlightened souls in fused with radiance and the power of their gods’ discerning vision, charged with chasing away lies and burning away darkness."
+		],
+		"features": [
+		],
+		"spells": [
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Burning Hands"
+				}
+			},
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Faerie fire"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Flaming Sphere"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Scorching Ray"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Daylight"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Fireball"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Guardian of Faith"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Wall of Fire"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Flame Strike"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Scrying"
+				}
+			}
+		]
+	},
+	{
+		"class": {
+			"name": "Cleric"
+		},
+		"name": "Nature",
+		"subclass_flavor": "Divine Domain",
+		"desc": [
+			"Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the wood lands, bless the harvest of the faithful, or wither the crops of those who anger their gods."
+		],
+		"features": [
+		],
+		"spells": [
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Animal Friendship"
+				}
+			},
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Speak with Animals"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Barkskin"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Spike Growth"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Plant Growth"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Wind Wall"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Dominate Beast"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Grasping Wine"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Insect Plague"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Tree Stride"
+				}
+			}
+		]
+	},
+	{
+		"class": {
+			"name": "Cleric"
+		},
+		"name": "Tempest",
+		"subclass_flavor": "Divine Domain",
+		"desc": [
+			"Gods whose portfolios include the Tempest domain - including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath."
+		],
+		"features": [
+		],
+		"spells": [
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Fog Cloud"
+				}
+			},
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Thunderwave"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Gust of Wind"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Shatter"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Call Lightning"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Sleet Storm"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Control Water"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Ice Storm"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Destructive Wave"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Insect Plague"
+				}
+			}
+		]
+	},
+	{
+		"class": {
+			"name": "Cleric"
+		},
+		"name": "Trickery",
+		"subclass_flavor": "Divine Domain",
+		"desc": [
+			"Gods of trickery—such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They’re patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefersubterfuge, pranks, deception, and theft rather than direct confrontation."
+		],
+		"features": [
+		],
+		"spells": [
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Charm Person"
+				}
+			},
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Disguise Self"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Mirror Image"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Pass without Trace"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Blink"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Dispel Magic"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Dimension Door"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Polymorph"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Dominate Person"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Modify Memory"
+				}
+			}
+		]
+	},
+	{
+		"class": {
+			"name": "Cleric"
+		},
+		"name": "War",
+		"subclass_flavor": "Divine Domain",
+		"desc": [
+			"War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing in stances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance."
+		],
+		"features": [
+		],
+		"spells": [
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Divine Favor"
+				}
+			},
+			{
+				"level_acquired": 1,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Shield of Faith"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Magic Weapon"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Spiritual Weapon"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Crusader's Mantle"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Spirit Guardians"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Freedom of Movement"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Stoneskin"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Flame Strike"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Hold Monster"
 				}
 			}
 		]
@@ -967,7 +1636,134 @@
 				"spell": {
 					"name": "Scrying"
 				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Spiderclimb"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Web"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Gaseous Form"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Stinking Cloud"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Greater Invisibility"
+				}
+			},
+			{
+				"level_acquired": 7,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Stone Shape"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Cloudkill"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [
+					{
+						"name": "Circle of the Land: Underdark"
+					}
+				],
+				"spell": {
+					"name": "Insect Plague"
+				}
 			}
+		]
+	},
+	{
+		"class": {
+			"name": "Druid"
+		},
+		"name": "Moon",
+		"subclass_flavor": "Druid Circle",
+		"desc": [
+			"Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.",
+			"Changeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood."
+		],
+		"features": [],
+		"spells": [
+
 		]
 	},
 	{
