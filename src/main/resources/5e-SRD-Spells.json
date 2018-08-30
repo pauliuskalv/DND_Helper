@@ -718,8 +718,8 @@
                         {
                                 "name": "Warlock"
                         }
-                ]
-                ]
+                ],
+                "subclasses": []
         },
 	{
                 "name": "Arms of Hadar",
@@ -748,8 +748,8 @@
                         {
                                 "name": "Warlock"
                         }
-                ]
-                ]
+                ],
+                "subclasses": []
         },
 	{
 		"name": "Astral Projection",
@@ -851,7 +851,8 @@
                         {
                                 "name": "Paladin"
                         }
-                ]
+                ],
+                "subclasses": []
         },
 	{
                 "name": "Aura of Purity",
@@ -876,7 +877,8 @@
                         {       
                                 "name": "Paladin"
                         }               
-                ] 
+                ],
+                "subclasses": []
         },
 	{
                 "name": "Aura of Vitality",
@@ -989,7 +991,7 @@
                 "ritual": "no",
                 "duration": "1 minute",
                 "concentration": "yes",
-                "casting_time": "1 action",
+                "casting_time": "1 bonus action",
                 "level": 5,
                 "school": {
                         "name": "Abjuration"
@@ -998,7 +1000,8 @@
                         {
                                 "name": "Paladin"
                         }
-                ]
+                ],
+                "subclasses": []
         },
 	{
 		"name": "Banishment",
@@ -1145,7 +1148,8 @@
 			{
 				"name": "Ranger"	
 			}
-                ] 
+                ],
+                "subclasses": []
         },
 	{
 		"name": "Bestow Curse",
@@ -1216,7 +1220,8 @@
                         {
                                 "name": "Cleric"
                         }
-                ]
+                ],
+                "subclasses": []
         },
 	{
                 "name": "Blade Ward",
@@ -1250,7 +1255,8 @@
 			{
 				"name": "Warlock"
 			}
-                ]
+                ],
+                "subclasses": []
         },
 	{
 		"name": "Evard`s Black Tentacles",
@@ -1278,33 +1284,6 @@
 		"classes": [
 			{
 				"name": "Wizard"
-			}
-		],
-		"subclasses": []
-	},
-	{
-		"name": "Blade Barrier",
-		"desc": [
-			"You create a vertical wall of whirling, razor-sharp blades made of magical energy. The wall appears within range and lasts for the duration. You can make a straight wall up to 100 feet long, 20 feet high, and 5 feet thick, or a ringed wall up to 60 feet in diameter, 20 feet high, and 5 feet thick. The wall provides three-quarters cover to creatures behind it, and its space is difficult terrain.",
-			"When a creature enters the wall`s area for the first time on a turn or starts its turn there, the creature must make a dexterity saving throw. On a failed save, the creature takes 6d10 slashing damage. On a successful save, the creature takes half as much damage."
-		],
-		"page": "phb 218",
-		"range": "90 feet",
-		"components": [
-			"V",
-			"S"
-		],
-		"ritual": "no",
-		"duration": "Up to 10 minutes",
-		"concentration": "yes",
-		"casting_time": "1 action",
-		"level": 6,
-		"school": {
-			"name": "Evocation"
-		},
-		"classes": [
-			{
-				"name": "Cleric"
 			}
 		],
 		"subclasses": []
@@ -1397,30 +1376,29 @@
 	{
                 "name": "Blinding Smite",
                 "desc": [
-                        "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast`s eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses.",
-                        "While perceiving through the beast`s senses, you gain the benfits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings."
+                        "The next time you hit a creature with a melee weapon attack during this spell`s duration, your weapon flares with bright light, and the attack deals an extra 3d8 radiant damage to the target.",
+                        "Additionally, the target must succeed on a Constitution saving throw or be blinded until the spell ends.",
+			"A creature blinded by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded."
                 ],
-                "page": "phb 218",
-                "range": "Touch",
+                "page": "phb 219",
+                "range": "Self",
                 "components": [
-                        "S"
+                        "V"
                 ],
-                "ritual": "yes",
-                "duration": "1 hour",
+                "ritual": "no",
+                "duration": "1 minute",
                 "concentration": "yes",
-                "casting_time": "1 action",
-                "level": 2,
+                "casting_time": "1 bonus action",
+                "level": 3,
                 "school": {
-                        "name": "Divination"
+                        "name": "Evocation"
                 },
                 "classes": [
                         {
-                                "name": "Druid"
-                        },
-                        {
-                                "name": "Ranger"
+                                "name": "Paladin"
                         }
-                ]
+                ],
+                "subclasses": []
         },
 	{
 		"name": "Blindness/Deafness",
@@ -1535,6 +1513,33 @@
 			}
 		]
 	},
+	{
+                "name": "Branding Smite",
+                "desc": [
+                        "The next time you hit a creature with a melee weapon attack during this spell`s duration, your weapon gleams with astral radiance as you strike.",
+                        "The attack deals an extra 2d6 radiant damage to the target, which becomes visible if it`s invisible, and the target sheds dim light in a 5-foot radius and can`t become invisible until the spell ends.",
+                        "A creature blinded by this spell makes another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded."
+                ],
+                "page": "phb 219",
+                "range": "Self",
+                "components": [
+                        "V"
+                ],
+                "ritual": "no",
+                "duration": "1 minute",
+                "concentration": "yes",
+                "casting_time": "1 bonus action",
+                "level": 2,
+                "school": {
+                        "name": "Evocation"
+                },
+                "classes": [
+                        {
+                                "name": "Paladin"
+                        }
+                ],
+                "subclasses": []
+        },
 	{
 		"name": "Burning Hands",
 		"desc": [
@@ -1766,6 +1771,41 @@
 		]
 	},
 	{
+                "name": "Chromatic Orb",
+                "desc": [
+                        "You hurl a 4-inch-diameter sphere of energy at a creature that you can see within range.",
+                        "You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a ranged spell attack against the target. If the attack hits, the creature takes 3d8 damage of the type you chose"
+                ],
+		"higher_level": [
+			"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
+		],
+                "page": "phb 221",
+                "range": "90 feet",
+                "components": [
+                        "V",
+			"S",
+			"M"
+                ],
+		"material": "A diamond worth at least 50 gp",
+                "ritual": "no",
+                "duration": "Instantaneous",
+                "concentration": "no",
+                "casting_time": "1 action",
+                "level": 1,
+                "school": {
+                        "name": "Evocation"
+                },
+                "classes": [
+                        {
+                                "name": "Wizard"
+                        },
+			{
+				"name": "Sorcerer"
+			}
+                ],
+                "subclasses": []
+        },
+	{
 		"name": "Circle of Death",
 		"desc": [
 			"A sphere of negative energy ripples out in a 60-footradius sphere from a point within range. Each creature in that area must make a constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one."
@@ -1802,6 +1842,33 @@
 		],
 		"subclasses": []
 	},
+	{
+                "name": "Circle of Power",
+                "desc": [
+                        "Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you.",
+			"For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects.",
+			"Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
+                ],
+                "page": "phb 221",
+                "range": "Self (30-foot radius)",
+                "components": [
+                        "V"
+                ],
+                "ritual": "no",
+                "duration": "10 minutes",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 5,
+                "school": {
+                        "name": "Abjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Paladin"
+                        }
+                ],
+                "subclasses": []
+        },
 	{
 		"name": "Clairvoyance",
 		"desc": [
@@ -1874,6 +1941,47 @@
 		],
 		"subclasses": []
 	},
+	{
+                "name": "Cloud of Daggers",
+                "desc": [
+                        "You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range.",
+                        "A creature takes 4d4 slashing damage when it enters the spell`s area for the first time on a turn or starts its turn there."
+                ],
+		"higher_level": [
+			"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above the 2nd."
+		],
+                "page": "phb 222",
+                "range": "60 feet",
+                "components": [
+                        "V",
+			"S",
+			"M"
+                ],
+		"material": "A silver of glass.",
+                "ritual": "no",
+                "duration": "1 minute",
+                "concentration": "yes",
+                "casting_time": "1 action",
+                "level": 2,
+                "school": {
+                        "name": "Conjuration"
+                },
+                "classes": [
+                        {
+                                "name": "Bard"
+                        },
+			{
+				"name": "Sorcerer"
+			},
+			{
+				"name": "Warlock"
+			},
+			{
+				"name": "Wizard"
+			}
+                ],
+                "subclasses": []
+        },
 	{
 		"name": "Cloudkill",
 		"desc": [
