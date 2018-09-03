@@ -2256,7 +2256,8 @@
     "name": "Remarkable Athlete",
     "level": 7,
     "desc": [
-      "Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus. In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
+      "Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn’t already use your proficiency bonus.",
+      "In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier."
     ]
   },
   {
@@ -7749,7 +7750,7 @@
     "desc": [
       "Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.",
       "As an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.",
-      "For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.",
+      "For the duration, you can cast spells as though you were in the illusion’s space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target."
     ]
   },
   {
@@ -7936,6 +7937,999 @@
     "level": "14",
     "desc": [
       "By 14th level, you have learned to use magic to alter your physical form in more subtle ways. You can cast the alter self spell at will."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Combat Superiority",
+    "level": "3",
+    "desc": [
+      "When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.",
+      "MANEUVERS. You learn three maneuvers of your choice, which are detailed under “Maneuvers” below. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.",
+      "You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.",
+      "SUPERIORITY DICE. You have four superiority dice, which are d8s. A superiority die is expended when use it. You regain all of your expended superiority dice when you finish a short or long rest.",
+      "You gain another superiority die at 7th level and one more at 15th level.",
+      "SAVING THROWS. Some of your maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:",
+      "Maneuver save DC = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)"
+    ],
+    "choice": {
+      "choose": 3,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Maneuver: Commander’s Strike"
+        },
+        {
+          "name": "Maneuver: Disarming Attack"
+        },
+        {
+          "name": "Maneuver: Distracting Strike"
+        },
+        {
+          "name": "Maneuver: Evasive Footwork"
+        },
+        {
+          "name": "Maneuver: Feinting Attack"
+        },
+        {
+          "name": "Maneuver: Goading Attack"
+        },
+        {
+          "name": "Maneuver: Lunging Attack"
+        },
+        {
+          "name": "Maneuver: Lunging Attack"
+        },
+        {
+          "name": "Maneuver: Maneuvering Attack"
+        },
+        {
+          "name": "Maneuver: Menacing Attack"
+        },
+        {
+          "name": "Maneuver: Parry"
+        },
+        {
+          "name": "Maneuver: Precision Attack"
+        },
+        {
+          "name": "Maneuver: Pushing Attack"
+        },
+        {
+          "name": "Maneuver: Rally"
+        },
+        {
+          "name": "Maneuver: Riposte"
+        },
+        {
+          "name": "Maneuver: Sweeping Attack"
+        },
+        {
+          "name": "Maneuver: Trip Attack"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Commander’s Strike",
+    "level": "3",
+    "desc": [
+      "When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companion s to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack’s damage roll."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Disarming Attack",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it’s holding. You add the superiority die to the attack’s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Distracting Strike",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack’s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Evasive Footwork",
+    "level": "3",
+    "desc": [
+      "When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Feinting Attack",
+    "level": "3",
+    "desc": [
+      "You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack’s damage roll."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Goading Attack",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Lunging Attack",
+    "level": "3",
+    "desc": [
+      "When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack’s damage roll."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Maneuvering Attack",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack’s damage roll, and you choose a friendly creature who can see or hear you. That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Menacing Attack",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack’s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Parry",
+    "level": "3",
+    "desc": [
+      "When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Precision Attack",
+    "level": "3",
+    "desc": [
+      "When you m ake a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Pushing Attack",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack's damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Rally",
+    "level": "3",
+    "desc": [
+      "On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Riposte",
+    "level": "3",
+    "desc": [
+      "When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack's damage roll."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Sweeping Attack",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the"
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Maneuver: Trip Attack",
+    "level": "3",
+    "desc": [
+      "When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack’s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Student of War",
+    "level": "3",
+    "desc": [
+      "At 3rd level, you gain proficiency with one type of artisan’s tools of your choice."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Know Your Enemy",
+    "level": "7",
+    "desc": [
+      "Starting at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
+      "• Strength score",
+      "• Dexterity score",
+      "• Constitution score",
+      "• Armor Class",
+      "• Current hit points",
+      "• Total class levels (if any)",
+      "• Fighter class levels (if any)"
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Battle Master"
+    },
+    "name": "Relentless",
+    "level": "15",
+    "desc": [
+      "Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Eldritch Knight"
+    },
+    "name": "Spellcasting",
+    "level": "3",
+    "desc": [
+      "When you reach 3rd level, you augment your martial prowess with the ability to cast spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the wizard spell list.",
+      "CANTRIPS. You learn two cantrips of your choice from the wizard spell list. You learn an additional wizard cantrip of your choice at 10th level.",
+      "SPELL SLOTS. The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.",
+      "For example, if you know the 1st-level spell shield and have a 1st-level and a 2nd-level spell slot available, you can cast shield using either slot.",
+      "Spells Known of 1st-Level and Higher. You know three 1st-level wizard spells of your choice, two of which you must choose from the abjuration and evocation spells on the wizard spell list.",
+      "The Spells Known column of the Eldritch Knight Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an abjuration or evocation spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+      "The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
+      "Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an abjuration or evocation spell, unless you’re replacing the spell you gained at 8th, 14th, or 20th level.",
+      "SPELLCASTING ABILITY. Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through study and memorization. You use your Intelligence when ever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+      "   Spell save DC = 8 + your proficiency bonus + your Intelligence modifier.",
+      "   Spell attack modifier = your proficiency bonus + your Intelligence modifier."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Eldritch Knight"
+    },
+    "name": "Weapon Bond",
+    "level": "3",
+    "desc": [
+      "At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.",
+      "Once you have bonded a weapon to yourself, you can’t be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.",
+      "You can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Eldritch Knight"
+    },
+    "name": "War Magic",
+    "level": "7",
+    "desc": [
+      "Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Eldritch Knight"
+    },
+    "name": "Eldritch Strike",
+    "level": "10",
+    "desc": [
+      "At 10th level, you learn how to make your weapon strikes undercut a creature’s resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Eldritch Knight"
+    },
+    "name": "Arcane Charge",
+    "level": "15",
+    "desc": [
+      "At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action."
+    ]
+  },
+  {
+    "class": {
+      "name": "Fighter"
+    },
+    "subclass": {
+      "name": "Eldritch Knight"
+    },
+    "name": "Improved War Magic",
+    "level": "18",
+    "desc": [
+      "Starting at 18th level, when you use your action to cast a spell, you can make one weapon attack as a bonus action."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Shadow"
+    },
+    "name": "Shadow Arts",
+    "level": "3",
+    "desc": [
+      "Starting when you choose this tradition at 3rd level, you can use your ki to duplicate the effects of certain spells. As an action, you can spend 2 ki points to cast darkness, darkvision, pass without trace, or silence, without providing material components. Additionally, you gain the minor illusion cantrip if you don’t already know it."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Shadow"
+    },
+    "name": "Shadow Step",
+    "level": "6",
+    "desc": [
+      "At 6th level, you gain the ability to step from one shadow into another. When you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Shadow"
+    },
+    "name": "Cloak of Shadows",
+    "level": "11",
+    "desc": [
+      "By 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a spell, or are in an area of bright light."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Shadow"
+    },
+    "name": "Opportunist",
+    "level": "17",
+    "desc": [
+      "At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Disciple of the Elements 1",
+    "level": "3",
+    "desc": [
+      "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
+      "You know the Elemental Attunement discipline and one other elemental discipline of your choice, which are detailed in the “Elemental Disciplines” section below. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
+      "Whenever you learn a new elem ental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
+      "CASTING ELEMENTAL SPELLS. Some elemental disciplines allow you to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it.",
+      "Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level in creases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 2 ki points plus 1)."
+    ],
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Breath of Winter"
+        },
+        {
+          "name": "Clench of the North Wind"
+        },
+        {
+          "name": "Elemental Attunement"
+        },
+        {
+          "name": "Eternal Mountain Defense"
+        },
+        {
+          "name": "Fangs of the Fire Snake"
+        },
+        {
+          "name": "Fist of Four Thunders"
+        },
+        {
+          "name": "Fist of Unbroken Air"
+        },
+        {
+          "name": "Flames of the Phoenix"
+        },
+        {
+          "name": "Gong of the Summit"
+        },
+        {
+          "name": "Mist Stance"
+        },
+        {
+          "name": "Ride the Wind"
+        },
+        {
+          "name": "River of Hungry Flame"
+        },
+        {
+          "name": "Rush of the Gale Spirits"
+        },
+        {
+          "name": "Shape the Flowing River"
+        },
+        {
+          "name": "Sweeping Cinder Strike"
+        },
+        {
+          "name": "Water Whip"
+        },
+        {
+          "name": "Wave of Rolling Earth"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Disciple of the Elements 2",
+    "level": "6",
+    "desc": [
+      "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
+      "You know the Elemental Attunement discipline and one other elemental discipline of your choice, which are detailed in the “Elemental Disciplines” section below. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
+      "Whenever you learn a new elem ental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
+      "CASTING ELEMENTAL SPELLS. Some elemental disciplines allow you to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it.",
+      "Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level in creases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 2 ki points plus 1)."
+    ],
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Breath of Winter"
+        },
+        {
+          "name": "Clench of the North Wind"
+        },
+        {
+          "name": "Elemental Attunement"
+        },
+        {
+          "name": "Eternal Mountain Defense"
+        },
+        {
+          "name": "Fangs of the Fire Snake"
+        },
+        {
+          "name": "Fist of Four Thunders"
+        },
+        {
+          "name": "Fist of Unbroken Air"
+        },
+        {
+          "name": "Flames of the Phoenix"
+        },
+        {
+          "name": "Gong of the Summit"
+        },
+        {
+          "name": "Mist Stance"
+        },
+        {
+          "name": "Ride the Wind"
+        },
+        {
+          "name": "River of Hungry Flame"
+        },
+        {
+          "name": "Rush of the Gale Spirits"
+        },
+        {
+          "name": "Shape the Flowing River"
+        },
+        {
+          "name": "Sweeping Cinder Strike"
+        },
+        {
+          "name": "Water Whip"
+        },
+        {
+          "name": "Wave of Rolling Earth"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Disciple of the Elements 3",
+    "level": "11",
+    "desc": [
+      "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
+      "You know the Elemental Attunement discipline and one other elemental discipline of your choice, which are detailed in the “Elemental Disciplines” section below. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
+      "Whenever you learn a new elem ental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
+      "CASTING ELEMENTAL SPELLS. Some elemental disciplines allow you to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it.",
+      "Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level in creases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 2 ki points plus 1)."
+    ],
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Breath of Winter"
+        },
+        {
+          "name": "Clench of the North Wind"
+        },
+        {
+          "name": "Elemental Attunement"
+        },
+        {
+          "name": "Eternal Mountain Defense"
+        },
+        {
+          "name": "Fangs of the Fire Snake"
+        },
+        {
+          "name": "Fist of Four Thunders"
+        },
+        {
+          "name": "Fist of Unbroken Air"
+        },
+        {
+          "name": "Flames of the Phoenix"
+        },
+        {
+          "name": "Gong of the Summit"
+        },
+        {
+          "name": "Mist Stance"
+        },
+        {
+          "name": "Ride the Wind"
+        },
+        {
+          "name": "River of Hungry Flame"
+        },
+        {
+          "name": "Rush of the Gale Spirits"
+        },
+        {
+          "name": "Shape the Flowing River"
+        },
+        {
+          "name": "Sweeping Cinder Strike"
+        },
+        {
+          "name": "Water Whip"
+        },
+        {
+          "name": "Wave of Rolling Earth"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Disciple of the Elements 4",
+    "level": "17",
+    "desc": [
+      "When you choose this tradition at 3rd level, you learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.",
+      "You know the Elemental Attunement discipline and one other elemental discipline of your choice, which are detailed in the “Elemental Disciplines” section below. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.",
+      "Whenever you learn a new elem ental discipline, you can also replace one elemental discipline that you already know with a different discipline.",
+      "CASTING ELEMENTAL SPELLS. Some elemental disciplines allow you to cast spells. See chapter 10 for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don’t need to provide material components for it.",
+      "Once you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level in creases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline’s base cost of 2 ki points plus 1)."
+    ],
+    "choice": {
+      "choose": 1,
+      "type": "feature",
+      "from": [
+        {
+          "name": "Breath of Winter"
+        },
+        {
+          "name": "Clench of the North Wind"
+        },
+        {
+          "name": "Elemental Attunement"
+        },
+        {
+          "name": "Eternal Mountain Defense"
+        },
+        {
+          "name": "Fangs of the Fire Snake"
+        },
+        {
+          "name": "Fist of Four Thunders"
+        },
+        {
+          "name": "Fist of Unbroken Air"
+        },
+        {
+          "name": "Flames of the Phoenix"
+        },
+        {
+          "name": "Gong of the Summit"
+        },
+        {
+          "name": "Mist Stance"
+        },
+        {
+          "name": "Ride the Wind"
+        },
+        {
+          "name": "River of Hungry Flame"
+        },
+        {
+          "name": "Rush of the Gale Spirits"
+        },
+        {
+          "name": "Shape the Flowing River"
+        },
+        {
+          "name": "Sweeping Cinder Strike"
+        },
+        {
+          "name": "Water Whip"
+        },
+        {
+          "name": "Wave of Rolling Earth"
+        }
+      ]
+    }
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Breath of Winter",
+    "level": "17",
+    "desc": [
+      "You can spend 6 ki points to cast cone of cold."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Clench of the North Wind",
+    "level": "6",
+    "desc": [
+      "You can spend 3 ki points to cast hold person."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Elemental Attunement",
+    "level": "3",
+    "desc": [
+      "You can use your action to briefly control elemental forces nearby, causing one of the following effects of your choice:",
+      "• Create a harmless, instantaneous sensory effect related to air, earth, fire, or water, such as a shower of sparks, a puff of wind, a spray of light mist, or a gentle rumbling of stone.",
+      "• Instantaneously light or snuff out a candle, a torch, or a small campfire.",
+      "• Chill or warm up to 1 pound of nonliving material for up to 1 hour.",
+      "• Cause earth, fire, water, or mist that can fit within a 1-foot cube to shape itself into a crude form you desig­nate for 1 minute."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Eternal Mountain Defense",
+    "level": "11",
+    "desc": [
+      "You can spend 5 ki points to cast stoneskin, targeting yourself."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Fangs of the Fire Snake",
+    "level": "3",
+    "desc": [
+      "When you use the Attack action on your turn, you can spend 1 ki point to cause tendrils of flame to stretch out from your fists and feet. Your reach with your unarmed strikes increases by 10 feet for that action, as well as the rest of the turn. A hit with such an attack deals fire damage instead of bludgeoning damage, and if you spend 1 ki point when the attack hits, it also deals an extra 1d 10 fire damage."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Fist of Four Thunders",
+    "level": "3",
+    "desc": [
+      "You can spend 2 ki points to cast thunderwave."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Fist of Unbroken Air",
+    "level": "3",
+    "desc": [
+      "You can create a blast of compressed air that strikes like a mighty fist. As an action, you can spend 2 ki points and choose a creature within 30 feet of you. That creature must make a Strength saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can push the creature up to 20 feet away from you and knock it prone. On a successful save, the creature takes half as much damage, and you don’t push it or knock it prone."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Flames of the Phoenix",
+    "level": "11",
+    "desc": [
+      "You can spend 4 ki points to cast fireball."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Gong of the Summit",
+    "level": "6",
+    "desc": [
+      "You can spend 3 ki points to cast shatter."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Mist Stance",
+    "level": "11",
+    "desc": [
+      "You can spend 4 ki points to cast gaseous form, targeting yourself."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Ride the Wind",
+    "level": "11",
+    "desc": [
+      "You can spend 4 ki points to cast fly, targeting yourself."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "River of Hungry Flame",
+    "level": "17",
+    "desc": [
+      "You can spend 5 ki points to cast wall of fire."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Rush of the Gale Spirits",
+    "level": "3",
+    "desc": [
+      "You can spend 2 ki points to cast gust of wind."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Shape the Flowing River",
+    "level": "3",
+    "desc": [
+      "As an action, you can spend 1 ki point to choose an area of ice or water no larger than 30 feet on a side within 120 feet of you. You can change water to ice within the area and vice versa, and you can reshape ice in the area in any manner you choose. You can raise or lower the ice’s elevation, create or fill in a trench, erect or flatten a wall, or form a pillar. The extent of any such changes can’t exceed half the area’s largest dimension. For example, if you affect a 30-foot square, you can create a pillar up to 15 feet high, raise or lower the square’s elevation by up to 15 feet, dig a trench up to 15 feet deep, and so on. You can’t shape the ice to trap or injure a creature in the area."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Sweeping Cinder Strike",
+    "level": "3",
+    "desc": [
+      "You can spend 2 ki points to cast burning hands."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Water Whip",
+    "level": "3",
+    "desc": [
+      "You can spend 2 ki points as a bonus action to create a whip of water that shoves and pulls a creature to unbalance it. A creature that you can see that is within 30 feet of you must make a Dexterity saving throw. On a failed save, the creature takes 3d10 bludgeoning damage, plus an extra 1d10 bludgeoning damage for each additional ki point you spend, and you can either knock it prone or pull it up to 25 feet closer to you. On a successful save, the creature takes half as much damage, and you don’t pull it or knock it prone."
+    ]
+  },
+  {
+    "class": {
+      "name": "Monk"
+    },
+    "subclass": {
+      "name": "Four Elements"
+    },
+    "name": "Wave of Rolling Earth",
+    "level": "17",
+    "desc": [
+      "You can spend 6 ki points to cast wall of stone."
     ]
   }
 ]

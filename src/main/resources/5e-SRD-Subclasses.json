@@ -1779,12 +1779,57 @@
 	},
 	{
 		"class": {
+			"name": "Fighter"
+		},
+		"name": "Battle Master",
+		"subclass_flavor": "Martial Archetype",
+		"desc": [
+			"Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weapon smithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge."
+		],
+		"features": []
+	},
+	{
+		"class": {
+			"name": "Fighter"
+		},
+		"name": "Eldritch Knight",
+		"subclass_flavor": "Martial Archetype",
+		"desc": [
+			"The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic: abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter’s reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook."
+		],
+		"features": []
+	},
+	{
+		"class": {
 			"name": "Monk"
 		},
 		"name": "Open Hand",
 		"subclass_flavor": "Monastic Tradition",
 		"desc": [
 			"Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm."
+		],
+		"features": []
+	},
+	{
+		"class": {
+			"name": "Monk"
+		},
+		"name": "Shadow",
+		"subclass_flavor": "Monastic Tradition",
+		"desc": [
+			"Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadow dancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves’ guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students."
+		],
+		"features": []
+	},
+	{
+		"class": {
+			"name": "Monk"
+		},
+		"name": "Four Elements",
+		"subclass_flavor": "Monastic Tradition",
+		"desc": [
+			"You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.",
+			"Many monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves."
 		],
 		"features": []
 	},

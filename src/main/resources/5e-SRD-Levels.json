@@ -3843,7 +3843,7 @@
 			"spell_slots_level_5": 0
 		},
 		"class_specific": {
-			"aura_range": 10,
+			"aura_range": 10
 		},
 		"class": {
 			"name": "Paladin"
@@ -8668,6 +8668,739 @@
 		},
 		"subclass": {
 			"name": "Moon"
+		}
+	},
+	{
+		"level": 3,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Combat Superiority"
+			},
+			{
+				"name": "Student of War"
+			}
+		],
+		"spellcasting": {
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Battle Master"
+		}
+	},
+	{
+		"level": 7,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Know Your Enemy"
+			}
+		],
+		"spellcasting": {
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Battle Master"
+		}
+	},
+	{
+		"level": 15,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Relentless"
+			}
+		],
+		"spellcasting": {
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Battle Master"
+		}
+	},
+	{
+		"level": 3,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 2,
+			"spells_known": 3,
+			"spell_slots_level_1": 2,
+			"spell_slots_level_2": 0,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 4,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 2,
+			"spells_known": 4,
+			"spell_slots_level_1": 3,
+			"spell_slots_level_2": 0,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 5,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 2,
+			"spells_known": 4,
+			"spell_slots_level_1": 3,
+			"spell_slots_level_2": 0,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 6,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 2,
+			"spells_known": 4,
+			"spell_slots_level_1": 3,
+			"spell_slots_level_2": 0,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 7,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 2,
+			"spells_known": 5,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 2,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 8,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 2,
+			"spells_known": 6,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 2,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 9,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 2,
+			"spells_known": 6,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 2,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 10,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 7,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 11,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 8,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 12,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 8,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 0,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 13,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 9,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 2,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 13,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 9,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 2,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 14,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 10,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 2,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 15,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 10,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 2,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 16,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 11,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 3,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 17,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 11,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 3,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 18,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 11,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 3,
+			"spell_slots_level_4": 0,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 19,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 12,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 3,
+			"spell_slots_level_4": 1,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 20,
+		"feature_choices": [],
+		"features": [
+		],
+		"spellcasting": {
+			"cantrips_known": 3,
+			"spells_known": 13,
+			"spell_slots_level_1": 4,
+			"spell_slots_level_2": 3,
+			"spell_slots_level_3": 3,
+			"spell_slots_level_4": 1,
+			"spell_slots_level_5": 0,
+			"spell_slots_level_6": 0,
+			"spell_slots_level_7": 0,
+			"spell_slots_level_8": 0,
+			"spell_slots_level_9": 0
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Fighter"
+		},
+		"subclass": {
+			"name": "Eldritch Knight"
+		}
+	},
+	{
+		"level": 3,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Shadow Arts"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Shadow"
+		}
+	},
+	{
+		"level": 6,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Shadow Step"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Shadow"
+		}
+	},
+	{
+		"level": 11,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Cloak of Shadows"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Shadow"
+		}
+	},
+	{
+		"level": 17,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Opportunist"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Shadow"
+		}
+	},
+	{
+		"level": 3,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Disciple of the Elements 1"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Four Elements"
+		}
+	},
+	{
+		"level": 6,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Disciple of the Elements 2"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Four Elements"
+		}
+	},
+	{
+		"level": 11,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Disciple of the Elements 3"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Four Elements"
+		}
+	},
+	{
+		"level": 17,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Disciple of the Elements 4"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Monk"
+		},
+		"subclass": {
+			"name": "Four Elements"
 		}
 	}
 ]

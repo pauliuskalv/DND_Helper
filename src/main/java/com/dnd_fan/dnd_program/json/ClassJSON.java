@@ -231,8 +231,6 @@ public class ClassJSON {
             if (obj.getInt("level") != level)
                 continue;
 
-            System.out.println(obj.toString());
-
             JSONObject spellcastingInfo = obj.getJSONObject("spellcasting");
             if (spellcastingInfo.length() == 0)
                 return 0;
