@@ -1938,6 +1938,142 @@
 	},
 	{
 		"class": {
+			"name": "Paladin"
+		},
+		"name": "Ancients",
+		"subclass_flavor": "Sacred Oath",
+		"desc": [
+			"The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles o f honor, courage, and justice. They adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light in the world."
+		],
+		"features": [],
+		"spells": [
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Ensnaring Strike"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Speak with Animals"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Moonbeam"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Misty Step"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Plant Growth"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Protection From Energy"
+				}
+			},
+			{
+				"level_acquired": 13,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Ice Storm"
+				}
+			},
+			{
+				"level_acquired": 13,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Stoneskin"
+				}
+			},
+			{
+				"level_acquired": 17,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Commune with Nature"
+				}
+			},
+			{
+				"level_acquired": 17,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Tree Stride"
+				}
+			}
+		]
+	},
+	{
+		"class": {
+			"name": "Paladin"
+		},
+		"name": "Vengeance",
+		"subclass_flavor": "Sacred Oath",
+		"desc": [
+			"The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves’ guild grows too violent and powerful, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins—sometimes called avengers or dark knights—their own purity is not as important as delivering justice."
+		],
+		"features": [],
+		"spells": [
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Ensnaring Strike"
+				}
+			}
+		]
+	},
+	{
+		"class": {
 			"name": "Ranger"
 		},
 		"name": "Hunter",
