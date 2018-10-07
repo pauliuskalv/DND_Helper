@@ -3,11 +3,13 @@ package com.dnd_fan.dnd_program;
 import com.dnd_fan.dnd_program.json.JSONHelper;
 import com.google.common.base.Charsets;
 import com.google.common.io.Resources;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 

@@ -9402,5 +9402,85 @@
 		"subclass": {
 			"name": "Four Elements"
 		}
+	},
+	{
+		"level": 3,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Channel Divinity"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Paladin"
+		},
+		"subclass": {
+			"name": "Ancients"
+		}
+	},
+	{
+		"level": 7,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Aura of Warding"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Paladin"
+		},
+		"subclass": {
+			"name": "Ancients"
+		}
+	},
+	{
+		"level": 15,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Undying Sentinel"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Paladin"
+		},
+		"subclass": {
+			"name": "Ancients"
+		}
+	},
+	{
+		"level": 20,
+		"feature_choices": [],
+		"features": [
+			{
+				"name": "Elder Champion"
+			}
+		],
+		"spellcasting": {
+
+		},
+		"subclass_specific": {
+		},
+		"class": {
+			"name": "Paladin"
+		},
+		"subclass": {
+			"name": "Ancients"
+		}
 	}
 ]

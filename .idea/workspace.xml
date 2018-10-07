@@ -6,11 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Fixes for the character creation window step 1.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/5e-SRD-Features.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/5e-SRD-Features.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/5e-SRD-Levels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/5e-SRD-Levels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/5e-SRD-Subclasses.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/5e-SRD-Subclasses.json" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,9 +73,14 @@
     <session id="2013703047">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -82,14 +88,16 @@
           <entry key="fxml" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="17" />
+          <entry key="java" value="21" />
+          <entry key="json" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="21" />
+          <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -98,13 +106,14 @@
         <counts>
           <entry key="fxml" value="153" />
           <entry key="gitignore" value="12" />
-          <entry key="java" value="329" />
+          <entry key="java" value="400" />
+          <entry key="txt" value="248" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="329" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="400" />
+          <entry key="PLAIN_TEXT" value="260" />
           <entry key="XML" value="153" />
         </counts>
       </usages-collector>
@@ -116,56 +125,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SubracesJSON.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Proficiency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="647">
-              <caret line="127" column="64" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="131" column="139" lean-forward="true" selection-start-line="131" selection-start-column="139" selection-end-line="131" selection-end-column="139" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/SelectScreenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -182,23 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SpellsJSON.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="191">
+              <caret line="214" column="64" lean-forward="true" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -207,19 +158,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Class.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/JSONHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+            <state relative-caret-position="544">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Proficiency.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            <state relative-caret-position="2208">
+              <caret line="157" selection-start-line="157" selection-end-line="157" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Classes.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5120">
+              <caret line="320" column="33" selection-start-line="320" selection-start-column="33" selection-end-line="320" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -263,7 +229,13 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="pauliuskalv &lt;pauliuskalv@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -314,11 +286,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SpellsJSON.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SubclassJSON.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SubracesJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Class.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java" />
         <option value="$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java" />
       </list>
     </option>
   </component>
@@ -347,9 +319,6 @@
     <option name="height" value="856" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -357,7 +326,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -367,12 +335,55 @@
             </path>
             <path>
               <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dnd_program" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dnd_program" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,9 +404,9 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/paulius/IdeaProjects/DND_Program/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535305078706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535884496724" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="/opt/SceneBuilder/SceneBuilder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2321839" />
@@ -407,138 +418,6 @@
       <recent name="$PROJECT_DIR$/src/main/resources/gui/NewCharacter" />
       <recent name="$PROJECT_DIR$/src/com/dnd_fan/dnd_program/gui" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Ability-Scores.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Classes.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Conditions.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Damage-Types.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Equipment-Categories.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Equipment.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Features.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Languages.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Levels.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Magic-Schools.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Monsters.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Proficiencies.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Races.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Skills.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Spellcasting.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Spells.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-StartingEquipment.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Subclasses.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Subraces.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Test.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Traits.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/5e-SRD-Weapon-Properties.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/Backgrounds.json</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -659,18 +538,58 @@
       <workItem from="1530825839444" duration="31999000" />
       <workItem from="1530987449941" duration="149000" />
       <workItem from="1535287422206" duration="5951000" />
-      <workItem from="1535301612122" duration="2863000" />
+      <workItem from="1535301612122" duration="3060000" />
+      <workItem from="1535305825688" duration="11229000" />
+      <workItem from="1535884651061" duration="1887000" />
+      <workItem from="1536126048038" duration="131000" />
+      <workItem from="1536772068720" duration="59000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixes for the character creation window step 1.">
+      <created>1535305119880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535305119880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Barbarian data from the Player's handbook.">
+      <created>1535390088583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1535390088583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add missing Barbarian data.">
+      <created>1535392020449</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1535392020449</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add Cleric and Druid subclasses to the definition files.">
+      <created>1535660884622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1535660884622</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Fighter and Monk subclasses to the definition files.">
+      <created>1536003853943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1536003853943</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104352000" />
+    <option name="totallyTimeSpent" value="117855000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
+    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18074866" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18930481" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -679,7 +598,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286026" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -689,7 +608,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.32969433" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32969433" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.330076" />
       <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" />
@@ -716,6 +635,13 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="Fixes for the character creation window step 1." />
+    <MESSAGE value="Add Barbarian data from the Player's handbook." />
+    <MESSAGE value="Add missing Barbarian data." />
+    <MESSAGE value="Add Cleric and Druid subclasses to the definition files." />
+    <MESSAGE value="Add Fighter and Monk subclasses to the definition files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Fighter and Monk subclasses to the definition files." />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -730,12 +656,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep2.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Features.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -776,13 +702,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Conditions.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Spells.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="9446" column="19" lean-forward="true" selection-start-line="9446" selection-start-column="19" selection-end-line="9446" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Spellcasting.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-195">
@@ -822,13 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Classes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="333" column="10" lean-forward="true" selection-start-line="333" selection-start-column="10" selection-end-line="333" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -884,12 +796,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/gui/util/ChoiceScreen.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="992">
           <caret line="62" column="124" selection-start-line="62" selection-start-column="124" selection-end-line="62" selection-end-column="124" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-StartingEquipment.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -902,13 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/JSONHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="114" column="44" lean-forward="true" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -968,46 +873,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="131" column="139" lean-forward="true" selection-start-line="131" selection-start-column="139" selection-end-line="131" selection-end-column="139" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SubracesJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="160">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/RacesJSON.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/SelectScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="317">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SpellsJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
+        <state relative-caret-position="144">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1021,45 +922,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Spells.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="9446" column="19" lean-forward="true" selection-start-line="9446" selection-start-column="19" selection-end-line="9446" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Proficiency.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/RacesJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/JSONHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="127" column="64" selection-start-line="127" selection-start-column="64" selection-end-line="127" selection-end-column="64" />
+        <state relative-caret-position="2208">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/SelectScreenController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Classes.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="5120">
+          <caret line="320" column="33" selection-start-line="320" selection-start-column="33" selection-end-line="320" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="214" column="64" lean-forward="true" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="131" column="139" lean-forward="true" selection-start-line="131" selection-start-column="139" selection-end-line="131" selection-end-column="139" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
