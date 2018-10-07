@@ -2067,7 +2067,97 @@
 				},
 				"prerequisites": [],
 				"spell": {
-					"name": "Ensnaring Strike"
+					"name": "Bane"
+				}
+			},
+			{
+				"level_acquired": 3,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Hunter's Mark"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Hold Person"
+				}
+			},
+			{
+				"level_acquired": 5,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Misty Step"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Haste"
+				}
+			},
+			{
+				"level_acquired": 9,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Protection from Energy"
+				}
+			},
+			{
+				"level_acquired": 13,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Banishment"
+				}
+			},
+			{
+				"level_acquired": 13,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Dimension Door"
+				}
+			},
+			{
+				"level_acquired": 17,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Hold Monster"
+				}
+			},
+			{
+				"level_acquired": 17,
+				"spell_acquisition_method": {
+					"name": "level"
+				},
+				"prerequisites": [],
+				"spell": {
+					"name": "Scrying"
 				}
 			}
 		]
