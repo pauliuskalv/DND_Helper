@@ -4275,8 +4275,8 @@
     "desc": [
         "Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell’s duration.",
         "Any creature that ends its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes 1d8 bludgeoning damage and is pushed 10 feet away. On a successful save, the creature takes half as much damage and isn’t pushed.",
-        "As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or small gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area.",
-    ],
+        "As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or small gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
+	],
     "higher_level": [
         "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."
     ],
@@ -4455,6 +4455,149 @@
       {
         "name": "Lore"
       }
+    ]
+  },
+ {
+    "name": "Elemental Bane",
+    "desc": [
+    	"Choose one creature you can see within range, and choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+	"The target must succeed on a Constitution saving throw or be affected by the spell for its duration. The first time each turn the affected target takes damage of the chosen type, the target takes an extra 2d6 damage of that type. Moreover, the target loses any resistance to that damage type until the spell ends."
+    ],
+    "higher_level": [
+    	"When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
+    ],
+    "page": "ee 17",
+    "range": "90 feet",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": "no",
+    "duration": "Up to 1 minute",
+    "concentration": "yes",
+    "casting_time": "1 action",
+    "level": 4,
+    "school": {
+      "name": "Transmutation"
+    },
+    "classes": [
+      {
+        "name": "Warlock"
+      },
+      {
+      	"name": "Wizard"
+	      },
+      {
+      	"name": "Druid"
+      }
+    ],
+    "subclasses": [
+    ]
+  },
+  {
+    "name": "Elemental Weapon",
+    "desc": [
+    	"A nonmagical weapon you touch becomes a magic weapon. ",
+	"Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits."
+    ],
+    "higher_level": [
+    	"When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4."
+    ],
+    "page": "phb 237",
+    "range": "Touch",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": "no",
+    "duration": "Up to 1 hour",
+    "concentration": "yes",
+    "casting_time": "1 action",
+    "level": 3,
+    "school": {
+      "name": "Transmutation"
+    },
+    "classes": [
+      {
+        "name": "Paladin"
+      }
+    ],
+    "subclasses": [
+    ]
+  },
+  {
+    "name": "Enemies Abound",
+    "desc": [
+    "You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends.",
+    "ach time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success. Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it’s using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to."
+    ],
+    "page": "xge 155",
+    "range": "120 feet",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": "no",
+    "duration": "Up to 1 minute",
+    "concentration": "yes",
+    "casting_time": "1 action",
+    "level": 3,
+    "school": {
+      "name": "Enchantment"
+    },
+    "classes": [
+      {
+        "name": "Bard"
+      },
+      {
+        "name": "Wizard"
+      },
+      {
+        "name": "Sorcerer"
+      },
+      {
+        "name": "Warlock"
+      }
+    ],
+    "subclasses": [
+    ]
+  },
+  {
+    "name": "Enervation",
+    "desc": [
+        "A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends.",
+        "On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. ",
+        "The spell ends ifyou use your action to do anything else, if the target is ever outside the spell’s range, or if the target has total cover from you. Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes."
+    ],
+    "higher_level": [
+        "When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4."
+    ],
+    "page": "xge 155",
+    "range": "60 feet",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": "no",
+    "duration": "Up to 1 minute",
+    "concentration": "yes",
+    "casting_time": "1 action",
+    "level": 5,
+    "school": {
+      "name": "Necromancy"
+    },
+    "classes": [
+      {
+        "name": "Sorcerer"
+      },
+      {
+        "name": "Wizard"
+      },
+      {
+        "name": "Warlock"
+      }
+    ],
+    "subclasses": [
     ]
   },
   {
