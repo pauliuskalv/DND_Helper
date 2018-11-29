@@ -4696,6 +4696,37 @@
       }
     ]
   },
+    {
+    "name": "Ensnaring Strike",
+    "desc": [
+    "The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends.",
+    "A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away. ",
+    "While restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed."
+    ],
+    "higher_level": [
+        "If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+    ],
+    "page": "phb 237",
+    "range": "Self",
+    "components": [
+      "V"
+    ],
+    "ritual": "no",
+    "duration": "Up to 1 minute",
+    "concentration": "yes",
+    "casting_time": "1 action",
+    "level": 1,
+    "school": {
+      "name": "Conjuration"
+    },
+    "classes": [
+      {
+        "name": "Ranger"
+      }
+    ],
+    "subclasses": [
+    ]
+  },
   {
     "name": "Entangle",
     "desc": [
@@ -4762,6 +4793,45 @@
     ]
   },
   {
+    "name": "Erupting Earth",
+    "desc": [
+        "Choose a point you can see on the ground within range. A fountain of churned earth and stone erupts in a 20-foot cube centered on that point. Each creature in that area must make a Dexterity saving throw. A creature takes 3d12 bludgeoning damage on a failed save, or half as much damage on a successful one.",
+    "Additionally, the ground in that area becomes difficult terrain until cleared away. Each 5-foot-square portion of the area requires at least 1 minute to clear by hand."
+    ],
+    "higher_level": [
+        "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d12 for each slot level above 2nd."
+    ]
+    "page": "ee 17",
+    "range": "120 feet",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "A piece of obsidian",
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "casting_time": "1 action",
+    "level": 3,
+    "school": {
+      "name": "Transmutation"
+    },
+    "classes": [
+      {
+        "name": "Druid"
+      },
+      {
+        "name": "Sorcerer"
+      },
+      {
+        "name": "Wizard"
+      }
+    ],
+    "subclasses": [
+    ]
+  },
+  {
     "name": "Etherealness",
     "desc": [
       "You step into the border regions of the Ethereal Plane, in the area where it overlaps with your current plane. You remain in the Border Ethereal for the duration or until you use your action to dismiss the spell. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can see and hear the plane you originated from, but everything there looks gray, and you can`t see anything more than 60 feet away.",
@@ -4805,6 +4875,36 @@
       }
     ],
     "subclasses": []
+  },
+  {
+    "name": "Evard`s Black Tentacles",
+    "desc": [
+        "Squirming, ebony tentacles fill a 20-foot square on ground that you can see within range. For the duration, these tentacles turn the ground in the area into difficult terrain. ",
+        "When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must succeed on a Dexterity saving throw or take 3d6 bludgeoning damage and be restrained by the tentacles until the spell ends. A creature that starts its turn in the area and is already restrained by the tentacles takes 3d6 bludgeoning damage. ",
+        "A creature restrained by the tentacles can use its action to make a Strength or Dexterity check (its choice) against your spell save DC. On a success, it frees itself."
+    ],
+    "page": "phb 238",
+    "range": "90 feet",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "ritual": "no",
+    "duration": "Up to 1 minute",
+    "concentration": "yes",
+    "casting_time": "1 bonus action",
+    "level": 4,
+    "school": {
+      "name": "Conjuration"
+    },
+    "classes": [
+      {
+        "name": "Wizard"
+      }
+    ],
+    "subclasses": [
+    ]
   },
   {
     "name": "Expeditious Retreat",
@@ -4940,36 +5040,6 @@
         "name": "Lore"
       }
     ]
-  },
-  {
-    "name": "Faithful Hound",
-    "desc": [
-      "You conjure a phantom watchdog in an unoccupied space that you can see within range, where it remains for the duration, until you dismiss it as an action, or until you move more than 100 feet away from it.",
-      "The hound is invisible to all creatures except you and can`t be harmed. When a Small or larger creature comes within 30 feet of it without first speaking the password that you specify when you cast this spell, the hound starts barking loudly. The hound sees invisible creatures and can see into the Ethereal Plane. It ignores illusions.",
-      "At the start of each of your turns, the hound attempts to bite one creature within 5 feet of it that is hostile to you. The hound`s attack bonus is equal to your spellcasting ability modifier + your proficiency bonus. On a hit, it deals 4d8 piercing damage."
-    ],
-    "page": "phb 261",
-    "range": "30 feet",
-    "components": [
-      "V",
-      "S",
-      "M"
-    ],
-    "material": "A tiny silver whistle, a piece of bone, and a thread",
-    "ritual": "no",
-    "duration": "8 hours",
-    "concentration": "no",
-    "casting_time": "1 action",
-    "level": 4,
-    "school": {
-      "name": "Conjuration"
-    },
-    "classes": [
-      {
-        "name": "Wizard"
-      }
-    ],
-    "subclasses": []
   },
   {
     "name": "False Life",
