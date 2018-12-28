@@ -5198,6 +5198,79 @@
     ],
     "subclasses": []
   },
+    {
+    "name": "Feign Death",
+    "desc": [
+        "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
+        "For the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 1.",
+        "The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends."
+    ],
+    "page": "phb 240",
+    "range": "Touch",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "A pinch of graveyard dirt.",
+    "ritual": "yes",
+    "duration": "1 hour",
+    "concentration": "no",
+    "casting_time": "1 action",
+    "level": 3,
+    "school": {
+      "name": "Necromancy"
+    },
+    "classes": [
+      {
+        "name": "Bard"
+      },
+      {
+        "name": "Druid"
+      },
+      {
+        "name": "Cleric"
+      },
+      {
+        "name": "Wizard"
+      }
+    ],
+    "subclasses": []
+  },
+  {
+    "name": "Find Familliar",
+    "desc": [
+        "You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk. lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey or fiend (your choice) instead of a beast. ",
+        "Your familiar acts independently of you, but it always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can’t attack, but it can take other actions as normal.",
+        "When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. ",
+        "While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar’s eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are deaf and blind with regard to your own senses. ",
+        "As an action, you can temporarily dismiss your familiar. It disappears into a pocket dimension where it awaits you summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.",
+        "You can’t have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature. ",
+        "Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll. "
+    ],
+    "page": "phb 240",
+    "range": "10 feet",
+    "components": [
+      "V",
+      "S",
+      "M"
+    ],
+    "material": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier.",
+    "ritual": "yes",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "casting_time": "1 hour",
+    "level": 1,
+    "school": {
+      "name": "Conjuration"
+    },
+    "classes": [
+      {
+        "name": "Wizard"
+      }
+    ],
+    "subclasses": []
+  },
   {
     "name": "Find Steed",
     "desc": [
@@ -5333,6 +5406,42 @@
       }
     ],
     "subclasses": []
+  },
+  {
+    "name": "Fire Bolt",
+    "desc": [
+        "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried."
+    ],
+    "higher_level": [
+        "This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
+    ],
+    "page": "phb 241",
+    "range": "120 feet",
+    "components": [
+      "V",
+      "S"
+    ],
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "casting_time": "1 action",
+    "level": 0,
+    "school": {
+      "name": "Evocation"
+    },
+    "classes": [
+      {
+        "name": "Sorcerer"
+      },
+      {
+        "name": "Wizard"
+      }
+    ],
+    "subclasses": [
+      {
+        "name": "Lore"
+      }
+    ]
   },
   {
     "name": "Fireball",
@@ -5593,7 +5702,7 @@
     "subclasses": []
   },
   {
-    "name": "Floating Disk",
+    "name": "Tenser`s Floating Disk",
     "desc": [
       "This spell creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the spell ends, and everything on the disk falls to the ground.",
       "The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. If can move across uneven terrain, up or down stairs, slopes and the like, but it can`t cross an elevation change of 10 feet or more. For example, the disk can`t move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.",
@@ -5863,7 +5972,7 @@
     ]
   },
   {
-    "name": "Freezing Sphere",
+    "name": "Otiluke`s Freezing Sphere",
     "desc": [
       "A frigid globe of cold energy streaks from your fingertips to a point of your choice within range, where it explodes in a 60-foot-radius sphere. Each creature within the area must make a constitution saving throw. On a failed save, a creature takes 10d6 cold damage. On a successful save, it takes half as much damage.",
       "If the globe strikes a body of water or a liquid that is principally water (not including water-based creatures), it freezes the liquid to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 minute. Creatures that were swimming on the surface of frozen water are trapped in the ice. A trapped creature can use an action to make a Strength check against your spell save DC to break free.",
