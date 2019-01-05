@@ -6901,7 +6901,7 @@
     ]
   },
   {
-    "name": "Hideous Laughter",
+    "name": "Tasha’s Hideous Laughter",
     "desc": [
       "A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn`t affected.",
       "At the end of each of its turns, and each time it takes damage, the target can make another wisdom saving throw. The target had advantage on the saving throw if it`s triggered by damage. On a success, the spell ends."
@@ -7446,7 +7446,7 @@
     ]
   },
   {
-    "name": "Irresistible Dance",
+    "name": "Otto’s Irresistible Dance",
     "desc": [
       "Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can`t be charmed are immune to this spell.",
       "A dancing creature must use all its movement to dance without leaving its space and has disadvantage on dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a wisdom saving throw to regain control of itself. On a successful save, the spell ends."
@@ -8205,7 +8205,7 @@
     ]
   },
   {
-    "name": "Magnificent Mansion",
+    "name": "Mordenkainen`s Magnificent Mansion",
     "desc": [
       "You conjure an extradimensional dwelling in range that lasts for the duration. You choose where its one entrance is located. The entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when you cast the spell can enter the extradimensional dwelling as long as the portal remains open. You can open or close the portal if you are within 30 feet of it. While closed, the portal is invisible.",
       "Beyond the portal is a magnificent foyer with numerous chambers beyond. The atmosphere is clean, fresh, and warm.",
@@ -9532,7 +9532,7 @@
     "subclasses": []
   },
   {
-    "name": "Private Sanctum",
+    "name": "Mordenkainen`s Private Sanctum",
     "desc": [
       "You make an area within range magically secure. The area is a cube that can be as small as 5 feet to as large as 100 feet on each side. The spell lasts for the duration or until you use an action to dismiss it.",
       "When you cast the spell, you decide what sort of security the spell provides, choosing any or all of the following properties:",
@@ -10078,7 +10078,7 @@
     ]
   },
   {
-    "name": "Resilient Sphere",
+    "name": "Otiluke’s Resilient Sphere",
     "desc": [
       "A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a dexterity saving throw. On a failed save, the creature is enclosed for the duration.",
       "Nothingâ€”not physical objects, energy, or other spell effectsâ€”can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can`t be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
@@ -10452,7 +10452,7 @@
     ]
   },
   {
-    "name": "Secret Chest",
+    "name": "Leomund`s Secret Chest",
     "desc": [
       "You hide a chest, and all its contents, on the Ethereal Plane. You must touch the chest and the miniature replica that serves as a material component for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).",
       "While the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by using an action and touching both the chest and the replica.",
@@ -11708,7 +11708,7 @@
     "subclasses": []
   },
   {
-    "name": "Telepathic Bond",
+    "name": "Rary’s Telepathic Bond",
     "desc": [
       "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren`t affected by this spell.",
       "Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can`t extend to other planes of existence."
@@ -11912,7 +11912,7 @@
     "subclasses": []
   },
   {
-    "name": "Tiny Hut",
+    "name": "Leomund`s Tiny Hut",
     "desc": [
       "A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.",
       "Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can`t extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.",
