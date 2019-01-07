@@ -10061,16 +10061,14 @@
     "name": "Scrying",
     "desc": [
       "You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.",
-      "Knowledge &amp; Save Modifier",
-      "",
-      "Secondhand (you have heard of the target) +5",
-      "Firsthand (you have met the target) +0",
-      "Familiar (you know the target well) -5",
-      "Connection &amp; Save Modifier",
-      "",
-      "Likeness or picture -2",
-      "Possession or garment -4",
-      "Body part, lock of hair, bit of nail, or the like -10",
+      "Knowledge | Save Modifier",
+      "Secondhand (you have heard of the target) | +5",
+      "Firsthand (you have met the target) | +0",
+      "Familiar (you know the target well) | -5",
+      "Connection | Save Modifier",
+      "Likeness or picture | -2",
+      "Possession or garment | -4",
+      "Body part, lock of hair, bit of nail, or the like | -10",
       "On a successful save, the target isn`t affected, and you can`t use this spell against it again for 24 hours.",
       "On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.",
       "Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn`t move."
@@ -12578,7 +12576,7 @@
 {
     "name": "Hail of Thorns",
     "desc": [
-    ""
+    "The next time you hit a creature with a ranged weapon attack before the spell ends, this spell creates a rain of thorns that sprouts from your ranged weapon or ammunition. In addition to the normal effect of the attack, the target of the attack and each creature within 5 feet of it must make a Dexterity saving throw. A creature takes 1d10 piercing damage on a failed save, or half as much damage on a successful one. "
     ],
 "page": "phb 249",
     "range": "Self",
@@ -12766,7 +12764,7 @@
 {
     "name": "Poison Spray",
     "desc": [
-    ""
+    "You extend your hand toward a creature you can see within range and project a puff of noxious gas from your palm. The creature must succeed on a Constitution saving throw or take 1d12 poison damage. "
     ],
 "page": "phb 266",
     "range": "10 feet",
@@ -12863,7 +12861,7 @@
 {
     "name": "Spare the Dying",
     "desc": [
-    ""
+    "You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs. "
     ],
 "page": "phb 277",
     "range": "Touch",
@@ -12889,7 +12887,7 @@
 {
     "name": "Staggering Smite",
     "desc": [
-    ""
+    "The next time you hit a creature with a melee weapon attack during this spell’s duration, your weapon pierces both body and mind, and the attack deals an extra 4d6 psychic damage to the target. The target must make a Wisdom saving throw. On a failed save, it has disadvantage on attack rolls and ability checks, and can’t take reactions, until the end of its next turn. "
     ],
 "page": "phb 278",
     "range": "Self",
@@ -12973,7 +12971,7 @@
 {
     "name": "Thorn Whip",
     "desc": [
-    ""
+    "You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you. "
     ],
 "page": "phb 282",
     "range": "30 feet",
@@ -13001,7 +12999,7 @@
 {
     "name": "Thunderous Smite",
     "desc": [
-    ""
+    "The first time you hit with a melee weapon attack during this spell’s duration, your weapon rings with thunder that is audible within 300 feet of you, and the attack deals an extra 2d6 thunder damage to the target. Additionally, if the target is a creature, it must succeed on a Strength saving throw or be pushed 10 feet away from you and knocked prone. "
     ],
 "page": "phb 282",
     "range": "Self",
@@ -13119,7 +13117,7 @@
 {
     "name": "Power Word Heal",
     "desc": [
-    ""
+    "A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs. "
     ],
 "page": "phb 266",
     "range": "Touch",
@@ -13169,34 +13167,9 @@
     "subclasses": []
 },
 {
-    "name": "Trap the Soul",
-    "desc": [
-    "Source: ￼Player’s Handbook Errata (version 1."
-    ],
-"page": "phb No Description",
-    "range": "",
-    "components": [
-    ""
-    ],
-"ritual": "no",
-    "duration": "",
-    "concentration": "no",
-    "casting_time": "1 Action",
-    "level": 8,
-    "school": {
-    "name": "Conjuration"
-    },
-    "classes": [
-    {
-        "name": ""
-    }
-    ],
-    "subclasses": []
-},
-{
     "name": "Earth Tremor ",
     "desc": [
-    ""
+    "You cause a tremor in the ground in a 10-foot radius. Each creature other than you in that area must make a Dexterity saving throw. On a failed save, a creature takes 1d6 bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared. At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
@@ -13268,7 +13241,7 @@
 {
     "name": "Skywrite",
     "desc": [
-    ""
+    "You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell’s duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early. "
     ],
 "page": "ee 22",
     "range": "Sight",
@@ -13618,7 +13591,7 @@
 {
     "name": "Beast Bond",
     "desc": [
-    ""
+    "You establish a telepathic link with one beast you touch that is friendly to you or charmed by you. The spell fails if the beast’s Intelligence is 4 or higher. Until the spell ends, the link is active while you and the beast are within line of sight of each other. Through the link, the beast can understand your telepathic messages to it, and it can telepathically communicate simple emotions and concepts back to you. While the link is active, the beast gains advantage on attack rolls against any creature within 5 feet of you that you can see. "
     ],
 "page": "ee 15",
     "range": "Touch",
@@ -13724,7 +13697,7 @@
 {
     "name": "Earthbind",
     "desc": [
-    ""
+    "Choose one creature you can see within range. Yellow strips of magical energy loop around the creature. The target must succeed on a Strength saving throw or its flying speed (if any) is reduced to 0 feet for the spell’s duration. An airborne creature affected by this spell descends at 60 feet per round until it reaches the ground or the spell ends. "
     ],
 "page": "ee 17",
     "range": "300 feet",
@@ -13795,7 +13768,7 @@
 {
     "name": "Flame Arrows",
     "desc": [
-    ""
+    "You touch a quiver containing arrows or bolts. When a target is hit by a ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell’s magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 4th level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot level above 3rd."
@@ -13833,7 +13806,7 @@
 {
     "name": "Tidal Wave",
     "desc": [
-    ""
+    "You conjure up a wave of water that crashes down on an area within range. The area can be up to 30 feet long, up to 10 feet wide, and up to 10 feet tall. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 4d8 bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn’t knocked prone. The water then spreads out across the ground in all directions, extinguishing unprotected flames in its area and within 30 feet of it, and then it vanishes. "
     ],
 "page": "ee 22",
     "range": "120 feet",
@@ -14522,7 +14495,7 @@
 {
     "name": "Vitriolic Sphere",
     "desc": [
-    ""
+    "You point at a location within range, and a glowing, 1-foot-diameter ball of emerald acid streaks there and explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 acid damage and another 5d4 acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn."
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th."
@@ -14617,7 +14590,7 @@
 {
     "name": "Wall of Sand",
     "desc": [
-    ""
+    "You conjure up a wall of swirling sand on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 10 feet thick, and it vanishes when the spell ends. It blocks line of sight but not movement. A creature is blinded while in the wall’s space and must spend 3 feet of movement for every 1 foot it moves there. "
     ],
 "page": "ee 23",
     "range": "90 feet",
@@ -14643,44 +14616,9 @@
     "subclasses": []
 },
 {
-    "name": "Booming Blade",
-    "desc": [
-    "As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails.",
-"On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves be- fore then, it immediately takes 1d8 thunder damage, and the spell ends.",
-"This spell's damage increases when you reach higher levels."
-    ],
-"page": "143  from Sword Coast Adventure's Guide             ",
-    "range": "5 feet",
-    "components": [
-    "V",
-"M"
-    ],
-"material": "A weapon",
-"ritual": "no",
-    "duration": "1 round",
-    "concentration": "no",
-    "casting_time": "1 Action",
-    "level": 0,
-    "school": {
-    "name": "Evocation"
-    },
-    "classes": [
-    {
-        "name": "Sorcerer"
-},
-{
-"name": "Warlock"
-},
-{
-"name": "Wizard"
-    }
-    ],
-    "subclasses": []
-},
-{
     "name": "Cause Fear",
     "desc": [
-    ""
+    "You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above lst. The creatures must be within 30 feet of each other when you target them."
@@ -14778,7 +14716,7 @@
 {
     "name": "Charm Monster",
     "desc": [
-    ""
+    "You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature is friendly to you. When the spell ends, the creature knows it was charmed by you. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them."
@@ -14848,7 +14786,7 @@
 {
     "name": "Crown of Stars",
     "desc": [
-    ""
+    "Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit. the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote. If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. Ifyou have one to three motes remaining, they shed dim light in a 30—foot radius. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th."
@@ -14913,7 +14851,7 @@
 {
     "name": "Dawn",
     "desc": [
-    ""
+    "The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius.40-foot-high cylinder of bright light glimmers there. This light is sunlight. When the cylinder appears, each creature in it must make a Constitution saving throw, taking 4d10 radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder. If you’re within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn. "
     ],
 "page": "xge 153",
     "range": "60 feet",
@@ -14944,7 +14882,7 @@
 {
     "name": "Dragon's Breath",
     "desc": [
-    ""
+    "You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd."
@@ -15011,7 +14949,7 @@
 {
     "name": "Enemies abound",
     "desc": [
-    ""
+    "You reach into the mind of one creature you can see and force it to make an Intelligence saving throw. A creature automatically succeeds if it is immune to being frightened. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies until the spell ends. Each time the target takes damage, it can repeat the saving throw, ending the effect on itself on a success. Whenever the affected creature chooses another creature as a target, it must choose the target at random from among the creatures it can see within range of the attack, spell, or other ability it’s using. If an enemy provokes an opportunity attack from the affected creature, the creature must make that attack if it is able to. "
     ],
 "page": "xge 155",
     "range": "120 feet",
@@ -15046,7 +14984,7 @@
 {
     "name": "Enervation",
     "desc": [
-    ""
+    "A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the spell ends. On a failed save, the target takes 4d8 necrotic damage, and until the spell ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The spell ends ifyou use your action to do anything else, if the target is ever outside the spell’s range, or if the target has total cover from you. Whenever the spell deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th."
@@ -15081,7 +15019,7 @@
 {
     "name": "Far Step",
     "desc": [
-    ""
+    "You teleport up to 60 feet to an unoccupied space you can see. On each of your turns before the spell ends, you can use a bonus action to teleport in this way again. "
     ],
 "page": "xge 155",
     "range": "Self",
@@ -15112,7 +15050,7 @@
 {
     "name": "Find Greater Steed",
     "desc": [
-    ""
+    "You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a griffon, a pegasus, a peryton, a dire wolf, a rhinoceros, or a saber—toothed tiger. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak. You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it te1epathically. While mounted on it, you can make any spell you cast that targets only you also target the mount. The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an action. Casting this spell again re—summons the bonded mount, with all its hit points restored and any conditions removed. You can’t have more than one mount bonded by this spell or find steed at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently. Whenever the mount disappears, it leaves behind any objects it was wearing or carrying."
     ],
 "page": "xge 156",
     "range": "30 feet",
@@ -15176,7 +15114,7 @@
 {
     "name": "Healing Spirit",
     "desc": [
-    ""
+    "You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice). Until the spell ends, whenever you or a creature you can see moves into the spirits space for the first time on a turn or starts its turn there, you can cause the spirit to restore ld6 hit points to that creature (no action required). The spirit can’t heal constructs or undead. As a bonus action on your turn, you can move the Spirit up to 30 feet to a space you can see. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 3rd level or higher, the healing increases 1d6 for each slot level above 2nd."
@@ -15208,7 +15146,7 @@
 {
     "name": "Holy Weapon",
     "desc": [
-    ""
+    "You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30—foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn’t already a magic weapon, it becomes one for the duration. As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet ofyou must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn’t blinded. At the end of each Ofits turns, a blinded creature can make a Constitution saving throw, ending the effect on itselfon a success. "
     ],
 "page": "xge 157",
     "range": "Touch",
@@ -15342,7 +15280,7 @@
 {
     "name": "Invulnerability",
     "desc": [
-    ""
+    "You are immune to all damage until the spell ends."
     ],
 "page": "xge 160",
     "range": "Self",
@@ -15370,7 +15308,7 @@
 {
     "name": "Life Transference",
     "desc": [
-    ""
+    "You sacrifice some of your health to mend another creature’s injuries. You take 4d8 necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd."
@@ -15402,7 +15340,7 @@
 {
     "name": "Maddening Darkness",
     "desc": [
-    ""
+    "Magical darkness spreads from a point you choose within range to fill a 60—foot—radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can’t see through this darkness. Nonmagical light, as well as light created by spells of 8th level or lower, can't illuminate the area. Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one. "
     ],
 "page": "xge 160",
     "range": "150 feet",
@@ -15469,7 +15407,7 @@
 {
     "name": "Mental Prison",
     "desc": [
-    ""
+    "You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target’s space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can’t see or hear anything beyond it and is restrained for the spell’s duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends."
     ],
 "page": "xge 161",
     "range": "60 feet",
@@ -15534,7 +15472,7 @@
 {
     "name": "Mind Spike",
     "desc": [
-    ""
+    "You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can’t become hidden from you, and if it’s invisible, it gains no benefit from that condition against you. "
     ],
 "higher_level": [
     "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."
@@ -15568,7 +15506,7 @@
 {
     "name": "Negative Energy Flood",
     "desc": [
-    ""
+    "You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the Monster Manual. If you target an undead with this spell, the target doesn’t make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points."
     ],
 "page": "xge 163",
     "range": "60 feet",
@@ -15630,7 +15568,7 @@
 {
     "name": "Primal Savagery",
     "desc": [
-    ""
+    "You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal. The spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10)."
     ],
 "page": "xge 163",
     "range": "Self",
@@ -15718,7 +15656,7 @@
 {
     "name": "Scatter",
     "desc": [
-    ""
+    "The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Wisdom saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor. "
     ],
 "page": "xge 164",
     "range": "30 feet",
