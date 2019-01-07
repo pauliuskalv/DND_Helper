@@ -12486,8 +12486,7 @@
         "name": "Devotion"
       }
     ]
-  }
-]
+  },
 {
     "name": "Goodberry",
     "desc": [
@@ -12509,7 +12508,7 @@
     "level": 1,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -12539,7 +12538,7 @@
     "level": 4,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -12568,7 +12567,7 @@
     "level": 4,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -12593,7 +12592,7 @@
     "level": 1,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Ranger"
@@ -12623,7 +12622,7 @@
     "level": 1,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -12658,7 +12657,7 @@
     "level": 1,
     "school": {
     "name": "Enchantment"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -12687,7 +12686,7 @@
     "level": 3,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -12718,7 +12717,7 @@
     "level": 3,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Ranger"
@@ -12751,7 +12750,7 @@
     "level": 2,
     "school": {
     "name": "Illusion"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -12783,7 +12782,7 @@
     "level": 0,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -12822,7 +12821,7 @@
     "level": 1,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -12854,7 +12853,7 @@
     "level": 1,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Paladin"
@@ -12880,7 +12879,7 @@
     "level": 0,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -12905,7 +12904,7 @@
     "level": 4,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Paladin"
@@ -12934,7 +12933,7 @@
     "level": 5,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Ranger"
@@ -12964,7 +12963,7 @@
     "level": 8,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -12992,7 +12991,7 @@
     "level": 0,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13017,7 +13016,7 @@
     "level": 1,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Paladin"
@@ -13046,7 +13045,7 @@
     "level": 8,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13078,7 +13077,7 @@
     "level": 1,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -13110,7 +13109,7 @@
     "level": 1,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Paladin"
@@ -13136,7 +13135,7 @@
     "level": 9,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -13162,7 +13161,7 @@
     "level": 0,
     "school": {
     "name": "Enchantment"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -13187,7 +13186,7 @@
     "level": 8,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": ""
@@ -13216,7 +13215,7 @@
     "level": 1,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -13253,7 +13252,7 @@
     "level": 2,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -13285,7 +13284,7 @@
     "level": 2,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -13321,7 +13320,7 @@
     "level": 2,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -13358,7 +13357,7 @@
     "level": 0,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13396,7 +13395,7 @@
     "level": 0,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13429,7 +13428,7 @@
     "level": 0,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13466,7 +13465,7 @@
     "level": 0,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13499,7 +13498,7 @@
     "level": 0,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13530,7 +13529,7 @@
     "level": 0,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13566,7 +13565,7 @@
     "level": 0,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13600,7 +13599,7 @@
     "level": 1,
     "school": {
     "name": "Abjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13637,7 +13636,7 @@
     "level": 1,
     "school": {
     "name": "Divination"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13670,7 +13669,7 @@
     "level": 1,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13709,7 +13708,7 @@
     "level": 2,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13740,7 +13739,7 @@
     "level": 2,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13780,7 +13779,7 @@
     "level": 3,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13815,7 +13814,7 @@
     "level": 3,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13852,7 +13851,7 @@
     "level": 3,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13886,7 +13885,7 @@
     "level": 3,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13922,7 +13921,7 @@
     "level": 4,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13960,7 +13959,7 @@
     "level": 4,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -13996,7 +13995,7 @@
     "level": 5,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14029,7 +14028,7 @@
     "level": 5,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14061,7 +14060,7 @@
     "level": 5,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14096,7 +14095,7 @@
     "level": 6,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14125,7 +14124,7 @@
     "level": 6,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14163,7 +14162,7 @@
     "level": 6,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14200,7 +14199,7 @@
     "level": 6,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14237,7 +14236,7 @@
     "level": 6,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14273,7 +14272,7 @@
     "level": 6,
     "school": {
     "name": "Abjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14302,7 +14301,7 @@
     "level": 7,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -14337,7 +14336,7 @@
     "level": 1,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14372,7 +14371,7 @@
     "level": 2,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14407,7 +14406,7 @@
     "level": 2,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14441,7 +14440,7 @@
     "level": 2,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14475,7 +14474,7 @@
     "level": 3,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14510,7 +14509,7 @@
     "level": 4,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14544,7 +14543,7 @@
     "level": 4,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14573,7 +14572,7 @@
     "level": 5,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14605,7 +14604,7 @@
     "level": 8,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14636,7 +14635,7 @@
     "level": 3,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -14665,7 +14664,7 @@
     "level": 0,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14699,7 +14698,7 @@
     "level": 1,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -14736,7 +14735,7 @@
     "level": 1,
     "school": {
     "name": "Abjuration"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -14769,7 +14768,7 @@
     "level": 1,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14798,7 +14797,7 @@
     "level": 4,
     "school": {
     "name": "Enchantment"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -14839,7 +14838,7 @@
     "level": 6,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -14868,7 +14867,7 @@
     "level": 7,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -14901,7 +14900,7 @@
     "level": 5,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -14932,7 +14931,7 @@
     "level": 5,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -14966,7 +14965,7 @@
     "level": 2,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15002,7 +15001,7 @@
     "level": 6,
     "school": {
     "name": "Abjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -15028,7 +15027,7 @@
     "level": 3,
     "school": {
     "name": "Enchantment"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -15066,7 +15065,7 @@
     "level": 5,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15097,7 +15096,7 @@
     "level": 5,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15129,7 +15128,7 @@
     "level": 4,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Paladin"
@@ -15164,7 +15163,7 @@
     "level": 4,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -15196,7 +15195,7 @@
     "level": 2,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -15225,7 +15224,7 @@
     "level": 5,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -15257,7 +15256,7 @@
     "level": 8,
     "school": {
     "name": "Illusion"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -15292,7 +15291,7 @@
     "level": 5,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -15324,7 +15323,7 @@
     "level": 0,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -15361,7 +15360,7 @@
     "level": 9,
     "school": {
     "name": "Abjuration"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -15390,7 +15389,7 @@
     "level": 3,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -15420,7 +15419,7 @@
     "level": 8,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -15454,7 +15453,7 @@
     "level": 9,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15485,7 +15484,7 @@
     "level": 6,
     "school": {
     "name": "Illusion"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15525,7 +15524,7 @@
     "level": 8,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -15553,7 +15552,7 @@
     "level": 2,
     "school": {
     "name": "Divination"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15585,7 +15584,7 @@
     "level": 5,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -15615,7 +15614,7 @@
     "level": 7,
     "school": {
     "name": "Enchantment"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15646,7 +15645,7 @@
     "level": 0,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -15673,7 +15672,7 @@
     "level": 6,
     "school": {
     "name": "Abjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -15700,7 +15699,7 @@
     "level": 9,
     "school": {
     "name": "Enchantment"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -15734,7 +15733,7 @@
     "level": 6,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15767,7 +15766,7 @@
     "level": 2,
     "school": {
     "name": "Illusion"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15802,7 +15801,7 @@
     "level": 4,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -15829,7 +15828,7 @@
     "level": 4,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -15862,7 +15861,7 @@
     "level": 5,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -15899,7 +15898,7 @@
     "level": 1,
     "school": {
     "name": "Abjuration"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -15938,7 +15937,7 @@
     "level": 6,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -15969,7 +15968,7 @@
     "level": 5,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Ranger"
@@ -16006,7 +16005,7 @@
     "level": 4,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -16043,7 +16042,7 @@
     "level": 3,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -16073,7 +16072,7 @@
     "level": 5,
     "school": {
     "name": "Enchantment"
-    }
+    },
     "classes": [
     {
         "name": "Bard"
@@ -16117,7 +16116,7 @@
     "level": 7,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -16152,7 +16151,7 @@
     "level": 6,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -16181,7 +16180,7 @@
     "level": 3,
     "school": {
     "name": "Conjuration"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -16218,7 +16217,7 @@
     "level": 3,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Wizard"
@@ -16245,7 +16244,7 @@
     "level": 0,
     "school": {
     "name": "Necromancy"
-    }
+    },
     "classes": [
     {
         "name": "Warlock"
@@ -16285,7 +16284,7 @@
     "level": 5,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Sorcerer"
@@ -16319,7 +16318,7 @@
     "level": 0,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Cleric"
@@ -16349,7 +16348,7 @@
     "level": 5,
     "school": {
     "name": "Evocation"
-    }
+    },
     "classes": [
     {
         "name": "Druid"
@@ -16378,7 +16377,7 @@
     "level": 1,
     "school": {
     "name": "Transmutation"
-    }
+    },
     "classes": [
     {
         "name": "Ranger"
@@ -16386,3 +16385,4 @@
     ],
     "subclasses": []
 }
+]
