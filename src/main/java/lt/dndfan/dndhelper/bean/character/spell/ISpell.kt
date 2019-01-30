@@ -6,6 +6,7 @@ import lt.dndfan.dndhelper.bean.character.constant.ESpellComponent
 interface ISpell {
     val spellName : String
     val spellDescription : String
+    val higherLevel : String
 
     /**
      * If zero, its a cantrip
