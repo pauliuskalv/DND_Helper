@@ -8,5 +8,5 @@ interface ICharacterInventory : Iterable<IItem> {
     fun addItem(item : IItem)
     fun removeItem(item : IItem)
 
-    fun getWeight() : Int
+    fun getWeight() : Double
 }

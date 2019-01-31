@@ -6,20 +6,14 @@ import lt.dndfan.dndhelper.bean.character.constant.ESkill
 import lt.dndfan.dndhelper.bean.character.inventory.item.IItem
 
 class BackgroundBonus(
-    private val mName : String,
-    private val mDescription : String,
-    private val mSkills : List<ESkill>,
-    private val mLanguages : List<ELanguage>,
-    private val mItems : List<IItem>,
-    private val mToolsProficiencies : List<String>
-): AbstractBonus() {
-    override val bonusName: String
-        get() = mName
-    override val description: String
-        get() = mDescription
-    override val origin: String
-        get() = "Background"
-
+        override val bonusName : String,
+        override val description : String,
+        override val origin : String,
+        private val mSkills : List<ESkill>,
+        private val mLanguages : List<ELanguage>,
+        private val mItems : List<IItem>,
+        private val mToolsProficiencies : List<String>
+): AbstractBonus(bonusName, description, origin) {
     override fun applyBonus(character: IPlayableCharacter) {
         for (item in mSkills)
             character.addSkillProficiency(item)

@@ -7,11 +7,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Fixes for the character creation window step 1.">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_1_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_test_common_1_3_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/IBonusFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ArmorClassBonusFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/BackgroundBonusFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/FeatBonusFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/MovementSpeedBonusFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/SkillProeficiencyBonusFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/IFeatureFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/impl/BasicFeatureFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/impl/CharacterInventory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IItemFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/EquipableItem.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Item.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/ItemFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/ThrowableWeapon.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Weapon.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/Spell.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/SpellPool.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/5e-SRD-Features.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/5e-SRD-Features.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/5e-SRD-Levels.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/5e-SRD-Levels.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/5e-SRD-Subclasses.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/5e-SRD-Subclasses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dnd_helper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dnd_helper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/AbstractBonus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/AbstractBonus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ArmorClassBonus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ArmorClassBonus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/BackgroundBonus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/BackgroundBonus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/FeatBonus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/FeatBonus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/MovementSpeedBonus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/MovementSpeedBonus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ProficiencyBonus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/SkillProeficiencyBonus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/StatBonus.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/StatBonus.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/constant/ESpellComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/constant/ESpellComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/ICharacterInventory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/ICharacterInventory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IItem.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/ISpellList.kt" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,123 +105,40 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2013703047">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fxml" value="2" />
-          <entry key="gitignore" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="21" />
-          <entry key="json" value="2" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="21" />
-          <entry key="JSON" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="fxml" value="153" />
-          <entry key="gitignore" value="12" />
-          <entry key="java" value="400" />
-          <entry key="txt" value="248" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="400" />
-          <entry key="PLAIN_TEXT" value="260" />
-          <entry key="XML" value="153" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Proficiency.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/Spell.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/RacesJSON.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="165">
+              <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#55#240#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/ISpellPool.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="214" column="64" lean-forward="true" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/JSONHelper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/SpellPool.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="105">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#55#217#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2208">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Classes.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5120">
-              <caret line="320" column="33" selection-start-line="320" selection-start-column="33" selection-end-line="320" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -196,7 +149,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Kotlin Interface" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -240,39 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/dnd_fan/dnd_program/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/5e-SRD-Classes.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Character.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/MainWindow.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/UIUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/gui/NewCharacter.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/SkillCalc.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/AbilityScoresJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/Alignments.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/ClassProficiencies.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/5e-SRD-Skills.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/ClassSkillProficiencies.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/NewCharacterController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/ClassSavingThrows.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassesJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Proficiency.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ProficienciesJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/db/DatabaseHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/gui/NewCharacter/NewCharacterStep2.fxml" />
-        <option value="$PROJECT_DIR$/src/main/resources/Backgrounds.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/SelectScreenController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Subrace.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/SettablePair.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/gui/ClassDescription.json" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/JSONHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSONHelper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SpellcastingJSON.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/5e-SRD-Subclasses.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/gui/NewCharacter/NewCharacterStep1.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Inventory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/EWindow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/WindowPath.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/UIUtil.java" />
@@ -291,14 +213,41 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ProficiencyBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ArmorClassBonusFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/AbstractBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ArmorClassBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/BackgroundBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/FeatBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/MovementSpeedBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/SkillProeficiencyBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/StatBonus.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/IBonusFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/BackgroundBonusFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/FeatBonusFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/MovementSpeedBonusFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/SkillProeficiencyBonusFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/constant/ESpellComponent.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/impl/BasicFeatureFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/IFeatureFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/impl/BasicFeatureFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/IWeapon.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/IThrowableWeapon.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IItem.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/EquipableItem.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Weapon.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/ThrowableWeapon.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IItemFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/ItemFactory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/ICharacterInventory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/impl/CharacterInventory.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Item.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/Spell.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/SpellPool.kt" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -324,65 +273,105 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dnd_program" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dnd_program" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
+              <item name="dndhelper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DND_Program" type="462c0819:PsiDirectoryNode" />
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DND_Program" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
+              <item name="bonus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
+              <item name="spell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DND_Helper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DND_Helper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dndhelper" type="462c0819:PsiDirectoryNode" />
+              <item name="character" type="462c0819:PsiDirectoryNode" />
+              <item name="spell" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -404,7 +393,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/paulius/IdeaProjects/DND_Program/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535884496724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548969668364" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -444,7 +433,7 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -473,6 +462,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -489,7 +479,7 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/DND_Helper/JavaFXApp.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -500,11 +490,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -543,6 +533,7 @@
       <workItem from="1535884651061" duration="1887000" />
       <workItem from="1536126048038" duration="131000" />
       <workItem from="1536772068720" duration="59000" />
+      <workItem from="1548954032824" duration="14007000" />
     </task>
     <task id="LOCAL-00001" summary="Fixes for the character creation window step 1.">
       <created>1535305119880</created>
@@ -583,21 +574,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117855000" />
+    <option name="totallyTimeSpent" value="131862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1920" height="1052" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18930481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19144385" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893288" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995633" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -613,6 +604,7 @@
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Application Servers" order="15" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32969433" />
+      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -628,9 +620,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -648,280 +637,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Proficiencies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4080">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep2.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Features.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="391" column="14" lean-forward="true" selection-start-line="391" selection-start-column="14" selection-end-line="391" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Test.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/graphic/240px-No_image_available.svg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ClassDescription.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="47" column="169" selection-start-line="47" selection-start-column="169" selection-end-line="47" selection-end-column="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Equipment-Categories.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14803" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Traits.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Weapon-Properties.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ProficienciesJSON.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Conditions.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Spellcasting.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Backgrounds.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="118" column="72" lean-forward="true" selection-start-line="118" selection-start-column="72" selection-end-line="118" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Subraces.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5445">
-          <caret line="363" column="54" selection-start-line="363" selection-start-column="54" selection-end-line="363" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Subclasses.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="1259" column="1" selection-start-line="1259" selection-start-column="1" selection-end-line="1259" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Levels.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="3808" column="19" lean-forward="true" selection-start-line="3808" selection-start-column="19" selection-end-line="3808" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Inventory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/db/DatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/WindowPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/EWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" lean-forward="true" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Selection.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Equipment.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="1480" column="33" selection-start-line="1480" selection-start-column="4" selection-end-line="1480" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Subrace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/util/ChoiceScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1792">
-          <caret line="132" column="29" selection-start-line="132" selection-start-column="29" selection-end-line="132" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/util/ChoiceScreen.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="62" column="124" selection-start-line="62" selection-start-column="124" selection-end-line="62" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-StartingEquipment.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="826">
-          <caret line="82" column="109" selection-start-line="82" selection-start-column="109" selection-end-line="82" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/EquipmentJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/Alignments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/SettablePair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/SkillCalc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/util/UIUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DND_Program.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/AbilityScoresJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SubclassJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="131" column="139" lean-forward="true" selection-start-line="131" selection-start-column="139" selection-end-line="131" selection-end-column="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SubracesJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/SelectScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SpellsJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/gui/newcharacter/NewCharacterStep1.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SubracesJSON.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/SelectScreenController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/SpellsJSON.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Class.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Spells.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-116">
@@ -929,57 +649,330 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Proficiency.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/model/Proficiency.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/RacesJSON.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/JSONHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/RacesJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/JSONHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/controller/newcharacter/NewCharacterStep1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/5e-SRD-Classes.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5120">
-          <caret line="320" column="33" selection-start-line="320" selection-start-column="33" selection-end-line="320" selection-end-column="33" />
+        <state relative-caret-position="121">
+          <caret line="273" column="25" lean-forward="true" selection-start-line="273" selection-start-column="25" selection-end-line="273" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dnd_fan/dnd_program/json/ClassJSON.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/IBonus.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="214" column="64" lean-forward="true" selection-start-line="214" selection-start-column="64" selection-end-line="214" selection-end-column="64" />
+        <state relative-caret-position="60">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ArmorClassBonus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/AbstractBonus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/BackgroundBonus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/FeatBonus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/SkillProeficiencyBonus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/StatBonus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="87" selection-start-line="11" selection-start-column="87" selection-end-line="11" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/BackgroundBonusFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="41" lean-forward="true" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#55#353#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/IBonusFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/ArmorClassBonusFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#55#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/FeatBonusFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#55#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/MovementSpeedBonusFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#55#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/MovementSpeedBonus.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/bonus/impl/SkillProeficiencyBonusFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <element signature="e#55#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/constant/ESpellComponent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/impl/BasicFeatureFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/impl/BasicFeatureFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/IFeature.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/constant/EItemType.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IThrowableWeapon.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/IFeatureFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#52#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/feature/impl/BasicFeature.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/EquipableItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="e#64#357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IWeapon.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Weapon.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#64#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/ThrowableWeapon.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="e#64#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/ItemFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+          <folding>
+            <element signature="e#64#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IEquipableItem.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/impl/Item.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/item/IItemFactory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#59#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/impl/CharacterInventory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#59#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/inventory/ICharacterInventory.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/ISpellList.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/Spell.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#55#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/impl/SpellPool.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#55#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lt/dndfan/dndhelper/bean/character/spell/ISpellPool.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
         </state>
       </provider>
     </entry>

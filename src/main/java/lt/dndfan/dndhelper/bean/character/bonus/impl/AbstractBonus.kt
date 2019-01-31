@@ -3,7 +3,9 @@ package lt.dndfan.dndhelper.bean.character.bonus.impl
 import lt.dndfan.dndhelper.bean.character.IPlayableCharacter
 import lt.dndfan.dndhelper.bean.character.bonus.IBonus
 
-abstract class AbstractBonus : IBonus {
+abstract class AbstractBonus(override val bonusName: String,
+                             override val description: String,
+                             override val origin: String) : IBonus {
     private var mApplied : Boolean = false
 
     override fun apply(character : IPlayableCharacter) {

@@ -6,7 +6,7 @@ import lt.dndfan.dndhelper.bean.character.feature.IFeature
 class FeatBonus(override val bonusName: String,
                 override val description: String,
                 override val origin: String,
-                private val feature : IFeature) : AbstractBonus() {
+                private val feature : IFeature) : AbstractBonus(bonusName, description, origin) {
     override fun applyBonus(character: IPlayableCharacter) {
         character.addFeature(feature)
     }
@@ -14,5 +14,4 @@ class FeatBonus(override val bonusName: String,
     override fun removeBonus(character: IPlayableCharacter) {
         character.removeFeature(feature)
     }
-
 }

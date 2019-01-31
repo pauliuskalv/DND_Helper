@@ -1,7 +1,7 @@
 package lt.dndfan.dndhelper.bean.character.constant
 
-enum class ESpellComponent {
-    V,
-    S,
-    M
+enum class ESpellComponent(value : String) {
+    V("Verbal"),
+    S("Somatic"),
+    M("Material")
 }
