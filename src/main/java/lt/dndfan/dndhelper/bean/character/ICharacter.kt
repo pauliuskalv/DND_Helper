@@ -18,9 +18,15 @@ interface ICharacter {
      * Languages
      * Hit dice
      */
+
+    // TODO: Create trait interface
+
+    val stats : List<EStat>
     var armorClass : Int
+    var initiative : Int
     var speed : Int
     var swimmingSpeed : Int
+    var flyingSpeed : Int
     val languages : List<ELanguage>
     var alignment : EAlignment
 
@@ -33,6 +39,8 @@ interface ICharacter {
 
     val name : String
     val description : String
+
+    val traits : List<String>       // e. g. Darkvision
 
     fun getStat(desiredStat: EStat): Int
     fun setStat(desiredStat: EStat, value: Int)
