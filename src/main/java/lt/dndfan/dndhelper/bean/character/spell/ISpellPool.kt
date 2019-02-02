@@ -1,10 +1,6 @@
 package lt.dndfan.dndhelper.bean.character.spell
 
-import lt.dndfan.dndhelper.util.collection.IPair
-
 interface ISpellPool : Iterable<ISpell> {
-    val spellList : List<IPair<ISpell, Boolean>>
-
     fun getSpell(name : String, spellLevel : Int = 0) : ISpell
 
     fun addSpell(spell : ISpell)

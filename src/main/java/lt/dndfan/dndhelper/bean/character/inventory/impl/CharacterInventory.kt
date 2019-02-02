@@ -1,15 +1,15 @@
 package lt.dndfan.dndhelper.bean.character.inventory.impl
 
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
+import lt.dndfan.dndhelper.bean.character.inventory.exception.ItemNotFoundException
 import lt.dndfan.dndhelper.bean.character.inventory.item.IItem
-import lt.dndfan.dndhelper.bean.character.inventory.item.impl.Item
 
 class CharacterInventory : ICharacterInventory {
     private val itemList : HashMap<String, IItem> = HashMap()
 
     override fun getItem(item: String): IItem = when(itemList.containsKey(item)) {
         true -> itemList[item]!!
-        else -> Item.EMPTY
+        else -> throw ItemNotFoundException()
     }
 
     override fun addItem(item: IItem) = when(itemList.containsKey(item.name)) {

@@ -2,36 +2,42 @@ package lt.dndfan.dndhelper.bean.character.spell.impl
 
 import lt.dndfan.dndhelper.bean.character.spell.ISpell
 import lt.dndfan.dndhelper.bean.character.spell.ISpellPool
-import lt.dndfan.dndhelper.util.collection.IPair
+import lt.dndfan.dndhelper.bean.character.spell.exception.SpellNotFoundException
 
-class SpellPool(override val spellList: List<IPair<ISpell, Boolean>>) : ISpellPool {
-    private val
+class SpellPool : ISpellPool {
+    private val spellList : HashMap<String, ISpell> = HashMap()
+    private val preparedSpells : ArrayList<ISpell> = ArrayList()
 
     override fun getSpell(name: String, spellLevel: Int): ISpell {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        for (spell in this) {
+            if (spell.spellName.equals(name) && spell.spellLevel.equals(spellLevel))
+                return spell
+        }
+
+        throw SpellNotFoundException()
     }
 
     override fun addSpell(spell: ISpell) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        this.spellList[spell.spellName] = spell
     }
 
     override fun removeSpell(spell: ISpell) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        this.spellList.remove(spell.spellName)
     }
 
     override fun prepareSpell(spell: ISpell) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        if (!preparedSpells.contains(spell))
+            preparedSpells.add(spell)
     }
 
     override fun unprepareSpell(spell: ISpell) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        if (preparedSpells.contains(spell))
+            preparedSpells.remove(spell)
     }
 
-    override fun isPrepared(spell: ISpell): Boolean {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+    override fun isPrepared(spell: ISpell): Boolean = preparedSpells.contains(spell)
 
     override fun iterator(): Iterator<ISpell> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return spellList.values.iterator()
     }
 }

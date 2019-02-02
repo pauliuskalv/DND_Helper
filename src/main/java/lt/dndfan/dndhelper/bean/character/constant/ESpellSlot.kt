@@ -2,8 +2,8 @@ package lt.dndfan.dndhelper.bean.character.constant
 
 /**
  * value is the field in JSON that represents the
- *  spell slot count for the specific
- *  spell slot level
+ *  spellcaster slot count for the specific
+ *  spellcaster slot level
  */
 enum class ESpellSlot(value : String) {
     CANTRIP("cantrips_known"),

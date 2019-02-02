@@ -10,7 +10,7 @@ interface ISpell {
 
     /**
      * If zero, its a cantrip
-     * Else its a spell
+     * Else its a spellcaster
      */
     val spellLevel : Int
 
