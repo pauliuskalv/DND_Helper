@@ -22,6 +22,10 @@ abstract class AbstractBonus(override val bonusName: String,
         removeBonus(character)
     }
 
+    override fun isApplied(): Boolean {
+        return mApplied
+    }
+
     protected abstract fun applyBonus(character : IPlayableCharacter)
     protected abstract fun removeBonus(character : IPlayableCharacter)
 }

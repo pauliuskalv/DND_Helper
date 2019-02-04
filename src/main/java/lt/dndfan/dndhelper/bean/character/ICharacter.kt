@@ -18,10 +18,11 @@ interface ICharacter {
      * Languages
      * Hit dice
      */
+    var temporaryHitPoints : Int
+    var maxHitPoints : Int
+    var currentHitPoints : Int
 
     // TODO: Create trait interface
-
-    val stats : List<EStat>
     var armorClass : Int
     var initiative : Int
     var speed : Int

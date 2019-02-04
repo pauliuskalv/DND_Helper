@@ -13,4 +13,6 @@ interface ISpellcaster : IPlayableCharacter {
     val spellPool : ISpellPool
 
     fun castSpell(spell : ISpell) : Boolean
+
+    fun resetSlots()
 }

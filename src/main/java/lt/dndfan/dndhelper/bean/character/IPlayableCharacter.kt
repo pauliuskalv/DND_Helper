@@ -6,11 +6,7 @@ import lt.dndfan.dndhelper.bean.character.feature.IFeature
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
 
 interface IPlayableCharacter : ICharacter {
-    var temporaryHitPoints : Int
-    var maxHitPoints : Int
-    var currentHitPoints : Int
-
-    val savingThrowsProficiencies : List<EStat>
+    val savingThrowProficiencies : List<EStat>
     val skillProficiencies : List<ESkill>
     val itemProficiencies : List<String>
     val features : List<IFeature>

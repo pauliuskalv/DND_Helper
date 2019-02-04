@@ -1,6 +1,6 @@
 package lt.dndfan.dndhelper.bean.character.constant
 
-enum class ELanguage(value : String, script : String) {
+enum class ELanguage(val value : String, val script : String) {
     COMMON("Common", "Common"),
     DWARVISH("Dwarvish", "Dwarvish"),
     ELVISH("Elvish", "Elvish"),

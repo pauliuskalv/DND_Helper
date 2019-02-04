@@ -10,4 +10,5 @@ interface IBonus {
 
     fun apply(character : IPlayableCharacter)
     fun remove(character : IPlayableCharacter)
+    fun isApplied() : Boolean
 }
