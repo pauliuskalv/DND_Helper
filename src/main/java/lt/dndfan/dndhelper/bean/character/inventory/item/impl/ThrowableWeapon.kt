@@ -21,4 +21,6 @@ class ThrowableWeapon(override val throwRange: String,
                       override var count: Int,
                       override val name: String,
                       override val description: String,
+                      override val plus: Int,
+                      override val magical: Boolean,
                       override val weight: Double) : IThrowableWeapon

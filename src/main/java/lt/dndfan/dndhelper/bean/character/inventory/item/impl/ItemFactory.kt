@@ -9,12 +9,15 @@ import lt.dndfan.dndhelper.util.collection.IPair
 class ItemFactory : IItemFactory {
     override fun createItem(name: String,
                             description: String,
-                            weight: Double): IItem {
+                            weight: Double,
+                            magical: Boolean): IItem {
         return Item(
                 1,
                 name,
                 description,
-                weight)
+                magical,
+                weight
+                )
     }
 
     override fun createEquipableItem(name: String,
@@ -25,18 +28,24 @@ class ItemFactory : IItemFactory {
                                      category: EItemType,
                                      requiredStats: List<IPair<EStat, Int>>,
                                      value: Int,
+                                     plus: Int,
+                                     magical: Boolean,
                                      tags: List<String>): IEquipableItem {
         return EquipableItem(
+
                 attunable,
                 bonusList,
                 category,
                 requiredStats,
+                plus,
                 value,
                 tags,
                 1,
                 name,
                 description,
+                magical,
                 weight
+
         )
     }
 
@@ -52,6 +61,8 @@ class ItemFactory : IItemFactory {
                               weaponRange: String,
                               damageDiceCount: Int,
                               damageDiceValue: Int,
+                              plus: Int,
+                              magical: Boolean,
                               damageType: String): IWeapon {
         return Weapon(
                 weaponRange,
@@ -67,7 +78,10 @@ class ItemFactory : IItemFactory {
                 1,
                 name,
                 description,
+                plus,
+                magical,
                 weight
+
         )
     }
 
@@ -85,6 +99,8 @@ class ItemFactory : IItemFactory {
                                        damageDiceValue: Int,
                                        damageType: String,
                                        throwRange: String,
+                                       plus: Int,
+                                       magical: Boolean,
                                        throwRangeLong: String): IThrowableWeapon {
         return ThrowableWeapon(
                 throwRange,
@@ -102,6 +118,8 @@ class ItemFactory : IItemFactory {
                 1,
                 name,
                 description,
+                plus,
+                magical,
                 weight
         )
     }

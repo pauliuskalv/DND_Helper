@@ -8,7 +8,8 @@ import lt.dndfan.dndhelper.util.collection.IPair
 interface IItemFactory {
     fun createItem(name: String,
                    description : String,
-                   weight : Double) : IItem
+                   weight : Double,
+                   magical : Boolean) : IItem
 
     fun createEquipableItem(name: String,
                             description : String,
@@ -18,6 +19,8 @@ interface IItemFactory {
                             category : EItemType,
                             requiredStats : List<IPair<EStat, Int>>,
                             value : Int,
+                            plus: Int,
+                            magical: Boolean,
                             tags : List<String>) : IEquipableItem
 
     fun createWeapon(name: String,
@@ -32,6 +35,8 @@ interface IItemFactory {
                      weaponRange : String,
                      damageDiceCount : Int,
                      damageDiceValue : Int,
+                     plus: Int,
+                     magical: Boolean,
                      damageType : String) : IWeapon
 
     fun createThrowableWeapon(name: String,
@@ -48,5 +53,7 @@ interface IItemFactory {
                               damageDiceValue : Int,
                               damageType : String,
                               throwRange : String,
+                              plus: Int,
+                              magical: Boolean,
                               throwRangeLong : String) : IThrowableWeapon
 }

@@ -6,4 +6,5 @@ interface IItem {
     val name : String
     val description : String
     val weight : Double
+    val magical : Boolean
 }

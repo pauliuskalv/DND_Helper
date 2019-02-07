@@ -19,4 +19,6 @@ class Weapon(override val weaponRange: String,
              override var count: Int,
              override val name: String,
              override val description: String,
+             override val plus: Int,
+             override val magical: Boolean,
              override val weight: Double) : IWeapon
