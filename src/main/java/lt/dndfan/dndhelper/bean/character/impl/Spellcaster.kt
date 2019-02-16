@@ -3,6 +3,7 @@ package lt.dndfan.dndhelper.bean.character.impl
 import lt.dndfan.dndhelper.bean.character.ISpellcaster
 import lt.dndfan.dndhelper.bean.character.constant.EAlignment
 import lt.dndfan.dndhelper.bean.character.constant.ESpellSlot
+import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.character.spell.ISpell
 import lt.dndfan.dndhelper.bean.character.spell.ISpellPool
@@ -22,6 +23,7 @@ class Spellcaster(
         override val name: String,
         override val description: String,
         override val traits: List<String>,
+        override val spellModifier: EStat,
 
         override var temporaryHitPoints: Int,
         override var maxHitPoints: Int,
@@ -29,6 +31,11 @@ class Spellcaster(
 
         override val characterClass: String,
         override val characterSubclass: String,
+
+        override val personalityTraits: List<String>,
+        override val ideals: List<String>,
+        override val bonds: List<String>,
+        override val flaws: List<String>,
 
         characterInventory : ICharacterInventory,
 
@@ -49,6 +56,7 @@ class Spellcaster(
         name,
         description,
         traits,
+        spellModifier,
 
         temporaryHitPoints,
         maxHitPoints,
@@ -58,6 +66,7 @@ class Spellcaster(
         characterSubclass,
 
         characterInventory
+
 ), ISpellcaster {
     private val expendedSpellSlots : List<IPair<ESpellSlot, Int>> = arrayListOf(
             Pair(ESpellSlot.LEVEL_1, 0),

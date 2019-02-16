@@ -22,6 +22,7 @@ open class PlayableCharacter(
         override val name: String,
         override val description: String,
         override val traits: List<String>,
+        override val spellModifier: EStat,
 
         override var temporaryHitPoints: Int,
         override var maxHitPoints: Int,
@@ -49,6 +50,23 @@ open class PlayableCharacter(
                   maxHitPoints,
                   currentHitPoints
         ) {
+
+    private val personalityTraitList : ArrayList<String> = ArrayList()
+    override val personalityTraits: List<String>
+    get() = personalityTraitList
+
+    private val idealList : ArrayList<String> = ArrayList()
+    override val ideals : List<String>
+    get() = idealList
+
+    private val bondList : ArrayList<String> = ArrayList()
+    override val bonds : List<String>
+    get() = bondList
+
+    private val flawList : ArrayList<String> = ArrayList()
+    override val flaws : List<String>
+    get() = flawList
+
     private val savingThrowProficiencyList : ArrayList<EStat> = ArrayList()
     override val savingThrowProficiencies: List<EStat>
     get() = savingThrowProficiencyList
@@ -66,6 +84,46 @@ open class PlayableCharacter(
     get() = featureList
 
     private val bonusList : ArrayList<IBonus> = ArrayList()
+
+    override fun addPersonalityTrait(trait: String) {
+        if (!personalityTraitList.contains(trait))
+            personalityTraitList.add(trait)
+    }
+
+    override fun removePersonalityTrait(trait: String) {
+        if(personalityTraitList.contains(trait))
+            personalityTraitList.remove(trait)
+    }
+
+    override fun addIdeal(ideal: String) {
+        if(!idealList.contains(ideal))
+            idealList.add(ideal)
+    }
+
+    override fun removeIdeal(ideal: String) {
+        if(idealList.contains(ideal))
+            idealList.remove(ideal)
+    }
+
+    override fun addBond(bond: String) {
+        if(!bondList.contains(bond))
+            bondList.add(bond)
+    }
+
+    override fun removeBond(bond: String) {
+        if(bondList.contains(bond))
+            bondList.remove(bond)
+    }
+
+    override fun addFlaw(flaw: String) {
+        if(!flawList.contains(flaw))
+            flawList.add(flaw)
+    }
+
+    override fun removeFlaw(flaw: String) {
+        if(flawList.contains(flaw))
+            flawList.remove(flaw)
+    }
 
     override fun addSavingThrowProficiency(prof: EStat) {
         if (!savingThrowProficiencyList.contains(prof))
