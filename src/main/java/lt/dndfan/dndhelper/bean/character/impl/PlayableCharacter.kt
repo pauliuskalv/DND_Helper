@@ -7,6 +7,7 @@ import lt.dndfan.dndhelper.bean.character.constant.ESkill
 import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.bean.character.feature.IFeature
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
+import lt.dndfan.dndhelper.bean.character.inventory.item.impl.EquipableItem
 import javax.management.monitor.StringMonitor
 
 open class PlayableCharacter(
@@ -31,7 +32,7 @@ open class PlayableCharacter(
         override val characterClass: String,
         override val characterSubclass: String,
 
-        private val characterInventory : ICharacterInventory
+        override val characterInventory : ICharacterInventory
 ) : IPlayableCharacter,
         Character(armorClass,
                   initiative,
@@ -50,6 +51,10 @@ open class PlayableCharacter(
                   maxHitPoints,
                   currentHitPoints
         ) {
+
+    private val equipedItemList : ArrayList<EquipableItem> = ArrayList()
+    override val characterEquipment : List<EquipableItem>
+    get() = equipedItemList
 
     private val personalityTraitList : ArrayList<String> = ArrayList()
     override val personalityTraits: List<String>
@@ -84,6 +89,15 @@ open class PlayableCharacter(
     get() = featureList
 
     private val bonusList : ArrayList<IBonus> = ArrayList()
+
+    override fun equipItem(item : EquipableItem){
+        equipedItemList.add(item)
+    }
+
+    override fun unequipItem(item : EquipableItem){
+        if(equipedItemList.contains(item))
+            equipedItemList.remove(item)
+    }
 
     override fun addPersonalityTrait(trait: String) {
         if (!personalityTraitList.contains(trait))

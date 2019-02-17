@@ -4,6 +4,7 @@ import lt.dndfan.dndhelper.bean.character.constant.ESkill
 import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.bean.character.feature.IFeature
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
+import lt.dndfan.dndhelper.bean.character.inventory.item.impl.EquipableItem
 import java.awt.datatransfer.StringSelection
 
 interface IPlayableCharacter : ICharacter {
@@ -20,6 +21,9 @@ interface IPlayableCharacter : ICharacter {
     val ideals : List<String>
     val bonds : List<String>
     val flaws : List<String>
+
+    val characterInventory : ICharacterInventory
+    val characterEquipment : List<EquipableItem>
 
     /**
      *
@@ -47,6 +51,9 @@ interface IPlayableCharacter : ICharacter {
     fun removeFeature(feature : IFeature)
 
     fun getInventory() : ICharacterInventory
+
+    fun equipItem(item : EquipableItem)
+    fun unequipItem(item : EquipableItem)
 
     fun isBonusesApplied() : Boolean
     fun applyBonuses()
