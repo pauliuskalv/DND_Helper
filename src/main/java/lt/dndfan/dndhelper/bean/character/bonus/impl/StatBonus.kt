@@ -11,7 +11,7 @@ class StatBonus(override val bonusName: String,
                 private val stat : EStat,
                 private val value : Int) : AbstractBonus(bonusName, description, origin) {
     override fun applyBonus(character: IPlayableCharacter) {
-        character.setStat(stat, character.getStat(stat) - value)
+        character.setStat(stat, character.getStat(stat) + value)
     }
 
     override fun removeBonus(character: IPlayableCharacter) {
