@@ -66,7 +66,6 @@ class Spellcaster(
         characterSubclass,
 
         characterInventory
-
 ), ISpellcaster {
     private val expendedSpellSlots : List<IPair<ESpellSlot, Int>> = arrayListOf(
             Pair(ESpellSlot.LEVEL_1, 0),

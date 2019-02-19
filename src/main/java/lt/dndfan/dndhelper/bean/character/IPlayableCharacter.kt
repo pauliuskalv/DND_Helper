@@ -5,7 +5,6 @@ import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.bean.character.feature.IFeature
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.character.inventory.item.impl.EquipableItem
-import java.awt.datatransfer.StringSelection
 
 interface IPlayableCharacter : ICharacter {
     val savingThrowProficiencies : List<EStat>
