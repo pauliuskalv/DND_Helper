@@ -34,7 +34,6 @@ interface ICharacter {
     val resistances : List<String>
     val vulnerabilities : List<String>
 
-    val hitDice : Int
     var hitDiceCount : Int
     var currentHitDice : Int
 

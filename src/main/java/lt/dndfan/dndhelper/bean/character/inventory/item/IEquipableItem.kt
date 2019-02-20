@@ -9,9 +9,10 @@ interface IEquipableItem : IItem {
     val attunable : Boolean
     val bonusList : List<IBonus>
     val category : EItemType
-    val plus : Int
 
     val requiredStats : List<IPair<EStat,Int>>
+
+    val attributes : Map<String, Any>
 
     /**
      * Value in copper
