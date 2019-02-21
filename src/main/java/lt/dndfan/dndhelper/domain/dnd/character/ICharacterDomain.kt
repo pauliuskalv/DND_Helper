@@ -7,4 +7,6 @@ interface ICharacterDomain {
     // Creation
     fun createCharacter(args : Map<String, Any>) : ICharacter
     fun createPlayableCharacter(args : Map<String, Any>) : IPlayableCharacter
+
+    fun getCharacterByName(name : String) : ICharacter
 }

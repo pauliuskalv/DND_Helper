@@ -19,4 +19,5 @@ interface IFeatureDomain {
     fun getByRace(features : List<IFeature>, race : String) : List<IFeature>
     fun getByClass(features : List<IFeature>, characterClass : String) : List<IFeature>
     fun getBySubclass(features : List<IFeature>, characterClass : String) : List<IFeature>
+    fun getByLevel(features : List<IFeature>, characterClass : String) : List<IFeature>
 }
