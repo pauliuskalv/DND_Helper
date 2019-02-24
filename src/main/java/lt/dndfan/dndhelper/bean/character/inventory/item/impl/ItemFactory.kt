@@ -28,8 +28,8 @@ class ItemFactory : IItemFactory {
                                      category: EItemType,
                                      requiredStats: List<IPair<EStat, Int>>,
                                      value: Int,
-                                     plus: Int,
                                      magical: Boolean,
+                                     attributes: Map<String, Any>,
                                      tags: List<String>): IEquipableItem {
         return EquipableItem(
 
@@ -37,11 +37,11 @@ class ItemFactory : IItemFactory {
                 bonusList,
                 category,
                 requiredStats,
-                plus,
                 value,
                 tags,
                 1,
                 name,
+                attributes,
                 description,
                 magical,
                 weight
@@ -61,8 +61,8 @@ class ItemFactory : IItemFactory {
                               weaponRange: String,
                               damageDiceCount: Int,
                               damageDiceValue: Int,
-                              plus: Int,
                               magical: Boolean,
+                              attributes: Map<String, Any>,
                               damageType: String): IWeapon {
         return Weapon(
                 weaponRange,
@@ -76,9 +76,9 @@ class ItemFactory : IItemFactory {
                 value,
                 tags,
                 1,
+                attributes,
                 name,
                 description,
-                plus,
                 magical,
                 weight
 
@@ -99,8 +99,8 @@ class ItemFactory : IItemFactory {
                                        damageDiceValue: Int,
                                        damageType: String,
                                        throwRange: String,
-                                       plus: Int,
                                        magical: Boolean,
+                                       attributes: Map<String, Any>,
                                        throwRangeLong: String): IThrowableWeapon {
         return ThrowableWeapon(
                 throwRange,
@@ -116,9 +116,9 @@ class ItemFactory : IItemFactory {
                 value,
                 tags,
                 1,
+                attributes,
                 name,
                 description,
-                plus,
                 magical,
                 weight
         )
