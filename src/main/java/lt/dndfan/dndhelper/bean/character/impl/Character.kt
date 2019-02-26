@@ -4,6 +4,7 @@ import lt.dndfan.dndhelper.bean.character.ICharacter
 import lt.dndfan.dndhelper.bean.character.constant.EAlignment
 import lt.dndfan.dndhelper.bean.character.constant.ELanguage
 import lt.dndfan.dndhelper.bean.character.constant.EStat
+import lt.dndfan.dndhelper.bean.character.spell.IAbility
 import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 open class Character(override var armorClass: Int,
@@ -12,7 +13,6 @@ open class Character(override var armorClass: Int,
                      override var swimmingSpeed: Int,
                      override var flyingSpeed: Int,
                      override var alignment: EAlignment,
-                     override val hitDice: Int,
                      override var hitDiceCount: Int,
                      override var currentHitDice: Int,
                      override val name: String,

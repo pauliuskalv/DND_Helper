@@ -8,6 +8,7 @@ import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.bean.character.feature.IFeature
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.character.inventory.item.impl.EquipableItem
+import lt.dndfan.dndhelper.bean.character.spell.IAbility
 import javax.management.monitor.StringMonitor
 
 open class PlayableCharacter(
@@ -17,7 +18,6 @@ open class PlayableCharacter(
         override var swimmingSpeed: Int,
         override var flyingSpeed: Int,
         override var alignment: EAlignment,
-        override val hitDice: Int,
         override var hitDiceCount: Int,
         override var currentHitDice: Int,
         override val name: String,
@@ -40,7 +40,6 @@ open class PlayableCharacter(
                   swimmingSpeed,
                   flyingSpeed,
                   alignment,
-                  hitDice,
                   hitDiceCount,
                   currentHitDice,
                   name,

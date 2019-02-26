@@ -3,6 +3,7 @@ package lt.dndfan.dndhelper.bean.character
 import lt.dndfan.dndhelper.bean.character.constant.EAlignment
 import lt.dndfan.dndhelper.bean.character.constant.ELanguage
 import lt.dndfan.dndhelper.bean.character.constant.EStat
+import lt.dndfan.dndhelper.bean.character.spell.IAbility
 
 interface ICharacter {
     /**

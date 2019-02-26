@@ -5,6 +5,7 @@ import lt.dndfan.dndhelper.bean.character.constant.EAlignment
 import lt.dndfan.dndhelper.bean.character.constant.ESpellSlot
 import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
+import lt.dndfan.dndhelper.bean.character.spell.IAbility
 import lt.dndfan.dndhelper.bean.character.spell.ISpell
 import lt.dndfan.dndhelper.bean.character.spell.ISpellPool
 import lt.dndfan.dndhelper.util.collection.IPair
@@ -17,7 +18,6 @@ class Spellcaster(
         override var swimmingSpeed: Int,
         override var flyingSpeed: Int,
         override var alignment: EAlignment,
-        override val hitDice: Int,
         override var hitDiceCount: Int,
         override var currentHitDice: Int,
         override val name: String,
@@ -50,7 +50,6 @@ class Spellcaster(
         swimmingSpeed,
         flyingSpeed,
         alignment,
-        hitDice,
         hitDiceCount,
         currentHitDice,
         name,
