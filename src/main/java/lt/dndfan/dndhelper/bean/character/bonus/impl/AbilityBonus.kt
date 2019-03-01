@@ -9,9 +9,9 @@ class AbilityBonus(override val bonusName : String,
                  private val ability : IAbility
                  ) : AbstractBonus(bonusName, description, origin) {
     override fun applyBonus(character: IPlayableCharacter) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        character.addAbility(ability)
     }
     override fun removeBonus(character: IPlayableCharacter) {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        character.removeAbility(ability)
     }
 }

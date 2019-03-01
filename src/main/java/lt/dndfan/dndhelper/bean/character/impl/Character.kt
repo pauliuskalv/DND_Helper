@@ -31,6 +31,10 @@ open class Character(override var armorClass: Int,
             Pair(EStat.CHARISMA, 0)
     )
 
+    private val abilityList : ArrayList<IAbility> = ArrayList()
+    override val abilities : List<IAbility>
+    get() = abilityList
+
     private val languageList : ArrayList<ELanguage> = ArrayList()
     override val languages: List<ELanguage>
     get() = languageList
@@ -42,6 +46,18 @@ open class Character(override var armorClass: Int,
     private val vulnerabilityList : ArrayList<String> = ArrayList()
     override val vulnerabilities: List<String>
     get() = vulnerabilityList
+
+    override fun addAbility(ability: IAbility) {
+        if(!abilityList.contains(ability)) {
+            abilityList.add(ability)
+        }
+    }
+
+    override fun removeAbility(ability: IAbility) {
+        if(abilityList.contains(ability)) {
+            abilityList.remove(ability)
+        }
+    }
 
     override fun getStat(desiredStat: EStat): Int {
         for (stat in stats) {

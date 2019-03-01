@@ -23,6 +23,7 @@ open class PlayableCharacter(
         override val name: String,
         override val description: String,
         override val traits: List<String>,
+        override val abilities: List<IAbility>,
         override val spellModifier: EStat,
 
         override var temporaryHitPoints: Int,

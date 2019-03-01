@@ -7,8 +7,6 @@ interface IAbility {
     val name : String
     val description : String
 
-    val spell : Spell
-
-    val once : Boolean          // can you cast this spell only once?
+    val once : Boolean          // can you use ability only once
     val refresh : ERestType
 }

@@ -42,6 +42,10 @@ interface ICharacter {
     val description : String
 
     val traits : List<String>       // e. g. Darkvision
+    val abilities : List<IAbility>
+
+    fun addAbility(ability: IAbility)
+    fun removeAbility(ability: IAbility)
 
     fun getStat(desiredStat: EStat): Int
     fun setStat(desiredStat: EStat, value: Int)
