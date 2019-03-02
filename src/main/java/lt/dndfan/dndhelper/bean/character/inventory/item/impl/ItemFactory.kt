@@ -5,6 +5,7 @@ import lt.dndfan.dndhelper.bean.character.constant.EItemType
 import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.bean.character.inventory.item.*
 import lt.dndfan.dndhelper.util.collection.IPair
+import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 class ItemFactory : IItemFactory {
     override fun createItem(name: String,
@@ -26,7 +27,7 @@ class ItemFactory : IItemFactory {
                                      attunable: Boolean,
                                      bonusList: List<IBonus>,
                                      category: EItemType,
-                                     requiredStats: List<IPair<EStat, Int>>,
+                                     requiredStats: ArrayList<Pair<EStat, Int>>,
                                      value: Int,
                                      magical: Boolean,
                                      attributes: Map<String, Any>,
@@ -55,7 +56,7 @@ class ItemFactory : IItemFactory {
                               attunable: Boolean,
                               bonusList: List<IBonus>,
                               category: EItemType,
-                              requiredStats: List<IPair<EStat, Int>>,
+                              requiredStats: List<Pair<EStat, Int>>,
                               value: Int,
                               tags: List<String>,
                               weaponRange: String,
