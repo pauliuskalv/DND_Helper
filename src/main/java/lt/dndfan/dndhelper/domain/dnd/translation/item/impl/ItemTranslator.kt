@@ -32,9 +32,9 @@ class ItemTranslator : IItemTranslator {
                     "AC bonus from item",
                     args["name"].toString(),
                     armorClassCalculator.calculateArmorClass(
-                            args.get("armor_class") as Int,
+                            args["armor_class"] as Int,
                             args["armor_category"] as EArmorType,
-                            0))             // bad
+                            0))                                 // TODO:How to calculate item ac
             )
             minimumStatList.add(Pair(EStat.STRENGTH,args["str.minimum"] as Int))
             tags.add(args["equipment_category"] as String)
@@ -43,7 +43,7 @@ class ItemTranslator : IItemTranslator {
             return itemFactory.createEquipableItem(args["name"].toString(),
                     args["description"].toString(),
                     args["weight"].toString().toDouble(),
-                    false,                          // TODO: add attunable field to json
+                    false,
                     bonusList,
                     args["equipment_category"] as EItemType,
                     minimumStatList,
@@ -55,15 +55,73 @@ class ItemTranslator : IItemTranslator {
         }
         else if(args.getValue("equipment_category") == "Weapon" && !args.containsKey("ThrowRange"))
         {
-            return itemFactory.createWeapon(//TODO)
+            val bonusList : ArrayList<IBonus> = ArrayList()
+            val minimumStatList : ArrayList<Pair<EStat,Int>> = ArrayList()
+            val attributes : Map<String,Any> = mapOf()
+            val tags : ArrayList<String> = ArrayList()
+
+            tags.add(args["equipment_category"] as String)
+            tags.add(args["weapon_category"] as String)
+            tags.add("Not throwable")
+            tags.add(args["properties"] as String)
+
+            return itemFactory.createWeapon(args["name"].toString(),
+                    args["description"] as String,
+                    args["weight"] as Double,
+                    false,
+                    bonusList,
+                    args["equipment_category"] as EItemType,
+                    minimumStatList,
+                    args["cost"] as Int,
+                    tags,
+                    args["weapon_range"] as String,
+                    args["dice_count"] as Int,
+                    args["dice_value"] as Int,
+                    false,
+                    attributes,
+                    args["damage_type"] as String
+            )
         }
+
         else if(args.getValue("equipment_category") == "Weapon" && args.containsKey("ThrowRange"))
         {
-            return itemFactory.createThrowableWeapon(//TODO)
+            val bonusList : ArrayList<IBonus> = ArrayList()
+            val minimumStatList : ArrayList<Pair<EStat,Int>> = ArrayList()
+            val attributes : Map<String,Any> = mapOf()
+            val tags : ArrayList<String> = ArrayList()
+
+            tags.add(args["equipment_category"] as String)
+            tags.add(args["weapon_category"] as String)
+            tags.add("Not throwable")
+            tags.add(args["properties"] as String)
+
+            return itemFactory.createThrowableWeapon(args["name"].toString(),
+                    args["description"] as String,
+                    args["weight"] as Double,
+                    false,
+                    bonusList,
+                    args["equipment_category"] as EItemType,
+                    minimumStatList,
+                    args["cost"] as Int,
+                    tags,
+                    args["weapon_range"] as String,
+                    args["dice_count"] as Int,
+                    args["dice_value"] as Int,
+                    args["damage_type"] as String,
+                    (args["throw_range"] as Map<String,String>)["normal"] as String,
+                    false,
+                    attributes,
+                    (args["throw_range"] as Map<String,String>)["long"] as String
+            )
         }
         else
         {
-            return itemFactory.createItem(//TODO)
+            return itemFactory.createItem(args["name"] as String,
+                    args["description"] as String,
+                    args["weight"] as Double,
+                    false
+                    )
         }
+
     }
 }

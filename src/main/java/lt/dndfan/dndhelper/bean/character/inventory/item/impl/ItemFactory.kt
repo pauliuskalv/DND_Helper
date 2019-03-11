@@ -33,7 +33,6 @@ class ItemFactory : IItemFactory {
                                      attributes: Map<String, Any>,
                                      tags: List<String>): IEquipableItem {
         return EquipableItem(
-
                 attunable,
                 bonusList,
                 category,
@@ -46,7 +45,6 @@ class ItemFactory : IItemFactory {
                 description,
                 magical,
                 weight
-
         )
     }
 
