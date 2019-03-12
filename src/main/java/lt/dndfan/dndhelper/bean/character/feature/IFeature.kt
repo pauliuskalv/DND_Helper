@@ -12,7 +12,7 @@ interface IFeature {
 
     val bonusList : List<IBonus>
 
-    val validStats : List<IPair<EStat, Int>>
+    val validStats : List<IPair<EStat, Int>>    // There is no such field in feats json, instead there are prerequisites
     val validRace : String
     val validClass : String
     val validSubclass : String
