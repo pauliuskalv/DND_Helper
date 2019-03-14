@@ -33,6 +33,9 @@ class Spellcaster(
         override val characterClass: String,
         override val characterSubclass: String,
 
+        override val race: String,
+        override val subrace: String,
+
         override val personalityTraits: List<String>,
         override val ideals: List<String>,
         override val bonds: List<String>,
@@ -65,6 +68,9 @@ class Spellcaster(
 
         characterClass,
         characterSubclass,
+
+        race,
+        subrace,
 
         characterInventory
 ), ISpellcaster {

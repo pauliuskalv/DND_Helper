@@ -5,6 +5,9 @@ import lt.dndfan.dndhelper.bean.character.constant.EStat
 import lt.dndfan.dndhelper.util.collection.IPair
 
 interface IFeature {
+    /*
+        A character property that can be selected instead of increasing ability scores.
+     */
     val name : String
     val description : String
 

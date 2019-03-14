@@ -33,6 +33,9 @@ open class PlayableCharacter(
         override val characterClass: String,
         override val characterSubclass: String,
 
+        override val race: String,
+        override val subrace: String,
+
         override val characterInventory : ICharacterInventory
 ) : IPlayableCharacter,
         Character(armorClass,

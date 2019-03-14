@@ -16,6 +16,9 @@ interface IPlayableCharacter : ICharacter {
     val characterClass : String
     val characterSubclass : String
 
+    val race : String
+    val subrace : String
+
     val personalityTraits : List<String>
     val ideals : List<String>
     val bonds : List<String>
