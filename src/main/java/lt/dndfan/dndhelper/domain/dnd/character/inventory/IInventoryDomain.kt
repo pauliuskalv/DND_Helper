@@ -1,8 +1,8 @@
 package lt.dndfan.dndhelper.domain.dnd.character.inventory
 
-import lt.dndfan.dndhelper.bean.character.constant.EItemType
-import lt.dndfan.dndhelper.bean.character.inventory.ICharacterInventory
-import lt.dndfan.dndhelper.bean.character.inventory.item.IItem
+import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
+import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
+import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 
 interface IInventoryDomain {
     fun getItem(inventory : ICharacterInventory, name : String) : IItem

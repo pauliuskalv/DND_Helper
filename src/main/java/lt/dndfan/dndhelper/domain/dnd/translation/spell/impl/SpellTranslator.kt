@@ -1,9 +1,9 @@
 package lt.dndfan.dndhelper.domain.dnd.translation.spell.impl
 
-import lt.dndfan.dndhelper.bean.character.constant.EMagicSchool
-import lt.dndfan.dndhelper.bean.character.constant.ESpellComponent
-import lt.dndfan.dndhelper.bean.character.spell.ISpell
-import lt.dndfan.dndhelper.bean.character.spell.impl.SpellFactory
+import lt.dndfan.dndhelper.bean.dnd.constant.EMagicSchool
+import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
+import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
+import lt.dndfan.dndhelper.bean.dnd.spell.impl.SpellFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.spell.ISpellTranslator
 
 class SpellTranslator : ISpellTranslator {

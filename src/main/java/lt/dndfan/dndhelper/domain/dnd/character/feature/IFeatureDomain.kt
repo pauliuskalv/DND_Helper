@@ -1,8 +1,8 @@
 package lt.dndfan.dndhelper.domain.dnd.character.feature
 
-import lt.dndfan.dndhelper.bean.character.IPlayableCharacter
-import lt.dndfan.dndhelper.bean.character.constant.EStat
-import lt.dndfan.dndhelper.bean.character.feature.IFeature
+import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
+import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 
 interface IFeatureDomain {
     fun isValid(character : IPlayableCharacter, feature : IFeature) : Boolean

@@ -1,9 +1,9 @@
 package lt.dndfan.dndhelper.domain.dnd.translation.feature.impl
 
-import lt.dndfan.dndhelper.bean.character.bonus.IBonus
-import lt.dndfan.dndhelper.bean.character.constant.EStat
-import lt.dndfan.dndhelper.bean.character.feature.IFeature
-import lt.dndfan.dndhelper.bean.character.feature.impl.BasicFeatureFactory
+import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
+import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
+import lt.dndfan.dndhelper.bean.dnd.feature.impl.BasicFeatureFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.feature.IFeatureTranslator
 import lt.dndfan.dndhelper.util.collection.IPair
 

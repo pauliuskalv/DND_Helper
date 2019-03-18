@@ -1,7 +1,7 @@
 package lt.dndfan.dndhelper.domain.dnd.character
 
-import lt.dndfan.dndhelper.bean.character.ICharacter
-import lt.dndfan.dndhelper.bean.character.IPlayableCharacter
+import lt.dndfan.dndhelper.bean.dnd.ICharacter
+import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 
 interface ICharacterDomain {
     // Creation

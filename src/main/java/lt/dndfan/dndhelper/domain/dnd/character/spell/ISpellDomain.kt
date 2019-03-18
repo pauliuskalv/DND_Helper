@@ -1,8 +1,8 @@
 package lt.dndfan.dndhelper.domain.dnd.character.spell
 
-import lt.dndfan.dndhelper.bean.character.ISpellcaster
-import lt.dndfan.dndhelper.bean.character.constant.ESpellComponent
-import lt.dndfan.dndhelper.bean.character.spell.ISpell
+import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
+import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
+import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
 
 interface ISpellDomain {
     fun addSpell(character: ISpellcaster, spell: ISpell) : Boolean

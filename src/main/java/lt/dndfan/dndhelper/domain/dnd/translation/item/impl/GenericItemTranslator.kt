@@ -1,7 +1,7 @@
 package lt.dndfan.dndhelper.domain.dnd.translation.item.impl
 
-import lt.dndfan.dndhelper.bean.character.inventory.item.IItem
-import lt.dndfan.dndhelper.bean.character.inventory.item.impl.ItemFactory
+import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
+import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
 
 

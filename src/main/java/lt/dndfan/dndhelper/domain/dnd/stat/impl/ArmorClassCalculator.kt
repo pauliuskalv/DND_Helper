@@ -1,6 +1,6 @@
 package lt.dndfan.dndhelper.domain.dnd.stat.impl
 
-import lt.dndfan.dndhelper.bean.character.constant.EArmorType
+import lt.dndfan.dndhelper.bean.dnd.constant.EArmorType
 import lt.dndfan.dndhelper.domain.dnd.stat.IArmorClassCalculator
 
 class ArmorClassCalculator () : IArmorClassCalculator {
