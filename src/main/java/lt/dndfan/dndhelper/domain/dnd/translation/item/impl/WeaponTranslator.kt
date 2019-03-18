@@ -1,0 +1,47 @@
+package lt.dndfan.dndhelper.domain.dnd.translation.item.impl
+
+import lt.dndfan.dndhelper.bean.character.bonus.IBonus
+import lt.dndfan.dndhelper.bean.character.constant.EItemType
+import lt.dndfan.dndhelper.bean.character.constant.EStat
+import lt.dndfan.dndhelper.bean.character.inventory.item.IItem
+import lt.dndfan.dndhelper.bean.character.inventory.item.impl.ItemFactory
+import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
+import lt.dndfan.dndhelper.util.collection.impl.Pair
+
+class WeaponTranslator : IItemTranslator {
+    private val itemFactory = ItemFactory()
+
+    val bonusList: ArrayList<IBonus> = ArrayList()
+    val minimumStatList: ArrayList<Pair<EStat, Int>> = ArrayList()
+    val attributes: MutableMap<String, Any> = mutableMapOf()
+    val tags: ArrayList<String> = ArrayList()
+
+    override fun translate(args: Map<String, Any>): IItem {
+
+        tags.add(args["equipment_category"] as String)
+        tags.add(args["weapon_category"] as String)
+
+        for (attribute in (args["properties"] as Array<Map<String, Any>>)) {
+            tags.add(attribute["name"] as String)
+            attributes.putAll(attribute)
+        }
+
+        return itemFactory.createWeapon(
+                args["name"] as String,
+                (args["desc"] as Array<String>).toString(),
+                args["weight"] as Double,
+                false,
+                bonusList,
+                args["equipment_category"] as EItemType,
+                minimumStatList,
+                (args["cost"] as Map<String, Any>)["quantity"] as Int,
+                tags,
+                args["weapon_range"] as String,
+                (args["damage"] as Map<String, Any>)["dice_count"] as Int,
+                (args["damage"] as Map<String, Any>)["dice_value"] as Int,
+                false,
+                attributes,
+                ((args["damage"] as Map<String, Any>)["damage_type"] as Map<String, Any>)["name"] as String
+        )
+    }
+}
