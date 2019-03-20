@@ -7,6 +7,7 @@ import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 import lt.dndfan.dndhelper.domain.dnd.stat.impl.ArmorClassCalculator
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
 import lt.dndfan.dndhelper.util.collection.impl.Pair
@@ -14,6 +15,11 @@ import lt.dndfan.dndhelper.util.collection.impl.Pair
 class EquipableItemTranslator : IItemTranslator {
     private val itemFactory = ItemFactory()
     private val armorClassCalculator = ArmorClassCalculator()
+    // TODO: find another way to pass in strength, because this is stupid
+    private val strength = Stat("STR",
+                                "Strength",
+                                "",
+                                    ArrayList<Skill>())
 
     val bonusList: ArrayList<IBonus> = ArrayList()
     val minimumStatList: ArrayList<Pair<Stat, Int>> = ArrayList()
@@ -32,7 +38,7 @@ class EquipableItemTranslator : IItemTranslator {
                         args["armor_category"] as EArmorType,
                         0))
         )
-        minimumStatList.add(Pair(Stat.STRENGTH, args["str.minimum"] as Int))
+        minimumStatList.add(Pair(strength, args["str.minimum"] as Int))
         tags.add(args["equipment_category"] as String)
         tags.add(args["armor_category"] as String)
 

@@ -6,5 +6,5 @@ interface ICharacterClass {
     val name : String
     val description : String
     val hitDice : Int
-    val savingThrows: List<Stat>
+    val savingThrows: List<String>
 }

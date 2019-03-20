@@ -7,6 +7,6 @@ interface ICharacterClassFactory {
     fun createCharacterClass( name : String,
                               description : String,
                               hitDice : Int,
-                              savingThrows : List<Stat>
+                              savingThrows : List<String>
     ) : CharacterClass
 }

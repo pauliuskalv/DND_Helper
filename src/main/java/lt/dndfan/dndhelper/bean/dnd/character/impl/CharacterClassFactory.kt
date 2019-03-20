@@ -7,7 +7,7 @@ class CharacterClassFactory : ICharacterClassFactory {
     override fun createCharacterClass(name : String,
                                       description: String,
                                       hitDice : Int,
-                                      savingThrows : List<Stat>
+                                      savingThrows : List<String>
                                       ): CharacterClass {
         return CharacterClass( name, description, hitDice, savingThrows)
     }
