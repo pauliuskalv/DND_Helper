@@ -1,7 +1,7 @@
 package lt.dndfan.dndhelper.bean.dnd
 
 
-import lt.dndfan.dndhelper.bean.dnd.constant.ESkill
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 
 
 interface IEnemy : ICharacter {
@@ -14,7 +14,7 @@ interface IEnemy : ICharacter {
     var condition_immunities : List<String>                 // TODO: Create EConditions?
     var damage_immunities : List<String>
 
-    val skills : List<ESkill>   // Skills whose value is not calculated from stats
+    val skills : List<Skill>   // Skills whose value is not calculated from stats
     val abilities : List<String>            // TODO: Create ability interface
 }
 

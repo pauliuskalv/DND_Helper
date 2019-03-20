@@ -1,17 +1,17 @@
 package lt.dndfan.dndhelper.bean.dnd
 
-import lt.dndfan.dndhelper.bean.dnd.constant.ESkill
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.EquipableItem
 
 interface IPlayableCharacter : ICharacter {
-    val savingThrowProficiencies : List<EStat>
-    val skillProficiencies : List<ESkill>
+    val savingThrowProficiencies : List<Stat>
+    val skillProficiencies : List<Skill>
     val itemProficiencies : List<String>
     val features : List<IFeature>
-    val spellModifier : EStat
+    val spellModifier : Stat
 
     val characterClass : String
     val characterSubclass : String
@@ -40,11 +40,11 @@ interface IPlayableCharacter : ICharacter {
     fun addFlaw(flaw : String)
     fun removeFlaw(flaw : String)
 
-    fun addSavingThrowProficiency(prof : EStat)
-    fun removeSavingThrowProficiency(prof : EStat)
+    fun addSavingThrowProficiency(prof : Stat)
+    fun removeSavingThrowProficiency(prof : Stat)
 
-    fun addSkillProficiency(skill : ESkill)
-    fun removeSkillProficiency(skill : ESkill)
+    fun addSkillProficiency(skill : Skill)
+    fun removeSkillProficiency(skill : Skill)
 
     fun addItemProficiency(prof : String)
     fun removeItemProficiency(prof : String)

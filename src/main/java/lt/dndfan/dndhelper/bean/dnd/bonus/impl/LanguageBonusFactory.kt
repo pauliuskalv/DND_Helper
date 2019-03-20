@@ -2,7 +2,7 @@ package lt.dndfan.dndhelper.bean.dnd.bonus.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonusFactory
-import lt.dndfan.dndhelper.bean.dnd.constant.ELanguage
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
 
 class LanguageBonusFactory : IBonusFactory {
     override fun createBonus(): IBonus {
@@ -14,7 +14,7 @@ class LanguageBonusFactory : IBonusFactory {
                 args["name"] as String,
                 args["descrpiton"] as String,
                 args["origin"] as String,
-                args["language"] as ELanguage
+                args["language"] as Language
         )
     }
 }

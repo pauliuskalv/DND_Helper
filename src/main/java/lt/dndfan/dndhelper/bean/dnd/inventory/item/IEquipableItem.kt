@@ -2,7 +2,7 @@ package lt.dndfan.dndhelper.bean.dnd.inventory.item
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.util.collection.IPair
 
 interface IEquipableItem : IItem {
@@ -10,7 +10,7 @@ interface IEquipableItem : IItem {
     val bonusList : List<IBonus>
     val category : EItemType
 
-    val requiredStats : List<IPair<EStat,Int>>
+    val requiredStats : List<IPair<Stat,Int>>
 
     val attributes : Map<String, Any>
 

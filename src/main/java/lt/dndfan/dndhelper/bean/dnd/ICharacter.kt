@@ -1,8 +1,8 @@
 package lt.dndfan.dndhelper.bean.dnd
 
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
-import lt.dndfan.dndhelper.bean.dnd.constant.ELanguage
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 
 interface ICharacter {
@@ -29,7 +29,7 @@ interface ICharacter {
     var speed : Int
     var swimmingSpeed : Int
     var flyingSpeed : Int
-    val languages : List<ELanguage>
+    val languages : List<Language>
     var alignment : EAlignment
 
     val resistances : List<String>
@@ -47,11 +47,11 @@ interface ICharacter {
     fun addAbility(ability: IAbility)
     fun removeAbility(ability: IAbility)
 
-    fun getStat(desiredStat: EStat): Int
-    fun setStat(desiredStat: EStat, value: Int)
+    fun getStat(desiredStat: Stat): Int
+    fun setStat(desiredStat: Stat, value: Int)
 
-    fun addLanguage(language : ELanguage)
-    fun removeLanguage(language : ELanguage)
+    fun addLanguage(language : Language)
+    fun removeLanguage(language : Language)
 
     fun addResistance(resistance : String)
     fun removeResistance(resistance : String)

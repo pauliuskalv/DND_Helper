@@ -2,7 +2,7 @@ package lt.dndfan.dndhelper.bean.dnd.inventory.item.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.*
 import lt.dndfan.dndhelper.util.collection.IPair
 import lt.dndfan.dndhelper.util.collection.impl.Pair
@@ -27,7 +27,7 @@ class ItemFactory : IItemFactory {
                                      attunable: Boolean,
                                      bonusList: List<IBonus>,
                                      category: EItemType,
-                                     requiredStats: ArrayList<Pair<EStat, Int>>,
+                                     requiredStats: ArrayList<Pair<Stat, Int>>,
                                      value: Int,
                                      magical: Boolean,
                                      attributes: Map<String, Any>,
@@ -54,7 +54,7 @@ class ItemFactory : IItemFactory {
                               attunable: Boolean,
                               bonusList: List<IBonus>,
                               category: EItemType,
-                              requiredStats: List<Pair<EStat, Int>>,
+                              requiredStats: List<Pair<Stat, Int>>,
                               value: Int,
                               tags: List<String>,
                               weaponRange: String,
@@ -90,7 +90,7 @@ class ItemFactory : IItemFactory {
                                        attunable: Boolean,
                                        bonusList: List<IBonus>,
                                        category: EItemType,
-                                       requiredStats: List<IPair<EStat, Int>>,
+                                       requiredStats: List<IPair<Stat, Int>>,
                                        value: Int,
                                        tags: List<String>,
                                        weaponRange: String,

@@ -1,16 +1,16 @@
 package lt.dndfan.dndhelper.bean.dnd.bonus.impl
 
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
-import lt.dndfan.dndhelper.bean.dnd.constant.ELanguage
-import lt.dndfan.dndhelper.bean.dnd.constant.ESkill
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 
 class BackgroundBonus(
         override val bonusName : String,
         override val description : String,
         override val origin : String,
-        private val mSkills : List<ESkill>,
-        private val mLanguages : List<ELanguage>,
+        private val mSkills : List<Skill>,
+        private val mLanguages : List<Language>,
         private val mItems : List<IItem>,
         private val mToolsProficiencies : List<String>
 ): AbstractBonus(bonusName, description, origin) {

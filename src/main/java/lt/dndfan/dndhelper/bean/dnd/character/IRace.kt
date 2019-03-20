@@ -6,5 +6,5 @@ interface IRace {
     val name : String
     val speed : Int
     val size : String
-    val abilityBonuses : List<StatBonus>
+    val statBonuses : List<StatBonus>
 }

@@ -3,7 +3,7 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellSlot
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
@@ -24,7 +24,7 @@ class Spellcaster(
         override val description: String,
         override val traits: List<String>,
         override val abilities: List<IAbility>,
-        override val spellModifier: EStat,
+        override val spellModifier: Stat,
 
         override var temporaryHitPoints: Int,
         override var maxHitPoints: Int,

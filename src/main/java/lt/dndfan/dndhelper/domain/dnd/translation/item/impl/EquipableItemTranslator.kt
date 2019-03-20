@@ -4,7 +4,7 @@ import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.bonus.impl.ArmorClassBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EArmorType
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
 import lt.dndfan.dndhelper.domain.dnd.stat.impl.ArmorClassCalculator
@@ -16,7 +16,7 @@ class EquipableItemTranslator : IItemTranslator {
     private val armorClassCalculator = ArmorClassCalculator()
 
     val bonusList: ArrayList<IBonus> = ArrayList()
-    val minimumStatList: ArrayList<Pair<EStat, Int>> = ArrayList()
+    val minimumStatList: ArrayList<Pair<Stat, Int>> = ArrayList()
     val attributes: MutableMap<String, Any> = mutableMapOf()
     val tags: ArrayList<String> = ArrayList()
 
@@ -32,7 +32,7 @@ class EquipableItemTranslator : IItemTranslator {
                         args["armor_category"] as EArmorType,
                         0))
         )
-        minimumStatList.add(Pair(EStat.STRENGTH, args["str.minimum"] as Int))
+        minimumStatList.add(Pair(Stat.STRENGTH, args["str.minimum"] as Int))
         tags.add(args["equipment_category"] as String)
         tags.add(args["armor_category"] as String)
 

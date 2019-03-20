@@ -3,8 +3,8 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
-import lt.dndfan.dndhelper.bean.dnd.constant.ESkill
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.EquipableItem
@@ -23,7 +23,7 @@ open class PlayableCharacter(
         override val description: String,
         override val traits: List<String>,
         override val abilities: List<IAbility>,
-        override val spellModifier: EStat,
+        override val spellModifier: Stat,
 
         override var temporaryHitPoints: Int,
         override var maxHitPoints: Int,
@@ -74,12 +74,12 @@ open class PlayableCharacter(
     override val flaws : List<String>
     get() = flawList
 
-    private val savingThrowProficiencyList : ArrayList<EStat> = ArrayList()
-    override val savingThrowProficiencies: List<EStat>
+    private val savingThrowProficiencyList : ArrayList<Stat> = ArrayList()
+    override val savingThrowProficiencies: List<Stat>
     get() = savingThrowProficiencyList
 
-    private val skillProficiencyList : ArrayList<ESkill> = ArrayList()
-    override val skillProficiencies: List<ESkill>
+    private val skillProficiencyList : ArrayList<Skill> = ArrayList()
+    override val skillProficiencies: List<Skill>
     get() = skillProficiencyList
 
     private val itemProficiencyList : ArrayList<String> = ArrayList()
@@ -141,22 +141,22 @@ open class PlayableCharacter(
             flawList.remove(flaw)
     }
 
-    override fun addSavingThrowProficiency(prof: EStat) {
+    override fun addSavingThrowProficiency(prof: Stat) {
         if (!savingThrowProficiencyList.contains(prof))
             savingThrowProficiencyList.add(prof)
     }
 
-    override fun removeSavingThrowProficiency(prof: EStat) {
+    override fun removeSavingThrowProficiency(prof: Stat) {
         if (savingThrowProficiencyList.contains(prof))
             savingThrowProficiencyList.remove(prof)
     }
 
-    override fun addSkillProficiency(skill: ESkill) {
+    override fun addSkillProficiency(skill: Skill) {
         if (!skillProficiencyList.contains(skill))
             skillProficiencyList.add(skill)
     }
 
-    override fun removeSkillProficiency(skill: ESkill) {
+    override fun removeSkillProficiency(skill: Skill) {
         if (skillProficiencyList.contains(skill))
             skillProficiencyList.remove(skill)
     }

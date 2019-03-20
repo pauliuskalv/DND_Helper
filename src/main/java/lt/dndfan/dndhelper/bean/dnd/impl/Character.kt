@@ -2,8 +2,8 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 
 import lt.dndfan.dndhelper.bean.dnd.ICharacter
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
-import lt.dndfan.dndhelper.bean.dnd.constant.ELanguage
-import lt.dndfan.dndhelper.bean.dnd.constant.EStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.util.collection.impl.Pair
 
@@ -22,21 +22,21 @@ open class Character(override var armorClass: Int,
                      override var temporaryHitPoints: Int,
                      override var maxHitPoints: Int,
                      override var currentHitPoints: Int) : ICharacter {
-    private val stats : ArrayList<Pair<EStat, Int>> = arrayListOf(
-            Pair(EStat.STRENGTH, 0),
-            Pair(EStat.DEXTERITY, 0),
-            Pair(EStat.CONSTITUTION, 0),
-            Pair(EStat.INTELLIGENCE, 0),
-            Pair(EStat.WISDOM, 0),
-            Pair(EStat.CHARISMA, 0)
+    private val stats : ArrayList<Pair<Stat, Int>> = arrayListOf(
+            Pair(Stat.STRENGTH, 0),
+            Pair(Stat.DEXTERITY, 0),
+            Pair(Stat.CONSTITUTION, 0),
+            Pair(Stat.INTELLIGENCE, 0),
+            Pair(Stat.WISDOM, 0),
+            Pair(Stat.CHARISMA, 0)
     )
 
     private val abilityList : ArrayList<IAbility> = ArrayList()
     override val abilities : List<IAbility>
     get() = abilityList
 
-    private val languageList : ArrayList<ELanguage> = ArrayList()
-    override val languages: List<ELanguage>
+    private val languageList : ArrayList<Language> = ArrayList()
+    override val languages: List<Language>
     get() = languageList
 
     private val resistanceList : ArrayList<String> = ArrayList()
@@ -59,7 +59,7 @@ open class Character(override var armorClass: Int,
         }
     }
 
-    override fun getStat(desiredStat: EStat): Int {
+    override fun getStat(desiredStat: Stat): Int {
         for (stat in stats) {
             if (stat.key == desiredStat)
                 return stat.value
@@ -68,7 +68,7 @@ open class Character(override var armorClass: Int,
         return 0
     }
 
-    override fun setStat(desiredStat: EStat, value: Int) {
+    override fun setStat(desiredStat: Stat, value: Int) {
         for (stat in stats) {
             if (stat.key == desiredStat) {
                 stat.value = value
@@ -76,12 +76,12 @@ open class Character(override var armorClass: Int,
         }
     }
 
-    override fun addLanguage(language: ELanguage) {
+    override fun addLanguage(language: Language) {
         if (!languageList.contains(language))
             languageList.add(language)
     }
 
-    override fun removeLanguage(language: ELanguage) {
+    override fun removeLanguage(language: Language) {
         if (languageList.contains(language))
             languageList.remove(language)
     }

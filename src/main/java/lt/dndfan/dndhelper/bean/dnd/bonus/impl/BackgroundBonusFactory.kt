@@ -2,8 +2,8 @@ package lt.dndfan.dndhelper.bean.dnd.bonus.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonusFactory
-import lt.dndfan.dndhelper.bean.dnd.constant.ELanguage
-import lt.dndfan.dndhelper.bean.dnd.constant.ESkill
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 
 class BackgroundBonusFactory : IBonusFactory {
@@ -11,8 +11,8 @@ class BackgroundBonusFactory : IBonusFactory {
             "Dummy background bonus",
             "Dummy background bonus description",
             this.javaClass.name,
-            ArrayList<ESkill>(),
-            ArrayList<ELanguage>(),
+            ArrayList<Skill>(),
+            ArrayList<Language>(),
             ArrayList<IItem>(),
             ArrayList<String>()
     )
@@ -26,8 +26,8 @@ class BackgroundBonusFactory : IBonusFactory {
                 args["name"] as String,
                 args["description"] as String,
                 args["origin"] as String,
-                args["skills"] as List<ESkill>,
-                args["languages"] as List<ELanguage>,
+                args["skills"] as List<Skill>,
+                args["languages"] as List<Language>,
                 args["items"] as List<IItem>,
                 args["tool_proficiencies"] as List<String>
         )
