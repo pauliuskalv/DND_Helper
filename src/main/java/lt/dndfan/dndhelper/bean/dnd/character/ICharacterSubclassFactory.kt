@@ -1,5 +1,6 @@
 package lt.dndfan.dndhelper.bean.dnd.character
 
+import lt.dndfan.dndhelper.bean.dnd.character.impl.CharacterSubclass
 import lt.dndfan.dndhelper.bean.dnd.feature.impl.Trait
 
 interface ICharacterSubclassFactory {
