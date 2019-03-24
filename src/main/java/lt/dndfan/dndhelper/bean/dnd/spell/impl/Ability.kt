@@ -5,5 +5,6 @@ import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 
 class Ability ( override val name: String,
                 override val description : String,
-                override val once: Boolean,
+                override val count: Int,
+                override val used: Int,
                 override val refresh: ERestType) : IAbility

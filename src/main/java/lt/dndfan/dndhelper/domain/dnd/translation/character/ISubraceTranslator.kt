@@ -5,7 +5,5 @@ import lt.dndfan.dndhelper.bean.dnd.feature.impl.Trait
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 
 interface ISubraceTranslator {
-    fun translate(args : Map<String,Any>,
-                  allStats : ArrayList<Stat>,
-                  allTraits : ArrayList<Trait>) : Subrace
+    fun translate(args : Map<String,Any>) : Subrace
 }

@@ -1,6 +1,5 @@
 package lt.dndfan.dndhelper.bean.dnd.spell.impl
 
-import lt.dndfan.dndhelper.bean.dnd.constant.EMagicSchool
 import lt.dndfan.dndhelper.bean.dnd.constant.ERestType
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpellFactory
@@ -10,7 +9,7 @@ class SpellFactory : ISpellFactory {
                              description: String,
                              spellLevel: Int,
                              higherLevel: String,
-                             magicSchool: EMagicSchool,
+                             magicSchool: MagicSchool,
                              ritual: Boolean,
                              concentration: Boolean,
                              castingTime: String,

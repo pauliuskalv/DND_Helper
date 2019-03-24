@@ -7,15 +7,18 @@ import lt.dndfan.dndhelper.domain.dnd.translation.character.ISubclassTranslator
 
 class SubclassTranslator : ISubclassTranslator {
 
+    /*
+        ALL_TRAITS and ALL_STATS are list of all stats or traits that are added to args at the facade
+    */
+
     private val subclassFactory = CharacterSubclassFactory()
 
-    override fun translate(args: Map<String, Any>,
-                           allTraits : List<Trait>): CharacterSubclass {
+    override fun translate(args: Map<String, Any>): CharacterSubclass {
 
         val traitList = ArrayList<Trait>()
         for(traitMap in args["features"] as ArrayList<Map<String,Any>>)
         {
-            for(trait in allTraits)
+            for(trait in args["ALL_TRAITS"] as List<Trait>)
             {
                 if((traitMap["name"] as String) == trait.name)
                 {

@@ -11,11 +11,10 @@ interface IEnemy : ICharacter {
     val type : String           // e.g. Abberation
     val subtype : String
 
-    var condition_immunities : List<String>                 // TODO: Create EConditions?
+    var condition_immunities : List<String>
     var damage_immunities : List<String>
 
     val skills : List<Skill>   // Skills whose value is not calculated from stats
-    val abilities : List<String>            // TODO: Create ability interface
 }
 
 

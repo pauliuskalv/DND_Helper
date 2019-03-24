@@ -9,17 +9,19 @@ import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.domain.dnd.translation.character.IRaceTranslator
 
 class RaceTranslator : IRaceTranslator {
+    /*
+        ALL_TRAITS and ALL_STATS are list of all stats or traits that are added to args at the facade
+    */
 
     private val raceFactory = RaceFactory()
     private val statBonusFactory = StatBonusFactory()
 
-    override fun translate(args: Map<String, Any>,
-            statList : ArrayList<Stat>           // all stats objects
+    override fun translate(args: Map<String, Any>
             ): Race {
 
         val statBonuses = ArrayList<StatBonus>()
 
-        for((statNumber,stat) in statList.withIndex())
+        for((statNumber,stat) in (args["ALL_STATS"] as List<Stat>).withIndex())
         {
             val statMap : Map<String,Any> = mapOf(
                     Pair<String,Any>("name", stat.fullName),

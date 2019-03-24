@@ -9,18 +9,18 @@ import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.domain.dnd.translation.character.ISubraceTranslator
 
 class SubraceTranslator : ISubraceTranslator {
+    /*
+        "ALL_TRAITS" and "ALL_STATS" are list of all stats or traits that are added to args at the facade
+    */
 
     private val subraceFactory = SubraceFactory()
     private val statBonusFactory = StatBonusFactory()
 
-    override fun translate(args: Map<String, Any>,
-                           allStats : ArrayList<Stat>,          // all stats objects
-                           allTraits : ArrayList<Trait>         // all trait objects
-                           ): Subrace
+    override fun translate(args: Map<String, Any>): Subrace
     {
         val statBonuses = ArrayList<StatBonus>()
 
-        for((statNumber,stat) in allStats.withIndex())
+        for((statNumber,stat) in (args["ALL_STATS"] as List<Stat>).withIndex())
         {
             val statMap : Map<String,Any> = mapOf(
                     Pair<String,Any>("name", stat.fullName),
@@ -35,7 +35,7 @@ class SubraceTranslator : ISubraceTranslator {
         val traitList = ArrayList<Trait>()
         for(traitMap in args["racial_traits"] as ArrayList<Map<String,Any>>)
         {
-            for(trait in allTraits)
+            for(trait in (args["ALL_TRAITS"] as List<Trait>))
             {
                 if((traitMap["name"] as String) == trait.name)
                 {

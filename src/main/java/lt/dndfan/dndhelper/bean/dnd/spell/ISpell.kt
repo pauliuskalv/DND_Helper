@@ -1,6 +1,6 @@
 package lt.dndfan.dndhelper.bean.dnd.spell
 
-import lt.dndfan.dndhelper.bean.dnd.constant.EMagicSchool
+import lt.dndfan.dndhelper.bean.dnd.spell.impl.MagicSchool
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
 
 interface ISpell {
@@ -14,7 +14,7 @@ interface ISpell {
      */
     val spellLevel : Int
 
-    val magicSchool : EMagicSchool
+    val magicSchool : MagicSchool
 
     val ritual : Boolean
     val concentration : Boolean
