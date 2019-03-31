@@ -7,8 +7,8 @@ import lt.dndfan.dndhelper.bean.dnd.spell.impl.SpellFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.spell.ISpellTranslator
 
 class SpellTranslator : ISpellTranslator {
-    /*
-        "ALL_MAGIC_SCHOOLS" needs to be passed in at facade
+    /**
+     *   "ALL_MAGIC_SCHOOLS" needs to be passed in at facade
      */
     private val spellFactory = SpellFactory()
 
@@ -24,7 +24,7 @@ class SpellTranslator : ISpellTranslator {
         }
 
         return spellFactory.createSpell( args["name"] as String,
-                args["description"] as String,                  // in json description is probably an array or map
+                (args["description"] as List<String>).joinToString("\n"),                  // in json description is probably an array or map
                 args["level"] as Int,
                 args["higher_level"] as String,
                 magicSchool,

@@ -5,14 +5,16 @@ import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
+import lt.dndfan.dndhelper.util.collection.IPair
 import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 class ThrowableWeaponTranslator : IItemTranslator {
     private val itemFactory = ItemFactory()
 
     val bonusList: ArrayList<IBonus> = ArrayList()
-    val minimumStatList: ArrayList<Pair<Stat, Int>> = ArrayList()
+    val minimumStatList: ArrayList<IPair<IStat, Int>> = ArrayList()
     val attributes: MutableMap<String, Any> = mutableMapOf()
     val tags: ArrayList<String> = ArrayList()
 
@@ -28,7 +30,7 @@ class ThrowableWeaponTranslator : IItemTranslator {
 
         return itemFactory.createThrowableWeapon(
                 args["name"] as String,
-                (args["desc"] as Array<String>).toString(),
+                (args["desc"] as Array<String>).joinToString("\n"),
                 args["weight"] as Double,
                 false,
                 bonusList,

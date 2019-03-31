@@ -1,7 +1,7 @@
 package lt.dndfan.dndhelper.domain.dnd.stat
 
-/*
-    +8 for spellSaveDC
+/**
+ * +8 for spellSaveDC
  */
 
 interface ISpellModifierCalculator {

@@ -15,9 +15,6 @@ class InitiativeBonusFactory : IBonusFactory {
         return dummyBonus
     }
 
-    /**
-     *
-     */
     override fun createBonus(args: Map<String, Any>) : IBonus {
         return InitiativeBonus(
                 args["name"] as String,

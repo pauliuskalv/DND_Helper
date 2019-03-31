@@ -10,7 +10,7 @@ class GenericItemTranslator : IItemTranslator {
 
     override fun translate(args: Map<String, Any>): IItem {
         return itemFactory.createItem(args["name"] as String,
-                (args["desc"] as Array<String>).toString(),         // hopefully to string method is good
+                (args["desc"] as Array<String>).joinToString("\n"),
                 args["weight"] as Double,
                 false)
     }

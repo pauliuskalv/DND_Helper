@@ -1,10 +1,11 @@
 package lt.dndfan.dndhelper.bean.dnd.character
 
-import lt.dndfan.dndhelper.bean.dnd.bonus.impl.StatBonus
+import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 
 interface IRace {
     val name : String
     val speed : Int
     val size : String
-    val statBonuses : List<StatBonus>
+    /** Should be stat bonuses */
+    val bonuses : List<IBonus>
 }

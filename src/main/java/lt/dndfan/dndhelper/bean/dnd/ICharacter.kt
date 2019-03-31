@@ -1,9 +1,10 @@
 package lt.dndfan.dndhelper.bean.dnd
 
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
+import lt.dndfan.dndhelper.bean.dnd.stats.ILanguage
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
+import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
 
 interface ICharacter {
     /**
@@ -18,18 +19,20 @@ interface ICharacter {
      * Vulnerabilities
      * Languages
      * Hit dice
+     * Traits
+     * Abilities
      */
+    val allStats: List<IStat>
     var temporaryHitPoints : Int
     var maxHitPoints : Int
     var currentHitPoints : Int
 
-    // TODO: Create trait interface
     var armorClass : Int
     var initiative : Int
     var speed : Int
     var swimmingSpeed : Int
     var flyingSpeed : Int
-    val languages : List<Language>
+    val languages : List<ILanguage>
     var alignment : EAlignment
 
     val resistances : List<String>
@@ -41,14 +44,20 @@ interface ICharacter {
     val name : String
     val description : String
 
-    val traits : List<String>       // e. g. Darkvision
+    /** e. g. Darkvision */
+    val traits : List<String>
+    /** e. g. Barbarian`s "Rage" or Tiefling`s "Hellish Rebuke" */
     val abilities : List<IAbility>
+    /** Whether the character is inspired by a bard */
+    var inspiration : Boolean
+    /** 6 for d6, 10 for d10 */
+    var inspirationDie : Int
 
     fun addAbility(ability: IAbility)
     fun removeAbility(ability: IAbility)
 
-    fun getStat(desiredStat: Stat): Int
-    fun setStat(desiredStat: Stat, value: Int)
+    fun getStat(desiredStat: IStat): Int
+    fun setStat(desiredStat: IStat, value: Int)
 
     fun addLanguage(language : Language)
     fun removeLanguage(language : Language)

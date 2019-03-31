@@ -12,6 +12,7 @@ import lt.dndfan.dndhelper.util.collection.IPair
 import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 class Spellcaster(
+        override val allStats: List<Stat>,
         override var armorClass: Int,
         override var initiative: Int,
         override var speed: Int,
@@ -46,8 +47,11 @@ class Spellcaster(
         override var spellsKnown: Int,
         override var cantripsKnown: Int,
         override val spellSlots: List<IPair<ESpellSlot, Int>>,
-        override val spellPool: ISpellPool
+        override val spellPool: ISpellPool,
+        override var inspiration: Boolean,
+        override var inspirationDie: Int
 ) : PlayableCharacter(
+        allStats,
         armorClass,
         initiative,
         speed,
@@ -72,7 +76,9 @@ class Spellcaster(
         race,
         subrace,
 
-        characterInventory
+        characterInventory,
+        inspiration,
+        inspirationDie
 ), ISpellcaster {
     private val expendedSpellSlots : List<IPair<ESpellSlot, Int>> = arrayListOf(
             Pair(ESpellSlot.LEVEL_1, 0),
@@ -93,6 +99,7 @@ class Spellcaster(
         for (spellSlot in spellSlots) {
             if (spellSlot.key.value == spell.spellLevel && spellSlot.value > 0) {
                 spellSlot.value -= 1
+                return true
             }
         }
 

@@ -39,13 +39,15 @@ class SpellFactory : ISpellFactory {
 
     override fun createAbility(name: String,
                                description: String,
-                               once: Boolean,
-                               refresh: ERestType
+                               count: Int,
+                               used: Int,
+                               restType : ERestType
     ): Ability {
         return Ability( name,
                 description,
-                once,
-                refresh
+                count,
+                used,
+                restType
         )
     }
 }

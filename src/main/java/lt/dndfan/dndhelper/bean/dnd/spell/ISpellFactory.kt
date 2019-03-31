@@ -3,8 +3,6 @@ package lt.dndfan.dndhelper.bean.dnd.spell
 import lt.dndfan.dndhelper.bean.dnd.spell.impl.MagicSchool
 import lt.dndfan.dndhelper.bean.dnd.constant.ERestType
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
-import lt.dndfan.dndhelper.bean.dnd.spell.impl.Ability
-import lt.dndfan.dndhelper.bean.dnd.spell.impl.Spell
 
 interface ISpellFactory {
     fun createSpell(name : String,
@@ -21,10 +19,12 @@ interface ISpellFactory {
                     bookReference : String,
                     validClass : List<String>,
                     validSubclass : List<String>
-    ) : Spell
+    ) : ISpell
+    /** Consider splitting ISpellFactory and IAbilityFactory to maintain single responsibility */
     fun createAbility( name : String,
                        description: String,
-                       once: Boolean,
+                       count: Int,
+                       used : Int,
                        refresh : ERestType
-    ) : Ability
+    ) : IAbility
 }

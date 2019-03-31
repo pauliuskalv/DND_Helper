@@ -9,8 +9,11 @@ import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.EquipableItem
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
+import lt.dndfan.dndhelper.bean.dnd.stats.ISkill
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 
 open class PlayableCharacter(
+        override val allStats: List<Stat>,
         override var armorClass: Int,
         override var initiative: Int,
         override var speed: Int,
@@ -35,9 +38,13 @@ open class PlayableCharacter(
         override val race: String,
         override val subrace: String,
 
-        override val characterInventory : ICharacterInventory
+        override val characterInventory : ICharacterInventory,
+
+        override var inspiration: Boolean,
+        override var inspirationDie: Int
 ) : IPlayableCharacter,
-        Character(armorClass,
+        Character(allStats,
+                  armorClass,
                   initiative,
                   speed,
                   swimmingSpeed,
@@ -51,7 +58,9 @@ open class PlayableCharacter(
 
                   temporaryHitPoints,
                   maxHitPoints,
-                  currentHitPoints
+                  currentHitPoints,
+                  inspiration,
+                  inspirationDie
         ) {
 
     private val equipedItemList : ArrayList<EquipableItem> = ArrayList()
@@ -74,12 +83,12 @@ open class PlayableCharacter(
     override val flaws : List<String>
     get() = flawList
 
-    private val savingThrowProficiencyList : ArrayList<Stat> = ArrayList()
-    override val savingThrowProficiencies: List<Stat>
+    private val savingThrowProficiencyList : ArrayList<IStat> = ArrayList()
+    override val savingThrowProficiencies: List<IStat>
     get() = savingThrowProficiencyList
 
-    private val skillProficiencyList : ArrayList<Skill> = ArrayList()
-    override val skillProficiencies: List<Skill>
+    private val skillProficiencyList : ArrayList<ISkill> = ArrayList()
+    override val skillProficiencies: List<ISkill>
     get() = skillProficiencyList
 
     private val itemProficiencyList : ArrayList<String> = ArrayList()
@@ -141,22 +150,22 @@ open class PlayableCharacter(
             flawList.remove(flaw)
     }
 
-    override fun addSavingThrowProficiency(prof: Stat) {
+    override fun addSavingThrowProficiency(prof: IStat) {
         if (!savingThrowProficiencyList.contains(prof))
             savingThrowProficiencyList.add(prof)
     }
 
-    override fun removeSavingThrowProficiency(prof: Stat) {
+    override fun removeSavingThrowProficiency(prof: IStat) {
         if (savingThrowProficiencyList.contains(prof))
             savingThrowProficiencyList.remove(prof)
     }
 
-    override fun addSkillProficiency(skill: Skill) {
+    override fun addSkillProficiency(skill: ISkill) {
         if (!skillProficiencyList.contains(skill))
             skillProficiencyList.add(skill)
     }
 
-    override fun removeSkillProficiency(skill: Skill) {
+    override fun removeSkillProficiency(skill: ISkill) {
         if (skillProficiencyList.contains(skill))
             skillProficiencyList.remove(skill)
     }

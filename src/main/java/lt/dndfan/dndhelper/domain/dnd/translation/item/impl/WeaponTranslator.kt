@@ -28,7 +28,7 @@ class WeaponTranslator : IItemTranslator {
 
         return itemFactory.createWeapon(
                 args["name"] as String,
-                (args["desc"] as Array<String>).toString(),
+                (args["desc"] as Array<String>).joinToString("\n"),
                 args["weight"] as Double,
                 false,
                 bonusList,

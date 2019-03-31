@@ -1,17 +1,18 @@
 package lt.dndfan.dndhelper.bean.dnd
 
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
+import lt.dndfan.dndhelper.bean.dnd.inventory.item.IEquipableItem
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.EquipableItem
+import lt.dndfan.dndhelper.bean.dnd.stats.ISkill
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 
 interface IPlayableCharacter : ICharacter {
-    val savingThrowProficiencies : List<Stat>
-    val skillProficiencies : List<Skill>
+    val savingThrowProficiencies : List<IStat>
+    val skillProficiencies : List<ISkill>
     val itemProficiencies : List<String>
     val features : List<IFeature>
-    val spellModifier : Stat
+    val spellModifier : IStat
 
     val characterClass : String
     val characterSubclass : String
@@ -25,11 +26,7 @@ interface IPlayableCharacter : ICharacter {
     val flaws : List<String>
 
     val characterInventory : ICharacterInventory
-    val characterEquipment : List<EquipableItem>
-
-    /**
-     *
-     */
+    val characterEquipment : List<IEquipableItem>
 
     fun addPersonalityTrait(trait : String)
     fun removePersonalityTrait(trait : String)
@@ -40,11 +37,11 @@ interface IPlayableCharacter : ICharacter {
     fun addFlaw(flaw : String)
     fun removeFlaw(flaw : String)
 
-    fun addSavingThrowProficiency(prof : Stat)
-    fun removeSavingThrowProficiency(prof : Stat)
+    fun addSavingThrowProficiency(prof : IStat)
+    fun removeSavingThrowProficiency(prof : IStat)
 
-    fun addSkillProficiency(skill : Skill)
-    fun removeSkillProficiency(skill : Skill)
+    fun addSkillProficiency(skill : ISkill)
+    fun removeSkillProficiency(skill : ISkill)
 
     fun addItemProficiency(prof : String)
     fun removeItemProficiency(prof : String)
@@ -63,7 +60,4 @@ interface IPlayableCharacter : ICharacter {
 
     fun shortRest()
     fun longRest()
-    /**
-     * TODO: Inspiration
-     */
 }

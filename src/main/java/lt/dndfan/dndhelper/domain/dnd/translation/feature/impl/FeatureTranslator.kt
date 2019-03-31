@@ -13,14 +13,18 @@ class FeatureTranslator : IFeatureTranslator {
         val bonusList = ArrayList<IBonus>()
         val validStats = ArrayList<IPair<Stat,Int>>()
 
+        /**
+         *  Assuming same syntax as Features.json
+         *  This will possibly be simplified in Feats.json
+         */
         return featureFactory.create( args["name"] as String,
-                args["description"] as String,
+                (args["description"] as List<String>).joinToString("\n"),
                 args["level"] as Int,
                 bonusList,
-                validStats,                                     // should be replaced by prerequisites
-                "",                                    // no field in json
-                args["class"] as String,                        // something like array in json
-                args["subclass"] as String
+                validStats,
+                "",
+                (args["class"] as Map<String, Any>)["name"] as String,
+                (args["subclass"] as Map<String,Any>)["name"] as String
         )
     }
 }

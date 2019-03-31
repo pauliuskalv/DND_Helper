@@ -5,16 +5,22 @@ import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 
 
 interface IEnemy : ICharacter {
-    var size : String           // e.g. Huge
+    /** e.g. Huge */
+    var size : String
     val challenge_rating : Int
 
-    val type : String           // e.g. Abberation
+    /** e.g. Abberation */
+    val type : String
     val subtype : String
 
     var condition_immunities : List<String>
     var damage_immunities : List<String>
 
-    val skills : List<Skill>   // Skills whose value is not calculated from stats
+    /**
+     * Override for skills that will not be calculated by using base stats
+     * e. g. Perception 2 (Enemy might have Wisdom that is higher or lower than 2)
+     */
+    val skills : Pair<Skill,Int>
 }
 
 

@@ -1,10 +1,11 @@
 package lt.dndfan.dndhelper.bean.dnd.stats
 
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
-
 interface IStat {
-    val name : String               // e.g. DEX
-    val fullName: String            // Dexterity
+    /** e.g. "DEX" */
+    val name : String
+    /** e. g. "Dexterity" */
+    val fullName: String
     val description: String
-    val skills : List<Skill>        // skills that get benefits from this stat
+    /** Skills that get benefits from this stat */
+    val skills : List<ISkill>
 }

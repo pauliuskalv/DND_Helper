@@ -4,7 +4,7 @@ import lt.dndfan.dndhelper.bean.dnd.ICharacter
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 
 interface ICharacterDomain {
-    // Creation
+    /** Creation */
     fun createCharacter(args : Map<String, Any>) : ICharacter
     fun createPlayableCharacter(args : Map<String, Any>) : IPlayableCharacter
 

@@ -1,8 +1,7 @@
 package lt.dndfan.dndhelper.domain.dnd.translation.character
 
-import lt.dndfan.dndhelper.bean.dnd.character.impl.CharacterSubclass
-import lt.dndfan.dndhelper.bean.dnd.feature.impl.Trait
+import lt.dndfan.dndhelper.bean.dnd.character.ICharacterSubclass
 
 interface ISubclassTranslator {
-    fun translate (args: Map<String,Any>) : CharacterSubclass
+    fun translate (args: Map<String,Any>) : ICharacterSubclass
 }

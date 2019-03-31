@@ -15,9 +15,6 @@ class ArmorClassBonusFactory : IBonusFactory {
         return dummyBonus
     }
 
-    /**
-     *
-     */
     override fun createBonus(args: Map<String, Any>) : IBonus {
         return ArmorClassBonus(
                 args["name"] as String,

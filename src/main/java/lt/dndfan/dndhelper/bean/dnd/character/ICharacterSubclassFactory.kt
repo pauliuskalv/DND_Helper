@@ -1,6 +1,7 @@
 package lt.dndfan.dndhelper.bean.dnd.character
 
 import lt.dndfan.dndhelper.bean.dnd.character.impl.CharacterSubclass
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.feature.impl.Trait
 
 interface ICharacterSubclassFactory {
@@ -8,6 +9,6 @@ interface ICharacterSubclassFactory {
                                    description : String,
                                    characterClass : String,
                                    flavor : String,
-                                   traits : List<Trait>
+                                   traits : List<ITrait>
     ) : ICharacterSubclass
 }

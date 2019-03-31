@@ -1,9 +1,9 @@
 package lt.dndfan.dndhelper.bean.dnd.feature.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeatureFactory
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.util.collection.IPair
 
 class BasicFeatureFactory : IFeatureFactory {
@@ -11,7 +11,7 @@ class BasicFeatureFactory : IFeatureFactory {
                         description: String,
                         requiredLevel: Int,
                         bonusList: List<IBonus>,
-                        validStats: List<IPair<Stat, Int>>,
+                        validStats: List<IPair<IStat, Int>>,
                         validRace: String,
                         validClass: String,
                         validSubclass: String): IFeature {

@@ -7,7 +7,7 @@ import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 interface IInventoryDomain {
     fun getItem(inventory : ICharacterInventory, name : String) : IItem
 
-    // Inventory
+    /** Inventory */
     fun getItems(inventory : ICharacterInventory) : List<IItem>
     fun getItemsByValue(inventory : ICharacterInventory, value : Int) : List<IItem>
     fun getItemsByType(inventory : ICharacterInventory, type : EItemType) : List<IItem>

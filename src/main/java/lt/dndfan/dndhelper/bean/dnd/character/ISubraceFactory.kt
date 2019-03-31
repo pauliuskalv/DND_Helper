@@ -1,14 +1,14 @@
 package lt.dndfan.dndhelper.bean.dnd.character
 
-import lt.dndfan.dndhelper.bean.dnd.bonus.impl.StatBonus
+import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.character.impl.Subrace
-import lt.dndfan.dndhelper.bean.dnd.feature.impl.Trait
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 
 interface ISubraceFactory {
     fun createSubrace(name: String,
                       description: String,
                       race: String,
-                      statBonuses: List<StatBonus>,
-                      traits: List<Trait>
+                      bonuses: List<IBonus>,
+                      traits: List<ITrait>
     ) : Subrace
 }

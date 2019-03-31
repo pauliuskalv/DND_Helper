@@ -2,10 +2,9 @@ package lt.dndfan.dndhelper.bean.dnd.inventory.item.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.*
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.util.collection.IPair
-import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 class ItemFactory : IItemFactory {
     override fun createItem(name: String,
@@ -27,11 +26,11 @@ class ItemFactory : IItemFactory {
                                      attunable: Boolean,
                                      bonusList: List<IBonus>,
                                      category: EItemType,
-                                     requiredStats: ArrayList<Pair<Stat, Int>>,
+                                     requiredStats: List<IPair<IStat, Int>>,
                                      value: Int,
                                      magical: Boolean,
                                      attributes: Map<String, Any>,
-                                     tags: List<String>): IEquipableItem {
+                                     tags: List<String>): EquipableItem {
         return EquipableItem(
                 attunable,
                 bonusList,
@@ -54,7 +53,7 @@ class ItemFactory : IItemFactory {
                               attunable: Boolean,
                               bonusList: List<IBonus>,
                               category: EItemType,
-                              requiredStats: List<Pair<Stat, Int>>,
+                              requiredStats: List<IPair<IStat, Int>>,
                               value: Int,
                               tags: List<String>,
                               weaponRange: String,
@@ -90,7 +89,7 @@ class ItemFactory : IItemFactory {
                                        attunable: Boolean,
                                        bonusList: List<IBonus>,
                                        category: EItemType,
-                                       requiredStats: List<IPair<Stat, Int>>,
+                                       requiredStats: List<IPair<IStat, Int>>,
                                        value: Int,
                                        tags: List<String>,
                                        weaponRange: String,

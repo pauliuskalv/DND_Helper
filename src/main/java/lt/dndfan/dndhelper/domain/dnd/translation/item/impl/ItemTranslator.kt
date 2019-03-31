@@ -4,13 +4,13 @@ import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
 
 /**
-Use strings from json to return item
-Return different item class based on given arguments
+ * Use strings from json to return item
+ * Return different item class based on given arguments
 */
 
 class ItemTranslator : IItemTranslator {
 
-    // not sure if private keyword is useful
+    /** Not sure if Translators should be private */
     private val genericItemTranslator = GenericItemTranslator()
     private val equipableItemTranslator = EquipableItemTranslator()
     private val weaponTranslator = WeaponTranslator()
