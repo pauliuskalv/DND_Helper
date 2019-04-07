@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DND_Program.iml" filepath="$PROJECT_DIR$/DND_Program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnd_helper.iml" filepath="$PROJECT_DIR$/dnd_helper.iml" />
     </modules>
   </component>
 </project>
