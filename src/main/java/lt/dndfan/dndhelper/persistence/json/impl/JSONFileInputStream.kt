@@ -7,70 +7,77 @@ import org.json.JSONArray
 import org.json.JSONObject
 import java.io.FileInputStream
 
+import com.google.common.io.Resources
+import java.nio.charset.Charset
+
 
 class JSONFileInputStream(
         override val filename: String
 ) : IJSONInputStream {
+    lateinit var jsonData: JSONArray
 
-    var opened = false
-    val jsonParser = JSONParser(filename, Context.getGlobal(), false)
+    override val size: Int
+        get() = jsonData.length()
 
     fun JSONFileInputStream(fileName : String) {
-
-    }
-
-    override fun open() {
-        if(!opened)
-            // should probably change name from open to available
-            // since json parser opens the file in constructor
-            if(FileInputStream(filename).available() > 0)
-                opened = true
-        // exception?
-    }
-
-    override fun close() {
-        if(opened)
-            opened = false
+        jsonData = JSONArray(
+                Resources.toString(
+                        Resources.getResource(fileName), Charset.defaultCharset()
+                )
+        )
     }
 
     override fun read(): List<Map<String, Any>> {
-        if(opened) {
-            val jsonArray : JSONArray
-            // unsure if cast is going to work
-            jsonArray = jsonParser.parse() as JSONArray
-
-            // very unsure if this cast is going to work
-            // consider separating JSONArray into JSONObjects and then casting them
-            return jsonArray as List<Map<String,Any>>
+        val args = ArrayList<Map<String, Any>>()
+        for (i in 0..jsonData.length()) {
+            args[i] = parseObject(jsonData[i] as Any, jsonData.optString(i))
         }
-        else
-        return emptyList()
+
+        return args
     }
 
     override fun readAt(index: Int): Map<String, Any> {
-        if(opened) {
-            val map : MutableMap<String,Any>
-            val jsonArray : JSONArray
-            jsonArray = jsonParser.parse() as JSONArray
+        return parseObject(jsonData[index], jsonData.optString(index))
+    }
 
-            val jsonObject = jsonArray.get(index)
+    private fun parseObject(obj: Any, key: String): Map<String, Any> {
+        val map = HashMap<String, Any>()
 
-            return jsonObject as Map<String,Any>
+        if (obj is JSONArray) {
+            val propertyMap = ArrayList<Any>()
+
+            parseJSON(propertyMap, obj)
+
+            map[key] = propertyMap
         }
-        else
-            return emptyMap()
+
+        if (obj is JSONObject) {
+            val propertyMap = HashMap<String, Any>()
+
+            parseJSON(propertyMap, obj)
+
+            map[key] = propertyMap
+        }
+
+        return map
     }
 
-    override fun getCount(): Int {
-        // return the remaining bytes in the stream
-        // there should be a better way to implement this
-        if(opened)
-            return FileInputStream(filename).available()
-        return 0
+    private fun parseJSON(list: ArrayList<Any>, obj: JSONArray) {
+        for (i in 0..obj.length()) {
+            list.add(parseObject(obj[i] as Any, obj.optString(i)))
+        }
     }
 
-    override fun getIterator(): Iterator<Map<String, Any>> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+    private fun parseJSON(map: HashMap<String, Any>, obj: JSONObject) {
+        for (key in obj.keys()) {
+            if (obj[key] is JSONArray) {
+                val newList = ArrayList<Any>()
 
+                parseJSON(newList, obj[key] as JSONArray)
+
+                map[key] = newList
+            } else
+                map[key] = obj[key].toString()
+        }
+    }
 }
