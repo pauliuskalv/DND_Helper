@@ -1,8 +1,8 @@
-package lt.dndfan.dndhelper.facade.dnd
+package lt.dndfan.dndhelper.facade.dnd.character.overview
 
 /**
  * Should probably be responsible for encompassing everything from bean/impl/PlayableCharacter.kt
  */
 
-interface ICharacterStats {
+interface IStats {
 }
