@@ -14,6 +14,7 @@ class ThrowableWeaponTranslator : IItemTranslator {
     private val itemFactory = ItemFactory()
 
     val bonusList: ArrayList<IBonus> = ArrayList()
+    /** TODO: Change pair list to map. */
     val minimumStatList: ArrayList<IPair<IStat, Int>> = ArrayList()
     val attributes: MutableMap<String, Any> = mutableMapOf()
     val tags: ArrayList<String> = ArrayList()

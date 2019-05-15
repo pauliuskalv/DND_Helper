@@ -3,6 +3,11 @@ package lt.dndfan.dndhelper.bean.dnd.spell
 import lt.dndfan.dndhelper.bean.dnd.constant.ERestType
 
 interface IAbility {
+    /**
+     * Ability is an active Action/Bonus Action/Reaction that the character is allowed to take, because of bonuses that the character has.
+     * Usually comes from Race, Class, Feat, or Item.
+     */
+
     val name : String
     val description : String
 

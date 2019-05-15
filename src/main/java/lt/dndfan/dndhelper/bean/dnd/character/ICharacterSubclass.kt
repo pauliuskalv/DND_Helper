@@ -9,7 +9,7 @@ interface ICharacterSubclass {
     val name : String
     val description : String
     val characterClass: String
-    /** e.g. divine domain, bard college */
+    /** e.g. divine domain, bard college... */
     val flavor: String
     val traits: List<ITrait>
 }

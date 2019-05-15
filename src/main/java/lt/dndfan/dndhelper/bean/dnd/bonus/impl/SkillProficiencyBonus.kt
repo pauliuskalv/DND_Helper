@@ -3,17 +3,22 @@ package lt.dndfan.dndhelper.bean.dnd.bonus.impl
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 
-class SkillProeficiencyBonus(override val bonusName: String,
+class SkillProficiencyBonus(override val bonusName: String,
                              override val description: String,
                              override val origin: String,
-                             private val proeficiency : Skill) : AbstractBonus(bonusName, description, origin) {
+                             private val proficiency : Skill) : AbstractBonus(bonusName, description, origin) {
+    /**
+     * This bonus should be responsible to providing all skill proficiencies to the character.
+     * Consider renaming it to just "SkillBonus".
+     */
+
     private var applied : Boolean = false
 
     override fun applyBonus(character: IPlayableCharacter) {
-        if (character.skillProficiencies.contains(proeficiency))
+        if (character.skillProficiencies.contains(proficiency))
             return
 
-        character.addSkillProficiency(proeficiency)
+        character.addSkillProficiency(proficiency)
         applied = true
     }
 
@@ -21,7 +26,7 @@ class SkillProeficiencyBonus(override val bonusName: String,
         if (!applied)
             return
 
-        character.removeSkillProficiency(proeficiency)
+        character.removeSkillProficiency(proficiency)
         applied = false
     }
 

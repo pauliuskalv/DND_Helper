@@ -1,6 +1,9 @@
 package lt.dndfan.dndhelper.bean.dnd.constant
 
 enum class EAlignment {
+    /**
+     * Consider reworking alignment a class for more flexibility.
+     */
     LAWFUL_GOOD,
     LAWFUL_NEUTRAL,
     LAWFUL_EVIL,

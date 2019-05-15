@@ -7,7 +7,7 @@ interface ISpellPool : Iterable<ISpell> {
     fun removeSpell(spell : ISpell)
 
     fun prepareSpell(spell : ISpell)
-    fun unprepareSpell(spell : ISpell)
+    fun unPrepareSpell(spell : ISpell)
 
     fun isPrepared(spell : ISpell) : Boolean
 }

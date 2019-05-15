@@ -5,7 +5,7 @@ import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 
 interface IStatFactory {
     fun createStat(name : String,
-                   fullname : String,
+                   fullName : String,
                    description : String,
-                   skills : List<Skill>) : IStat
+                   skills : List<String>) : IStat
 }

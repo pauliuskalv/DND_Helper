@@ -1,6 +1,9 @@
 package lt.dndfan.dndhelper.bean.dnd.constant
 
 enum class EItemType(val itemName : String) {
+    /**
+     * Consider reworking this as a class for more flexibility.
+     */
     WEAPON("Weapon"),
     ARMOR("Armor"),
     ADVENTURING_GEAR("Adventuring Gear"),

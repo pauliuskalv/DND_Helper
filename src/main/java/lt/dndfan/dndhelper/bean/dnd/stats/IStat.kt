@@ -7,5 +7,5 @@ interface IStat {
     val fullName: String
     val description: String
     /** Skills that get benefits from this stat */
-    val skills : List<ISkill>
+    val skills : List<String>
 }

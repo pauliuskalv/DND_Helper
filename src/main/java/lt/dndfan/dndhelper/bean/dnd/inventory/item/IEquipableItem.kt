@@ -11,8 +11,10 @@ interface IEquipableItem : IItem {
     val bonusList : List<IBonus>
     val category : EItemType
 
+    /** TODO: Change Pair List into Map. */
     val requiredStats : List<IPair<IStat,Int>>
 
+    /** TODO: Remove this. Everything should be done with bonuses. */
     val attributes : Map<String, Any>
 
     /**

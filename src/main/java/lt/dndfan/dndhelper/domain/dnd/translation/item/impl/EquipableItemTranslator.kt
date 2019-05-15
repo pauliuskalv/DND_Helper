@@ -23,6 +23,7 @@ class EquipableItemTranslator : IItemTranslator {
 
     val bonusList: ArrayList<IBonus> = ArrayList()
     val minimumStatList: ArrayList<IPair<IStat, Int>> = ArrayList()
+    /** Consider making a more elegant solution than MutableMap. */
     val attributes: MutableMap<String, Any> = mutableMapOf()
     val tags: ArrayList<String> = ArrayList()
 

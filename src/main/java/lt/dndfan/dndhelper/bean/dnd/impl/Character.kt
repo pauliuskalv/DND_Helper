@@ -31,8 +31,9 @@ open class Character(override val allStats: List<Stat>,
 
 ) : ICharacter {
     /**
-     *  stats should contain every stat from allStats and a number
-     *  TODO: Figure out how to pass in all stats and implement this List
+     *  Stats should contain every stat from allStats and a number.
+     *  The list of all available stats should be passed at a facade level as ALL_STATS.
+     *  TODO: Change "ArrayList<Pair" to "Map<".
      */
     private val stats = ArrayList<Pair<Stat, Int>>()
 
@@ -73,6 +74,10 @@ open class Character(override val allStats: List<Stat>,
         return 0
     }
 
+    /**
+     * setStat should only be used to set the raw default stats that were rolled.
+     * All further stat modification should be done through bonuses.
+     */
     override fun setStat(desiredStat: IStat, value: Int) {
         for (stat in stats) {
             if (stat.key == desiredStat) {

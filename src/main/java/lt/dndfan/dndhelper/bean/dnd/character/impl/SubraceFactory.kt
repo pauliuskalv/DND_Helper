@@ -5,11 +5,10 @@ import lt.dndfan.dndhelper.bean.dnd.character.ISubraceFactory
 import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 
 class SubraceFactory : ISubraceFactory {
-    override fun createSubrace(name: String, description: String, race: String, bonuses: List<IBonus>, traits: List<ITrait>): Subrace {
+    override fun createSubrace(name: String, description: String, race: String, bonuses: List<IBonus>): Subrace {
         return Subrace(name,
                 description,
                 race,
-                bonuses,
-                traits)
+                bonuses)
     }
 }

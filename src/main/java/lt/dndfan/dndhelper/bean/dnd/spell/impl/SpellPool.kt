@@ -30,7 +30,7 @@ class SpellPool : ISpellPool {
             preparedSpells.add(spell)
     }
 
-    override fun unprepareSpell(spell: ISpell) {
+    override fun unPrepareSpell(spell: ISpell) {
         if (preparedSpells.contains(spell))
             preparedSpells.remove(spell)
     }
