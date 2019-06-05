@@ -9,6 +9,7 @@ interface IInventoryDomain {
 
     /** Inventory */
     fun getItems(inventory : ICharacterInventory) : List<IItem>
+    fun getItemsByName(inventory : ICharacterInventory, name : String) : List<IItem>
     fun getItemsByValue(inventory : ICharacterInventory, value : Int) : List<IItem>
     fun getItemsByType(inventory : ICharacterInventory, type : EItemType) : List<IItem>
     fun getItemsByDescription(inventory : ICharacterInventory, desc : String) : List<IItem>

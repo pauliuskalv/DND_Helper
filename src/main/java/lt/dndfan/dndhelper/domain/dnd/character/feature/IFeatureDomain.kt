@@ -7,6 +7,8 @@ import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 interface IFeatureDomain {
     fun isValid(character : IPlayableCharacter, feature : IFeature) : Boolean
 
+    fun getFeature(features : List<IFeature>, name: String) : IFeature
+
     /**
      * val validStats : List<IPair<Stat, Int>>
      * val validRace : String
@@ -15,6 +17,7 @@ interface IFeatureDomain {
      */
 
     fun getByName(features : List<IFeature>, name : String) : List<IFeature>
+    fun getByDescription(features : List<IFeature>, description : String) : List<IFeature>
     fun getByStat(features : List<IFeature>, stat : Stat) : List<IFeature>
     fun getByRace(features : List<IFeature>, race : String) : List<IFeature>
     fun getByClass(features : List<IFeature>, characterClass : String) : List<IFeature>

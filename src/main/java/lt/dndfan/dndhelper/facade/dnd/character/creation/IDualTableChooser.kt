@@ -14,7 +14,7 @@ interface IDualTableChooser {
     val selectableObjects : Int
 
     /**
-     * Transfer the seleceted object to the other table.
+     * Transfer the selected object to the other table.
      * That means remove from one table and add it to the other one.
      */
     fun transfer(transferee : Any)
@@ -26,7 +26,7 @@ interface IDualTableChooser {
 
     /**
      * Function that is called to apply the objects from the chosenTable to the playableCharacter.
-     * Not sure if this is the best way to do that.
+     * Should call addSpell from domain package for example.
      */
     fun applyChanges()
 

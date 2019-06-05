@@ -1,4 +1,6 @@
-package lt.dndfan.dndhelper.facade.dnd.character.overview
+package lt.dndfan.dndhelper.facade.dnd.character.overview.impl
+
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 
 /**
  * Responsible for providing of traits (as in ITrait), character feats, and, maybe status effects?
@@ -6,4 +8,5 @@ package lt.dndfan.dndhelper.facade.dnd.character.overview
  */
 
 interface ITraits {
+    val traitList : List<ITrait>
 }
