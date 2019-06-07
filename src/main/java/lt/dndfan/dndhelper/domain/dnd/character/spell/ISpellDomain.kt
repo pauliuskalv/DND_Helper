@@ -5,10 +5,16 @@ import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
 
 interface ISpellDomain {
+    /** Not sure if this should be in domain package */
+    val ALL_SPELLS : List<ISpell>
+
     fun addSpell(character: ISpellcaster, spell: ISpell) : Boolean
     fun removeSpell(character: ISpellcaster, spell: ISpell) : Boolean
 
     fun getSpell(spells : List<ISpell>, name : String) : ISpell
+    fun getCharacterSpells(character : ISpellcaster) : List<ISpell>
+    fun getCharacterSpellNames(character : ISpellcaster) : List<String>
+    fun getAllSpells() : List<ISpell>
 
     fun getPreparedSpells(character: ISpellcaster) : List<ISpell>
     fun getKnownSpells(character: ISpellcaster) : List<ISpell>

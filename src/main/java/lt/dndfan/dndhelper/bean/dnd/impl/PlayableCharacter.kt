@@ -3,7 +3,6 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
@@ -63,9 +62,9 @@ open class PlayableCharacter(
                   inspirationDie
         ) {
 
-    private val equipedItemList : ArrayList<EquipableItem> = ArrayList()
+    private val equippedItemList : ArrayList<EquipableItem> = ArrayList()
     override val characterEquipment : List<EquipableItem>
-    get() = equipedItemList
+    get() = equippedItemList
 
     private val personalityTraitList : ArrayList<String> = ArrayList()
     override val personalityTraits: List<String>
@@ -102,12 +101,12 @@ open class PlayableCharacter(
     private val bonusList : ArrayList<IBonus> = ArrayList()
 
     override fun equipItem(item : EquipableItem){
-        equipedItemList.add(item)
+        equippedItemList.add(item)
     }
 
     override fun unequipItem(item : EquipableItem){
-        if(equipedItemList.contains(item))
-            equipedItemList.remove(item)
+        if(equippedItemList.contains(item))
+            equippedItemList.remove(item)
     }
 
     override fun addPersonalityTrait(trait: String) {

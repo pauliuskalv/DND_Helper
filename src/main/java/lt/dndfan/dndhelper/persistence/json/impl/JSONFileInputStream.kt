@@ -1,12 +1,9 @@
 package lt.dndfan.dndhelper.persistence.json.impl
 
-import jdk.nashorn.internal.parser.JSONParser
-import jdk.nashorn.internal.runtime.Context
+
 import lt.dndfan.dndhelper.persistence.json.IJSONInputStream
 import org.json.JSONArray
 import org.json.JSONObject
-import java.io.FileInputStream
-
 import com.google.common.io.Resources
 import java.nio.charset.Charset
 

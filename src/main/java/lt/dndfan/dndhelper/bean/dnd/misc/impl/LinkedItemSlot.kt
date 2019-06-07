@@ -1,6 +1,6 @@
-package lt.dndfan.dndhelper.facade.dnd.character.misc.impl
+package lt.dndfan.dndhelper.bean.dnd.misc.impl
 
-import lt.dndfan.dndhelper.facade.dnd.character.misc.IItemSlot
+import lt.dndfan.dndhelper.bean.dnd.misc.IItemSlot
 
 /**
  * Not sure if abstract is the best way to implement linked item slots.
