@@ -13,6 +13,7 @@ import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 class Spellcaster(
         override val allStats: List<Stat>,
+        override var level : Int,
         override var armorClass: Int,
         override var initiative: Int,
         override var speed: Int,
@@ -52,6 +53,7 @@ class Spellcaster(
         override var inspirationDie: Int
 ) : PlayableCharacter(
         allStats,
+        level,
         armorClass,
         initiative,
         speed,

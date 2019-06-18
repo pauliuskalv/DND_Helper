@@ -13,6 +13,7 @@ import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 
 open class PlayableCharacter(
         override val allStats: List<Stat>,
+        override var level : Int,
         override var armorClass: Int,
         override var initiative: Int,
         override var speed: Int,
@@ -43,6 +44,7 @@ open class PlayableCharacter(
         override var inspirationDie: Int
 ) : IPlayableCharacter,
         Character(allStats,
+                  level,
                   armorClass,
                   initiative,
                   speed,

@@ -27,6 +27,10 @@ class SpellPool : ISpellPool {
         return spellList.keys as List<String>
     }
 
+    override fun getPreparedSpells(): List<ISpell> {
+        return preparedSpells
+    }
+
     override fun addSpell(spell: ISpell) {
         this.spellList[spell.spellName] = spell
     }

@@ -5,21 +5,40 @@ import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
 import lt.dndfan.dndhelper.domain.dnd.character.spell.ISpellDomain
 
-class SpellDomain : ISpellDomain {
-    /** Not sure if domain is a good place for ALL_SPELLS for ALL_SPELLS */
-    override val ALL_SPELLS: List<ISpell>
-        get() = TODO("not implemented") //To change initializer of created properties use File | Settings | File Templates.
-
+class SpellDomain(
+        /** Not sure if domain is a good place for ALL_SPELLS for ALL_SPELLS */
+        override val ALL_SPELLS: List<ISpell>
+) : ISpellDomain {
     override fun addSpell(character: ISpellcaster, spell: ISpell): Boolean {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return if(!character.spellPool.getAllSpells().contains(spell)) {
+            character.spellPool.addSpell(spell)
+            true
+        }
+        else {
+            /** Exception here */
+            false
+        }
     }
 
     override fun removeSpell(character: ISpellcaster, spell: ISpell): Boolean {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return if(character.spellPool.getAllSpells().contains(spell)) {
+            character.spellPool.removeSpell(spell)
+            true
+        }
+        else {
+            /** Exception here */
+            false
+        }
     }
 
-    override fun getSpell(spells: List<ISpell>, name: String): ISpell {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun getSpellByName(spells: List<ISpell>, name: String): ISpell {
+        for(spell in spells) {
+            if(spell.spellName == name) {
+                return spell
+            }
+        }
+        /** Throw an exception here */
+        return spells[0]
     }
 
     override fun getCharacterSpells(character: ISpellcaster): List<ISpell> {
@@ -35,30 +54,65 @@ class SpellDomain : ISpellDomain {
     }
 
     override fun getPreparedSpells(character: ISpellcaster): List<ISpell> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return character.spellPool.getPreparedSpells()
     }
 
     override fun getKnownSpells(character: ISpellcaster): List<ISpell> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        return character.spellPool.getAllSpells()
     }
 
     override fun getSpellsByName(spells: List<ISpell>, name: String): List<ISpell> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val matchedSpells = ArrayList<ISpell>()
+        for (spell in spells) {
+            /** Not sure about regex syntax */
+            if(spell.spellName.contains("""*$name*""") ||
+               spell.spellName.toLowerCase().contains("""*$name*""")) {
+                matchedSpells.add(spell)
+            }
+        }
+        return matchedSpells
     }
 
-    override fun getSpellsByLevel(spells: List<ISpell>, character: ISpellcaster, level: Int): List<ISpell> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    override fun getSpellsBySpellLevel(spells: List<ISpell>, level: Int): List<ISpell> {
+        val matchedSpells = ArrayList<ISpell>()
+        for (spell in spells) {
+            if(spell.spellLevel == level) {
+                matchedSpells.add(spell)
+            }
+        }
+        return matchedSpells
     }
 
     override fun getSpellsByDescription(spells: List<ISpell>, desc: String): List<ISpell> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val matchedSpells = ArrayList<ISpell>()
+        for(spell in spells) {
+            if(spell.spellName.contains("""*$desc*""") ||
+                    spell.spellName.toLowerCase().contains("""*$desc*""")) {
+                matchedSpells.add(spell)
+            }
+        }
+        return matchedSpells
     }
 
     override fun getSpellsByComponent(spells: List<ISpell>, components: List<ESpellComponent>): List<ISpell> {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        val matchedSpells = ArrayList<ISpell>()
+        for (spell in spells) {
+            /** until == components.size - 1 */
+            for (i in 0 until components.size) {
+                if(spell.components.contains(components[i]) &&
+                        !matchedSpells.contains(spell)) {
+                    matchedSpells.add(spell)
+                }
+            }
+        }
+        return matchedSpells
     }
 
     override fun isValid(character: ISpellcaster, spell: ISpell): Boolean {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        if(spell.validClass.contains(character.characterClass) ||
+                spell.validSubclass.contains(character.characterSubclass)) {
+            return true
+        }
+        return false
     }
 }

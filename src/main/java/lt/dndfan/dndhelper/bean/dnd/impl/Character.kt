@@ -10,6 +10,7 @@ import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 open class Character(override val allStats: List<Stat>,
+                     override var level : Int,
                      override var armorClass: Int,
                      override var initiative: Int,
                      override var speed: Int,

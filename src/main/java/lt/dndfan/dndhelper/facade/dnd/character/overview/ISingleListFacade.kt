@@ -6,5 +6,6 @@ package lt.dndfan.dndhelper.facade.dnd.character.overview
  */
 
 interface ISingleListFacade {
+    val title : String
     val list : List<String>
 }

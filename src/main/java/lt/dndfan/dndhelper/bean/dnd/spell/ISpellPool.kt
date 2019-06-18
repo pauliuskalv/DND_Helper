@@ -4,6 +4,7 @@ interface ISpellPool : Iterable<ISpell> {
     fun getSpell(name : String, spellLevel : Int = 0) : ISpell
     fun getAllSpells() : List<ISpell>
     fun getAllSpellNames() : List<String>
+    fun getPreparedSpells() : List<ISpell>
 
     fun addSpell(spell : ISpell)
     fun removeSpell(spell : ISpell)

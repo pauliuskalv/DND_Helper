@@ -28,6 +28,7 @@ interface ICharacter {
      * TODO: Change this as a pair of stat and a value.
      */
     val allStats: List<IStat>
+    var level : Int
     var temporaryHitPoints : Int
     var maxHitPoints : Int
     var currentHitPoints : Int
