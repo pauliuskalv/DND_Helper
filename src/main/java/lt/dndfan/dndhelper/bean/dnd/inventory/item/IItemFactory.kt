@@ -9,16 +9,18 @@ interface IItemFactory {
     fun createItem(name: String,
                    description : String,
                    weight : Double,
-                   magical : Boolean) : IItem
+                   magical : Boolean,
+                   value : Int,
+                   type : EItemType): IItem
 
     fun createEquipableItem(name: String,
                             description : String,
                             weight : Double,
                             attunable : Boolean,
                             bonusList : List<IBonus>,
-                            category : EItemType,
                             requiredStats : List<IPair<IStat, Int>>,
                             value : Int,
+                            type : EItemType,
                             magical: Boolean,
                             attributes : Map<String, Any>,
                             tags : List<String>) : IEquipableItem
@@ -28,7 +30,6 @@ interface IItemFactory {
                      weight : Double,
                      attunable : Boolean,
                      bonusList : List<IBonus>,
-                     category : EItemType,
                      requiredStats : List<IPair<IStat, Int>>,
                      value : Int,
                      tags : List<String>,
@@ -44,7 +45,6 @@ interface IItemFactory {
                               weight : Double,
                               attunable : Boolean,
                               bonusList : List<IBonus>,
-                              category : EItemType,
                               requiredStats : List<IPair<IStat, Int>>,
                               value : Int,
                               tags : List<String>,

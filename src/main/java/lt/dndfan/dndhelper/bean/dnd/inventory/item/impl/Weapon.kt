@@ -12,7 +12,6 @@ class Weapon(override val weaponRange: String,
              override val damageType: String,
              override val attunable: Boolean,
              override val bonusList: List<IBonus>,
-             override val category: EItemType,
              override val requiredStats: List<IPair<IStat, Int>>,
              override val value: Int,
              override val tags: List<String>,
@@ -22,3 +21,6 @@ class Weapon(override val weaponRange: String,
              override val description: String,
              override val magical: Boolean,
              override val weight: Double) : IWeapon
+{
+    override val type = EItemType.WEAPON
+}
