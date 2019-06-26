@@ -22,7 +22,7 @@ class EquipableItemTranslator : IItemTranslator {
     private val armorClassCalculator = ArmorClassCalculator()
 
     val bonusList: ArrayList<IBonus> = ArrayList()
-    val minimumStatList: ArrayList<IPair<IStat, Int>> = ArrayList()
+    val requiredStats: ArrayList<IPair<IStat, Int>> = ArrayList()
     /** Consider making a more elegant solution than MutableMap. */
     val attributes: MutableMap<String, Any> = mutableMapOf()
     val tags: ArrayList<String> = ArrayList()
@@ -30,7 +30,7 @@ class EquipableItemTranslator : IItemTranslator {
     override fun translate(args: Map<String, Any>): IItem {
         for(stat in args["ALL_STATS"] as List<Stat>) {
             if(stat.name == "STR") {
-                minimumStatList.add(Pair(stat, args["str.minimum"] as Int))
+                requiredStats.add(Pair(stat, args["str.minimum"] as Int))
                 break
             }
         }
@@ -52,11 +52,13 @@ class EquipableItemTranslator : IItemTranslator {
         return itemFactory.createEquipableItem(args["name"] as String,
                 (args["desc"] as Array<String>).joinToString("\n"),
                 args["weight"] as Double,
+                /** TODO: Add a Atunable field to item json. */
                 false,
                 bonusList,
-                args["equipment_category"] as EItemType,
-                minimumStatList,
+                requiredStats,
                 (args["cost"] as Map<String, Any>)["quantity"] as Int,
+                args["equipment_category"] as EItemType,
+                /** TODO: Add a Magic field to item json. */
                 false,
                 attributes,
                 tags

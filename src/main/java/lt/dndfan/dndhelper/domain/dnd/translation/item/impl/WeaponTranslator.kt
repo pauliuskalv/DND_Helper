@@ -33,7 +33,6 @@ class WeaponTranslator : IItemTranslator {
                 args["weight"] as Double,
                 false,
                 bonusList,
-                args["equipment_category"] as EItemType,
                 minimumStatList,
                 (args["cost"] as Map<String, Any>)["quantity"] as Int,
                 tags,
