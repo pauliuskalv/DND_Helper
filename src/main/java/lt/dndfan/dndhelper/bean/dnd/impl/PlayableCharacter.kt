@@ -5,6 +5,7 @@ import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.EquipableItem
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
@@ -24,7 +25,7 @@ open class PlayableCharacter(
         override var currentHitDice: Int,
         override val name: String,
         override val description: String,
-        override val traits: List<String>,
+        override val traits: List<ITrait>,
         override val abilities: List<IAbility>,
         override val spellModifier: Stat,
 

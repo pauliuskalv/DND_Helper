@@ -3,6 +3,7 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellSlot
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
@@ -24,7 +25,7 @@ class Spellcaster(
         override var currentHitDice: Int,
         override val name: String,
         override val description: String,
-        override val traits: List<String>,
+        override val traits: List<ITrait>,
         override val abilities: List<IAbility>,
         override val spellModifier: Stat,
 

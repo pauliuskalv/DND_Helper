@@ -2,6 +2,8 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 
 import lt.dndfan.dndhelper.bean.dnd.ICharacter
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
+import lt.dndfan.dndhelper.bean.dnd.feature.ICondition
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
@@ -21,7 +23,7 @@ open class Character(override val allStats: List<Stat>,
                      override var currentHitDice: Int,
                      override val name: String,
                      override val description: String,
-                     override val traits: List<String>,
+                     override val traits: List<ITrait>,
 
                      override var temporaryHitPoints: Int,
                      override var maxHitPoints: Int,
@@ -37,6 +39,9 @@ open class Character(override val allStats: List<Stat>,
      *  TODO: Change "ArrayList<Pair" to "Map<".
      */
     private val stats = ArrayList<Pair<Stat, Int>>()
+
+    /** Conditions should be empty on character creation */
+    override val conditions : ArrayList<ICondition> = ArrayList()
 
     private val abilityList : ArrayList<IAbility> = ArrayList()
     override val abilities : List<IAbility>

@@ -1,6 +1,8 @@
 package lt.dndfan.dndhelper.bean.dnd
 
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
+import lt.dndfan.dndhelper.bean.dnd.feature.ICondition
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.bean.dnd.stats.ILanguage
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
@@ -53,7 +55,9 @@ interface ICharacter {
     val description : String
 
     /** e. g. Darkvision */
-    val traits : List<String>
+    val traits : List<ITrait>
+    /** e. g. Charmed, Grappled */
+    val conditions : List<ICondition>
     /** e. g. Barbarian`s "Rage" or Tiefling`s "Hellish Rebuke" */
     val abilities : List<IAbility>
     /** Whether the character is inspired by a bard */
