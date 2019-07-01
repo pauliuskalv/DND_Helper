@@ -16,7 +16,8 @@ class ConditionDomain : IConditionDomain {
     override fun getConditionsByDescription(character: ICharacter, desc: String): List<ICondition> {
         val matchedList = ArrayList<ICondition>()
         for (condition in character.conditions) {
-            if(condition.description.contains("""*$desc*""")) {
+            if(condition.description.contains("""*$desc*""") ||
+                    condition.description.toLowerCase().contains("""*$desc*""")) {
                 matchedList.add(condition)
             }
         }
@@ -25,7 +26,8 @@ class ConditionDomain : IConditionDomain {
     override fun getConditionsByName(character: ICharacter, name: String): List<ICondition> {
         val matchedList = ArrayList<ICondition>()
         for (condition in character.conditions) {
-            if(condition.name.contains("""*$name*""")) {
+            if(condition.name.contains("""*$name*""") ||
+                    condition.name.toLowerCase().contains("""*$name*""")) {
                 matchedList.add(condition)
             }
         }

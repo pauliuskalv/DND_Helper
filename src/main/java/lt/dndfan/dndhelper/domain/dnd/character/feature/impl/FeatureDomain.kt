@@ -22,7 +22,8 @@ class FeatureDomain : IFeatureDomain {
     override fun getByDescription(features: List<IFeature>, description: String): List<IFeature> {
         val matchedList = ArrayList<IFeature>()
         for (feature in features) {
-            if(feature.description.contains("""*$description*""")) {
+            if(feature.description.contains("""*$description*""") ||
+                    feature.description.toLowerCase().contains("""*$description*""")) {
                 matchedList.add(feature)
             }
         }
@@ -43,7 +44,8 @@ class FeatureDomain : IFeatureDomain {
     override fun getByName(features: List<IFeature>, name: String): List<IFeature> {
         val matchedList = ArrayList<IFeature>()
         for (feature in features) {
-            if(feature.name.contains("""*$name*""")) {
+            if(feature.name.contains("""*$name*""") ||
+                    feature.name.toLowerCase().contains("""*$name*""")) {
                 matchedList.add(feature)
             }
         }

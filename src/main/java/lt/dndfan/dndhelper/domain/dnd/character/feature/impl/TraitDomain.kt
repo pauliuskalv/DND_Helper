@@ -17,7 +17,8 @@ class TraitDomain : ITraitDomain {
     override fun getTraitsByDescription(character: ICharacter, desc: String): List<ITrait> {
         val matchedList = ArrayList<ITrait>()
         for (trait in character.traits) {
-            if(trait.description.contains("""*$desc*""")) {
+            if(trait.description.contains("""*$desc*""") ||
+                    trait.description.toLowerCase().contains("""*$desc*""")) {
                 matchedList.add(trait)
             }
         }
@@ -26,7 +27,8 @@ class TraitDomain : ITraitDomain {
     override fun getTraitsByName(character: ICharacter, name: String): List<ITrait> {
         val matchedList = ArrayList<ITrait>()
         for (trait in character.traits) {
-            if(trait.name.contains("""*$name*""")) {
+            if(trait.name.contains("""*$name*""") ||
+                    trait.name.toLowerCase().contains("""*$name*""")) {
                 matchedList.add(trait)
             }
         }

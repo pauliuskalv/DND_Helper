@@ -6,7 +6,8 @@ import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 class SkillProficiencyBonus(override val bonusName: String,
                              override val description: String,
                              override val origin: String,
-                             private val proficiency : Skill) : AbstractBonus(bonusName, description, origin) {
+                            /** Made proficiency field not private, there may be a better way to do this */
+                             val proficiency : Skill) : AbstractBonus(bonusName, description, origin) {
     /**
      * This bonus should be responsible to providing all skill proficiencies to the character.
      * Consider renaming it to just "SkillBonus".
