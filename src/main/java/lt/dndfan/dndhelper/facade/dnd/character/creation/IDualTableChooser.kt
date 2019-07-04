@@ -71,7 +71,7 @@ interface IDualTableChooser {
         }
         /** Technically this check should not be needed */
         if(canTransferFromChoices(transferee)) {
-            transferToChosen(transferee)
+            transferToChoices(transferee)
         }
     }
 

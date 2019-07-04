@@ -13,10 +13,10 @@ import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
  */
 /**  */
 class SpellChooser (override val choiceTable: ArrayList<Any>,
-                    override val chosenTable: ArrayList<Any>,
                      override val selectableObjects : Int,
                     val character : ISpellcaster) : IDualTableChooser {
 
+    override val chosenTable = ArrayList<Any>()
     /** TODO: Placeholder until we find a way to handle global vars */
     private val ALL_SPELLS = ArrayList<ISpell>()
 
