@@ -9,10 +9,26 @@ interface ISingleTableChooser {
     /** List that is going to be used to populate the table */
     val choiceTable : List<Any>
     /** The selected item */
-    val selectedObject : Any
+    var selectedObject : Any
 
-    /** Not sure if this is the best way to apply the changes */
-    fun applyChanges()
+    /**
+     * Consider finding a better name for "selected".
+     * Can not be object, toBeSelected is too verbose.
+     */
+    fun selectObject(selected: Any) {
+        if(choiceTable.contains(selected)) {
+            selectedObject = selected
+        }
+    }
+
     /** Check if any object is selected */
-    fun canApply() : Boolean
+    fun canApply() : Boolean {
+        if(choiceTable.contains(selectedObject)) {
+            return true
+        }
+        return false
+    }
+
+    /** Override */
+    fun applyChanges()
 }
