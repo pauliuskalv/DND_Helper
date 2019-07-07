@@ -59,9 +59,7 @@ interface IDualTableChooser {
      * It is needed in cases where to few objects are selected
      */
     fun canApply() : Boolean {
-        if(chosenTable.size == selectableObjects)
-            return true
-        return false
+        return chosenTable.size == selectableObjects
     }
 
     fun transfer(transferee : Any) {

@@ -23,10 +23,7 @@ interface ISingleTableChooser {
 
     /** Check if any object is selected */
     fun canApply() : Boolean {
-        if(choiceTable.contains(selectedObject)) {
-            return true
-        }
-        return false
+        return choiceTable.contains(selectedObject)
     }
 
     /** Override */

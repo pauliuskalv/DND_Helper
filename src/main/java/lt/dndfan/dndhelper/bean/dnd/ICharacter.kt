@@ -7,6 +7,7 @@ import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.bean.dnd.stats.ILanguage
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
+import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 interface ICharacter {
     /**
@@ -27,9 +28,9 @@ interface ICharacter {
 
     /**
      * Again, list of all stats should be passed in at a Facade level as ALL_STATS.
-     * TODO: Change this as a pair of stat and a value.
      */
     val allStats: List<IStat>
+    val statPairs: List<Pair<IStat,Int>>
     var level : Int
     var temporaryHitPoints : Int
     var maxHitPoints : Int

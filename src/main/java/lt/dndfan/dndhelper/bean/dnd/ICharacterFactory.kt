@@ -6,11 +6,14 @@ import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpellPool
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.util.collection.IPair
+import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 interface ICharacterFactory {
     fun createCharacter( allStats: List<Stat>,
+                        statPairs: List<Pair<IStat,Int>>,
                         level : Int,
                         armorClass: Int,
                         initiative: Int,
@@ -30,6 +33,7 @@ interface ICharacterFactory {
                         inspirationDie: Int) : ICharacter
 
     fun createPlayableCharacter(allStats: List<Stat>,
+                                statPairs: List<Pair<IStat,Int>>,
                                 level : Int,
                                 armorClass: Int,
                                 initiative: Int,
@@ -44,6 +48,8 @@ interface ICharacterFactory {
                                 traits: List<ITrait>,
                                 abilities: List<IAbility>,
                                 spellModifier: Stat,
+
+                                statPoints: Int,
 
                                 temporaryHitPoints: Int,
                                 maxHitPoints: Int,
@@ -61,6 +67,7 @@ interface ICharacterFactory {
                                 inspirationDie: Int) : IPlayableCharacter
 
     fun createSpellcaster(allStats: List<Stat>,
+                          statPairs: List<Pair<IStat, Int>>,
                           level : Int,
                           armorClass: Int,
                           initiative: Int,
@@ -75,6 +82,8 @@ interface ICharacterFactory {
                           traits: List<ITrait>,
                           abilities: List<IAbility>,
                           spellModifier: Stat,
+
+                          statPoints: Int,
 
                           temporaryHitPoints: Int,
                           maxHitPoints: Int,
