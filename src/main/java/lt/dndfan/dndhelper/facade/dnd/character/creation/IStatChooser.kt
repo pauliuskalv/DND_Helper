@@ -9,7 +9,7 @@ interface IStatChooser {
      */
     val stats : List<Pair<IStat,Int>>
     /** list of stats that are being improved in this menu and the amount */
-    val improvedStats: ArrayList<Pair<IStat,Int>>
+    val improvedStats : ArrayList<Pair<IStat,Int>>
     /** Stat improvement points */
     var statPoints : Int
 
@@ -64,9 +64,6 @@ interface IStatChooser {
 
     /**
      * decrement or increment until the value is reached.
-     * This operation should only be useful during character creation.
-     * TODO: Make the algorithm more efficient.
-     * TODO: Initial character stats using setStat.
      */
     fun setStat(stat: IStat, value: Int) {
         /** Iterate through improvedStats */
