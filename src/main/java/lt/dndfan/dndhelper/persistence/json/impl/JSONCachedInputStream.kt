@@ -2,6 +2,7 @@ package lt.dndfan.dndhelper.persistence.json.impl
 
 import lt.dndfan.dndhelper.persistence.json.IJSONInputStream
 
+/**
 class JSONCachedInputStream(
         override val filename: String
 ) : IJSONInputStream {
@@ -29,3 +30,4 @@ class JSONCachedInputStream(
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 }
+        */

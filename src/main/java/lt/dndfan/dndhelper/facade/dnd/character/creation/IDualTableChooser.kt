@@ -5,14 +5,14 @@ package lt.dndfan.dndhelper.facade.dnd.character.creation
  * Not sure if implementing the transfer functions here is a good idea.
  */
 
-interface IDualTableChooser {
+abstract class IDualTableChooser {
 
     /** Table of possible object choices */
-    val choiceTable : ArrayList<Any>
+    abstract val choiceTable : ArrayList<Any>
     /** Table of chosen objects */
-    val chosenTable : ArrayList<Any>
+    abstract val chosenTable : ArrayList<Any>
     /** Number of items that can be added to the chosenTable */
-    val selectableObjects : Int
+    abstract val selectableObjects : Int
 
     /**
      * Transfer the selected object from choices to the desired choices table.
@@ -80,5 +80,5 @@ interface IDualTableChooser {
      * Should call canApply().
      * Should call addSpell from domain package for example.
      */
-    fun applyChanges()
+    abstract fun applyChanges()
 }
