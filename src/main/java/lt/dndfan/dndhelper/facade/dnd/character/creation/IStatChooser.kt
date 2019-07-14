@@ -103,10 +103,6 @@ interface IStatChooser {
         }
     }
 
-    fun canApply() : Boolean {
-        return statPoints < 0
-    }
-
     /** Override */
     fun applyChanges()
 }

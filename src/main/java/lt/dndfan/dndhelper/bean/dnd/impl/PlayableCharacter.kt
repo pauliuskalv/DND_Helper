@@ -11,11 +11,9 @@ import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.EquipableItem
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.bean.dnd.stats.ISkill
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
-import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 open class PlayableCharacter(
         override val allStats: List<Stat>,
-        override val statPairs: List<Pair<IStat, Int>>,
         override var level : Int,
         override var armorClass: Int,
         override var initiative: Int,
@@ -30,8 +28,6 @@ open class PlayableCharacter(
         override val traits: List<ITrait>,
         override val abilities: List<IAbility>,
         override val spellModifier: Stat,
-
-        override var statPoints: Int,
 
         override var temporaryHitPoints: Int,
         override var maxHitPoints: Int,
@@ -49,7 +45,6 @@ open class PlayableCharacter(
         override var inspirationDie: Int
 ) : IPlayableCharacter,
         Character(allStats,
-                  statPairs,
                   level,
                   armorClass,
                   initiative,

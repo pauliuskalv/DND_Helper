@@ -8,10 +8,10 @@ import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
+
 import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 open class Character(override val allStats: List<Stat>,
-                     override val statPairs: List<Pair<IStat, Int>>,
                      override var level : Int,
                      override var armorClass: Int,
                      override var initiative: Int,

@@ -14,8 +14,6 @@ interface IPlayableCharacter : ICharacter {
     val features : List<IFeature>
     val spellModifier : IStat
 
-    var statPoints : Int
-
     /** Consider reworking since character may not have a subclass */
     val characterClass : String
     val characterSubclass : String

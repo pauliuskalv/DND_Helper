@@ -9,13 +9,11 @@ import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpellPool
-import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.util.collection.IPair
 import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 class Spellcaster(
         override val allStats: List<Stat>,
-        override val statPairs: List<Pair<IStat, Int>>,
         override var level : Int,
         override var armorClass: Int,
         override var initiative: Int,
@@ -30,8 +28,6 @@ class Spellcaster(
         override val traits: List<ITrait>,
         override val abilities: List<IAbility>,
         override val spellModifier: Stat,
-
-        override var statPoints: Int,
 
         override var temporaryHitPoints: Int,
         override var maxHitPoints: Int,
@@ -58,7 +54,6 @@ class Spellcaster(
         override var inspirationDie: Int
 ) : PlayableCharacter(
         allStats,
-        statPairs,
         level,
         armorClass,
         initiative,
@@ -73,8 +68,6 @@ class Spellcaster(
         traits,
         abilities,
         spellModifier,
-
-        statPoints,
 
         temporaryHitPoints,
         maxHitPoints,
