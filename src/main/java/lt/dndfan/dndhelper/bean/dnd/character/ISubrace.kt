@@ -12,4 +12,6 @@ interface ISubrace {
      */
     val race : String
     val bonuses : List<IBonus>
+
+    val traitList : List<ITrait>
 }

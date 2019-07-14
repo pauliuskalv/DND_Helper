@@ -8,6 +8,7 @@ interface ISubraceFactory {
     fun createSubrace(name: String,
                       description: String,
                       race: String,
-                      bonuses: List<IBonus>
+                      bonuses: List<IBonus>,
+                      traitList : List<ITrait>
     ) : Subrace
 }

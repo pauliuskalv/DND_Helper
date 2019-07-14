@@ -7,5 +7,6 @@ import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 class Subrace(override val name: String,
               override val description: String,
               override val race: String,
-              override val bonuses: List<IBonus>
-              ) : ISubrace
+              override val bonuses: List<IBonus>,
+              override val traitList: List<ITrait>
+) : ISubrace
