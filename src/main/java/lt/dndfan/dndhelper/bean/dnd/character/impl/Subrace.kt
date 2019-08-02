@@ -8,5 +8,5 @@ class Subrace(override val name: String,
               override val description: String,
               override val race: String,
               override val bonuses: List<IBonus>,
-              override val traits: List<ITrait>
-              ) : ISubrace
+              override val traitList: List<ITrait>
+) : ISubrace

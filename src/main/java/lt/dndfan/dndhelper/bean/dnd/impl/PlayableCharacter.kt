@@ -3,9 +3,9 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.EquipableItem
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
@@ -14,6 +14,7 @@ import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 
 open class PlayableCharacter(
         override val allStats: List<Stat>,
+        override var level : Int,
         override var armorClass: Int,
         override var initiative: Int,
         override var speed: Int,
@@ -24,7 +25,7 @@ open class PlayableCharacter(
         override var currentHitDice: Int,
         override val name: String,
         override val description: String,
-        override val traits: List<String>,
+        override val traits: List<ITrait>,
         override val abilities: List<IAbility>,
         override val spellModifier: Stat,
 
@@ -44,6 +45,7 @@ open class PlayableCharacter(
         override var inspirationDie: Int
 ) : IPlayableCharacter,
         Character(allStats,
+                  level,
                   armorClass,
                   initiative,
                   speed,
@@ -63,9 +65,9 @@ open class PlayableCharacter(
                   inspirationDie
         ) {
 
-    private val equipedItemList : ArrayList<EquipableItem> = ArrayList()
+    private val equippedItemList : ArrayList<EquipableItem> = ArrayList()
     override val characterEquipment : List<EquipableItem>
-    get() = equipedItemList
+    get() = equippedItemList
 
     private val personalityTraitList : ArrayList<String> = ArrayList()
     override val personalityTraits: List<String>
@@ -102,12 +104,12 @@ open class PlayableCharacter(
     private val bonusList : ArrayList<IBonus> = ArrayList()
 
     override fun equipItem(item : EquipableItem){
-        equipedItemList.add(item)
+        equippedItemList.add(item)
     }
 
     override fun unequipItem(item : EquipableItem){
-        if(equipedItemList.contains(item))
-            equipedItemList.remove(item)
+        if(equippedItemList.contains(item))
+            equippedItemList.remove(item)
     }
 
     override fun addPersonalityTrait(trait: String) {

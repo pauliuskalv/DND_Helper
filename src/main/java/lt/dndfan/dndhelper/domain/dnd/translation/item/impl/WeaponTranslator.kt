@@ -2,7 +2,7 @@ package lt.dndfan.dndhelper.domain.dnd.translation.item.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
@@ -12,7 +12,8 @@ class WeaponTranslator : IItemTranslator {
     private val itemFactory = ItemFactory()
 
     val bonusList: ArrayList<IBonus> = ArrayList()
-    val minimumStatList: ArrayList<Pair<Stat, Int>> = ArrayList()
+    val minimumStatList: ArrayList<Pair<IStat, Int>> = ArrayList()
+    /** Consider not using MutableMap. */
     val attributes: MutableMap<String, Any> = mutableMapOf()
     val tags: ArrayList<String> = ArrayList()
 
@@ -32,7 +33,6 @@ class WeaponTranslator : IItemTranslator {
                 args["weight"] as Double,
                 false,
                 bonusList,
-                args["equipment_category"] as EItemType,
                 minimumStatList,
                 (args["cost"] as Map<String, Any>)["quantity"] as Int,
                 tags,

@@ -7,7 +7,11 @@ interface ISubrace {
     val name : String
     val description : String
 
+    /**
+     * Parent race.
+     */
     val race : String
     val bonuses : List<IBonus>
-    val traits : List<ITrait>
+
+    val traitList : List<ITrait>
 }

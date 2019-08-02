@@ -9,16 +9,12 @@ import lt.dndfan.dndhelper.util.collection.IPair
 interface IEquipableItem : IItem {
     val attunable : Boolean
     val bonusList : List<IBonus>
-    val category : EItemType
 
+    /** TODO: Change Pair List into Map. */
     val requiredStats : List<IPair<IStat,Int>>
 
+    /** TODO: Remove this. Everything should be done with bonuses. */
     val attributes : Map<String, Any>
-
-    /**
-     * Value in copper
-     */
-    val value : Int
 
     val tags : List<String>
 }

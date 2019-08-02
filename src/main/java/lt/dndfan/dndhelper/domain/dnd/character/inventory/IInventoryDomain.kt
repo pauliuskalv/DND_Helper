@@ -9,6 +9,9 @@ interface IInventoryDomain {
 
     /** Inventory */
     fun getItems(inventory : ICharacterInventory) : List<IItem>
+    fun getUnequippedItems(inventory : ICharacterInventory, equippedItems : List<IItem>) : List<IItem>
+    fun getItemsByName(inventory : ICharacterInventory, name : String) : List<IItem>
+    /** Consider adding a differential field to allow for approximate value */
     fun getItemsByValue(inventory : ICharacterInventory, value : Int) : List<IItem>
     fun getItemsByType(inventory : ICharacterInventory, type : EItemType) : List<IItem>
     fun getItemsByDescription(inventory : ICharacterInventory, desc : String) : List<IItem>

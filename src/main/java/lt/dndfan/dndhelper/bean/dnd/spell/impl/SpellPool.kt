@@ -5,6 +5,7 @@ import lt.dndfan.dndhelper.bean.dnd.spell.ISpellPool
 import lt.dndfan.dndhelper.bean.dnd.spell.exception.SpellNotFoundException
 
 class SpellPool : ISpellPool {
+
     private val spellList : HashMap<String, ISpell> = HashMap()
     private val preparedSpells : ArrayList<ISpell> = ArrayList()
 
@@ -15,6 +16,19 @@ class SpellPool : ISpellPool {
         }
 
         throw SpellNotFoundException()
+    }
+
+    /** TODO: Find a more reasonable way to get all spells */
+    override fun getAllSpells(): List<ISpell> {
+        return spellList.values as List<ISpell>
+    }
+
+    override fun getAllSpellNames(): List<String> {
+        return spellList.keys as List<String>
+    }
+
+    override fun getPreparedSpells(): List<ISpell> {
+        return preparedSpells
     }
 
     override fun addSpell(spell: ISpell) {
@@ -30,7 +44,7 @@ class SpellPool : ISpellPool {
             preparedSpells.add(spell)
     }
 
-    override fun unprepareSpell(spell: ISpell) {
+    override fun unPrepareSpell(spell: ISpell) {
         if (preparedSpells.contains(spell))
             preparedSpells.remove(spell)
     }

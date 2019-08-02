@@ -8,9 +8,9 @@ import lt.dndfan.dndhelper.util.collection.IPair
 
 class EquipableItem(override val attunable: Boolean,
                     override val bonusList: List<IBonus>,
-                    override val category: EItemType,
                     override val requiredStats: List<IPair<IStat, Int>>,
                     override val value: Int,
+                    override val type : EItemType,
                     override val tags: List<String>,
                     override var count: Int,
                     override val name: String,

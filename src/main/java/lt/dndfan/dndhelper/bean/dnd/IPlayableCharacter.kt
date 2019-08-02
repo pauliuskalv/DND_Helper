@@ -14,9 +14,11 @@ interface IPlayableCharacter : ICharacter {
     val features : List<IFeature>
     val spellModifier : IStat
 
+    /** Consider reworking since character may not have a subclass */
     val characterClass : String
     val characterSubclass : String
 
+    /** Consider reworking since character may not have a subclass (Dragonborn) */
     val race : String
     val subrace : String
 
@@ -26,6 +28,7 @@ interface IPlayableCharacter : ICharacter {
     val flaws : List<String>
 
     val characterInventory : ICharacterInventory
+    /** Consider changing to a map to allow for equipment slots. */
     val characterEquipment : List<IEquipableItem>
 
     fun addPersonalityTrait(trait : String)

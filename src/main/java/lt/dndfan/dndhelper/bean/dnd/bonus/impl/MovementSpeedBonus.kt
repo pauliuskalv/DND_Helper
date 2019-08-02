@@ -8,6 +8,10 @@ class MovementSpeedBonus(
     override val origin: String,
     private val value : Int
 ) : AbstractBonus(bonusName, description, origin) {
+    /**
+     * This bonus should be used to modify character`s movement speed from it`s base value (30).
+     */
+
     override fun applyBonus(character: IPlayableCharacter) {
         character.speed = character.speed + value
     }

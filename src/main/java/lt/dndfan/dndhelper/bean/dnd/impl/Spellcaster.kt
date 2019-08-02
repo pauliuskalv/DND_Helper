@@ -3,6 +3,7 @@ package lt.dndfan.dndhelper.bean.dnd.impl
 import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellSlot
+import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.spell.IAbility
@@ -13,6 +14,7 @@ import lt.dndfan.dndhelper.util.collection.impl.Pair
 
 class Spellcaster(
         override val allStats: List<Stat>,
+        override var level : Int,
         override var armorClass: Int,
         override var initiative: Int,
         override var speed: Int,
@@ -23,7 +25,7 @@ class Spellcaster(
         override var currentHitDice: Int,
         override val name: String,
         override val description: String,
-        override val traits: List<String>,
+        override val traits: List<ITrait>,
         override val abilities: List<IAbility>,
         override val spellModifier: Stat,
 
@@ -52,6 +54,7 @@ class Spellcaster(
         override var inspirationDie: Int
 ) : PlayableCharacter(
         allStats,
+        level,
         armorClass,
         initiative,
         speed,

@@ -8,6 +8,10 @@ class AbilityBonus(override val bonusName : String,
                  override val origin : String,
                  private val ability : IAbility
                  ) : AbstractBonus(bonusName, description, origin) {
+    /**
+    * This bonus should be used for all active abilities that the character possesses.
+    */
+
     override fun applyBonus(character: IPlayableCharacter) {
         character.addAbility(ability)
     }

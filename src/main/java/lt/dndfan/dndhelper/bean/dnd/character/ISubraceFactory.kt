@@ -9,6 +9,6 @@ interface ISubraceFactory {
                       description: String,
                       race: String,
                       bonuses: List<IBonus>,
-                      traits: List<ITrait>
+                      traitList : List<ITrait>
     ) : Subrace
 }

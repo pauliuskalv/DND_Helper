@@ -9,6 +9,7 @@ interface ISpellcaster : IPlayableCharacter {
     var spellsKnown : Int
     var cantripsKnown : Int
 
+    /** TODO: Replace this abomination with map */
     val spellSlots : List<IPair<ESpellSlot, Int>>
     val spellPool : ISpellPool
 

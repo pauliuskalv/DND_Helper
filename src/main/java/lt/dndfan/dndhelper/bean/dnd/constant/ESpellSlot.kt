@@ -1,10 +1,5 @@
 package lt.dndfan.dndhelper.bean.dnd.constant
 
-/**
- * value is the field in JSON that represents the
- *  spellcaster slot count for the specific
- *  spellcaster slot level
- */
 enum class ESpellSlot(val field : String, val value : Int) {
     CANTRIP("cantrips_known", 0),
     LEVEL_1("spell_slots_level_1", 1),

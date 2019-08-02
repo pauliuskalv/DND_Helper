@@ -1,7 +1,7 @@
 package lt.dndfan.dndhelper.domain.dnd.translation.feature.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.feature.impl.BasicFeatureFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.feature.IFeatureTranslator
@@ -11,7 +11,8 @@ class FeatureTranslator : IFeatureTranslator {
     override fun translate(args: Map<String, Any>): IFeature {
         val featureFactory = BasicFeatureFactory()
         val bonusList = ArrayList<IBonus>()
-        val validStats = ArrayList<IPair<Stat,Int>>()
+        /** TODO: Change pair list to Map. */
+        val validStats = ArrayList<IPair<IStat,Int>>()
 
         /**
          *  Assuming same syntax as Features.json

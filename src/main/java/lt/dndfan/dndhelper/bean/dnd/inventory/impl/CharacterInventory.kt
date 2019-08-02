@@ -12,6 +12,10 @@ class CharacterInventory : ICharacterInventory {
         else -> throw ItemNotFoundException()
     }
 
+    override fun getAllItems(): List<IItem> {
+        return itemList.values as List<IItem>
+    }
+
     override fun addItem(item: IItem) = when(itemList.containsKey(item.name)) {
         true -> itemList[item.name]!!.count += item.count
         else -> itemList[item.name] = item

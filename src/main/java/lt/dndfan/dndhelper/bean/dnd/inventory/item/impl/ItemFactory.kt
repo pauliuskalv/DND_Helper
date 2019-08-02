@@ -10,13 +10,17 @@ class ItemFactory : IItemFactory {
     override fun createItem(name: String,
                             description: String,
                             weight: Double,
-                            magical: Boolean): IItem {
+                            magical: Boolean,
+                            value: Int,
+                            type : EItemType): IItem {
         return Item(
                 1,
                 name,
                 description,
                 magical,
-                weight
+                weight,
+                value,
+                type
                 )
     }
 
@@ -25,18 +29,18 @@ class ItemFactory : IItemFactory {
                                      weight: Double,
                                      attunable: Boolean,
                                      bonusList: List<IBonus>,
-                                     category: EItemType,
                                      requiredStats: List<IPair<IStat, Int>>,
                                      value: Int,
+                                     type : EItemType,
                                      magical: Boolean,
                                      attributes: Map<String, Any>,
                                      tags: List<String>): EquipableItem {
         return EquipableItem(
                 attunable,
                 bonusList,
-                category,
                 requiredStats,
                 value,
+                type,
                 tags,
                 1,
                 name,
@@ -52,7 +56,6 @@ class ItemFactory : IItemFactory {
                               weight: Double,
                               attunable: Boolean,
                               bonusList: List<IBonus>,
-                              category: EItemType,
                               requiredStats: List<IPair<IStat, Int>>,
                               value: Int,
                               tags: List<String>,
@@ -69,7 +72,6 @@ class ItemFactory : IItemFactory {
                 damageType,
                 attunable,
                 bonusList,
-                category,
                 requiredStats,
                 value,
                 tags,
@@ -88,7 +90,6 @@ class ItemFactory : IItemFactory {
                                        weight: Double,
                                        attunable: Boolean,
                                        bonusList: List<IBonus>,
-                                       category: EItemType,
                                        requiredStats: List<IPair<IStat, Int>>,
                                        value: Int,
                                        tags: List<String>,
@@ -109,7 +110,6 @@ class ItemFactory : IItemFactory {
                 damageType,
                 attunable,
                 bonusList,
-                category,
                 requiredStats,
                 value,
                 tags,
