@@ -12,14 +12,16 @@ import lt.dndfan.dndhelper.util.collection.impl.Pair
  */
 
 class StatsChooser(val character: IPlayableCharacter) : IStatChooser {
-    override var statPoints = character.statPoints
-    override val stats = character.statPairs
+    override var statPoints: Int = 0 // = character.statPoints
     override val improvedStats = ArrayList<Pair<IStat, Int>>()
 
     override fun applyChanges() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        /**
         if(canApply()) {
             /** TODO: Implement character.changeStat() */
             //character.changeStat(improvedStats)
         }
+        */
     }
 }

@@ -11,7 +11,8 @@ import lt.dndfan.dndhelper.facade.dnd.character.overview.ISingleListFacade
 
 class Personality (
         val character : IPlayableCharacter,
-        personalityDomain : PersonalityDomain
+        personalityDomain : PersonalityDomain,
+        override val title: String
 ) : ISingleListFacade
 {
     override val list = listOf(

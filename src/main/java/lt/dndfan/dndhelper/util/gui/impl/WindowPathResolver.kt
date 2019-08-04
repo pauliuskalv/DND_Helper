@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component
 
 @Component
 class WindowPathResolver : IWindowPathResolver {
-    private var windowDefinitions : JSONArray = JSONArray(javaClass.getResource("/gui/names.config"))
+    private var windowDefinitions : JSONArray = JSONArray(javaClass.getResource("/gui/names.config").readText())
 
     override fun resolveToPath(name: String) : String {
         return (windowDefinitions.find {

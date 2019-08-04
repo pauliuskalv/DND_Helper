@@ -9,5 +9,6 @@ import lt.dndfan.dndhelper.facade.dnd.character.overview.ISingleListFacade
  */
 
 class Stats (
-    override val list : List<String>
+        override val list : List<String>,
+        override val title: String
 ) : ISingleListFacade

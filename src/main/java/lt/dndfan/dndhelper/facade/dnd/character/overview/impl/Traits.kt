@@ -9,6 +9,7 @@ import lt.dndfan.dndhelper.facade.dnd.character.overview.ISingleListFacade
  */
 
 class Traits (
-        override val list : List<String>
+        override val list : List<String>,
+        override val title: String
 ) : ISingleListFacade
 {}

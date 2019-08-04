@@ -19,7 +19,7 @@ class WindowLoader : IWindowLoader {
     private val loader : FXMLLoader = FXMLLoader()
 
     init {
-        loader.setControllerFactory(context::getBean)
+        loader.setControllerFactory { context }
     }
 
     override fun getWindow(name: String): Window {

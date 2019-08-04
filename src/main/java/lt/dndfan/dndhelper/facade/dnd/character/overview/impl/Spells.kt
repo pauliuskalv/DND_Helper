@@ -10,8 +10,9 @@ import lt.dndfan.dndhelper.facade.dnd.character.overview.ISingleListFacade
  */
 
 class Spells (
-    spellDomain: SpellDomain,
-    character : ISpellcaster
+        spellDomain: SpellDomain,
+        character : ISpellcaster,
+        override val title: String
 ) : ISingleListFacade
 {
     override val list = spellDomain.getCharacterSpellNames(character)
