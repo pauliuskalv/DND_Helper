@@ -2,7 +2,10 @@ package lt.dndfan.dndhelper.util.gui.impl
 
 import javafx.fxml.FXMLLoader
 import javafx.scene.Parent
+import javafx.stage.Stage
+import javafx.util.Callback
 import lt.dndfan.dndhelper.util.gui.IController
+import lt.dndfan.dndhelper.util.gui.IWindow
 import lt.dndfan.dndhelper.util.gui.IWindowLoader
 import lt.dndfan.dndhelper.util.gui.IWindowPathResolver
 import org.springframework.beans.factory.annotation.Autowired
@@ -16,17 +19,11 @@ class WindowLoader : IWindowLoader {
     @Autowired
     private lateinit var resolver : IWindowPathResolver
 
-    private val loader : FXMLLoader = FXMLLoader()
-
-    init {
-        loader.setControllerFactory { context }
-    }
-
-    override fun getWindow(name: String): Window {
+    override fun getWindow(name: String): IWindow {
         return createWindowFromPath(resolver.resolveToPath(name))
     }
 
-    override fun getWindow(name: String, parameters: Map<String, Any>): Window {
+    override fun getWindow(name: String, parameters: Map<String, Any>): IWindow {
         val window = createWindowFromPath(resolver.resolveToPath(name))
         window.setParameters(parameters)
 
@@ -34,11 +31,19 @@ class WindowLoader : IWindowLoader {
     }
 
     private fun createWindowFromPath(path : String) : Window {
+        val loader = createFXMLLoader(path)
         val layout = loader.load<Parent>(javaClass.getResource(path).openStream())
         val window = Window(layout)
 
         window.setController(loader.getController() as IController)
 
         return window
+    }
+
+    private fun createFXMLLoader(path : String) : FXMLLoader {
+        val loader = FXMLLoader(javaClass.getResource(path))
+        loader.controllerFactory = Callback<Class<*>, Any> { context.getBean(it) }
+
+        return loader
     }
 }

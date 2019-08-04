@@ -8,4 +8,6 @@ interface IWindow {
 
     fun render()
     fun renderAndWait()
+
+    fun close()
 }

@@ -42,6 +42,8 @@ class Window(mainLayout : Parent) : IWindow, Stage() {
         showAndWait()
     }
 
+    override fun close() = super.close()
+
     private fun parseArguments() {
         if (params.containsKey("height"))
             this.height = params["height"].toString().toDouble()

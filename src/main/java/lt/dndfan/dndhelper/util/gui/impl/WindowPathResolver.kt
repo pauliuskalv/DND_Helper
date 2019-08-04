@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component
 
 @Component
 class WindowPathResolver : IWindowPathResolver {
-    private var windowDefinitions : JSONArray = JSONArray(javaClass.getResource("/gui/names.config").readText())
+    private var windowDefinitions : JSONArray = JSONArray(javaClass.getResource("/gui/windows.config").readText())
 
     override fun resolveToPath(name: String) : String {
         return (windowDefinitions.find {
@@ -19,5 +19,17 @@ class WindowPathResolver : IWindowPathResolver {
         return (windowDefinitions.find {
             s -> (s as JSONObject).getString("qualifier") == name
         } as JSONObject)["name"] as String
+    }
+
+    override fun resolveToWindowWidth(name: String): Double {
+        return ((windowDefinitions.find {
+            s -> (s as JSONObject).getString("qualifier") == name
+        } as JSONObject)["width"] as Int).toDouble()
+    }
+
+    override fun resolveToWindowHeight(name: String): Double {
+        return ((windowDefinitions.find {
+            s -> (s as JSONObject).getString("qualifier") == name
+        } as JSONObject)["width"] as Int).toDouble()
     }
 }
