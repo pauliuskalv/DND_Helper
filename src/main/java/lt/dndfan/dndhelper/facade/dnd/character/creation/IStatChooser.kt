@@ -7,7 +7,6 @@ interface IStatChooser {
     /**
      * TODO: Find a way to generate starting stats.
      */
-    val stats : List<Pair<IStat,Int>>
     /** list of stats that are being improved in this menu and the amount */
     val improvedStats: ArrayList<Pair<IStat,Int>>
     /** Stat improvement points */
@@ -24,6 +23,8 @@ interface IStatChooser {
                 }
             }
             /** Iterate through character stat pairs */
+            TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+            /**
             for (pair in stats) {
                 if (pair.key == stat) {
                     /** Add a new pair to improvedStats */
@@ -32,6 +33,7 @@ interface IStatChooser {
                     return
                 }
             }
+            */
         } else {
             /** TODO: Let the user know that they do not have enough stat points */
         }
@@ -43,6 +45,7 @@ interface IStatChooser {
                 if(improvedPair.key == stat) {
                     improvedPair.value--
                     /** Check if the stat is back to the original value */
+                    /**
                     for (pair in stats) {
                         if(pair.key == stat) {
                             /** Is the improved stat value the same as it was originally? */
@@ -53,6 +56,7 @@ interface IStatChooser {
                             }
                         }
                     }
+                    */
                     statPoints++
                     return
                 }
@@ -87,6 +91,7 @@ interface IStatChooser {
                 return
             }
         }
+        /**
         for (pair in stats) {
             if(pair.key == stat) {
                 /** The stat is to be improved */
@@ -104,6 +109,7 @@ interface IStatChooser {
                 return
             }
         }
+        */
     }
 
     /** Override */

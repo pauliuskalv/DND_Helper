@@ -10,7 +10,7 @@ import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
  */
 class StartingItemsChooser (override val choiceTable: ArrayList<Any>,
                             override val selectableObjects: Int,
-                            val inventory: ICharacterInventory) : IDualTableChooser {
+                            val inventory: ICharacterInventory) : IDualTableChooser() {
     override val chosenTable = ArrayList<Any>()
 
     override fun applyChanges() {

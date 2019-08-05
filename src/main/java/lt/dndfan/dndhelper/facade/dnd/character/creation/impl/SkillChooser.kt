@@ -7,5 +7,10 @@ import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
  * This should be dual table chooser, because characters learn more than a single skill at a time in most cases.
  */
 
-class SkillChooser : IDualTableChooser {
+class SkillChooser(override val choiceTable: ArrayList<Any>,
+                   override val chosenTable: ArrayList<Any>,
+                   override val selectableObjects: Int) : IDualTableChooser() {
+    override fun applyChanges() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 }

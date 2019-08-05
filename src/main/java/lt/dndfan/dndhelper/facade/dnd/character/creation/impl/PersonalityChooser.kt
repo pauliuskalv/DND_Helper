@@ -7,5 +7,10 @@ import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
  * Facade providing the info required to choose a character`s personality when creating character.
  */
 
-class PersonalityChooser : IDualTableChooser {
+class PersonalityChooser(override val choiceTable: ArrayList<Any>,
+                         override val chosenTable: ArrayList<Any>,
+                         override val selectableObjects: Int) : IDualTableChooser() {
+    override fun applyChanges() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 }
