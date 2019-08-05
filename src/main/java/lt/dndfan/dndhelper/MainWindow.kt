@@ -1,33 +1,31 @@
 package lt.dndfan.dndhelper
 
 import javafx.application.Application
-import javafx.fxml.FXMLLoader
-import javafx.scene.Parent
 import javafx.stage.Stage
-import javafx.scene.Scene
-import javafx.util.Callback
+import lt.dndfan.dndhelper.util.gui.IWindowLoader
+import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.AnnotationConfigApplicationContext
+import org.springframework.stereotype.Component
+import javax.annotation.PostConstruct
 
 fun main(args: Array<String>) {
     Application.launch(*args)
 }
 
+@Component
 class MainWindow : Application() {
+    @Autowired
+    private lateinit var windowLoader : IWindowLoader
+
     @Throws(Exception::class)
     override fun start(primaryStage: Stage) {
         val context = AnnotationConfigApplicationContext()
         context.register(AppConfig::class.java)
         context.refresh()
+    }
 
-        // Hook OpenJFX to Spring and load main window
-        val loader = FXMLLoader(context.javaClass.getResource("/gui/MainMenu.fxml"))
-        loader.controllerFactory = Callback<Class<*>, Any> { context.getBean(it) }
-
-        primaryStage.scene = Scene(loader.load<Parent>())
-
-        primaryStage.width = 600.toDouble()
-        primaryStage.height = 400.toDouble()
-
-        primaryStage.show()
+    @PostConstruct
+    private fun postConstructApplication() {
+        windowLoader.getWindow("main_menu").render()
     }
 }

@@ -45,10 +45,18 @@ class Window(mainLayout : Parent) : IWindow, Stage() {
     override fun close() = super.close()
 
     private fun parseArguments() {
+        if (params.containsKey("title"))
+            this.title = params["title"].toString()
+
         if (params.containsKey("height"))
             this.height = params["height"].toString().toDouble()
         if (params.containsKey("width"))
             this.width = params["width"].toString().toDouble()
+
+        if (params.containsKey("min_height"))
+            this.minHeight = params["min_height"].toString().toDouble()
+        if (params.containsKey("min_width"))
+            this.minWidth = params["min_width"].toString().toDouble()
 
         // TODO: Parse more arguments
     }

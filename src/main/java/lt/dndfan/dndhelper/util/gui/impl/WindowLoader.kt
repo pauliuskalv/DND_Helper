@@ -20,7 +20,20 @@ class WindowLoader : IWindowLoader {
     private lateinit var resolver : IWindowPathResolver
 
     override fun getWindow(name: String): IWindow {
-        return createWindowFromPath(resolver.resolveToPath(name))
+        val window = createWindowFromPath(resolver.resolveToPath(name))
+
+        // Get default parameters for window from resolver
+        val args = HashMap<String, Any>()
+
+        args["title"] = resolver.resolveToWindowTitle(name)
+        args["width"] = resolver.resolveToWindowWidth(name)
+        args["height"] = resolver.resolveToMinWindowHeight(name)
+        args["min_width"] = resolver.resolveToMinWindowWidth(name)
+        args["min_height"] = resolver.resolveToMinWindowHeight(name)
+
+        window.setParameters(args)
+
+        return window
     }
 
     override fun getWindow(name: String, parameters: Map<String, Any>): IWindow {

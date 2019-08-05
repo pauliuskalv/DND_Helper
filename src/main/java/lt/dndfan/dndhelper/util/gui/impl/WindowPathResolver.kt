@@ -15,6 +15,12 @@ class WindowPathResolver : IWindowPathResolver {
         } as JSONObject)["path"] as String
     }
 
+    override fun resolveToWindowTitle(name: String): String {
+        return (windowDefinitions.find {
+            s -> (s as JSONObject).getString("qualifier") == name
+        } as JSONObject)["title"] as String
+    }
+
     override fun resolveToWindowName(name: String): String {
         return (windowDefinitions.find {
             s -> (s as JSONObject).getString("qualifier") == name
@@ -31,5 +37,17 @@ class WindowPathResolver : IWindowPathResolver {
         return ((windowDefinitions.find {
             s -> (s as JSONObject).getString("qualifier") == name
         } as JSONObject)["width"] as Int).toDouble()
+    }
+
+    override fun resolveToMinWindowWidth(name: String): Double {
+        return ((windowDefinitions.find {
+            s -> (s as JSONObject).getString("qualifier") == name
+        } as JSONObject)["min_width"] as Int).toDouble()
+    }
+
+    override fun resolveToMinWindowHeight(name: String): Double {
+        return ((windowDefinitions.find {
+            s -> (s as JSONObject).getString("qualifier") == name
+        } as JSONObject)["min_height"] as Int).toDouble()
     }
 }
