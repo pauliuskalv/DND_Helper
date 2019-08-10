@@ -4,22 +4,27 @@ import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
+import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItemFactory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
 import lt.dndfan.dndhelper.util.collection.IPair
 import lt.dndfan.dndhelper.util.collection.impl.Pair
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
+@Component("ThrowableWeaponTranslator")
 class ThrowableWeaponTranslator : IItemTranslator {
-    private val itemFactory = ItemFactory()
-
-    val bonusList: ArrayList<IBonus> = ArrayList()
-    /** TODO: Change pair list to map. */
-    val minimumStatList: ArrayList<IPair<IStat, Int>> = ArrayList()
-    val attributes: MutableMap<String, Any> = mutableMapOf()
-    val tags: ArrayList<String> = ArrayList()
+    @Autowired
+    private lateinit var itemFactory : IItemFactory
 
     override fun translate(args: Map<String, Any>): IItem {
+        val bonusList: ArrayList<IBonus> = ArrayList()
+        /** TODO: Change pair list to map. */
+        val minimumStatList: ArrayList<IPair<IStat, Int>> = ArrayList()
+        val attributes: MutableMap<String, Any> = mutableMapOf()
+        val tags: ArrayList<String> = ArrayList()
+
         tags.add(args["equipment_category"] as String)
         tags.add(args["weapon_category"] as String)
         tags.add("Throwable")

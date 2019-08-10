@@ -5,7 +5,9 @@ import lt.dndfan.dndhelper.bean.dnd.bonus.IBonusFactory
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Language
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
+import org.springframework.stereotype.Component
 
+@Component("BackgroundBonusFactory")
 class BackgroundBonusFactory : IBonusFactory {
     private val dummyBonus : IBonus = BackgroundBonus(
             "Dummy background bonus",

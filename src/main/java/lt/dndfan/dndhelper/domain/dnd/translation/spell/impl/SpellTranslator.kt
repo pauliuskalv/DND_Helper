@@ -3,14 +3,18 @@ package lt.dndfan.dndhelper.domain.dnd.translation.spell.impl
 import lt.dndfan.dndhelper.bean.dnd.spell.impl.MagicSchool
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
-import lt.dndfan.dndhelper.bean.dnd.spell.impl.SpellFactory
+import lt.dndfan.dndhelper.bean.dnd.spell.ISpellFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.spell.ISpellTranslator
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
+@Component
 class SpellTranslator : ISpellTranslator {
     /**
      *   "ALL_MAGIC_SCHOOLS" needs to be passed in at facade
      */
-    private val spellFactory = SpellFactory()
+    @Autowired
+    private lateinit var spellFactory : ISpellFactory
 
     override fun translate(args: Map<String, Any>): ISpell {
         var magicSchool = MagicSchool("","")

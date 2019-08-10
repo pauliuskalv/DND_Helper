@@ -1,23 +1,35 @@
 package lt.dndfan.dndhelper.domain.dnd.translation.character.impl
 
+import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
+import lt.dndfan.dndhelper.bean.dnd.bonus.IBonusFactory
 import lt.dndfan.dndhelper.bean.dnd.bonus.impl.StatBonus
 import lt.dndfan.dndhelper.bean.dnd.bonus.impl.StatBonusFactory
+import lt.dndfan.dndhelper.bean.dnd.character.ISubrace
+import lt.dndfan.dndhelper.bean.dnd.character.ISubraceFactory
 import lt.dndfan.dndhelper.bean.dnd.character.impl.Subrace
 import lt.dndfan.dndhelper.bean.dnd.character.impl.SubraceFactory
 import lt.dndfan.dndhelper.bean.dnd.feature.impl.Trait
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.domain.dnd.translation.character.ISubraceTranslator
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.beans.factory.annotation.Qualifier
+import org.springframework.stereotype.Component
 
+@Component
 class SubraceTranslator : ISubraceTranslator {
     /**
+     * TODO
      *   "ALL_TRAITS" and "ALL_STATS" are list of all stats or traits that are added to args at the facade
      */
+    @Autowired
+    private lateinit var subraceFactory : ISubraceFactory
 
-    private val subraceFactory = SubraceFactory()
-    private val statBonusFactory = StatBonusFactory()
+    @Autowired
+    @Qualifier("StatBonusFactory")
+    private lateinit var statBonusFactory : IBonusFactory
 
-    override fun translate(args: Map<String, Any>): Subrace {
-        val statBonuses = ArrayList<StatBonus>()
+    override fun translate(args: Map<String, Any>): ISubrace {
+        val statBonuses = ArrayList<IBonus>()
 
         for ((statNumber, stat) in (args["ALL_STATS"] as List<Stat>).withIndex()) {
             val statMap: Map<String, Any> = mapOf(

@@ -88,13 +88,6 @@
             <artifactId>javafx-fxml</artifactId>
             <version>${openjfx.version}</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-graphics -->
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-graphics</artifactId>
-            <version>${openjfx.version}</version>
-        </dependency>
     </dependencies>
 
     <build>

@@ -4,9 +4,11 @@ import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
 import lt.dndfan.dndhelper.domain.dnd.character.inventory.IInventoryDomain
+import org.springframework.stereotype.Component
 import java.io.UncheckedIOException
 import java.lang.Exception
 
+@Component
 class InventoryDomain : IInventoryDomain {
     override fun getItem(inventory: ICharacterInventory, name: String): IItem {
         return inventory.getItem(name)
@@ -69,15 +71,10 @@ class InventoryDomain : IInventoryDomain {
     }
 
     override fun getItemsByTags(inventory: ICharacterInventory, vararg tags: String): List<IItem> {
-        val matchedList = ArrayList<IItem>()
-        /** No need for contains check since the matchedList is empty */
-        try {
-            matchedList.addAll(getItemsByType(inventory, tags.toString() as EItemType))
-        }
-        /** Not sure if this is ClassCastException or TypeCastException */
-        catch(e : ClassCastException) {
-            /** Do nothing, this is expected to happen quite a lot */
-        }
+        var matchedList = ArrayList<IItem>()
+        for (tag in tags)
+            matchedList.addAll(getItemsByType(inventory, EItemType.valueOf(tag)))
+
         for(item in inventory.getAllItems()) {
             if(!matchedList.contains(item)) {
                 /** Check for "Magical" tag */
@@ -102,6 +99,10 @@ class InventoryDomain : IInventoryDomain {
                 }
             }
         }
+
+        // Remove duplicates
+        matchedList = matchedList.distinct() as ArrayList<IItem>
+
         return matchedList
     }
 }

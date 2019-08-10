@@ -2,7 +2,9 @@ package lt.dndfan.dndhelper.bean.dnd.bonus.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonusFactory
+import org.springframework.stereotype.Component
 
+@Component("InitiativeBonusFactory")
 class InitiativeBonusFactory : IBonusFactory {
     val dummyBonus : IBonus = InitiativeBonus(
             "Dummy bonus",

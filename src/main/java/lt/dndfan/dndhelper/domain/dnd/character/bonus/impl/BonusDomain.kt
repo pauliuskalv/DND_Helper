@@ -1,55 +1,70 @@
 package lt.dndfan.dndhelper.domain.dnd.character.bonus.impl
 
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
+import lt.dndfan.dndhelper.bean.dnd.bonus.IBonusFactory
 import lt.dndfan.dndhelper.bean.dnd.bonus.impl.*
 import lt.dndfan.dndhelper.bean.dnd.stats.ISkill
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.domain.dnd.character.bonus.IBonusDomain
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.beans.factory.annotation.Qualifier
+import org.springframework.stereotype.Component
 
+@Component
 class BonusDomain : IBonusDomain {
-    override fun createAbilityBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = AbilityBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("AbilityBonusFactory")
+    private lateinit var abilityBonusFactory : IBonusFactory
 
-    override fun createArmorClassBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = ArmorClassBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("ArmorClassBonusFactory")
+    private lateinit var armorClassBonusFactory : IBonusFactory
 
-    override fun createBackgroundBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = BackgroundBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("BackgroundBonusFactory")
+    private lateinit var backgroundBonusFactory : IBonusFactory
 
-    override fun createFeatBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = FeatBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("FeatBonusFactory")
+    private lateinit var featBonusFactory : IBonusFactory
 
-    override fun createInitiativeBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = InitiativeBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("InitiativeBonusFactory")
+    private lateinit var initiativeBonusFactory : IBonusFactory
 
-    override fun createLanguageBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = LanguageBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("LanguageBonusFactory")
+    private lateinit var languageBonusFactory : IBonusFactory
 
-    override fun createMovementSpeedBonus(args: Map<String, Any>): IBonus {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+    @Autowired
+    @Qualifier("MovementSpeedBonusFactory")
+    private lateinit var movementSpeedBonusFactory : IBonusFactory
 
-    override fun createSkillProficiencyBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = SkillProficiencyBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("SkillProficiencyBonusFactory")
+    private lateinit var skillProficiencyBonusFactory : IBonusFactory
 
-    override fun createStatBonus(args: Map<String, Any>): IBonus {
-        val bonusFactory = StatBonusFactory()
-        return bonusFactory.createBonus(args)
-    }
+    @Autowired
+    @Qualifier("StatBonusFactory")
+    private lateinit var statBonusFactory : IBonusFactory
+
+    override fun createAbilityBonus(args: Map<String, Any>): IBonus = abilityBonusFactory.createBonus(args)
+
+    override fun createArmorClassBonus(args: Map<String, Any>): IBonus = armorClassBonusFactory.createBonus(args)
+
+    override fun createBackgroundBonus(args: Map<String, Any>): IBonus = backgroundBonusFactory.createBonus(args)
+
+    override fun createFeatBonus(args: Map<String, Any>): IBonus = featBonusFactory.createBonus(args)
+
+    override fun createInitiativeBonus(args: Map<String, Any>): IBonus = initiativeBonusFactory.createBonus(args)
+
+    override fun createLanguageBonus(args: Map<String, Any>): IBonus = languageBonusFactory.createBonus(args)
+
+    override fun createMovementSpeedBonus(args: Map<String, Any>): IBonus = movementSpeedBonusFactory.createBonus(args)
+
+    override fun createSkillProficiencyBonus(args: Map<String, Any>): IBonus = skillProficiencyBonusFactory.createBonus(args)
+
+    override fun createStatBonus(args: Map<String, Any>): IBonus = statBonusFactory.createBonus(args)
 
     override fun getBonusByOrigin(bonusList: List<IBonus>, origin: String): List<IBonus> {
         val matchedList = ArrayList<IBonus>()
@@ -65,10 +80,8 @@ class BonusDomain : IBonusDomain {
     override fun getBonusBySkill(bonusList: List<IBonus>, skill: ISkill): List<IBonus> {
         val matchedList = ArrayList<IBonus>()
         for (bonus in bonusList) {
-            /** TODO: This may not work, find a better solution */
-            if(bonus.javaClass.name == "SkillProficiencyBonus") {
-                val castedBonus = bonus as SkillProficiencyBonus
-                if(castedBonus.proficiency == skill) {
+            if (bonus is SkillProficiencyBonus) {
+                if(bonus.proficiency == skill) {
                     matchedList.add(bonus)
                 }
             }
@@ -79,9 +92,8 @@ class BonusDomain : IBonusDomain {
     override fun getBonusByStat(bonusList: List<IBonus>, stat: IStat): List<IBonus> {
         val matchedList = ArrayList<IBonus>()
         for (bonus in bonusList) {
-            if(bonus.javaClass.name == "StatBonus") {
-                val castedBonus = bonus as StatBonus
-                if(castedBonus.stat == stat) {
+            if(bonus is StatBonus) {
+                if(bonus.stat == stat) {
                     matchedList.add(bonus)
                 }
             }

@@ -6,28 +6,32 @@ import lt.dndfan.dndhelper.bean.dnd.constant.EArmorType
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
-import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
+import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItemFactory
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
-import lt.dndfan.dndhelper.domain.dnd.stat.impl.ArmorClassCalculator
+import lt.dndfan.dndhelper.domain.dnd.stat.IArmorClassCalculator
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
 import lt.dndfan.dndhelper.util.collection.IPair
 import lt.dndfan.dndhelper.util.collection.impl.Pair
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
+@Component("EquipableItemTranslator")
 class EquipableItemTranslator : IItemTranslator {
     /**
      *  ALL_STATS is a global stat list that is passed in to a map
      */
-
-    private val itemFactory = ItemFactory()
-    private val armorClassCalculator = ArmorClassCalculator()
-
-    val bonusList: ArrayList<IBonus> = ArrayList()
-    val requiredStats: ArrayList<IPair<IStat, Int>> = ArrayList()
-    /** Consider making a more elegant solution than MutableMap. */
-    val attributes: MutableMap<String, Any> = mutableMapOf()
-    val tags: ArrayList<String> = ArrayList()
+    @Autowired
+    private lateinit var itemFactory : IItemFactory
+    @Autowired
+    private lateinit var armorClassCalculator : IArmorClassCalculator
 
     override fun translate(args: Map<String, Any>): IItem {
+        val bonusList: ArrayList<IBonus> = ArrayList()
+        val requiredStats: ArrayList<IPair<IStat, Int>> = ArrayList()
+        /** Consider making a more elegant solution than MutableMap. */
+        val attributes: MutableMap<String, Any> = mutableMapOf()
+        val tags: ArrayList<String> = ArrayList()
+
         for(stat in args["ALL_STATS"] as List<Stat>) {
             if(stat.name == "STR") {
                 requiredStats.add(Pair(stat, args["str.minimum"] as Int))

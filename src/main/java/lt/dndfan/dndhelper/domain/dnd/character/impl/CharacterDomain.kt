@@ -1,6 +1,7 @@
 package lt.dndfan.dndhelper.domain.dnd.character.impl
 
 import lt.dndfan.dndhelper.bean.dnd.ICharacter
+import lt.dndfan.dndhelper.bean.dnd.ICharacterFactory
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
 import lt.dndfan.dndhelper.bean.dnd.constant.EAlignment
@@ -13,10 +14,15 @@ import lt.dndfan.dndhelper.bean.dnd.spell.ISpellPool
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.domain.dnd.character.ICharacterDomain
 import lt.dndfan.dndhelper.util.collection.IPair
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
+@Component
 class CharacterDomain : ICharacterDomain {
+    @Autowired
+    private lateinit var characterFactory : ICharacterFactory
+
     override fun createCharacter(args : Map<String, Any>): ICharacter {
-        val characterFactory = CharacterFactory()
         return characterFactory.createCharacter(
                 args["AllStats"] as List<Stat>,
                 args["level "] as Int,
@@ -39,7 +45,6 @@ class CharacterDomain : ICharacterDomain {
     }
 
     override fun createPlayableCharacter(args : Map<String, Any>): IPlayableCharacter {
-        val characterFactory = CharacterFactory()
         return characterFactory.createPlayableCharacter(args["allStats"] as List<Stat>,
                 args["level"] as Int,
                 args["armorClass"] as Int,
@@ -68,7 +73,6 @@ class CharacterDomain : ICharacterDomain {
     }
 
     override fun createSpellCaster(args:  Map<String, Any>): ISpellcaster {
-        val characterFactory = CharacterFactory()
         return characterFactory.createSpellcaster(
                 args["allStats"] as List<Stat>,
                 args["level "] as Int,

@@ -5,7 +5,9 @@ import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.*
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.util.collection.IPair
+import org.springframework.stereotype.Component
 
+@Component
 class ItemFactory : IItemFactory {
     override fun createItem(name: String,
                             description: String,

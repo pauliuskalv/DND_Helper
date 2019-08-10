@@ -3,7 +3,9 @@ package lt.dndfan.dndhelper.domain.dnd.character.feature.impl
 import lt.dndfan.dndhelper.bean.dnd.ICharacter
 import lt.dndfan.dndhelper.bean.dnd.feature.ITrait
 import lt.dndfan.dndhelper.domain.dnd.character.feature.ITraitDomain
+import org.springframework.stereotype.Component
 
+@Component
 class TraitDomain : ITraitDomain {
     override fun getTraitByName(character: ICharacter, name: String): ITrait {
         for (trait in character.traits) {

@@ -3,7 +3,9 @@ package lt.dndfan.dndhelper.bean.dnd.spell.impl
 import lt.dndfan.dndhelper.bean.dnd.constant.ERestType
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpellFactory
+import org.springframework.stereotype.Component
 
+@Component
 class SpellFactory : ISpellFactory {
     override fun createSpell(name: String,
                              description: String,

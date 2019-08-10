@@ -2,12 +2,17 @@ package lt.dndfan.dndhelper.domain.dnd.translation.item.impl
 
 import lt.dndfan.dndhelper.bean.dnd.constant.EItemType
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
+import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItemFactory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
 import lt.dndfan.dndhelper.domain.dnd.translation.item.IItemTranslator
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
 
+@Component("GenericItemTranslator")
 class GenericItemTranslator : IItemTranslator {
-    private val itemFactory = ItemFactory()
+    @Autowired
+    private lateinit var itemFactory : IItemFactory
 
     override fun translate(args: Map<String, Any>): IItem {
         return itemFactory.createItem(args["name"] as String,

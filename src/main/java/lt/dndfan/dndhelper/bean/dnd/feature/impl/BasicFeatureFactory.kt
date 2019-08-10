@@ -5,7 +5,9 @@ import lt.dndfan.dndhelper.bean.dnd.feature.IFeature
 import lt.dndfan.dndhelper.bean.dnd.feature.IFeatureFactory
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.util.collection.IPair
+import org.springframework.stereotype.Component
 
+@Component
 class BasicFeatureFactory : IFeatureFactory {
     override fun create(name: String,
                         description: String,

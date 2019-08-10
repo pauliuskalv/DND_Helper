@@ -7,7 +7,9 @@ import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
 import lt.dndfan.dndhelper.domain.dnd.character.feature.IFeatureDomain
 import lt.dndfan.dndhelper.util.collection.IPair
 import lt.dndfan.dndhelper.util.collection.impl.Pair
+import org.springframework.stereotype.Component
 
+@Component
 class FeatureDomain : IFeatureDomain {
     override fun getByClass(features: List<IFeature>, characterClass: String): List<IFeature> {
         val matchedList = ArrayList<IFeature>()
@@ -101,7 +103,7 @@ class FeatureDomain : IFeatureDomain {
                 feature.validRace == character.race &&
                 feature.validSubclass == character.characterSubclass) {
                 /** TODO: Bad cast, Find a different solution */
-                if(feature.validStats.containsAll(character.allStats as List<IPair<IStat, Int>>)) {
+                if (feature.validStats.containsAll(character.allStats as List<*>)) {
                     return true
                 }
         }

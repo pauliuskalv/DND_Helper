@@ -1,19 +1,22 @@
 package lt.dndfan.dndhelper.domain.dnd.translation.character.impl
 
-import lt.dndfan.dndhelper.bean.dnd.character.impl.CharacterSubclass
-import lt.dndfan.dndhelper.bean.dnd.character.impl.CharacterSubclassFactory
+import lt.dndfan.dndhelper.bean.dnd.character.ICharacterSubclass
+import lt.dndfan.dndhelper.bean.dnd.character.ICharacterSubclassFactory
 import lt.dndfan.dndhelper.bean.dnd.feature.impl.Trait
 import lt.dndfan.dndhelper.domain.dnd.translation.character.ISubclassTranslator
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
+@Component
 class SubclassTranslator : ISubclassTranslator {
-
     /**
+     * TODO
      *   ALL_TRAITS and ALL_STATS are list of all stats or traits that are added to args at the facade
      */
+    @Autowired
+    private lateinit var subclassFactory : ICharacterSubclassFactory
 
-    private val subclassFactory = CharacterSubclassFactory()
-
-    override fun translate(args: Map<String, Any>): CharacterSubclass {
+    override fun translate(args: Map<String, Any>): ICharacterSubclass {
 
         val traitList = ArrayList<Trait>()
         for (traitMap in args["features"] as ArrayList<Map<String, Any>>) {

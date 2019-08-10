@@ -4,11 +4,10 @@ import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
 import lt.dndfan.dndhelper.bean.dnd.constant.ESpellComponent
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
 import lt.dndfan.dndhelper.domain.dnd.character.spell.ISpellDomain
+import org.springframework.stereotype.Component
 
-class SpellDomain(
-        /** Not sure if domain is a good place for ALL_SPELLS for ALL_SPELLS */
-        override val ALL_SPELLS: List<ISpell>
-) : ISpellDomain {
+@Component
+class SpellDomain : ISpellDomain {
     override fun addSpell(character: ISpellcaster, spell: ISpell): Boolean {
         return if(!character.spellPool.getAllSpells().contains(spell)) {
             character.spellPool.addSpell(spell)
@@ -47,10 +46,6 @@ class SpellDomain(
 
     override fun getCharacterSpellNames(character: ISpellcaster): List<String> {
         return character.spellPool.getAllSpellNames()
-    }
-
-    override fun getAllSpells(): List<ISpell> {
-        return ALL_SPELLS
     }
 
     override fun getPreparedSpells(character: ISpellcaster): List<ISpell> {

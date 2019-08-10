@@ -10,10 +10,15 @@ import lt.dndfan.dndhelper.bean.dnd.inventory.item.impl.ItemFactory
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.domain.dnd.character.inventory.item.IItemDomain
 import lt.dndfan.dndhelper.util.collection.IPair
+import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.stereotype.Component
 
+@Component
 class ItemDomain : IItemDomain {
+    @Autowired
+    private lateinit var itemFactory: ItemFactory
+
     override fun createItem(args: Map<String, Any>): IItem {
-        val itemFactory = ItemFactory()
         return itemFactory.createItem(
                 args["name"] as String,
                 args["description"] as String,
@@ -25,7 +30,6 @@ class ItemDomain : IItemDomain {
     }
 
     override fun createEquipableItem(args: Map<String, Any>): IEquipableItem {
-        val itemFactory = ItemFactory()
         return itemFactory.createEquipableItem(
                 args["name"] as String,
                 args["description"] as String,
@@ -42,7 +46,6 @@ class ItemDomain : IItemDomain {
     }
 
     override fun createWeapon(args: Map<String, Any>): IWeapon {
-        val itemFactory = ItemFactory()
         return itemFactory.createWeapon(
                 args["name"] as String,
                 args["description"] as String,
@@ -62,7 +65,6 @@ class ItemDomain : IItemDomain {
     }
 
     override fun createThrowableWeapon(args: Map<String, Any>): IThrowableWeapon {
-        val itemFactory = ItemFactory()
         return itemFactory.createThrowableWeapon(
                 args["name"] as String,
                 args["description"] as String,

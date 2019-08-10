@@ -3,7 +3,9 @@ package lt.dndfan.dndhelper.bean.dnd.bonus.impl
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonus
 import lt.dndfan.dndhelper.bean.dnd.bonus.IBonusFactory
 import lt.dndfan.dndhelper.bean.dnd.stats.impl.Skill
+import org.springframework.stereotype.Component
 
+@Component("SkillProficiencyBonusFactory")
 class SkillProficiencyBonusFactory : IBonusFactory {
     override fun createBonus(): IBonus {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.

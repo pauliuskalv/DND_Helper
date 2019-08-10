@@ -3,7 +3,9 @@ package lt.dndfan.dndhelper.domain.dnd.character.feature.impl
 import lt.dndfan.dndhelper.bean.dnd.ICharacter
 import lt.dndfan.dndhelper.bean.dnd.feature.ICondition
 import lt.dndfan.dndhelper.domain.dnd.character.feature.IConditionDomain
+import org.springframework.stereotype.Component
 
+@Component
 class ConditionDomain : IConditionDomain {
     override fun getConditionByName(character: ICharacter, name: String): ICondition {
         for (condition in character.conditions) {
