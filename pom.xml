@@ -116,6 +116,35 @@
                     <jvmTarget>1.8</jvmTarget>
                 </configuration>
             </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>lt.dndfan.dndhelper.MainWindowKt</mainClass>
+                    <arguments>
+                        <!--
+                        <argument>argument1</argument>
+                        -->
+                    </arguments>
+                    <systemProperties>
+                        <!--
+                        <systemProperty>
+                            <key>myproperty</key>
+                            <value>myvalue</value>
+                        </systemProperty>
+                        -->
+                    </systemProperties>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component
 import javax.annotation.PostConstruct
 
 fun main(args: Array<String>) {
-    Application.launch(*args)
+    Application.launch(MainWindow().javaClass, *args)
 }
 
 @Component
