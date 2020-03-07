@@ -1,4 +1,4 @@
-package lt.dndfan.dndhelper.facade.dnd.character.overview
+package lt.dndfan.dndhelper.session.dnd.character.overview
 
 /**
  * A facade used to display text in a main single list format with possible additions.

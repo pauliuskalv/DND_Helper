@@ -1,13 +1,13 @@
 package lt.dndfan.dndhelper.bean.dnd.bonus.impl
 
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
-import lt.dndfan.dndhelper.bean.dnd.stats.impl.Stat
+import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 
 class StatBonus(override val bonusName: String,
                 override val description: String,
                 override val origin: String,
                 /** Made stat not private */
-                val stat : Stat,
+                val stat : IStat,
                 private val value : Int) : AbstractBonus(bonusName, description, origin) {
     override fun applyBonus(character: IPlayableCharacter) {
         character.setStat(stat, character.getStat(stat) + value)

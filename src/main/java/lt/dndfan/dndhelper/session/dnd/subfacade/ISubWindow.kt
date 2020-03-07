@@ -1,4 +1,4 @@
-package lt.dndfan.dndhelper.facade.dnd.subfacade
+package lt.dndfan.dndhelper.session.dnd.subfacade
 
 import lt.dndfan.dndhelper.domain.dnd.character.ICharacterDomain
 

@@ -11,119 +11,82 @@
 <?import javafx.scene.text.Font?>
 
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CharacterCreationSpells">
-   <children>
-      <HBox prefHeight="400.0" prefWidth="600.0">
-         <children>
-            <VBox prefHeight="400.0" prefWidth="450.0" spacing="5.0">
-               <children>
-                  <HBox prefHeight="25.0" prefWidth="300.0">
-                     <children>
-                        <TextField prefHeight="26.0" prefWidth="221.0" />
-                        <Button alignment="CENTER" mnemonicParsing="false" text="Go" />
-                        <Button alignment="CENTER" mnemonicParsing="false" text="*" />
-                     </children>
-                  </HBox>
-                  <Separator prefWidth="200.0" />
-                  <VBox prefHeight="355.0" prefWidth="290.0" spacing="10.0">
-                     <padding>
-                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                     </padding>
-                     <children>
-                        <HBox prefHeight="26.0" prefWidth="280.0">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="666.0">
-                                 <children>
-                                    <Label text="Counterspell" />
-                                 </children>
-                              </HBox>
-                              <HBox alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="103.0">
-                                 <children>
-                                    <Button alignment="CENTER" mnemonicParsing="false" text="+" />
-                                    <Button alignment="CENTER" mnemonicParsing="false" text="?" />
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
-                        <Separator prefWidth="200.0" />
-                        <HBox prefHeight="26.0" prefWidth="280.0">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="556.0">
-                                 <children>
-                                    <Label text="Mage Hand" />
-                                 </children>
-                              </HBox>
-                              <HBox alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="103.0">
-                                 <children>
-                                    <Button alignment="CENTER" mnemonicParsing="false" text="+" />
-                                    <Button alignment="CENTER" mnemonicParsing="false" text="?" />
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
-                        <Separator prefWidth="200.0" />
-                     </children>
-                  </VBox>
-               </children>
-               <padding>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </padding>
-            </VBox>
-            <Separator orientation="VERTICAL" prefHeight="200.0" />
-            <VBox prefHeight="400.0" prefWidth="450.0" spacing="5.0">
-               <children>
-                  <HBox alignment="CENTER" prefHeight="116.0" prefWidth="290.0">
-                     <children>
-                        <Label text="Selected spells">
-                           <font>
-                              <Font size="15.0" />
-                           </font>
-                        </Label>
-                     </children>
-                  </HBox>
-                  <Separator prefWidth="200.0" />
-                  <VBox prefHeight="400.0" prefWidth="282.0" spacing="10.0">
-                     <padding>
-                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-                     </padding>
-                     <children>
-                        <HBox prefHeight="26.0" prefWidth="280.0">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="574.0">
-                                 <children>
-                                    <Label text="Firebolt" />
-                                 </children>
-                              </HBox>
-                              <HBox alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="52.0">
-                                 <children>
-                                    <Button alignment="CENTER" mnemonicParsing="false" text="x" />
-                                    <Button alignment="CENTER" mnemonicParsing="false" text="?" />
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
-                        <Separator prefWidth="200.0" />
-                     </children>
-                  </VBox>
-                  <VBox alignment="BOTTOM_RIGHT" prefHeight="0.0" prefWidth="290.0">
-                     <children>
-                        <HBox alignment="BOTTOM_RIGHT" prefHeight="19.0" prefWidth="290.0">
-                           <children>
-                              <Button alignment="CENTER" mnemonicParsing="false" text="Bek" />
-                              <Button alignment="CENTER" mnemonicParsing="false" text="Ferwerd" />
-                           </children>
-                        </HBox>
-                     </children>
-                  </VBox>
-               </children>
-               <padding>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
-               </padding>
-            </VBox>
-         </children>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.CharacterCreationSpells">
+   <HBox prefHeight="400.0" prefWidth="600.0">
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+      </padding>
+      <VBox prefHeight="400.0" prefWidth="450.0" spacing="5.0">
          <padding>
-            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
          </padding>
-      </HBox>
-   </children>
+         <HBox prefHeight="25.0" prefWidth="300.0">
+            <TextField prefHeight="26.0" prefWidth="221.0"/>
+            <Button alignment="CENTER" mnemonicParsing="false" text="Go"/>
+            <Button alignment="CENTER" mnemonicParsing="false" text="*"/>
+         </HBox>
+         <Separator prefWidth="200.0"/>
+         <VBox prefHeight="355.0" prefWidth="290.0" spacing="10.0">
+            <padding>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </padding>
+            <HBox prefHeight="26.0" prefWidth="280.0">
+               <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="666.0">
+                  <Label text="Counterspell"/>
+               </HBox>
+               <HBox alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="103.0">
+                  <Button alignment="CENTER" mnemonicParsing="false" text="+"/>
+                  <Button alignment="CENTER" mnemonicParsing="false" text="?"/>
+               </HBox>
+            </HBox>
+            <Separator prefWidth="200.0"/>
+            <HBox prefHeight="26.0" prefWidth="280.0">
+               <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="556.0">
+                  <Label text="Mage Hand"/>
+               </HBox>
+               <HBox alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="103.0">
+                  <Button alignment="CENTER" mnemonicParsing="false" text="+"/>
+                  <Button alignment="CENTER" mnemonicParsing="false" text="?"/>
+               </HBox>
+            </HBox>
+            <Separator prefWidth="200.0"/>
+         </VBox>
+      </VBox>
+      <Separator orientation="VERTICAL" prefHeight="200.0"/>
+      <VBox prefHeight="400.0" prefWidth="450.0" spacing="5.0">
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+         </padding>
+         <HBox alignment="CENTER" prefHeight="116.0" prefWidth="290.0">
+            <Label text="Selected spells">
+               <font>
+                  <Font size="15.0"/>
+               </font>
+            </Label>
+         </HBox>
+         <Separator prefWidth="200.0"/>
+         <VBox prefHeight="400.0" prefWidth="282.0" spacing="10.0">
+            <padding>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+            </padding>
+            <HBox prefHeight="26.0" prefWidth="280.0">
+               <HBox alignment="CENTER_LEFT" prefHeight="26.0" prefWidth="574.0">
+                  <Label text="Firebolt"/>
+               </HBox>
+               <HBox alignment="CENTER_RIGHT" prefHeight="26.0" prefWidth="52.0">
+                  <Button alignment="CENTER" mnemonicParsing="false" text="x"/>
+                  <Button alignment="CENTER" mnemonicParsing="false" text="?"/>
+               </HBox>
+            </HBox>
+            <Separator prefWidth="200.0"/>
+         </VBox>
+         <VBox alignment="BOTTOM_RIGHT" prefHeight="0.0" prefWidth="290.0">
+            <HBox alignment="BOTTOM_RIGHT" prefHeight="19.0" prefWidth="290.0">
+               <Button alignment="CENTER" mnemonicParsing="false" text="Bek"/>
+               <Button alignment="CENTER" mnemonicParsing="false" text="Ferwerd"/>
+            </HBox>
+         </VBox>
+      </VBox>
+   </HBox>
 </AnchorPane>

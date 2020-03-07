@@ -1,4 +1,4 @@
-package lt.dndfan.dndhelper.facade.dnd.character.creation
+package lt.dndfan.dndhelper.session.dnd.character.creation
 
 /**
  * Standard chooser of a single item from a list.

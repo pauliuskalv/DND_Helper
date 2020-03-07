@@ -1,6 +1,6 @@
-package lt.dndfan.dndhelper.facade.dnd.character.creation.impl
+package lt.dndfan.dndhelper.session.dnd.character.creation.impl
 
-import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
+import lt.dndfan.dndhelper.session.dnd.character.creation.IDualTableChooser
 
 /**
  * Every facet of character`s personality (flaw, bond, background...) should be split up into separate facades.

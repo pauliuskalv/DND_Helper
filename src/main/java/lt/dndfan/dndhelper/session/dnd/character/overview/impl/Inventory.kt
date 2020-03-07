@@ -1,7 +1,7 @@
-package lt.dndfan.dndhelper.facade.dnd.character.overview.impl
+package lt.dndfan.dndhelper.session.dnd.character.overview.impl
 
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
-import lt.dndfan.dndhelper.facade.dnd.character.overview.ISingleListFacade
+import lt.dndfan.dndhelper.session.dnd.character.overview.ISingleListFacade
 
 /**
  * The playable character`s inventory display in the character overview.

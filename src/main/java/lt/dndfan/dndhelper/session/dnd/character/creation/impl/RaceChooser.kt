@@ -1,6 +1,6 @@
-package lt.dndfan.dndhelper.facade.dnd.character.creation.impl
+package lt.dndfan.dndhelper.session.dnd.character.creation.impl
 
-import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
+import lt.dndfan.dndhelper.session.dnd.character.creation.IDualTableChooser
 
 /**
  * Race and sub race choice facade.

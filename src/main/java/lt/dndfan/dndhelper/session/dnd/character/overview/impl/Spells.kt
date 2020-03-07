@@ -1,8 +1,8 @@
-package lt.dndfan.dndhelper.facade.dnd.character.overview.impl
+package lt.dndfan.dndhelper.session.dnd.character.overview.impl
 
 import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
 import lt.dndfan.dndhelper.domain.dnd.character.spell.impl.SpellDomain
-import lt.dndfan.dndhelper.facade.dnd.character.overview.ISingleListFacade
+import lt.dndfan.dndhelper.session.dnd.character.overview.ISingleListFacade
 
 /**
  * Should provide prepared and maybe overall available spells.

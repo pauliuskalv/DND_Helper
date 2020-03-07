@@ -1,6 +1,6 @@
-package lt.dndfan.dndhelper.facade.dnd.subfacade.impl
+package lt.dndfan.dndhelper.session.dnd.subfacade.impl
 
-import lt.dndfan.dndhelper.facade.dnd.subfacade.ISubWindow
+import lt.dndfan.dndhelper.session.dnd.subfacade.ISubWindow
 
 /**
  * Should be responsible for dialog that opens when user needs more information about a spell.

@@ -6044,7 +6044,7 @@
 		},
 		"subclass": {
 			"name": "Berserker"
-		},
+		}
 	},
 	{
 		"level": 6,
@@ -6074,7 +6074,7 @@
 		},
 		"subclass": {
 			"name": "Berserker"
-		},
+		}
 	},
 	{
 		"level": 14,
@@ -6089,7 +6089,7 @@
 		},
 		"subclass": {
 			"name": "Berserker"
-		},
+		}
 	},
 	{
 		"level": 3,
@@ -6108,7 +6108,7 @@
 		},
 		"subclass": {
 			"name": "Lore"
-		},
+		}
 	},
 	{
 		"level": 6,
@@ -6124,7 +6124,7 @@
 		},
 		"subclass": {
 			"name": "Lore"
-		},
+		}
 	},
 	{
 		"level": 14,
@@ -6140,6 +6140,6 @@
 		},
 		"subclass": {
 			"name": "Lore"
-		},
+		}
 	}
 ]

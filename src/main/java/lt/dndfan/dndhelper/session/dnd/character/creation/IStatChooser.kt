@@ -1,4 +1,4 @@
-package lt.dndfan.dndhelper.facade.dnd.character.creation
+package lt.dndfan.dndhelper.session.dnd.character.creation
 
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
 import lt.dndfan.dndhelper.util.collection.impl.Pair

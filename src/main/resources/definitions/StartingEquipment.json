@@ -192,7 +192,7 @@
 		"choose": 1,
 		"type": "equipment",
 		"from": [{
-	}],
+	}]
 }, {
 	"class": {
 		"name": "Monk"

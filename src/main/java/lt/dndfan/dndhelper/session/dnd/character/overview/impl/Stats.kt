@@ -1,7 +1,7 @@
-package lt.dndfan.dndhelper.facade.dnd.character.overview.impl
+package lt.dndfan.dndhelper.session.dnd.character.overview.impl
 
 import lt.dndfan.dndhelper.bean.dnd.stats.IStat
-import lt.dndfan.dndhelper.facade.dnd.character.overview.ISingleListFacade
+import lt.dndfan.dndhelper.session.dnd.character.overview.ISingleListFacade
 
 /**
  * Should probably be responsible for encompassing everything from bean/impl/PlayableCharacter.kt

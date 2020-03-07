@@ -1,9 +1,9 @@
-package lt.dndfan.dndhelper.facade.dnd.character.creation.impl
+package lt.dndfan.dndhelper.session.dnd.character.creation.impl
 
 import lt.dndfan.dndhelper.bean.dnd.IPlayableCharacter
 import lt.dndfan.dndhelper.bean.dnd.inventory.ICharacterInventory
 import lt.dndfan.dndhelper.bean.dnd.inventory.item.IItem
-import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
+import lt.dndfan.dndhelper.session.dnd.character.creation.IDualTableChooser
 
 /**
  * Facade for picking starting items for a new character.

@@ -1,9 +1,9 @@
-package lt.dndfan.dndhelper.facade.dnd.character.creation.impl
+package lt.dndfan.dndhelper.session.dnd.character.creation.impl
 
 import lt.dndfan.dndhelper.bean.dnd.ISpellcaster
 import lt.dndfan.dndhelper.bean.dnd.spell.ISpell
 import lt.dndfan.dndhelper.domain.dnd.character.spell.impl.SpellDomain
-import lt.dndfan.dndhelper.facade.dnd.character.creation.IDualTableChooser
+import lt.dndfan.dndhelper.session.dnd.character.creation.IDualTableChooser
 
 /**
  * Facade responsible of providing possible spell choices.

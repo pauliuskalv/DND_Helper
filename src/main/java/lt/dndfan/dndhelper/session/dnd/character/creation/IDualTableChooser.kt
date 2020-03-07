@@ -1,4 +1,4 @@
-package lt.dndfan.dndhelper.facade.dnd.character.creation
+package lt.dndfan.dndhelper.session.dnd.character.creation
 
 /**
  * Used for spell or, maybe, starting items choosers.
